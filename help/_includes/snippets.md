@@ -1,7 +1,7 @@
 ---
-source-git-commit: 58ed911b3d2c719dd05082c463fe66403e207ef9
+source-git-commit: ccaa957e79fba24292316c7447be786f57f03493
 workflow-type: tm+mt
-source-wordcount: '5584'
+source-wordcount: '5605'
 ht-degree: 95%
 ---
 # 스니펫
@@ -129,6 +129,7 @@ ht-degree: 95%
 
 * **세션**: 전환이 발생한 세션 시작 부분까지 되돌아봅니다. 세션 전환 확인 기간은 데이터 보기에서 수정된 [세션 시간 제한](/help/data-views/create-dataview.md#session-settings)을 따릅니다. **[!UICONTROL 세션]**&#x200B;을 선택하면 [속성 전환 확인 기간](#atribution-lookback-window)이 자동으로 **[!UICONTROL 보고 기간]**&#x200B;으로 설정되며 변경할 수 없습니다.
 * **개인**: 개인 컨테이너의 범위에서 전환을 살펴봅니다.
+* **대화**: 대화 컨테이너의 범위에서 전환을 봅니다. 이 컨테이너는 [대화 인사이트](/help/conversation-insights/overview.md) 시각화 및 구성 요소에 사용할 수 있습니다.
 * **글로벌 계정** [!BADGE B2B Edition]{type=Informative}: 글로벌 계정 컨테이너 범위에서 전환을 살펴봅니다.
 * **계정** [!BADGE B2B Edition]{type=Informative}: 개인 컨테이너 범위에서 전환을 살펴봅니다.
 * **기회** [!BADGE B2B Edition]{type=Informative}: 기회 컨테이너 범위에서 전환을 살펴봅니다.
