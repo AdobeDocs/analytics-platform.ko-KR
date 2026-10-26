@@ -27,7 +27,7 @@ topic_v2:
     internal-label: Customer engagement
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
     internal-label: Customer journeys
-source-git-commit: 58ed911b3d2c719dd05082c463fe66403e207ef9
+source-git-commit: 2cca5dfaec6be8f22308e09a023e9e57bec387b7
 workflow-type: tm+mt
 source-wordcount: '945'
 ht-degree: 76%
@@ -39,7 +39,7 @@ ht-degree: 76%
 
 >[!BEGINSHADEBOX]
 
-데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [자유 형식 테이블의 행 및 열 설정](https://experienceleague.adobe.com/ko/docs/analytics-learn/tutorials/analysis-workspace/building-freeform-tables/row-and-column-settings-in-freeform-tables){target="_blank"}을 확인하십시오.
+데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [자유 형식 테이블의 행 및 열 설정](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/building-freeform-tables/row-and-column-settings-in-freeform-tables){target="_blank"}을 확인하십시오.
 
 {{videoaa}}
 
@@ -99,7 +99,7 @@ ht-degree: 76%
 >[!CONTEXTUALHELP]
 >id="workspace_freeformtable_column_usenondefaultattributionmodel_disabled"
 >title="비기본 기여도 모델 사용"
->abstract="이 지표에는 기본이 아닌 기여도 모드를 사용할 수 없습니다."
+>abstract="기본값이 아닌 속성 모델은 이 지표에 사용할 수 없습니다."
 
 <!-- markdownlint-enable MD034 -->
 
