@@ -4,12 +4,12 @@ title: 트렌딩 항목
 feature: Visualizations
 role: User
 hide: true
-source-git-commit: ccaa957e79fba24292316c7447be786f57f03493
+source-git-commit: 85311bf19368560ef54a3361edf2e7c13590929c
 workflow-type: tm+mt
-source-wordcount: '403'
-ht-degree: 14%
+source-wordcount: '424'
+ht-degree: 16%
 ---
-# 트렌딩 토픽
+# 트렌딩 토픽 {#trending-topics}
 
 >[!CONTEXTUALHELP]
 >id="workspace_trendingtopics_button"
@@ -25,24 +25,29 @@ ht-degree: 14%
 
 특정 주제를 검색하고 각 수준에서 각 주제의 수 및 백분율을 다른 데이터 범위와 비교할 수 있습니다.
 
-## 만들기 및 구성
+## 만들기 및 구성 {#trendimg-topics-create-and-configure}
 
 >[!CONTEXTUALHELP]
->id="workspace_trendingtopics_attribution"
->title="트렌드 항목 지표 속성"
->abstract="선택한 지표에 대해 기본이 아닌 기여도 모델을 활성화합니다."
+>id="workspace_trendingtopics_usenondefaultattributionmodel"
+>title="비기본 기여도 모델 사용"
+>abstract="이 지표에 대해 기본값이 아닌 속성 모델을 활성화합니다."
 
-트렌드 주제 시각화를 만들고 구성하려면 다음 작업을 수행하십시오.
+>[!CONTEXTUALHELP]
+>id="workspace_trendingtopics_usenondefaultattributionmodel_disabled"
+>title="비기본 기여도 모델 사용"
+>abstract="기본값이 아닌 속성 모델은 이 지표에 사용할 수 없습니다."
+
+**[!UICONTROL 트렌드 항목]** 시각화를 만들고 구성하려면:
 
 1. ![피드](/help/assets/icons/Feed.svg) **[!UICONTROL 트렌드 주제]** 시각화를 추가합니다. [패널 내에 시각화 추가](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)를 참조하십시오.
 
 1. **[!UICONTROL 트렌드 항목]** 시각화 구성:
 
    1. **[!UICONTROL 순위 지표]**&#x200B;을(를) 선택하십시오. 예: **[!UICONTROL 대화]**.
-   1. 선택적으로 지표에서 [속성](/help/analysis-workspace/attribution/models.md)을 설정하려면 **[!UICONTROL 속성 설정]**&#x200B;을 선택하고 **[!UICONTROL 모델]**, **[!UICONTROL 컨테이너]** 및 **[!UICONTROL 전환 확인 기간]**&#x200B;을 선택합니다.
+   1. 선택적으로 지표에서 기본값이 아닌 [속성](/help/analysis-workspace/attribution/models.md) 모델을 사용하려면 **[!UICONTROL 기본값이 아닌 속성 모델 사용]**&#x200B;을 선택하고 **[!UICONTROL 모델]**, **[!UICONTROL 컨테이너]** 및 **[!UICONTROL 전환 확인 기간]**&#x200B;을 선택합니다.
 1. **[!UICONTROL 빌드]**&#x200B;를 선택하여 시각화를 빌드합니다. 구성 값을 기본값으로 재설정하려면 **[!UICONTROL 재설정]**&#x200B;을 선택하십시오.
 
-트렌드 항목 시각화를 다시 구성하려면 **순위 지표: _순위 지표_ 옆에 있는 ![편집](/help/assets/icons/Edit.svg)을 선택합니다. | 하위 항목 수준: _x_**.
+트렌드 항목 시각화를 다시 구성하려면 **[!UICONTROL 순위 지표: _순위 지표_ 옆에 있는 ![편집](/help/assets/icons/Edit.svg)을 선택합니다. | 하위 항목 수준: _x_]**.
 
 ## 사용
 
