@@ -4,10 +4,10 @@ title: 대화 요약
 feature: Visualizations
 role: User
 hide: true
-source-git-commit: ccaa957e79fba24292316c7447be786f57f03493
+source-git-commit: 2cca5dfaec6be8f22308e09a023e9e57bec387b7
 workflow-type: tm+mt
-source-wordcount: '329'
-ht-degree: 19%
+source-wordcount: '351'
+ht-degree: 20%
 ---
 # 대화 요약 {#conversation-summaries}
 
@@ -30,9 +30,14 @@ ht-degree: 19%
 ## 만들기 및 구성 {#conversation-summaries-create-configure}
 
 >[!CONTEXTUALHELP]
->id="workspace_conversationsummaries_attribution"
->title="대화 요약 속성"
->abstract="선택한 지표에 대해 기본이 아닌 기여도 모델을 활성화합니다."
+>id="workspace_conversationsummaries_usenondefaultattributionmodel"
+>title="비기본 기여도 모델 사용"
+>abstract="이 지표에 대해 기본값이 아닌 속성 모델을 활성화합니다."
+
+>[!CONTEXTUALHELP]
+>id="workspace_conversationsummaries_usenondefaultattributionmodel_disabled"
+>title="비기본 기여도 모델 사용"
+>abstract="기본값이 아닌 속성 모델은 이 지표에 사용할 수 없습니다."
 
 **[!UICONTROL 대화 요약]** 시각화를 만들고 구성하려면:
 
@@ -41,7 +46,7 @@ ht-degree: 19%
 1. **[!UICONTROL 대화 요약]** 시각화 구성:
 
    1. **[!UICONTROL 지표]**&#x200B;을(를) 선택하십시오. 예: **[!UICONTROL 대화]**.
-   1. 선택적으로 지표에 [속성](/help/analysis-workspace/attribution/models.md)을 설정하려면 **[!UICONTROL 속성 설정]**&#x200B;을 선택하고 **[!UICONTROL 모델]**, **[!UICONTROL 컨테이너]** 및 **[!UICONTROL 전환 확인 기간]**&#x200B;을 선택합니다.
+   1. 선택적으로 지표에서 기본값이 아닌 [속성](/help/analysis-workspace/attribution/models.md) 모델을 사용하려면 **[!UICONTROL 기본값이 아닌 속성 모델 사용]**&#x200B;을 선택하고 **[!UICONTROL 모델]**, **[!UICONTROL 컨테이너]** 및 **[!UICONTROL 전환 확인 기간]**&#x200B;을 선택합니다.
    1. 원할 경우 시각화에 세그먼트를 적용할 수 있습니다. **[!UICONTROL 세그먼트]** 드롭다운 메뉴에서 세그먼트를 선택합니다.
 
 1. **[!UICONTROL 빌드]**&#x200B;를 선택하여 시각화를 빌드합니다. 구성 값을 기본값으로 재설정하려면 **[!UICONTROL 재설정]**&#x200B;을 선택하십시오. 구성을 취소하려면 **[!UICONTROL 취소]**&#x200B;를 선택하십시오.
