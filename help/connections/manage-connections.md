@@ -87,10 +87,10 @@ ht-degree: 87%
 | **[!UICONTROL 데이터 세트]** | 연결의 일부인 데이터 세트에 대한 하나 이상의 링크. 데이터 세트 하이퍼링크를 선택하면 데이터 세트를 볼 수 있습니다. 선택한 연결에 더 많은 데이터 세트가 포함된 경우, **[!UICONTROL +*x* 자세히]**&#x200B;를 선택하여 **[!UICONTROL 데이터 세트 포함]** 패널을 표시합니다. 이 패널은 모든 데이터 세트에 대한 링크와 연결의 일부인 특정 데이터 세트를 ![검색](/help/assets/icons/Search.svg)하는 옵션을 보여 줍니다.<p>![데이터 세트 포함](assets/datasets-included.png)<p>데이터 세트 이름을 선택하여 Experience Platform 인터페이스의 새 탭에서 해당 데이터 세트를 엽니다. |
 | **[!UICONTROL 샌드박스]** | 이 연결이 데이터 세트를 가져오는 출처가 되는 [Experience Platform 샌드박스](https://experienceleague.adobe.com/ko/docs/experience-platform/sandbox/home). 이 샌드박스는 연결을 만들 때 선택한 것입니다. 연결이 저장되면 샌드박스를 변경할 수 없습니다. |
 | **[!UICONTROL 소유자]** | 연결을 만든 사람입니다. |
-| **[!UICONTROL 새 데이터 가져오기]** | 데이터 세트에 대한 새 데이터 가져오기 상태: <p>![상태 녹색](assets/status-green.svg)    **[!UICONTROL _x _켜짐]**&#x200B;새 데이터를 가져오도록 구성된 데이터 세트의 경우<p>![상태 회색](assets/status-gray.svg)   **[!UICONTROL _x 꺼짐_]** 새 데이터를 가져오도록 구성되지 않은 데이터 세트의 경우. |
+| **[!UICONTROL 새 데이터 가져오기]** | 데이터 세트에 대한 새 데이터 가져오기 상태: <p>![상태 녹색](assets/status-green.svg)    **[!UICONTROL _x _켜짐]**새 데이터를 가져오도록 구성된 데이터 세트의 경우<p>![상태 회색](assets/status-gray.svg)   **[!UICONTROL _x 꺼짐_]** 새 데이터를 가져오도록 구성되지 않은 데이터 세트의 경우. |
 | **[!UICONTROL 생성된 일자]** | 연결이 생성된 타임스탬프. |
 | **[!UICONTROL 마지막 수정일]** | 연결이 마지막으로 업데이트된 타임스탬프. |
-| **[!UICONTROL 채우기 데이터]** | 데이터 세트 전체의 채우기 데이터 상태.<p>![상태 빨간색](assets/status-red.svg)   **[!UICONTROL _x _채우기 실패]**&#x200B;데이터 세트 전체에서 실패한 채우기 수에 대해,<p>![상태 주황색](assets/status-orange.svg)   **[!UICONTROL _x _채우기 처리]**&#x200B;데이터 세트 전체의 처리 채우기 수에 대해,<p>![상태 녹색](assets/status-green.svg)   **[!UICONTROL _x _채우기 완료]**&#x200B;데이터 세트에 대해 완료된 채우기 수에 대해<p>![상태 회색](assets/status-gray.svg)   **[!UICONTROL _꺼짐_]** 연결에 있는 데이터 세트에 대해 채우기가 정의되지 않은 경우. |
+| **[!UICONTROL 채우기 데이터]** | 데이터 세트 전체의 채우기 데이터 상태.<p>![상태 빨간색](assets/status-red.svg)   **[!UICONTROL _x _채우기 실패]**데이터 세트 전체에서 실패한 채우기 수에 대해,<p>![상태 주황색](assets/status-orange.svg)   **[!UICONTROL _x _채우기 처리]**데이터 세트 전체의 처리 채우기 수에 대해,<p>![상태 녹색](assets/status-green.svg)   **[!UICONTROL _x _채우기 완료]**데이터 세트에 대해 완료된 채우기 수에 대해<p>![상태 회색](assets/status-gray.svg)   **[!UICONTROL _꺼짐_]** 연결에 있는 데이터 세트에 대해 채우기가 정의되지 않은 경우. |
 | **[!UICONTROL 통합]** | 연결에 대해 활성화된 모든 Experience Platform 애플리케이션을 표시합니다. |
 | **[!UICONTROL CJA에서 사용]** | Customer Journey Analytics에서 사용할 수 있도록 연결을 활성화했는지 여부를 표시합니다. |
 
@@ -307,9 +307,9 @@ Customer Journey Analytics에서 연결을 제거하려면 다음과 같은 작�
 | **[!UICONTROL 데이터 세트 유형]** | [데이터 세트 유형](create-connection.md#dataset-types)입니다. 유형은 **[!UICONTROL 이벤트]**, **[!UICONTROL 프로필]**, **[!UICONTROL 조회]**, **[!UICONTROL 요약]**&#x200B;일 수 있습니다. 애드 혹 또는 관계형 데이터 세트는 **[!UICONTROL (애드 혹)]** 또는 **[!UICONTROL (관계형)]**&#x200B;으로 식별됩니다. 예를 들어 **[!UICONTROL 이벤트(애드 혹)]** 또는 **[!UICONTROL 조회(관계형)]**&#x200B;입니다. |
 | **[!UICONTROL 결합됨]** | 데이터 세트가 [연결 UI에서 결합에 대해 활성화되면](/help/stitching/use-stitching-ui.md) 값은 **[!UICONTROL true]**&#x200B;입니다. 그렇지 않은 경우 값은 **[!UICONTROL false]**&#x200B;입니다. [결합 절차 요청](/help/stitching//use-stitching.md)의 결과로 생성된 결합된 데이터 세트는 이 테이블에서 결합된 것으로 식별되지 않으며 기본적으로 **[!UICONTROL false]** 값을 갖습니다. |
 | **[!UICONTROL 스키마]** | 해당 데이터 세트가 기반으로 삼는 Experience Platform 스키마입니다. |
-| **[!UICONTROL 새 데이터 가져오기]** | 데이터 세트에 대한 새 데이터 가져오기 상태: <p>![상태 녹색](assets/status-green.svg)   **[!UICONTROL _x _켜짐]**&#x200B;새 데이터를 가져오도록 구성된 데이터 세트의 경우<p>![상태 회색](assets/status-gray.svg)   **[!UICONTROL _x 꺼짐_]** 새 데이터를 가져오지 않도록 구성된 데이터 세트의 경우. |
-| **[!UICONTROL 데이터 변환]** | 해당 B2B 조회 데이터 세트의 변환 상태. 자세한 내용은 [B2B 조회를 위해 데이터 세트 변환](transform-datasets-b2b-lookups.md)을 참조하십시오.<p>![상태 녹색](assets/status-green.svg)   **[!UICONTROL _x _켜짐]**&#x200B;변환이 가능한 해당 데이터 세트의 경우, <p>![상태 회색](assets/status-gray.svg)   **[!UICONTROL _x 꺼짐_]** 변환이 가능하지 않은 해당 데이터 세트의 경우<p>**[!UICONTROL 없음]** 다른 모든 데이터 세트에는 변환이 적용되지 않는 경우. |
-| **[!UICONTROL 채우기 데이터]** | 데이터 세트의 채우기 데이터 상태.<p>![상태 빨간색](assets/status-red.svg)   **[!UICONTROL _x _채우기 실패]**&#x200B;실패한 채우기의 수에 대해,<p>![상태 빨간색](assets/status-orange.svg)   **[!UICONTROL _x _채우기 처리]**&#x200B;처리 채우기 수에 대해,<p>![상태 녹색](assets/status-green.svg)   **[!UICONTROL _x _채우기 완료]**&#x200B;완료된 채우기 수에 대해<p>![상태 회색](assets/status-gray.svg)   **[!UICONTROL _꺼짐_]** 채우기가 구성되지 않은 경우. |
+| **[!UICONTROL 새 데이터 가져오기]** | 데이터 세트에 대한 새 데이터 가져오기 상태: <p>![상태 녹색](assets/status-green.svg)   **[!UICONTROL _x _켜짐]**새 데이터를 가져오도록 구성된 데이터 세트의 경우<p>![상태 회색](assets/status-gray.svg)   **[!UICONTROL _x 꺼짐_]** 새 데이터를 가져오지 않도록 구성된 데이터 세트의 경우. |
+| **[!UICONTROL 데이터 변환]** | 해당 B2B 조회 데이터 세트의 변환 상태. 자세한 내용은 [B2B 조회를 위해 데이터 세트 변환](transform-datasets-b2b-lookups.md)을 참조하십시오.<p>![상태 녹색](assets/status-green.svg)   **[!UICONTROL _x _켜짐]**변환이 가능한 해당 데이터 세트의 경우, <p>![상태 회색](assets/status-gray.svg)   **[!UICONTROL _x 꺼짐_]** 변환이 가능하지 않은 해당 데이터 세트의 경우<p>**[!UICONTROL 없음]** 다른 모든 데이터 세트에는 변환이 적용되지 않는 경우. |
+| **[!UICONTROL 채우기 데이터]** | 데이터 세트의 채우기 데이터 상태.<p>![상태 빨간색](assets/status-red.svg)   **[!UICONTROL _x _채우기 실패]**실패한 채우기의 수에 대해,<p>![상태 빨간색](assets/status-orange.svg)   **[!UICONTROL _x _채우기 처리]**처리 채우기 수에 대해,<p>![상태 녹색](assets/status-green.svg)   **[!UICONTROL _x _채우기 완료]**완료된 채우기 수에 대해<p>![상태 회색](assets/status-gray.svg)   **[!UICONTROL _꺼짐_]** 채우기가 구성되지 않은 경우. |
 
 >[!IMPORTANT]
 >
@@ -333,9 +333,9 @@ Customer Journey Analytics에서 연결을 제거하려면 다음과 같은 작�
 | [!BADGE BB2B Edition]{type=Informative url="https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}<br/>**[!UICONTROL 기본 ID 유형&#x200B;]** | 연결의 기본 ID 유형: 개인 기반 연결의 경우 **[!UICONTROL 개인]**, 계정 기반 연결의 경우 **[!UICONTROL 계정]**&#x200B;입니다. |
 | [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}<br/>**[!UICONTROL 컨테이너&#x200B;]** | 연결에 대해 구성된 컨테이너입니다. |
 | **[!UICONTROL 연결을 이용한 데이터 보기]** | 이 연결을 사용하는 데이터 보기입니다. |
-| **[!UICONTROL 새 데이터 가져오기]** | 데이터 세트에 대한 새 데이터 가져오기 상태: <p>![상태 녹색](assets/status-green.svg)   **[!UICONTROL _x _켜짐]**&#x200B;새 데이터를 가져오기 위해 구성된 데이터 세트 수에 대해<p>![상태 회색](assets/status-gray.svg)   **[!UICONTROL _x 꺼짐_]** 새로운 데이터 가져오기가 꺼진 데이터 세트 수에 대해. |
-| **[!UICONTROL 채우기 데이터]** | 데이터 세트에 대한 채우기 데이터 상태.<p>![상태 빨간색](assets/status-red.svg)   **[!UICONTROL _x _채우기 실패]**&#x200B;데이터 세트 전체에서 실패한 채우기 수에 대해,<p>![상태 빨간색](assets/status-orange.svg)   **[!UICONTROL _x _채우기 처리]**&#x200B;데이터 세트 전체의 처리 채우기 수에 대해,<p>![상태 녹색](assets/status-green.svg)   **[!UICONTROL _x _채우기 완료]**&#x200B;데이터 세트에 대해 완료된 채우기 수에 대해<p>![상태 회색](assets/status-gray.svg)   **[!UICONTROL _꺼짐_]** 연결에 있는 데이터 세트에 대해 채우기가 정의되지 않은 경우. |
-| **[!UICONTROL 데이터 변환]** | 해당 B2B 조회 데이터 세트의 변환 상태. 자세한 내용은 [B2B 조회를 위해 데이터 세트 변환](transform-datasets-b2b-lookups.md)을 참조하십시오.<p>![상태 녹색](assets/status-green.svg)   **[!UICONTROL _x _켜짐]**&#x200B;변환이 가능한 데이터 세트 수에 대해. |
+| **[!UICONTROL 새 데이터 가져오기]** | 데이터 세트에 대한 새 데이터 가져오기 상태: <p>![상태 녹색](assets/status-green.svg)   **[!UICONTROL _x _켜짐]**새 데이터를 가져오기 위해 구성된 데이터 세트 수에 대해<p>![상태 회색](assets/status-gray.svg)   **[!UICONTROL _x 꺼짐_]** 새로운 데이터 가져오기가 꺼진 데이터 세트 수에 대해. |
+| **[!UICONTROL 채우기 데이터]** | 데이터 세트에 대한 채우기 데이터 상태.<p>![상태 빨간색](assets/status-red.svg)   **[!UICONTROL _x _채우기 실패]**데이터 세트 전체에서 실패한 채우기 수에 대해,<p>![상태 빨간색](assets/status-orange.svg)   **[!UICONTROL _x _채우기 처리]**데이터 세트 전체의 처리 채우기 수에 대해,<p>![상태 녹색](assets/status-green.svg)   **[!UICONTROL _x _채우기 완료]**데이터 세트에 대해 완료된 채우기 수에 대해<p>![상태 회색](assets/status-gray.svg)   **[!UICONTROL _꺼짐_]** 연결에 있는 데이터 세트에 대해 채우기가 정의되지 않은 경우. |
+| **[!UICONTROL 데이터 변환]** | 해당 B2B 조회 데이터 세트의 변환 상태. 자세한 내용은 [B2B 조회를 위해 데이터 세트 변환](transform-datasets-b2b-lookups.md)을 참조하십시오.<p>![상태 녹색](assets/status-green.svg)   **[!UICONTROL _x _켜짐]**변환이 가능한 데이터 세트 수에 대해. |
 | **[!UICONTROL 작성자]** | 연결을 만든 사람의 이름. |
 | **[!UICONTROL 마지막 수정일]** | 연결에 대한 마지막 변경의 타임스탬프. |
 | **[!UICONTROL 마지막 수정자]** | 연결을 마지막으로 수정한 사람의 이름입니다. |
@@ -346,8 +346,8 @@ Customer Journey Analytics에서 연결을 제거하려면 다음과 같은 작�
 
 | 세부 사항 | 설명 |
 | --- | --- |
-| [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}<br/>**[!UICONTROL 글로벌 계정 ID &#x200B;]** | 연결에 대한 글로벌 계정 ID로 지정한 ID입니다. 글로벌 계정 컨테이너가 구성된 계정 기반 연결에만 적용됩니다. |
-| [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}<br/>**[!UICONTROL 계정 ID &#x200B;]** | 연결에 대한 계정 ID로 지정한 ID입니다. 글로벌 계정 컨테이너가 구성되지 않은 계정 기반 연결에만 적용됩니다. |
+| [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}<br/>**[!UICONTROL 글로벌 계정 ID ]** | 연결에 대한 글로벌 계정 ID로 지정한 ID입니다. 글로벌 계정 컨테이너가 구성된 계정 기반 연결에만 적용됩니다. |
+| [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}<br/>**[!UICONTROL 계정 ID ]** | 연결에 대한 계정 ID로 지정한 ID입니다. 글로벌 계정 컨테이너가 구성되지 않은 계정 기반 연결에만 적용됩니다. |
 | **[!UICONTROL 개인 ID]** | 연결에 대한 개인 ID로 지정한 ID입니다. |
 | **[!UICONTROL 키]** | 조회 데이터 세트에 대해 지정한 키. |
 | **[!UICONTROL 일치하는 키]** | 조회 데이터 세트에 대해 지정한 일치하는 키. |
@@ -358,8 +358,8 @@ Customer Journey Analytics에서 연결을 제거하려면 다음과 같은 작�
 | **[!UICONTROL 추가된 배치]** | 연결에 추가된 배치의 수입니다. |
 | **[!UICONTROL 삭제된 레코드]** | 선택한 날짜 범위 동안 연결에서 제거된 데이터 세트 레코드(행) 수입니다. |
 | **[!UICONTROL 마지막으로 추가됨]** | 연결에 추가된 최신 배치의 타임스탬프입니다. |
-| **[!UICONTROL 새 데이터 가져오기]** | 데이터 세트에 대한 새 데이터 가져오기 상태: <p>![상태 녹색](assets/status-green.svg)   **[!UICONTROL _x _켜짐]**&#x200B;새 데이터를 가져오도록 구성된 데이터 세트의 경우<p>![상태 회색](assets/status-gray.svg)   **[!UICONTROL _x 꺼짐_]** 새 데이터를 가져오지 않도록 구성된 데이터 세트의 경우. |
-| **[!UICONTROL 채우기 데이터]** | 데이터 세트의 채우기 데이터 상태.<p>![상태 빨간색](assets/status-red.svg)   **[!UICONTROL _x _채우기 실패]**&#x200B;실패한 채우기의 수에 대해,<p>![상태 빨간색](assets/status-orange.svg)   **[!UICONTROL _x _채우기 처리]**&#x200B;처리 채우기 수에 대해,<p>![상태 녹색](assets/status-green.svg)   **[!UICONTROL _x _채우기 완료]**&#x200B;완료된 채우기 수에 대해<p>![상태 회색](assets/status-gray.svg)   **[!UICONTROL _꺼짐_]** 채우기가 구성되지 않은 경우.<p>데이터 세트의 과거 백필 개요가 있는 대화 상자를 표시하려면 선택합니다. <img src="./assets/pastbackfill.svg" alt="이전 채우기" width="15"/> **[!UICONTROL 이전 채우기]**. |
+| **[!UICONTROL 새 데이터 가져오기]** | 데이터 세트에 대한 새 데이터 가져오기 상태: <p>![상태 녹색](assets/status-green.svg)   **[!UICONTROL _x _켜짐]**새 데이터를 가져오도록 구성된 데이터 세트의 경우<p>![상태 회색](assets/status-gray.svg)   **[!UICONTROL _x 꺼짐_]** 새 데이터를 가져오지 않도록 구성된 데이터 세트의 경우. |
+| **[!UICONTROL 채우기 데이터]** | 데이터 세트의 채우기 데이터 상태.<p>![상태 빨간색](assets/status-red.svg)   **[!UICONTROL _x _채우기 실패]**실패한 채우기의 수에 대해,<p>![상태 빨간색](assets/status-orange.svg)   **[!UICONTROL _x _채우기 처리]**처리 채우기 수에 대해,<p>![상태 녹색](assets/status-green.svg)   **[!UICONTROL _x _채우기 완료]**완료된 채우기 수에 대해<p>![상태 회색](assets/status-gray.svg)   **[!UICONTROL _꺼짐_]** 채우기가 구성되지 않은 경우.<p>데이터 세트의 과거 백필 개요가 있는 대화 상자를 표시하려면 선택합니다. <img src="./assets/pastbackfill.svg" alt="이전 채우기" width="15"/> **[!UICONTROL 이전 채우기]**. |
 | **[!UICONTROL 데이터 소스 유형]** | 연결에 데이터 세트를 추가할 때 정의된 데이터 소스 유형입니다. |
 | **[!UICONTROL 데이터 세트 유형]** | [데이터 세트 유형](create-connection.md#dataset-types)입니다. 유형은 **[!UICONTROL 이벤트]**, **[!UICONTROL 프로필]**, **[!UICONTROL 조회]**, **[!UICONTROL 요약]**&#x200B;일 수 있습니다. 애드 혹 또는 관계형 데이터 세트는 **[!UICONTROL (애드 혹)]** 또는 **[!UICONTROL (관계형)]**&#x200B;으로 식별됩니다. 예를 들어 **[!UICONTROL 이벤트(애드 혹)]** 또는 **[!UICONTROL 조회(관계형)]**&#x200B;입니다. |
 | **[!UICONTROL 스키마]** | 이 데이터 세트가 기반으로 삼는 Experience Platform 스키마. |
@@ -445,7 +445,7 @@ Customer Journey Analytics에서 연결을 제거하려면 다음과 같은 작�
 >[!CONTEXTUALHELP]
 >id="connections_extendeddatacapacityrows"
 >title="확장된 데이터 용량 행"
->abstract="현재 월을 기준으로 13개월보다 더 오래된 기간 동안 사용 가능한 행의 총 수와 전월 대비 백분율 변화입니다. 예: 2024년 2월 1일의 수는 2023년 1월 이전 이벤트 타임스탬프에서 사용 가능한 합계 행을 보여줍니다."
+>abstract="현재 월을 기준으로 13개월보다 더 오래된 기간 동안 사용 가능한 행의 총 수와 전월 대비 백분율 변화입니다. 예: 2024년 2월 1일의 수는 2023년 1월 이전 이벤트 타임스탬프에서 사용 가능한 합계 행을 보여 줍니다."
 
 >[!CONTEXTUALHELP]
 >id="connections_breakdown_extendeddatacapacityrows"
@@ -455,7 +455,7 @@ Customer Journey Analytics에서 연결을 제거하려면 다음과 같은 작�
 >[!CONTEXTUALHELP]
 >id="connections_aca_corereportablerows"
 >title="Content Analytics 핵심 보고 가능 행"
->abstract="현재 월을 기준으로 지난 13개월 동안 사용 가능한 Content Analytics 관련 행의 총 수와 전월 대비 백분율 변화입니다.  예: 2024년 2월 1일의 수는 2023년 1월부터 2024년 1월까지의 이벤트 타임스탬프에서 사용 가능한 합계 행을 보여줍니다."
+>abstract="현재 월을 기준으로 지난 13개월 동안 사용 가능한 Content Analytics 관련 행의 총 수와 전월 대비 백분율 변화입니다.  예: 2024년 2월 1일의 수는 2023년 1월부터 2024년 1월까지의 이벤트 타임스탬프에서 사용 가능한 합계 행을 보여 줍니다."
 
 >[!CONTEXTUALHELP]
 >id="connections_usage_aca_monthlyreportablerows"
@@ -471,12 +471,12 @@ Customer Journey Analytics에서 연결을 제거하려면 다음과 같은 작�
 >[!CONTEXTUALHELP]
 >id="connections_b2b_coreportablebpp"
 >title="핵심 사업자 프로필 보고 가능 행"
->abstract="현재 월을 기준으로 지난 13개월 동안 사용 가능한 비즈니스 프로필 보고 가능 행의 총 수와 전월 대비 백분율 변화입니다.  예: 2024년 2월 1일의 수는 2023년 1월부터 2024년 1월까지의 이벤트 타임스탬프에서 사용 가능한 합계 행을 보여줍니다."
+>abstract="현재 월을 기준으로 지난 13개월 동안 사용 가능한 비즈니스 프로필 보고 가능 행의 총 수와 전월 대비 백분율 변화입니다.  예: 2024년 2월 1일의 수는 2023년 1월부터 2024년 1월까지의 이벤트 타임스탬프에서 사용 가능한 합계 행을 보여 줍니다."
 
 >[!CONTEXTUALHELP]
 >id="connections_b2b_historicalreportablebpp"
 >title="과거 비즈니스 프로필 보고 가능 행"
->abstract="현재 월을 기준으로 지난 13개월 동안 사용 가능한 비즈니스 프로필 보고 가능 행의 총 수와 전월 대비 백분율 변화입니다. 예: 2024년 2월 1일의 수는 2023년 1월 이전 이벤트 타임스탬프에서 사용 가능한 합계 행을 보여줍니다."
+>abstract="현재 월을 기준으로 지난 13개월 동안 사용 가능한 비즈니스 프로필 보고 가능 행의 총 수와 전월 대비 백분율 변화입니다. 예: 2024년 2월 1일의 수는 2023년 1월 이전 이벤트 타임스탬프에서 사용 가능한 합계 행을 보여 줍니다."
 
 >[!CONTEXTUALHELP]
 >id="connections_breakdown_b2b_corereportablebpp"
@@ -491,7 +491,7 @@ Customer Journey Analytics에서 연결을 제거하려면 다음과 같은 작�
 >[!CONTEXTUALHELP]
 >id="connections_monthlymediastarts"
 >title="월별 미디어 시작"
->abstract="현재 월을 기준으로 지난 13개월 동안 사용 가능한 월별 미디어 시작의 총 수와 전월 대비 백분율 변화입니다.  예: 2024년 2월 1일의 수는 2023년 1월부터 2024년 1월까지의 이벤트 타임스탬프에서 사용 가능한 합계 행을 보여줍니다."
+>abstract="현재 월을 기준으로 지난 13개월 동안 사용 가능한 월별 미디어 시작의 총 수와 전월 대비 백분율 변화입니다.  예: 2024년 2월 1일의 수는 2023년 1월부터 2024년 1월까지의 이벤트 타임스탬프에서 사용 가능한 합계 행을 보여 줍니다."
 
 >[!CONTEXTUALHELP]
 >id="connections_breakdown_monthlymediastarts"
@@ -594,7 +594,7 @@ Customer Journey Analytics에서 연결을 제거하려면 다음과 같은 작�
 
 | 지표 이름 | 설명 |
 |---|---|
-| **Content Analytics 코어 보고 가능한 행** | 현재 월을 기준으로 지난 13개월 동안 사용 가능한 Content Analytics 관련 행의 총 수와 전월 대비 백분율 변화입니다.  예: 2024년 2월 1일의 수는 2023년 1월부터 2024년 1월까지의 이벤트 타임스탬프에서 사용 가능한 합계 행을 보여줍니다. |
+| **Content Analytics 코어 보고 가능한 행** | 현재 월을 기준으로 지난 13개월 동안 사용 가능한 Content Analytics 관련 행의 총 수와 전월 대비 백분율 변화입니다.  예: 2024년 2월 1일의 수는 2023년 1월부터 2024년 1월까지의 이벤트 타임스탬프에서 사용 가능한 합계 행을 보여 줍니다. |
 | **월별 Content Analytics 행** | 보고에 사용할 수 있는 Content Analytics 행 수를 추적합니다. 보고 가능한 행은 수집된 행에서 수집 중에 건너뛰거나 삭제된 행을 뺀 것입니다. 보고 가능한 행은 과금 및 데이터 사용량에 대한 주요 지표로 사용됩니다. |
 
 >[!NOTE]
@@ -608,7 +608,7 @@ Customer Journey Analytics에서 연결을 제거하려면 다음과 같은 작�
 
   * 다음에 대한 이전 달의 총 및 백분위 변경 사항을 표시하는 두 가지 요약 시각화:
 
-    * **[!UICONTROL 핵심 분석 보고 가능한 행]**. 현재 월을 기준으로 지난 13개월 동안 사용 가능한 Content Analytics 관련 행의 총 수와 전월 대비 백분율 변화입니다.  예: 2024년 2월 1일의 수는 2023년 1월부터 2024년 1월까지의 이벤트 타임스탬프에서 사용 가능한 합계 행을 보여줍니다.
+    * **[!UICONTROL 핵심 분석 보고 가능한 행]**. 현재 월을 기준으로 지난 13개월 동안 사용 가능한 Content Analytics 관련 행의 총 수와 전월 대비 백분율 변화입니다.  예: 2024년 2월 1일의 수는 2023년 1월부터 2024년 1월까지의 이벤트 타임스탬프에서 사용 가능한 합계 행을 보여 줍니다.
     * **월별 Content Analytics 행**. 보고에 사용할 수 있는 Content Analytics 행 수를 추적합니다. 보고 가능한 행은 수집된 행에서 수집 중에 건너뛰거나 삭제된 행을 뺀 것입니다. 보고 가능한 행은 과금 및 데이터 사용량에 대한 주요 지표로 사용됩니다.
 
   * 지난 13개월 동안 **[!UICONTROL Content Analytics 코어 보고 가능한 행]**&#x200B;을 표시하는 스택 세로 막대 시각화입니다.
@@ -703,7 +703,7 @@ Customer Journey Analytics에서 연결을 제거하려면 다음과 같은 작�
 
 | 지표 이름 | 설명 |
 |---|---|
-| **월별 미디어 시작** | 현재 월을 기준으로 지난 13개월 동안 사용 가능한 월별 미디어 시작의 총 수와 전월 대비 백분율 변화입니다.  예: 2024년 2월 1일의 수는 2023년 1월부터 2024년 1월까지의 이벤트 타임스탬프에서 사용 가능한 합계 행을 보여줍니다. |
+| **월별 미디어 시작** | 현재 월을 기준으로 지난 13개월 동안 사용 가능한 월별 미디어 시작의 총 수와 전월 대비 백분율 변화입니다.  예: 2024년 2월 1일의 수는 2023년 1월부터 2024년 1월까지의 이벤트 타임스탬프에서 사용 가능한 합계 행을 보여 줍니다. |
 
 >[!NOTE]
 >
@@ -717,7 +717,7 @@ Customer Journey Analytics에서 연결을 제거하려면 다음과 같은 작�
 
   * **[!UICONTROL 월별 미디어 시작]**&#x200B;에 대한 이전 달의 총 및 백분위 변경 사항을 표시하는 요약 시각화입니다.
 
-    현재 월을 기준으로 지난 13개월 동안 사용 가능한 월별 미디어 시작의 총 수와 전월 대비 백분율 변화입니다.  예: 2024년 2월 1일의 수는 2023년 1월부터 2024년 1월까지의 이벤트 타임스탬프에서 사용 가능한 합계 행을 보여줍니다.
+    현재 월을 기준으로 지난 13개월 동안 사용 가능한 월별 미디어 시작의 총 수와 전월 대비 백분율 변화입니다.  예: 2024년 2월 1일의 수는 2023년 1월부터 2024년 1월까지의 이벤트 타임스탬프에서 사용 가능한 합계 행을 보여 줍니다.
 
   * 지난 13개월 동안 **[!UICONTROL 월별 미디어 시작]**&#x200B;을 표시하는 누적 세로 막대 시각화입니다.
 
