@@ -2,10 +2,10 @@
 user-guide-title: Customer Journey Analytics 안내서
 user-guide-description: Adobe Customer Journey Analytics란 무엇이며 Experience Platform의 데이터와 함께 Analysis Workspace를 사용하는 방법에 대해 알아봅니다.
 breadcrumb-title: Customer Journey Analytics 안내서
-source-git-commit: 3fc129c2eeb5fd86e8ef4d885a4682dd819fc481
+source-git-commit: 11bc93e0adabd8e8109bda1734e1a098ce8bef1e
 workflow-type: tm+mt
-source-wordcount: '1528'
-ht-degree: 90%
+source-wordcount: '1522'
+ht-degree: 91%
 ---
 
 # Adobe Customer Journey Analytics 안내서 {#using}
@@ -537,7 +537,6 @@ ht-degree: 90%
   + 데이터 수집 {#data-ingestion}
     + [Marketo Engage 데이터 수집 및 사용](../use-cases/data-ingestion/marketo.md)
     + [Experience Platform 대상자 수집 및 활용](../use-cases/data-ingestion/ingest-aep-segments.md)
-    + {hide-from-toc}[유료 미디어 데이터 수집 및 사용](/help/use-cases/cross-channel/paid-media-web.md)
   + 데이터 보기 {#data-views}
     + [데이터 보기 사용 사례](/help/use-cases/data-views/data-views-usecases.md)
     + [바인딩 차원 및 지표 사용](/help/use-cases/data-views/binding-dimensions-metrics.md)
