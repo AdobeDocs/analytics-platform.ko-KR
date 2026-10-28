@@ -2,9 +2,9 @@
 user-guide-title: Customer Journey Analytics 안내서
 user-guide-description: Adobe Customer Journey Analytics란 무엇이며 Experience Platform의 데이터와 함께 Analysis Workspace를 사용하는 방법에 대해 알아봅니다.
 breadcrumb-title: Customer Journey Analytics 안내서
-source-git-commit: 89dc7258649e9c16d6a43c15ced42e1af7c6009a
+source-git-commit: 11bc93e0adabd8e8109bda1734e1a098ce8bef1e
 workflow-type: tm+mt
-source-wordcount: '1521'
+source-wordcount: '1522'
 ht-degree: 91%
 ---
 
@@ -336,7 +336,7 @@ ht-degree: 91%
   + [업계 사용 사례](../guided-analysis/industry-use-cases.md)
   + [FAQ](../guided-analysis/faq.md)
 
-+ 대화 통찰력 {#conversation-insights}
++ 대화 인사이트 {#conversation-insights}
   + [개요](/help/conversation-insights/overview.md)
   + [구성](/help/conversation-insights/configure.md)
   + [관리](/help/conversation-insights/manage.md)
@@ -524,6 +524,7 @@ ht-degree: 91%
   + 크로스 채널 데이터 {#cross-channel}
     + [채널 간 데이터 분석](../use-cases/cross-channel/cross-channel.md)
     + [콜센터 및 웹 데이터 가져오기](../use-cases/cross-channel/call-center.md)
+    + {hide-from-toc}[웹 데이터를 사용하여 유료 미디어 데이터에 가입](../use-cases/cross-channel/paid-media-web.md)
   + 데이터 내보내기 {#data-export}
     + [개요](../use-cases/data-export/overview.md)
     + [BI 확장 기능](../use-cases/data-export/bi-extension.md)
@@ -536,7 +537,6 @@ ht-degree: 91%
   + 데이터 수집 {#data-ingestion}
     + [Marketo Engage 데이터 수집 및 사용](../use-cases/data-ingestion/marketo.md)
     + [Experience Platform 대상자 수집 및 활용](../use-cases/data-ingestion/ingest-aep-segments.md)
-    + {hide-from-toc}[유료 미디어 데이터 수집 및 사용](/help/use-cases/data-ingestion/paid-media.md)
   + 데이터 보기 {#data-views}
     + [데이터 보기 사용 사례](/help/use-cases/data-views/data-views-usecases.md)
     + [바인딩 차원 및 지표 사용](/help/use-cases/data-views/binding-dimensions-metrics.md)

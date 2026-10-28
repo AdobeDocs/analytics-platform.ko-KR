@@ -24,23 +24,37 @@ topic_v2:
     internal-label: Customer journeys
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: cd12bd7f6943be6c58694af1374d32a1639d1578
+source-git-commit: d08ee4bf4c5e53e16389c5d58971a97dd5f78c0e
 workflow-type: tm+mt
-source-wordcount: '132'
+source-wordcount: '190'
 ht-degree: 0%
 ---
 
 # 대화 통찰력 분석
 
-## 간단한 분석
 
 대화 인사이트를 분석하려면 Analysis Workspace에서 프로젝트를 만들거나 편집하고, 구성된 데이터 보기 중 하나를 프로젝트의 패널 중 하나 이상에 대한 데이터 보기로 사용합니다.
 
+## 간단한 분석
+
+자유 형식 테이블 또는 시각화를 만들려면 대화 지표(**[!UICONTROL 회전]**, **[!UICONTROL 대화]**, **[!UICONTROL 감정]**, **[!UICONTROL 대화 톤]** 등)를 사용하여 대화 개요를 표시하십시오.
+
 +++ 예제 프로젝트
 
-![대화 통찰력에 대한 기본 샘플 프로젝트](assets/conversation-insights-analyze-sample-project-basic.png)
+![대화 통찰력에 대한 기본 샘플 프로젝트](assets/conversation-insights-analyze-sample-project-basic.png){zoomable="yes"}
 
 +++
+
+## 세부 분석
+
+대화를 자세히 분석하려면 [트렌드 항목](/help/analysis-workspace/visualizations/conversation-insights/trending-topics.md), [대화 요약](/help/analysis-workspace/visualizations/conversation-insights/conversation-summaries.md) 및 [대화 검토](/help/analysis-workspace/visualizations/conversation-insights/conversation-review.md) 시각화를 사용하십시오. 이러한 시각화는 대화 데이터에 대해 서로 다른 관점을 제공한다.
+
++++ 예제 프로젝트
+
+![대화 통찰력에 대한 자세한 샘플 프로젝트](assets/conversation-insights-analyze-sample-project-detailed.png){zoomable="yes"}
+
++++
+
 
 ## 규모에 맞게, 상황에 맞게 대화 분석
 
@@ -52,6 +66,6 @@ ht-degree: 0%
 
 +++ 예제 프로젝트
 
-결정될 예정입니다.
+보류 중.
 
 +++ 
