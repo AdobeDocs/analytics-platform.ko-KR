@@ -4,7 +4,6 @@ description: Coworker의 제품 내 경험을 사용하여 열려 있는 프로�
 role: User, Admin
 solution: Customer Journey Analytics
 feature: AI Tools
-hold: true
 product_v2:
   - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
     internal-label: Customer Journey Analytics
@@ -23,14 +22,12 @@ topic_v2:
     internal-label: Reporting
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 2c55e526968ca2f064f32c457ee112c07a0b10ff
+source-git-commit: 67e9700015c9c8de24871feb4eedc4392ce72a3a
 workflow-type: tm+mt
-source-wordcount: '1945'
+source-wordcount: '1905'
 ht-degree: 0%
 ---
 # 동료에 대한 제품 내 경험 사용
-
-{{release-limited-testing}}
 
 동료의 제품 내 경험은 Analysis Workspace 오른쪽의 채팅 패널에서 사용할 수 있습니다. Coworker는 열려 있는 프로젝트를 컨텍스트로 사용하므로 분석에 대해 묻거나 포함된 내용을 설명하지 않고도 Coworker에서 프로젝트를 빌드하도록 할 수 있습니다.
 
@@ -42,15 +39,18 @@ ht-degree: 0%
 
   Workspace에서 Coworker에 액세스할 수 없는 경우 관리자에게 문의하십시오. 자세한 내용은 [IMS 조직 환경 설정](/help/analysis-workspace/user-preferences.md#ims-organization-preferences)을 참조하십시오. <!-- need to update this section with the new toggle -->
 
-<!-- FOLLOW-UP: Coworker permissions are still being finalized. The Coworker permission name below is a placeholder. Confirm the name, category, and Admin Console steps with the SME. -->
-
-* **권한**: [!UICONTROL Adobe Admin Console]에서 [!UICONTROL 보고 도구] **[!UICONTROL Coworker]** 권한이 Coworker에 대한 액세스를 결정합니다. [제품 프로필 관리자](https://helpx.adobe.com/kr/enterprise/using/manage-product-profiles.html)가 이 권한을 제품 프로필에 추가해야 합니다. 자세한 내용은 [액세스 제어](/help/technotes/access-control.md#access-control)를 참조하십시오.
-
 * **데이터 보기 액세스**: Coworker가 기존 Analysis Workspace 및 데이터 보기 권한을 사용합니다. 아직 액세스 권한이 없는 데이터 또는 구성 요소에는 액세스할 수 없습니다.
+
+<!--
+FOLLOW-UP: Coworker permissions are still being finalized. The Coworker permission name below is a placeholder. Confirm the name, category, and Admin Console steps with the SME.
+
+* **Permissions**: In the [!UICONTROL Adobe Admin Console], the [!UICONTROL Reporting Tools] **[!UICONTROL Coworker]** permission determines access to Coworker. A [product profile administrator](https://helpx.adobe.com/enterprise/using/manage-product-profiles.html) must add this permission to your product profile. For more information, see [Access control](/help/technotes/access-control.md#access-control).
+
+-->
 
 ### Workspace의 Coworker와 Coworker 애플리케이션 중 선택
 
-Coworker의 제품 내 경험에는 액세스 권한이 있는 기술을 포함하여 [CX Enterprise Coworker 애플리케이션](https://experienceleague.adobe.com/ko/docs/coworker/content/chat/use-cases/data-insights/analytics-chat)과(와) 동일한 기능이 많이 있습니다. 그러나 둘 중 하나를 사용할 수 있는 시기를 결정하는 중요한 차이점이 있습니다.
+Coworker의 제품 내 경험에는 액세스 권한이 있는 기술을 포함하여 [CX Enterprise Coworker 애플리케이션](https://experienceleague.adobe.com/en/docs/coworker/content/chat/use-cases/data-insights/analytics-chat)과(와) 동일한 기능이 많이 있습니다. 그러나 둘 중 하나를 사용할 수 있는 시기를 결정하는 중요한 차이점이 있습니다.
 
 | | 동료에 대한 제품 내 경험 | 동료 응용 프로그램 |
 | --- | --- | --- |
