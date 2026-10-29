@@ -32,10 +32,10 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: cd12bd7f6943be6c58694af1374d32a1639d1578
+source-git-commit: f886069ac388da7985beac80cdaaa7bd0a506439
 workflow-type: tm+mt
-source-wordcount: '903'
-ht-degree: 32%
+source-wordcount: '970'
+ht-degree: 30%
 ---
 # 계산된 지표 관리
 
@@ -88,6 +88,7 @@ ht-degree: 32%
 | ![편집](/help/assets/icons/Edit.svg) | **[!UICONTROL 이름 바꾸기]** | 선택한 단일 계산된 지표의 이름을 변경합니다. 선택하면 계산된 지표의 이름을 인라인으로 바꿀 수 있습니다. |
 | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | **[!UICONTROL 승인]** | 선택한 계산된 지표를 승인합니다. [계산된 지표 승인](cm-approving.md)을 참조하세요. |
 | ![복사](/help/assets/icons/Copy.svg) | **[!UICONTROL 복사]** | 선택한 계산된 지표를 복사합니다. 새 계산된 지표가 같은 이름 및 접미사 `(Copy)`(으)로 만들어졌습니다. |
+| ![AI](/help/assets/icons/AI.svg) | **[!UICONTROL 설명 생성]** | <p>기존 설명을 대체하여 선택한 계산된 지표에 대한 설명을 생성합니다.</p><p>기존 설명을 덮어쓰지 않도록 하려면 먼저 [filter](#filter-panel) 목록에 설명 없이 계산된 지표만 표시합니다(필터에서 [!UICONTROL **기타 필터**] 아래에서 [!UICONTROL **설명 누락**])을 선택하십시오.</p><p>확인 메시지가 표시됩니다. 큰 요청은 백그라운드에서 실행되며 완료될 때 알림을 받습니다.</p><p>자세한 내용은 [자동으로 설명 생성](/help/components/add-component-descriptions.md#automatically-generate-descriptions)을 참조하십시오.</p> |
 | ![FileCSV](/help/assets/icons/FileCSV.svg) | **[!UICONTROL CSV로 내보내기]** | 계산된 지표를 `Calculated  metric List.csv` 파일로 내보냅니다. |
 
 ### 활성 필터 표시줄

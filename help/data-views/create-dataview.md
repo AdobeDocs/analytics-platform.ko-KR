@@ -41,10 +41,10 @@ topic_v2:
     internal-label: Governance
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: 2c55e526968ca2f064f32c457ee112c07a0b10ff
+source-git-commit: f886069ac388da7985beac80cdaaa7bd0a506439
 workflow-type: tm+mt
-source-wordcount: '3165'
-ht-degree: 78%
+source-wordcount: '3192'
+ht-degree: 76%
 ---
 # 데이터 보기 만들기 또는 편집
 
@@ -341,7 +341,17 @@ Data Insights Agent에 대한 데이터 보기를 활성화하려면 **[!UICONTR
   * **[!UICONTROL 데이터 형식]** - [!UICONTROL 문자열], [!UICONTROL 정수], [!UICONTROL Short], [!UICONTROL 부울], [!UICONTROL Double], [!UICONTROL 바이트], [!UICONTROL Long], [!UICONTROL 날짜] 또는 [!UICONTROL 날짜-시간] 등의 데이터 형식 중 하나 이상을 선택할 수 있습니다.
   * **[!UICONTROL 데이터 세트]** - 하나 이상의 데이터 세트를 선택합니다.
   * **[!UICONTROL 데이터 거버넌스]**: [!UICONTROL 사용자 지정 레이블], [!UICONTROL 계약 레이블], [!UICONTROL ID 레이블], [!UICONTROL 민감도 레이블], [!UICONTROL 파트너 에코시스템] 또는 [!UICONTROL 정책] 하위 범주에서 하나 이상의 레이블을 선택합니다.
-  * **[!UICONTROL 기타]** - [!UICONTROL 데이터 포함], [!UICONTROL ID 포함] 또는 [!UICONTROL 사용 중단 예정 아님] 옵션 중 하나 이상을 선택합니다.
+  * **[!UICONTROL 기타]** - 다음 옵션 중 하나 이상을 선택합니다.
+
+    * [!UICONTROL 데이터 포함]
+
+    * [!UICONTROL ID임]
+
+    * [!UICONTROL 사용되지 않습니다]
+
+    * [!UICONTROL 설명 누락]
+
+      여러 구성 요소에 대해 동시에 [설명을 생성](/help/data-views/component-settings/overview.md)하기 전처럼 아직 설명이 없는 구성 요소만 표시하려면 이 옵션을 사용하십시오.
 
   **[!UICONTROL 적용]**&#x200B;을 선택하여 필터를 적용합니다.
 

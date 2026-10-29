@@ -29,10 +29,10 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: cd12bd7f6943be6c58694af1374d32a1639d1578
+source-git-commit: f886069ac388da7985beac80cdaaa7bd0a506439
 workflow-type: tm+mt
-source-wordcount: '459'
-ht-degree: 96%
+source-wordcount: '514'
+ht-degree: 85%
 ---
 # 프로젝트 만들기 {#create-projects}
 
@@ -99,7 +99,7 @@ Analysis Workspace의 [프로젝트](/help/analysis-workspace/build-workspace-pr
 | 소유자 | 프로젝트 소유자 이름 |
 | 마지막 수정 | 프로젝트의 마지막 수정 날짜. |
 | 태그 | 더 쉬운 분류를 위해 프로젝트에 적용된 모든 태그를 나열합니다. |
-| 설명 | 설명은 프로젝트의 목적을 명확하게 하는 데 유용합니다. 설명을 더블 클릭하여 편집할 수 있습니다. |
+| 설명 | 설명은 프로젝트의 목적을 명확하게 하는 데 유용합니다. 설명을 더블 클릭하여 편집할 수 있습니다. <p>Adobe에서 설명을 생성하려면 설명 필드 위에서 **[!UICONTROL 설명 생성]**&#x200B;을 선택하십시오. Adobe은 프로젝트의 여러 패널을 분석하고 설명으로 요약합니다. 생성된 설명에는 **[!UICONTROL AI를 사용하여 Adobe에서 생성됨]** 텍스트가 포함되어 있으며 편집할 수 있습니다. 이 옵션을 사용하려면 조직에서 특정 생성 AI 법률 약관에 동의해야 합니다.</p> |
 | 반복 인스턴스 계산 | 보고서에서 반복 인스턴스가 계산되는지 여부를 지정합니다. 참고: 이 설정은 흐름 또는 폴아웃 시각화에 적용되지 않습니다. |
 | 주석 표시 | 이 프로젝트의 주석을 표시할지 여부를 지정합니다. |
 | [프로젝트 색상 팔레트](/help/analysis-workspace/build-workspace-project/color-palettes.md) | 색맹 사용자에 최적화된 비맞춤형 팔레트에서 선택하거나 맞춤형 팔레트를 지정하여 Workspace에서 사용되는 카테고리별 색상 팔레트를 변경할 수 있습니다. 이 기능은 대부분의 시각화를 포함하여 작업 영역의 많은 사항에 영향을 줍니다. |

@@ -21,13 +21,11 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 28cfbe249f20361bf56f0a6216bc715dae5a6d3a
+source-git-commit: e9ee69c84d5a8992acacf44d1ba5c9231c9cda5f
 workflow-type: tm+mt
-source-wordcount: 590
-ht-degree: 25%
-
+source-wordcount: '657'
+ht-degree: 23%
 ---
-
 # 날짜 범위 관리
 
 
@@ -73,6 +71,7 @@ ht-degree: 25%
 | ![편집](/help/assets/icons/Edit.svg) | **[!UICONTROL 이름 바꾸기]** | 선택한 단일 날짜 범위의 이름을 변경합니다. 선택하면 날짜 범위 이름을 인라인으로 바꿀 수 있습니다. |
 | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | **[!UICONTROL 승인]** | 선택한 날짜 범위를 승인합니다. |
 | ![복사](/help/assets/icons/Copy.svg) | **[!UICONTROL 복사]** | 선택한 날짜 범위를 복사합니다. 새 날짜 범위는 동일한 이름과 접미사(복사)로 만들어집니다 |
+| ![AI](/help/assets/icons/AI.svg) | **[!UICONTROL 설명 생성]** | <p>기존 설명을 대체하여 선택한 날짜 범위에 대한 설명을 생성합니다.</p><p>기존 설명을 덮어쓰지 않도록 하려면 먼저 [필터](#filter-panel) 목록에 설명 없이 날짜 범위만 표시합니다([!UICONTROL **기타 필터**] 아래에서 [!UICONTROL **설명 누락**] 선택).</p><p>확인 메시지가 표시됩니다. 큰 요청은 백그라운드에서 실행되며 완료될 때 알림을 받습니다.</p><p>자세한 내용은 [자동으로 설명 생성](/help/components/add-component-descriptions.md#automatically-generate-descriptions)을 참조하십시오.</p> |
 | ![FileCSV](/help/assets/icons/FileCSV.svg) | **[!UICONTROL CSV로 내보내기]** | 선택한 날짜 범위를 `Date ranges List.csv` 파일로 내보냅니다. |
 
 ### 활성 필터 표시줄
@@ -111,7 +110,8 @@ ht-degree: 25%
 
 * [[!UICONTROL 날짜 범위] 목록](#date-ranges-list)에서 날짜 범위의 제목을 선택합니다.
 
-[날짜 범위 빌더](/help/components/date-ranges/create.md#date-range-builder)를 사용하여 날짜 범위를 편집합니다.[날짜 범위 관리자](/help/components/date-ranges/manage.md)를 사용하여 날짜 범위를 공유, 이름 변경 또는 삭제하세요.
+[날짜 범위 빌더](/help/components/date-ranges/create.md#date-range-builder)를 사용하여 날짜 범위를 편집합니다.
+[날짜 범위 관리자](/help/components/date-ranges/manage.md)를 사용하여 날짜 범위를 공유, 이름 변경 또는 삭제하세요.
 
 
 <!--

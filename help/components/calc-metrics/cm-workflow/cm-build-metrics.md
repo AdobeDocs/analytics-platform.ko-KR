@@ -29,10 +29,10 @@ role_v2:
 topic_v2:
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
     internal-label: Experimentation
-source-git-commit: cd12bd7f6943be6c58694af1374d32a1639d1578
+source-git-commit: f886069ac388da7985beac80cdaaa7bd0a506439
 workflow-type: tm+mt
-source-wordcount: '1699'
-ht-degree: 93%
+source-wordcount: '1747'
+ht-degree: 89%
 ---
 # 계산된 지표 빌드 {#build-metrics}
 
@@ -77,7 +77,7 @@ Customer Journey Analytics는 차원, 지표, 세그먼트 및 함수를 끌어�
    | **[!UICONTROL 프로젝트 전용 지표]** | 단일 프로젝트에 대해 생성된 계산된 지표를 편집할 때, [단일 프로젝트에 대한 계산된 지표 만들기](/help/components/apply-create-metrics.md#create-calculated-metrics-for-a-single-project)에 설명된 대로 이 대화 상자의 맨 위에 정보 상자가 나타납니다. <p>이 계산된 지표를 모든 프로젝트에서 사용할 수 있도록 하려면 **[!UICONTROL 이 지표가 모든 프로젝트에 사용할 수 있도록 설정하기 및 구성 요소 목록 추가하기]** 옵션을 선택합니다.</p> |
    | **[!UICONTROL 제목]** ![필수](/help/assets/icons/Required.svg) | 계산된 지표의 이름을 지정합니다. 예: `Conversion Rate`. |
    | **[!UICONTROL 외부 ID]** ![필수](/help/assets/icons/Required.svg) | 외부 BI 도구와 BI 확장 기능을 사용할 때 계산된 지표의 이름. 값을 재정의하지 않는 한 `undefined_xxx`로 자동 정의됩니다. |
-   | **[!UICONTROL 설명]** | 세그먼트에 대한 설명을 제공합니다. 예: `Calculated metric to define the conversion rate.` 계산된 지표에 대한 공식은 이미 [!UICONTROL 요약]에서 자동으로 사용할 수 있으므로 설명할 필요가 없습니다. |
+   | **[!UICONTROL 설명]** | <p>계산된 지표에 대한 설명을 입력하십시오(예: `Calculated metric to define the conversion rate.`). [!UICONTROL 요약]에서 공식을 이미 자동으로 사용할 수 있으므로 계산된 지표에 대한 수식을 설명할 필요가 없습니다.</p><p>Adobe에서 설명을 생성하려면 **[!UICONTROL 설명 생성]**&#x200B;을 선택하세요. 이 옵션은 계산된 지표 정의를 생성할 때까지 사용할 수 없습니다.</p><p>생성된 설명에는 **[!UICONTROL AI를 사용하여 Adobe에서 생성됨]** 텍스트가 포함되어 있으며 생성된 후에는 편집할 수 있습니다. 자세한 내용은 [자동으로 설명 생성](/help/components/add-component-descriptions.md#automatically-generate-descriptions)을 참조하세요.</p> |
    | **[!UICONTROL 포맷]** | 계산된 지표의 형식을 선택합니다. **[!UICONTROL 소수점]**, **[!UICONTROL 시간]**, **[!UICONTROL 백분율]**, **[!UICONTROL 통화]** 중에서 선택할 수 있습니다. |
    | **[!UICONTROL 소수점 이하 자리 수]** | 선택한 형식에 소수점 이하 자리 수를 지정합니다. 선택한 형식이 소수점, 통화, 백분율인 경우에만 활성화됩니다. |
    | **[!UICONTROL 증가 트렌드를 다음으로 표시]** | 계산된 지표의 상승 추세를 ▲ **[!UICONTROL 좋음(녹색)]**&#x200B;으로 표시할지 ▼ **[!UICONTROL 나쁨(빨간색)]**&#x200B;으로 표시할지 지정합니다. |

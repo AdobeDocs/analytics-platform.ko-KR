@@ -41,7 +41,7 @@ topic_v2:
     internal-label: Insights
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 2c55e526968ca2f064f32c457ee112c07a0b10ff
+source-git-commit: 5b0c9d764d17daa63316f8ab294aa9c8f7f94427
 workflow-type: tm+mt
 source-wordcount: '2440'
 ht-degree: 9%
@@ -144,7 +144,7 @@ Experience Platform [실시간 고객 데이터 플랫폼 보호](https://experi
 | 이름 | 값 | 제한 유형 | 설명 |
 |---|--:|---|---|
 | 프로젝트 | 50,000 | 시스템 강제 보호 | 조직의 최대 프로젝트 수. |
-| 데이터 보기 | 2,000 | 시스템 강제 보호 | 조직의 최대 [데이터 보기](../data-views/data-views.md) 수입니다. |
+| 데이터 보기 | 5,000 | 시스템 강제 보호 | 조직의 최대 [데이터 보기](../data-views/data-views.md) 수입니다. |
 | 데이터 보기 | 500-1000 | 시스템 강제 보호 | 연결에 대한 최대 데이터 보기 수. 값은 Customer Journey Analytics 패키지에 따라 다릅니다(제품 설명 참조). |
 | 데이터 세트 | 100 | 시스템 강제 보호 | 연결당 최대 [데이터 세트 수](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html?lang=ko). |
 | 연결 | 1000 | 시스템 강제 보호 | 조직의 최대 [연결](../connections/overview.md) 수입니다. |

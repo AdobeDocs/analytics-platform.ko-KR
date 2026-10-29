@@ -1,7 +1,7 @@
 ---
-source-git-commit: ccaa957e79fba24292316c7447be786f57f03493
+source-git-commit: f886069ac388da7985beac80cdaaa7bd0a506439
 workflow-type: tm+mt
-source-wordcount: '5605'
+source-wordcount: '5607'
 ht-degree: 95%
 ---
 # 스니펫
@@ -94,7 +94,7 @@ ht-degree: 95%
 
 | 기타 필터 | 설명 |
 |---|---|
-| ![기타 필터](/help/assets/filter-other.png){width="300"} | **[!UICONTROL 기타 필터]** 섹션에서는 미리 정의된 다른 필터를 필터링할 수 있습니다.<ul><li>다음 옵션 중 하나 이상을 선택할 수 있습니다.<ul><li> **[!UICONTROL 모두 표시]**</li><li>**[!UICONTROL 나와 공유됨]**</li><li>**[!UICONTROL 내 소유]**</li><li>**[!UICONTROL 승인됨]**</li><li>**[!UICONTROL 즐겨찾기]**</li></ul> 선택할 수 있는 내용은 역할과 권한에 따라 달라집니다.</li><li>둘 이상의 기타 필터를 선택할 수 있습니다. 사용할 수 있는 기타 필터는 필터 패널의 다른 섹션에서 선택한 내용에 따라 달라집니다.</li><li>숫자는 다음을 나타냅니다.<ul><li>**(1)**: 선택된 다른 필터의 수(다른 필터가 하나 이상 선택된 경우)</li><li>**5︎⃣**: 현재 필터에 따라 생성된 항목에 사용할 수 있는 기타 필터 수</li><li>4︎⃣: 특정 기타 필터와 연관된 항목 수</li></ul></li></ul> |
+| ![기타 필터](/help/assets/filter-other.png){width="300"} | **[!UICONTROL 기타 필터]** 섹션에서는 미리 정의된 다른 필터를 필터링할 수 있습니다.<ul><li>다음 옵션 중 하나 이상을 선택할 수 있습니다.<ul><li> **[!UICONTROL 모두 표시]**</li><li>**[!UICONTROL 나와 공유됨]**</li><li>**[!UICONTROL 내 소유]**</li><li>**[!UICONTROL 승인됨]**</li><li>**[!UICONTROL 즐겨찾기]**</li><li>**[!UICONTROL 설명 누락]**</li></ul> 선택할 수 있는 내용은 역할과 권한에 따라 달라집니다.</li><li>둘 이상의 기타 필터를 선택할 수 있습니다. 사용할 수 있는 기타 필터는 필터 패널의 다른 섹션에서 선택한 내용에 따라 달라집니다.</li><li>숫자는 다음을 나타냅니다.<ul><li>**(1)**: 선택된 다른 필터의 수(다른 필터가 하나 이상 선택된 경우)</li><li>**5︎⃣**: 현재 필터에 따라 생성된 항목에 사용할 수 있는 기타 필터 수</li><li>4︎⃣: 특정 기타 필터와 연관된 항목 수</li></ul></li></ul> |
 
 ## 날짜 범위 필터 섹션  {#daterangefiltersection}
 

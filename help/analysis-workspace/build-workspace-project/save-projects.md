@@ -17,13 +17,11 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
+source-git-commit: 8ab47e74ee442d97e8e7b1b9e92129025a5b1d1f
 workflow-type: tm+mt
-source-wordcount: 860
-ht-degree: 95%
-
+source-wordcount: '962'
+ht-degree: 85%
 ---
-
 # 프로젝트 저장 {#save-projects}
 
 <!-- markdownlint-disable MD034 -->
@@ -53,7 +51,7 @@ Analysis Workspace의 프로젝트는 2분마다 자동으로 저장됩니다. �
   1. 다음을 지정합니다.
 
      * **[!UICONTROL 이름]**(필수). 프로젝트의 이름.
-     * **[!UICONTROL 설명]**. 프로젝트의 설명.
+     * **[!UICONTROL 설명]**. 프로젝트의 설명. Adobe에서 설명을 생성하려면 **[!UICONTROL 설명 생성]**&#x200B;을 선택하세요. Adobe은 프로젝트의 여러 패널을 분석하고 설명으로 요약합니다. 생성된 설명에는 **[!UICONTROL AI를 사용하여 Adobe에서 생성됨]** 텍스트가 포함되어 있으며 편집할 수 있습니다. 이 옵션을 사용하려면 조직에서 특정 생성 AI 법률 약관에 동의해야 합니다.
      * **[!UICONTROL 태그]**. [!UICONTROL *태그 검색*] 필드에서 태그를 검색하거나 **[!UICONTROL ENTER]**&#x200B;를 눌러 새로운 태그를 추가합니다.
      * **[!UICONTROL 폴더]**. [!UICONTROL *폴더 선택*] 드롭다운 메뉴에서 폴더를 선택합니다. 폴더를 지정하지 않으면 프로젝트는 새 프로젝트를 만든 현재 폴더에 저장됩니다.
      * **[!UICONTROL 버전 메모]**. *메모 추가* 텍스트 영역에 버전 메모를 추가합니다.
@@ -90,7 +88,7 @@ Analysis Workspace의 프로젝트는 2분마다 자동으로 저장됩니다. �
   1. 다음을 지정합니다.
 
      * **[!UICONTROL 이름]**(필수). 프로젝트의 이름.
-     * **[!UICONTROL 설명]**. 프로젝트의 설명.
+     * **[!UICONTROL 설명]**. 프로젝트의 설명. Adobe에서 설명을 생성하려면 **[!UICONTROL 설명 생성]**&#x200B;을 선택하세요. Adobe은 프로젝트의 여러 패널을 분석하고 설명으로 요약합니다. 생성된 설명에는 **[!UICONTROL AI를 사용하여 Adobe에서 생성됨]** 텍스트가 포함되어 있으며 편집할 수 있습니다. 이 옵션을 사용하려면 조직에서 특정 생성 AI 법률 약관에 동의해야 합니다.
      * **[!UICONTROL 태그]**. [!UICONTROL *태그 검색*] 필드에서 태그를 검색하거나 **[!UICONTROL ENTER]**&#x200B;를 눌러 새로운 태그를 추가합니다.
      * **[!UICONTROL 폴더]**. [!UICONTROL *폴더 선택*] 드롭다운 메뉴에서 폴더를 선택합니다. 폴더를 지정하지 않으면 프로젝트는 새 프로젝트를 만든 현재 폴더에 저장됩니다.
      * **[!UICONTROL 버전 메모]**. *메모 추가* 텍스트 영역에 버전 메모를 추가합니다.
