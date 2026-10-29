@@ -49,7 +49,7 @@ topic_v2:
     internal-label: Implementation
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 5aba7dcf73ddd7aee48a945911a8ff4b0f18e2e3
+source-git-commit: 3c6eeffaeaedd848b0f0bc4daf43d68857bc4201
 workflow-type: tm+mt
 source-wordcount: '1182'
 ht-degree: 19%
@@ -69,7 +69,7 @@ ht-degree: 19%
 | **Adobe Brand Visibility 통합**<br/> AI 기반 검색이 실제 웹 사이트 참여 및 비즈니스 성과로 이어지는 방식을 측정할 수 있도록 Adobe Brand Visibility을 조직의 Customer Journey Analytics 데이터와 연결합니다.<p>자세한 내용은 [Adobe Brand Visibility 통합](/help/integrations/bv/bv.md)을 참조하세요.</p> | | 2026년 10월 8일 |
 | **여정 캔버스: 백분율 비교**<br/>&#x200B;여정을 이전 기간과 비교할 때 이제 새로운 [!UICONTROL 백분율 비교] 옵션을 활성화하여 각 노드, 화살표 및 폴아웃의 백분율 점수 변경을 표시할 수 있습니다. 이 기능은 여정의 사람 수가 날짜 범위 간에 다른 경우에도 비교가 정확하게 유지되므로 노드 간 유지나 폴아웃과 같은 비율을 비교할 때 유용합니다.<p>자세한 내용은 [여정 캔버스 시각화 구성](/help/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md#configure-visualization-settings)에서 &quot;백분율 비교&quot;를 참조하십시오.</p> | | 2026년 10월 19일 |
 | **시각화에 있는 간결한 범례 레이블**<br/>&#x200B;이제 시각화 범례 레이블을 줄여서 한눈에 구분할 수 있습니다. [!UICONTROL 간결한 레이블] 설정은 모든 레이블이 공유하는 지표, 세그먼트, 차원 항목 또는 날짜 범위 이름을 제거하여 한 레이블을 다른 레이블과 구분하는 정보에 지능적으로 중점을 둡니다.<p>간결한 레이블 없이 모든 범례 레이블은 공유된 이름을 반복하므로 마우스를 가져갈 때만 차이가 표시되는 긴 레이블을 만들 수 있습니다.</p><p>간결한 레이블은 기본적으로 꺼져 있으며 스택 버전을 비롯한 영역, 막대, 콤보, 도넛, 막대 그래프, 가로 막대, 선 및 벤 시각화에 사용할 수 있습니다.</p><p>자세한 내용은 [간결한 레이블](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#concise-labels)을 참조하십시오.</p> | | 2026년 10월 29일 |
-| **구성 요소 및 프로젝트에 대한 설명을 자동으로 생성합니다.** <br/>이제 차원, 지표, 계산된 지표, 세그먼트 및 날짜 범위에 대한 설명을 자동으로 생성할 수 있습니다. 이를 통해 Workspace 사용자는 특히 큰 구성 요소 라이브러리가 있는 조직에서 사용할 구성 요소를 이해할 수 있습니다. <p>단일 구성 요소에 대한 설명을 생성하거나 동시에 여러 구성 요소에 대한 설명을 생성할 수 있습니다. 자세한 내용은 [자동으로 설명 생성](/help/components/add-component-descriptions.md#automatically-generate-descriptions)을 참조하세요.</p><p>[프로젝트를 저장](/help/analysis-workspace/build-workspace-project/save-projects.md)하거나 [프로젝트 정보 및 설정](/help/analysis-workspace/build-workspace-project/create-projects.md#project-info-settings)에서 Workspace 프로젝트에 대한 설명을 생성할 수도 있습니다.</p> | 2026년 10월 29일 | 2026년 11월 11일 |
+| **구성 요소 및 프로젝트에 대한 설명을 자동으로 생성합니다.** <br/>이제 차원, 지표, 계산된 지표, 세그먼트 및 날짜 범위에 대한 설명을 자동으로 생성할 수 있습니다. 이를 통해 Workspace 사용자는 특히 큰 구성 요소 라이브러리가 있는 조직에서 사용할 구성 요소를 이해할 수 있습니다. <p>단일 구성 요소에 대한 설명을 생성하거나 동시에 여러 구성 요소에 대한 설명을 생성할 수 있습니다. 자세한 내용은 [자동으로 설명 생성](/help/components/add-component-descriptions.md#automatically-generate-descriptions)을 참조하세요.</p><p>[프로젝트를 저장](/help/analysis-workspace/build-workspace-project/save-projects.md)하거나 [프로젝트 정보 및 설정](/help/analysis-workspace/build-workspace-project/create-projects.md#project-info-settings)에서 Workspace 프로젝트에 대한 설명을 생성할 수도 있습니다.</p> | 2026년 10월 29일 | 2026년 11월 18일 |
 | **동료의 제품 내 경험**<br/>&#x200B;이제 Analysis Workspace의 채팅 패널에서 동료가 사용할 수 있습니다. 동료는 사용자가 연 프로젝트를 컨텍스트로 사용하므로 프로젝트에 포함된 내용을 설명하지 않고도 분석에 대한 질문을 할 수 있습니다.<p>Coworker의 제품 내 경험을 사용하여 다음을 수행할 수 있습니다.</p><ul><li>열려 있는 프로젝트를 요약하고 통찰력을 찾은 다음 근본 원인 분석을 실행합니다.</li><li>자연어 프롬프트로 프로젝트를 빌드하고 편집합니다. 예를 들어, 패널 및 테이블을 추가하고, 데이터를 분류하고, 시각화 유형 및 날짜 범위를 변경하고, 세그먼트를 만들 수 있습니다.</li></ul><p>자세한 내용은 [Coworker의 제품 내 경험 사용](/help/analysis-workspace/coworker.md)을 참조하십시오.</p> | | 2026년 10월 29일 |
 
 
