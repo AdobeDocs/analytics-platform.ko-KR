@@ -147,4 +147,4 @@ Customer Journey Analytics 관리자는 Adobe에서 여러 구성 요소에 대�
 
    확인 메시지에 추가된 설명 수가 표시됩니다.
 
-   많은 구성 요소를 선택한 경우 배경에 설명이 생성됩니다. 요청이 완료되면 생성된 설명 수와 실패한 설명 수를 보여 주는 인앱 [알림](https://experienceleague.adobe.com/en/docs/core-services/interface/features/account-preferences#view-notifications)을 받게 됩니다.
+   많은 구성 요소를 선택한 경우 배경에 설명이 생성됩니다. 요청이 완료되면 생성된 설명 수와 실패한 설명 수를 보여 주는 인앱 [알림](https://experienceleague.adobe.com/ko/docs/core-services/interface/features/account-preferences#view-notifications)을 받게 됩니다.
