@@ -30,12 +30,14 @@ topic_v2:
     internal-label: Insights
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: a02b8d1d6bae6ed8269668d49ed9559688001833
+source-git-commit: 113a215e26092c65d6eaf2c321f60d3f3a5015b8
 workflow-type: tm+mt
-source-wordcount: '1185'
+source-wordcount: '1187'
 ht-degree: 17%
 ---
 # 구성 만들기 또는 편집
+
+{{release-limited-testing}}
 
 대화 인사이트를 사용하면 고객에게 제공하는 에이전트 경험에서 대화를 분석할 수 있습니다. 이러한 에이전트 경험은 대형 언어 모델(LLM) 또는 사람의 대화를 기반으로 할 수 있습니다. 예를 들어, 고객 또는 콜 센터 대본과 상호 작용하는 챗봇입니다.
 대화 인사이트를 통해 에이전트가 실제 사용자 결과에 미치는 영향을 이해할 수 있습니다.
@@ -147,7 +149,7 @@ Conversation Insights 구성 인터페이스를 통해 구성 및 관련 아티�
 
 구성을 만든 후에는 [프롬프트, 응답, 피드백 및 신호 데이터 세트의 대화 혼합 방법](/help/conversation-insights/overview.md#how-it-works)을 구성할 수 있습니다.
 
-이 사양을 사용하면 혼합된 대화 데이터 세트에서 해당 이름이 지정된 필드(컨테이너의 경우)에 대한 값을 결정하는 데이터 세트를 선택할 수 있습니다.
+이 사양을 사용하면 블렌드 대화 데이터 세트에서 해당 명명된 필드 또는 필드(컨테이너의 경우)에 대한 값을 결정하는 데이터 세트를 선택할 수 있습니다.
 
 예를 들어 혼합 대화 데이터 세트의 **[!UICONTROL 제작자]** 필드 이름을 피드백 데이터 세트의 해당 유사한 명명된 필드에서 정의하려면 해당 필드에 대한 **[!UICONTROL 데이터 세트 우승자]** 드롭다운 메뉴에서 **[!UICONTROL 피드백 데이터 세트]**&#x200B;을(를) 선택합니다.
 

@@ -3,11 +3,10 @@ title: Customer Journey Analytics에서 유료 미디어 데이터를 웹 데이
 description: 유료 미디어 요약 데이터를 Adobe Customer Journey Analytics의 웹 사이트 이벤트와 연결하여 광고 지출, 클릭 수, 주문, 매출 및 광고 지출 수익률을 비교할 수 있습니다.
 solution: Customer Journey Analytics
 feature: Use Cases
-hide: true
 role: Admin
-source-git-commit: c5a7403374f26ebc641f3491a88dc14c5f8693c6
+source-git-commit: 62a6bb436d59ab7a5a7be515afbe1f5f0f7817ee
 workflow-type: tm+mt
-source-wordcount: '3910'
+source-wordcount: '3912'
 ht-degree: 3%
 ---
 # 웹 데이터를 사용하여 유료 미디어 데이터 가입
@@ -45,9 +44,14 @@ ht-degree: 3%
 
 ## 보고 조인 이해
 
-랜딩 페이지 URL 또는 기존 이벤트 필드에 ID가 표시되는 수준에서만 가입할 수 있습니다. 예를 들어 캠페인 전용 태깅은 캠페인 보고를 지원하지만 광고 수준 보고는 지원하지 않습니다. 경험 수준 및 에셋 수준 조인은 추가 URL 매개 변수를 필요로 하며 이 안내서에서 다루지 않습니다.
+랜딩 페이지 URL 또는 기존 이벤트 필드에 ID가 표시되는 수준에서만 가입할 수 있습니다. 예를 들어 캠페인 전용 태깅은 캠페인 보고를 지원하지만 광고 수준 보고는 지원하지 않습니다.
 
-참조하려면 [요약 데이터](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-dataviews/summary-data) 및 [요약 데이터 그룹 구성 요소 설정](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-dataviews/component-settings/summary-data-group)을 참조하십시오.
+>[!NOTE]
+>
+>Content Analytics 경험 수준 및 에셋 수준 조인은 추가 URL 매개 변수를 필요로 하며 이 안내서에서 다루지 않습니다.
+
+
+참조하려면 [요약 데이터](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-dataviews/summary-data) 및 [요약 데이터 그룹 구성 요소 설정](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/component-settings/summary-data-group)을 참조하십시오.
 
 ### 조인 키 선택
 
@@ -81,7 +85,7 @@ GUID 구조는 `{adNetwork}_{accountID}[_{campaignID}[_{adGroupID}[_{adID}]]]`�
 * [!DNL Customer Journey Analytics] 여기에 사용된 파생 필드 함수에 대한 액세스 권한을 가진 이상 선택: [URL 구문 분석](/help/data-views/derived-fields/derived-fields.md#url-parse), [대소문자](/help/data-views/derived-fields/derived-fields.md#case-when), [정규식 바꾸기](/help/data-views/derived-fields/derived-fields.md#regex-replace) 및 이름 보강의 경우 [조회](/help/data-views/derived-fields/derived-fields.md#lookup).
 * 대상 샌드박스에서 스키마, 데이터 세트 및 데이터 스트림을 관리하고 확인을 위해 데이터 세트 및 쿼리 서비스에 액세스할 수 있는 [!DNL Adobe Experience Platform] 권한.
 * 대상 연결 및 데이터 보기를 편집할 수 있는 [!DNL Customer Journey Analytics] 권한입니다.
-* 동일한 샌드박스에 구성되어 요약 및 조회 데이터 세트를 수집하는 유료 미디어 소스 커넥터입니다. 예제 커넥터는 [Meta 광고 소스](https://experienceleague.adobe.com/ko/docs/experience-platform/sources/connectors/advertising/meta-ads)를 참조하십시오.
+* 동일한 샌드박스에 구성되어 요약 및 조회 데이터 세트를 수집하는 유료 미디어 소스 커넥터입니다. 예제 커넥터는 [Meta 광고 소스](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/advertising/meta-ads)를 참조하십시오.
 * 쿼리 문자열을 포함하여 전체 랜딩 페이지 URL을 캡처하거나 네트워크 ID를 포함하는 해당 필드를 캡처하는 웹 사이트 이벤트.
 
 
@@ -122,10 +126,10 @@ AL!<id>!3!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{k
 
 | | 시작점 | 기존 구성 | 따라야 할 단계 |
 |---|---|---|---|
-| A | 웹 또는 모바일 및 유료 미디어가 있는 Content Analytics | 유료 미디어 데이터 세트 및 구성 요소와 Content Analytics 이벤트 및 조회 데이터 세트 | 필요한 경우 웹 사이트 이벤트 데이터 세트를 추가한 다음 웹에서 파생된 필드 및 보고 그룹을 구성합니다 |
-| B | 유료 미디어만 있는 Content Analytics | 유료 미디어 데이터 세트 및 구성 요소. 공유 컨텐츠 조회 데이터 세트가 있을 수도 있습니다. | 웹 사이트 이벤트 데이터 세트를 추가한 다음 웹에서 파생된 필드 및 보고 그룹을 구성합니다 |
-| C | Content Analytics 프로비저닝 없이 유료 미디어 | 유료 미디어 데이터 세트가 Experience Platform에 있지만 연결 및 데이터 보기에 유료 미디어 구성이 포함되어 있지 않습니다 | 웹 사이트 및 유료 미디어 데이터 세트를 추가한 다음 유료 미디어 및 웹 구성 요소를 만듭니다 |
-| D | 유료 미디어가 없는 Content Analytics | Content Analytics 구성 요소만 해당 | Content Analytics 구성에서 유료 미디어 채널을 활성화한 다음 기존 구성 경로를 따릅니다 |
+| A | 웹 또는 모바일 및 유료 미디어가 있는 Content Analytics | [유료 미디어 데이터 세트 및 구성 요소](/help/content-analytics/config/paid-media.md), Content Analytics 이벤트 및 조회 데이터 세트. | 필요한 경우 웹 사이트 이벤트 데이터 세트를 추가한 다음 웹에서 파생된 필드 및 보고 그룹을 구성합니다. |
+| B | 유료 미디어만 있는 Content Analytics | [유료 미디어 데이터 세트 및 구성 요소](/help/content-analytics/config/paid-media.md); 공유 콘텐츠 조회 데이터 세트도 있을 수 있습니다. | 웹 사이트 이벤트 데이터 세트를 추가한 다음 웹에서 파생된 필드 및 보고 그룹을 구성합니다. |
+| C | Content Analytics 프로비저닝 없이 유료 미디어 | 유료 미디어 데이터 세트가 Experience Platform에 있지만 연결 및 데이터 보기에 유료 미디어 구성이 포함되어 있지 않습니다. | 웹 사이트 및 유료 미디어 데이터 세트를 추가한 다음 유료 미디어 및 웹 구성 요소를 만듭니다. |
+| D | 유료 미디어가 없는 Content Analytics | Content Analytics 구성 요소만 해당. | Content Analytics 구성에서 유료 미디어 채널을 활성화한 다음 기존 구성 경로를 따릅니다. |
 
 Content Analytics에서 관리하는 연결을 확장할 때 시스템에서 프로비저닝한 데이터 세트 또는 읽기 전용 구성 요소를 제거하거나 수정하지 마십시오.
 
@@ -143,10 +147,10 @@ Content Analytics에서 관리하는 연결을 확장할 때 시스템에서 프
 
    | 필드 그룹 | 필수 데이터 |
    |---|---|
-   | AEP 웹 SDK ExperienceEvent | 페이지 URL, 페이지 보기, 레퍼러 및 기타 웹 컨텍스트 |
-   | Commerce 세부 정보 | 구매 수, 주문 가격, 통화, 구매 ID 및 제품 세부 정보 |
-   | 캠페인 마케팅 세부 정보, 선택 사항 | 구현에서 별도로 캡처하는 경우 추적 코드 |
-   | IdentityMap(아직 없는 경우) | 개인 식별자(예: ECID) |
+   | AEP 웹 SDK ExperienceEvent | 페이지 URL, 페이지 보기, 레퍼러 및 기타 웹 컨텍스트. |
+   | Commerce 세부 정보 | 구매 수, 주문 가격, 통화, 구매 ID 및 제품 세부 정보. |
+   | 캠페인 마케팅 세부 정보, 선택 사항 | 구현 시 별도로 캡처하는 경우 코드를 추적합니다. |
+   | IdentityMap(아직 없는 경우) | 개인 식별자(예: ECID). |
 
 1. 스키마를 저장합니다. 이 보고 사용 사례에는 프로필 활성화가 필요하지 않습니다.
 1. **[!UICONTROL 데이터 관리]** > **[!UICONTROL 데이터 세트]** > **[!UICONTROL 데이터 세트 만들기]** > **[!UICONTROL 스키마에서 데이터 세트 만들기]**(으)로 이동합니다.
@@ -158,7 +162,7 @@ Content Analytics에서 관리하는 연결을 확장할 때 시스템에서 프
 1. 데이터스트림 이름을 지정하고 이벤트 스키마를 매핑 스키마로 선택합니다.
 1. 저장한 다음 **[!UICONTROL 서비스 추가]** > **[!UICONTROL Adobe Experience Platform]**&#x200B;을(를) 선택합니다.
 1. 샌드박스 및 이벤트 데이터 세트를 선택한 다음 **[!UICONTROL 저장]**&#x200B;을 선택합니다.
-1. 데이터 스트림 ID를 사용하여 [Experience Platform Web SDK](https://experienceleague.adobe.com/ko/docs/experience-platform/collection/js/js-overview)을(를) 구성하십시오.
+1. 데이터 스트림 ID를 사용하여 [Experience Platform Web SDK](https://experienceleague.adobe.com/en/docs/experience-platform/collection/js/js-overview)을(를) 구성하십시오.
 
 다음을 캡처합니다.
 
@@ -195,11 +199,11 @@ LIMIT 20;
 
    | 설정 | 값 |
    |---|---|
-   | 개인 ID | ECID 네임스페이스 또는 구현의 개인 ID 필드가 있는 `identityMap` |
+   | 개인 ID | ECID 네임스페이스 또는 구현의 개인 ID 필드가 있는 `identityMap`. |
    | 타임스탬프 | `timestamp` |
    | 데이터 소스 유형 | 웹 데이터 |
    | 모든 새 데이터 가져오기 | 활성화됨 |
-   | 기존의 모든 데이터 다시 채우기 | 필요한 과거 기간에 대해 활성화됨 |
+   | 기존의 모든 데이터 다시 채우기 | 필요한 과거 기간에 대해 활성화됩니다. |
 
 1. 데이터 세트를 추가하고 연결을 저장합니다.
 
@@ -286,11 +290,11 @@ LIMIT 20;
 
 | 규칙 | 함수 | 구성 |
 |---|---|---|
-| 1 | [URL 구문 분석](/help/data-views/derived-fields/derived-fields.md#url-parse) | 페이지 URL에서 수준별 Meta 매개 변수 읽기 |
-| 2 | [URL 구문 분석](/help/data-views/derived-fields/derived-fields.md#url-parse) | 페이지 URL에서 수준별 UTM 매개 변수 읽기 |
-| 3 | [URL 구문 분석](/help/data-views/derived-fields/derived-fields.md#url-parse) | 페이지 URL에서 `s_kwcid` 읽기 |
-| 4 | [정규식 바꾸기](/help/data-views/derived-fields/derived-fields.md#regex-replace) | 규칙별 식을 규칙 3에 적용합니다. 출력 `$1` |
-| 5 | [다음의 경우](/help/data-views/derived-fields/derived-fields.md#case-when) | 규칙 3이 설정되면 반환 규칙 4를 반환하고, 규칙 1이 설정되면 반환 규칙 1을 반환하고, 그렇지 않으면 반환 규칙 2를 반환합니다 |
+| 1 | [URL 구문 분석](/help/data-views/derived-fields/derived-fields.md#url-parse) | 페이지 URL에서 수준별 Meta 매개 변수를 읽습니다. |
+| 2 | [URL 구문 분석](/help/data-views/derived-fields/derived-fields.md#url-parse) | 페이지 URL에서 수준별 UTM 매개 변수를 읽습니다. |
+| 3 | [URL 구문 분석](/help/data-views/derived-fields/derived-fields.md#url-parse) | 페이지 URL에서 `s_kwcid`을(를) 읽습니다. |
+| 4 | [정규식 바꾸기](/help/data-views/derived-fields/derived-fields.md#regex-replace) | 규칙 3; 출력 `$1`에 수준별 식을 적용합니다. |
+| 5 | [다음의 경우](/help/data-views/derived-fields/derived-fields.md#case-when) | 규칙 3이 설정되면 반환 규칙 4를 반환하고, 규칙 1이 설정되면 반환 규칙 1을 반환하고, 그렇지 않으면 반환 규칙 2를 반환합니다. |
 
 다음 값을 사용하십시오.
 
@@ -363,7 +367,7 @@ LIMIT 20;
 
 기존 보고서를 유지하려면 원래 **[!UICONTROL 주문]** 및 **[!UICONTROL 매출]** 지표를 변경하지 마십시오. 표시된 기본값이 일치하는 것처럼 보이는 경우에도 이 설정에서는 재정의를 명시적으로 활성화해야 합니다.
 
-재방문 간 전환 크레딧의 경우 대신 **[!UICONTROL 개인]** 컨테이너와 적절한 전환 확인 기간을 고려하십시오. [요약 데이터 사용 사례](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-usecases/data-views/summary-data)를 참조하세요.
+재방문 간 전환 크레딧의 경우 대신 **[!UICONTROL 개인]** 컨테이너와 적절한 전환 확인 기간을 고려하십시오. [요약 데이터 사용 사례](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-usecases/data-views/summary-data)를 참조하세요.
 
 웹 ID 차원에 지속성을 추가하는 대신 지표 속성을 사용하십시오. 랜딩 횟수로 해석되는 카운트가 부풀려지지 않도록 ID를 이후 이벤트에 유지하지 마십시오. 이렇게 하면 캠페인 행에 표시되는 이벤트가 변경됩니다.
 

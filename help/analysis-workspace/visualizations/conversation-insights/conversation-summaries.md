@@ -4,7 +4,7 @@ title: 대화 요약
 feature: Visualizations
 role: User
 hide: true
-source-git-commit: 2cca5dfaec6be8f22308e09a023e9e57bec387b7
+source-git-commit: 113a215e26092c65d6eaf2c321f60d3f3a5015b8
 workflow-type: tm+mt
 source-wordcount: '351'
 ht-degree: 20%
@@ -21,6 +21,7 @@ ht-degree: 20%
 >title="대화 요약"
 >abstract="필터링된 대화 그룹을 요약합니다. 요약 길이를 제어합니다. 추출된 신호의 정확성을 검증하려면 고객의 대표 구문을 확인합니다. 전체 대화 재생을 열려면 견적을 선택하십시오."
 
+{{release-limited-testing}}
 
 ![요약](/help/assets/icons/Summarize.svg) **[!UICONTROL 대화 요약]** 시각화를 사용하면 필터링된 대화 그룹을 요약할 수 있습니다.
 
@@ -51,7 +52,7 @@ ht-degree: 20%
 
 1. **[!UICONTROL 빌드]**&#x200B;를 선택하여 시각화를 빌드합니다. 구성 값을 기본값으로 재설정하려면 **[!UICONTROL 재설정]**&#x200B;을 선택하십시오. 구성을 취소하려면 **[!UICONTROL 취소]**&#x200B;를 선택하십시오.
 
-**[!UICONTROL 대화 요약]** 시각화를 다시 구성하려면 **[!UICONTROL 지표: _지표_]**&#x200B;또는&#x200B;**[!UICONTROL 지표:_지표_]** 옆에 있는 ![편집](/help/assets/icons/Edit.svg)을 선택합니다. | **[!UICONTROL 세그먼트: _세그먼트_]**.
+**[!UICONTROL 대화 요약]** 시각화를 다시 구성하려면 **[!UICONTROL 지표: _지표_]**또는&#x200B;**[!UICONTROL 지표:_지표_]** 옆에 있는 ![편집](/help/assets/icons/Edit.svg)을 선택합니다. | **[!UICONTROL 세그먼트: _세그먼트_]**.
 
 ## 사용
 
