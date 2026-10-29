@@ -48,13 +48,13 @@ ht-degree: 1%
 <!--
 FOLLOW-UP: Coworker permissions are still being finalized. The Coworker permission name below is a placeholder. Confirm the name, category, and Admin Console steps with the SME.
 
-* **Permissions**: In the [!UICONTROL Adobe Admin Console], the [!UICONTROL Reporting Tools] **[!UICONTROL Coworker]** permission determines access to Coworker. A [product profile administrator](https://helpx.adobe.com/enterprise/using/manage-product-profiles.html) must add this permission to your product profile. For more information, see [Access control](/help/technotes/access-control.md#access-control).
+* **Permissions**: In the [!UICONTROL Adobe Admin Console], the [!UICONTROL Reporting Tools] **[!UICONTROL Coworker]** permission determines access to Coworker. A [product profile administrator](https://helpx.adobe.com/kr/enterprise/using/manage-product-profiles.html) must add this permission to your product profile. For more information, see [Access control](/help/technotes/access-control.md#access-control).
 
 -->
 
 ### Workspace의 Coworker와 Coworker 애플리케이션 중 선택
 
-Coworker의 제품 내 경험에는 액세스 권한이 있는 기술을 포함하여 [CX Enterprise Coworker 애플리케이션](https://experienceleague.adobe.com/en/docs/coworker/content/chat/use-cases/data-insights/analytics-chat)과(와) 동일한 기능이 많이 있습니다. 그러나 둘 중 하나를 사용할 수 있는 시기를 결정하는 중요한 차이점이 있습니다.
+Coworker의 제품 내 경험에는 액세스 권한이 있는 기술을 포함하여 [CX Enterprise Coworker 애플리케이션](https://experienceleague.adobe.com/ko/docs/coworker/content/chat/use-cases/data-insights/analytics-chat)과(와) 동일한 기능이 많이 있습니다. 그러나 둘 중 하나를 사용할 수 있는 시기를 결정하는 중요한 차이점이 있습니다.
 
 | | 동료에 대한 제품 내 경험 | 동료 응용 프로그램 |
 | --- | --- | --- |
