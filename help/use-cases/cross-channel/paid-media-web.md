@@ -47,7 +47,7 @@ ht-degree: 3%
 
 랜딩 페이지 URL 또는 기존 이벤트 필드에 ID가 표시되는 수준에서만 가입할 수 있습니다. 예를 들어 캠페인 전용 태깅은 캠페인 보고를 지원하지만 광고 수준 보고는 지원하지 않습니다. 경험 수준 및 에셋 수준 조인은 추가 URL 매개 변수를 필요로 하며 이 안내서에서 다루지 않습니다.
 
-참조하려면 [요약 데이터](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-dataviews/summary-data) 및 [요약 데이터 그룹 구성 요소 설정](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/component-settings/summary-data-group)을 참조하십시오.
+참조하려면 [요약 데이터](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-dataviews/summary-data) 및 [요약 데이터 그룹 구성 요소 설정](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-dataviews/component-settings/summary-data-group)을 참조하십시오.
 
 ### 조인 키 선택
 
@@ -81,7 +81,7 @@ GUID 구조는 `{adNetwork}_{accountID}[_{campaignID}[_{adGroupID}[_{adID}]]]`�
 * [!DNL Customer Journey Analytics] 여기에 사용된 파생 필드 함수에 대한 액세스 권한을 가진 이상 선택: [URL 구문 분석](/help/data-views/derived-fields/derived-fields.md#url-parse), [대소문자](/help/data-views/derived-fields/derived-fields.md#case-when), [정규식 바꾸기](/help/data-views/derived-fields/derived-fields.md#regex-replace) 및 이름 보강의 경우 [조회](/help/data-views/derived-fields/derived-fields.md#lookup).
 * 대상 샌드박스에서 스키마, 데이터 세트 및 데이터 스트림을 관리하고 확인을 위해 데이터 세트 및 쿼리 서비스에 액세스할 수 있는 [!DNL Adobe Experience Platform] 권한.
 * 대상 연결 및 데이터 보기를 편집할 수 있는 [!DNL Customer Journey Analytics] 권한입니다.
-* 동일한 샌드박스에 구성되어 요약 및 조회 데이터 세트를 수집하는 유료 미디어 소스 커넥터입니다. 예제 커넥터는 [Meta 광고 소스](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/advertising/meta-ads)를 참조하십시오.
+* 동일한 샌드박스에 구성되어 요약 및 조회 데이터 세트를 수집하는 유료 미디어 소스 커넥터입니다. 예제 커넥터는 [Meta 광고 소스](https://experienceleague.adobe.com/ko/docs/experience-platform/sources/connectors/advertising/meta-ads)를 참조하십시오.
 * 쿼리 문자열을 포함하여 전체 랜딩 페이지 URL을 캡처하거나 네트워크 ID를 포함하는 해당 필드를 캡처하는 웹 사이트 이벤트.
 
 
@@ -158,7 +158,7 @@ Content Analytics에서 관리하는 연결을 확장할 때 시스템에서 프
 1. 데이터스트림 이름을 지정하고 이벤트 스키마를 매핑 스키마로 선택합니다.
 1. 저장한 다음 **[!UICONTROL 서비스 추가]** > **[!UICONTROL Adobe Experience Platform]**&#x200B;을(를) 선택합니다.
 1. 샌드박스 및 이벤트 데이터 세트를 선택한 다음 **[!UICONTROL 저장]**&#x200B;을 선택합니다.
-1. 데이터 스트림 ID를 사용하여 [Experience Platform Web SDK](https://experienceleague.adobe.com/en/docs/experience-platform/collection/js/js-overview)을(를) 구성하십시오.
+1. 데이터 스트림 ID를 사용하여 [Experience Platform Web SDK](https://experienceleague.adobe.com/ko/docs/experience-platform/collection/js/js-overview)을(를) 구성하십시오.
 
 다음을 캡처합니다.
 
@@ -363,7 +363,7 @@ LIMIT 20;
 
 기존 보고서를 유지하려면 원래 **[!UICONTROL 주문]** 및 **[!UICONTROL 매출]** 지표를 변경하지 마십시오. 표시된 기본값이 일치하는 것처럼 보이는 경우에도 이 설정에서는 재정의를 명시적으로 활성화해야 합니다.
 
-재방문 간 전환 크레딧의 경우 대신 **[!UICONTROL 개인]** 컨테이너와 적절한 전환 확인 기간을 고려하십시오. [요약 데이터 사용 사례](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-usecases/data-views/summary-data)를 참조하세요.
+재방문 간 전환 크레딧의 경우 대신 **[!UICONTROL 개인]** 컨테이너와 적절한 전환 확인 기간을 고려하십시오. [요약 데이터 사용 사례](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-usecases/data-views/summary-data)를 참조하세요.
 
 웹 ID 차원에 지속성을 추가하는 대신 지표 속성을 사용하십시오. 랜딩 횟수로 해석되는 카운트가 부풀려지지 않도록 ID를 이후 이벤트에 유지하지 마십시오. 이렇게 하면 캠페인 행에 표시되는 이벤트가 변경됩니다.
 
