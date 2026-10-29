@@ -39,10 +39,10 @@ topic_v2:
     internal-label: Experimentation
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
     internal-label: Governance
-source-git-commit: 6283ecbeab12a19fd5b7229dff772afaaedf3296
+source-git-commit: f886069ac388da7985beac80cdaaa7bd0a506439
 workflow-type: tm+mt
-source-wordcount: '4133'
-ht-degree: 48%
+source-wordcount: '4342'
+ht-degree: 46%
 ---
 # 구성 요소 설정 {#component-settings}
 
@@ -71,19 +71,19 @@ ht-degree: 48%
 
 | 설정 | 설명/사용 사례 |
 | --- | --- |
-| [!UICONTROL 구성 요소 유형] | 필수. 구성 요소를 지표에서 Dimension 또는 그 반대로 변경할 수 있습니다. 이 드롭다운 선택 사항을 변경하면 구성 요소는 각 포함된 구성 요소 영역으로 전환됩니다. |
-| [!UICONTROL 구성 요소 이름] | 필수. Analysis Workspace에 표시되는 이름을 지정할 수 있습니다. 구성 요소의 이름을 변경하여 데이터 보기에 특정된 이름을 지정할 수 있습니다. |
-| [!UICONTROL 설명] | 선택 사항이지만 권장됨. 다른 사용자에게 구성 요소에 대한 정보를 제공합니다. |
-| [!UICONTROL 태그] | 선택 사항. Analysis Workspace UI에서 보다 쉽게 검색/필터링할 수 있도록 사용자 지정 태그 또는 즉시 사용 가능한 태그로 구성 요소에 태그를 지정할 수 있습니다. |
-| [!UICONTROL 컨텍스트 레이블] | 선택 사항. 구성 요소에 적용할 수 있는 시스템 정의 [컨텍스트 레이블](#context-labels)의 드롭다운 메뉴. |
-| [!UICONTROL 스키마 필드 이름] | 스키마 필드의 이름. |
-| [!UICONTROL 데이터 세트 유형] | 필수. 구성 요소의 원본 데이터 세트 유형(이벤트, 조회 또는 프로필)을 표시하는 편집 불가능한 필드입니다. |
-| [!UICONTROL 데이터 세트] | 구성 요소의 원본 데이터 세트를 표시하는 편집 불가능한 필드입니다. 이 필드에는 여러 개의 데이터 세트가 포함될 수 있습니다. |
-| [!UICONTROL 스키마 유형] | 구성 요소의 데이터 유형을 표시하는 편집 불가능한 필드입니다. Platform에서 지원되는 모든 스키마 필드 유형을 사용할 수 있지만 Customer Journey Analytics에서 모든 필드 유형이 지원되는 것은 아닙니다. 지원되는 데이터 유형은 `Integer`, `Int`, `Long`, `Double`, `Float`, `Number`, `Short`, `Byte`, `String`, `Boolean`입니다. 현재 조회 데이터 세트에서 `String` 스키마 데이터 유형만 허용됩니다. |
-| [!UICONTROL 구성 요소 ID] | 필수. [Customer Journey Analytics API](https://www.adobe.io/cja-apis/docs)는 이 필드를 사용하여 구성 요소를 참조합니다. 데이터 보기의 각 구성 요소는 고유해야 합니다. Adobe는 각 구성 요소의 ID를 자동으로 생성합니다. 그러나 편집 아이콘을 클릭하고 구성 요소 ID를 수정할 수 있습니다. 이 구성 요소 ID를 변경하면 이 구성 요소가 포함된 기존의 모든 Workspace 프로젝트가 중단됩니다. 각 구성 요소는 단일 데이터 보기에서 고유 ID가 필요하지만 다른 데이터 보기에서는 동일한 구성 요소 ID를 사용할 수 있습니다. 다른 데이터 보기에서 동일한 구성 요소 ID를 사용하는 경우 Workspace 프로젝트는 데이터 보기 간에 호환될 수 있습니다. <br/>프로필 및 조회 기반 구성 요소의 경우 구성 요소 ID에 데이터 세트 ID를 기반으로 하는 ID 접두사가 있습니다(예: `642b28fcc1f0ee1c074265a0.person.name.firstName`). Workspace 프로젝트에서 `person.name.firstName`과 같은 프로필 또는 조회 기반 구성 요소를 재사용하고 이 구성 요소를 다른 데이터 보기에서 구성하려면 데이터 보기 전체에서 구성 요소 ID의 이름을 고유하게 바꾸어야 합니다(예: `myUniqueID.person.name.firstName`). |
-| [!UICONTROL 경로] | 필수. 구성 요소의 원본 스키마 경로를 표시하는 편집 불가능한 필드입니다. |
-| [!UICONTROL 데이터 사용 레이블] | Adobe Experience Platform에서 이 구성 요소에 할당된 모든 데이터 사용 레이블. [자세히 알아보기](/help/data-views/data-governance.md) |
-| [!UICONTROL 보고에서 구성 요소 숨기기] | 관리자가 아닌 사용자가 Analysis Workspace의 구성 요소에 액세스할 수 없습니다. 관리자는 여전히 [!UICONTROL 모든 구성 요소 표시]를 클릭하여 액세스할 수 있습니다. 이 설정은 Analysis Workspace 인터페이스에만 적용되며 [CJA API](https://developer.adobe.com/cja-apis/docs/)를 통한 액세스를 제한하지 않습니다. |
+| **[!UICONTROL 구성 요소 유형]** | 필수. 구성 요소를 지표에서 Dimension 또는 그 반대로 변경할 수 있습니다. 이 드롭다운 선택 사항을 변경하면 구성 요소는 각 포함된 구성 요소 영역으로 전환됩니다. |
+| **[!UICONTROL 구성 요소 이름]** | 필수. Analysis Workspace에 표시되는 이름을 지정할 수 있습니다. 구성 요소의 이름을 변경하여 데이터 보기에 특정된 이름을 지정할 수 있습니다. |
+| **[!UICONTROL 설명]** | 선택 사항이지만 권장됨. 사용자가 구성 요소의 사용 방법을 알 수 있도록 의도된 기능에 대해 설명합니다. 설명은 [데이터 사전](/help/components/data-dictionary/data-dictionary-overview.md) 및 Customer Journey Analytics의 다른 영역에 있는 사용자에게 표시됩니다. <p>다음 방법 중 하나로 설명을 추가할 수 있습니다.</p><ul><li>수동으로 설명 입력</li><li>Adobe에서 설명을 생성하도록 하려면 **[!UICONTROL 설명 생성]**&#x200B;을 선택하십시오. <p>생성된 설명에는 **[!UICONTROL AI를 사용하여 Adobe에서 생성됨]** 텍스트가 포함되어 있으며 생성된 후에는 편집할 수 있습니다.</p><p>데이터 보기에 이미 저장된 지표 및 차원에 대한 설명만 생성할 수 있습니다. 파생된 필드의 경우 파생된 필드가 저장된 후 여기에서 설명을 생성합니다. 파생된 필드 빌더에서는 설명을 생성할 수 없습니다.</p><p>데이터 보기 내의 공유 지표 또는 차원에 대한 설명을 생성하면 설명이 공유되는 모든 데이터 보기에 설명이 적용됩니다.</p></li></ul><p>여러 구성 요소에 대한 설명을 동시에 생성하려면 다음을 수행합니다.</p><ol><li>(선택 사항) 기존 설명을 유지하려면 구성 요소 없이 구성 요소만 표시합니다. **[!UICONTROL 포함된 구성 요소]** 목록 위에 ![필터](/help/assets/icons/Filter.svg)를 선택한 다음 **[!UICONTROL 기타]**&#x200B;에서 **[!UICONTROL 설명 누락]**&#x200B;을 선택하고 **[!UICONTROL 적용]**&#x200B;을 선택합니다. 설명을 생성하면 기존 설명을 덮어씁니다.</li><li>**[!UICONTROL 포함된 구성 요소]** 목록에서 구성 요소를 선택하십시오.</li><li>**[!UICONTROL 설명 생성]**&#x200B;을 선택한 다음 **[!UICONTROL 설명 생성]**&#x200B;을 선택하여 확인하십시오.</li><li>데이터 보기를 저장합니다. 저장하면 설명이 생성됩니다.</li></ol><p>자세한 내용은 [자동으로 설명 생성](/help/components/add-component-descriptions.md#automatically-generate-descriptions)을 참조하세요.</p> |
+| **[!UICONTROL 태그]** | 선택 사항. Analysis Workspace UI에서 보다 쉽게 검색/필터링할 수 있도록 사용자 지정 태그 또는 즉시 사용 가능한 태그로 구성 요소에 태그를 지정할 수 있습니다. |
+| **[!UICONTROL 컨텍스트 레이블]** | 선택 사항. 구성 요소에 적용할 수 있는 시스템 정의 [컨텍스트 레이블](#context-labels)의 드롭다운 메뉴. |
+| **[!UICONTROL 스키마 필드 이름]** | 스키마 필드의 이름. |
+| **[!UICONTROL 데이터 세트 유형]** | 필수. 구성 요소의 원본 데이터 세트 유형(이벤트, 조회 또는 프로필)을 표시하는 편집 불가능한 필드입니다. |
+| **[!UICONTROL 데이터 세트]** | 구성 요소의 원본 데이터 세트를 표시하는 편집 불가능한 필드입니다. 이 필드에는 여러 개의 데이터 세트가 포함될 수 있습니다. |
+| **[!UICONTROL 스키마 유형]** | 구성 요소의 데이터 유형을 표시하는 편집 불가능한 필드입니다. Platform에서 지원되는 모든 스키마 필드 유형을 사용할 수 있지만 Customer Journey Analytics에서 모든 필드 유형이 지원되는 것은 아닙니다. 지원되는 데이터 유형은 `Integer`, `Int`, `Long`, `Double`, `Float`, `Number`, `Short`, `Byte`, `String`, `Boolean`입니다. 현재 조회 데이터 세트에서 `String` 스키마 데이터 유형만 허용됩니다. |
+| **[!UICONTROL 구성 요소 ID]** | 필수. [Customer Journey Analytics API](https://www.adobe.io/cja-apis/docs)는 이 필드를 사용하여 구성 요소를 참조합니다. 데이터 보기의 각 구성 요소는 고유해야 합니다. Adobe는 각 구성 요소의 ID를 자동으로 생성합니다. 그러나 편집 아이콘을 클릭하고 구성 요소 ID를 수정할 수 있습니다. 이 구성 요소 ID를 변경하면 이 구성 요소가 포함된 기존의 모든 Workspace 프로젝트가 중단됩니다. 각 구성 요소는 단일 데이터 보기에서 고유 ID가 필요하지만 다른 데이터 보기에서는 동일한 구성 요소 ID를 사용할 수 있습니다. 다른 데이터 보기에서 동일한 구성 요소 ID를 사용하는 경우 Workspace 프로젝트는 데이터 보기 간에 호환될 수 있습니다. <br/>프로필 및 조회 기반 구성 요소의 경우 구성 요소 ID에 데이터 세트 ID를 기반으로 하는 ID 접두사가 있습니다(예: `642b28fcc1f0ee1c074265a0.person.name.firstName`). Workspace 프로젝트에서 `person.name.firstName`과 같은 프로필 또는 조회 기반 구성 요소를 재사용하고 이 구성 요소를 다른 데이터 보기에서 구성하려면 데이터 보기 전체에서 구성 요소 ID의 이름을 고유하게 바꾸어야 합니다(예: `myUniqueID.person.name.firstName`). |
+| **[!UICONTROL 경로]** | 필수. 구성 요소의 원본 스키마 경로를 표시하는 편집 불가능한 필드입니다. |
+| **[!UICONTROL 데이터 사용 레이블]** | Adobe Experience Platform에서 이 구성 요소에 할당된 모든 데이터 사용 레이블. [자세히 알아보기](/help/data-views/data-governance.md) |
+| **[!UICONTROL 보고에서 구성 요소 숨기기]** | 관리자가 아닌 사용자가 Analysis Workspace의 구성 요소에 액세스할 수 없습니다. 관리자는 여전히 [!UICONTROL 모든 구성 요소 표시]를 클릭하여 액세스할 수 있습니다. 이 설정은 Analysis Workspace 인터페이스에만 적용되며 [CJA API](https://developer.adobe.com/cja-apis/docs/)를 통한 액세스를 제한하지 않습니다. |
 
 {style="table-layout:auto"}
 
@@ -91,10 +91,9 @@ ht-degree: 48%
 
 >[!BEGINSHADEBOX]
 
-데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [구성 요소 유형 설정](https://experienceleague.adobe.com/ko/docs/customer-journey-analytics-learn/tutorials/data-views/component-type-settings-in-data-views){target="_blank"}을 확인하십시오.
+데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [구성 요소 유형 설정](https://experienceleague.adobe.com/en/docs/customer-journey-analytics-learn/tutorials/data-views/component-type-settings-in-data-views){target="_blank"}을 확인하십시오.
 
 >[!ENDSHADEBOX]
-
 
 ## 컨텍스트 레이블
 
@@ -187,19 +186,19 @@ Adobe에서 제공하는 프로젝트 템플릿을 간소화하기 위해 Journe
 
 | 이름 | 설명 |
 |------|-------------|
-| [콘텐츠 ID](https://experienceleague.adobe.com/ko/docs/media-analytics/using/reporting/dimensions/content) | 재생 중인 콘텐츠에 대한 고유 식별자. [미디어 분당 평균 시청 시간](/help/analysis-workspace/c-panels/average-minute-audience-panel.md) 패널에서 **[!UICONTROL 콘텐츠 ID]** 라디오 단추를 사용하도록 설정합니다. |
-| [콘텐츠 체류 시간](https://experienceleague.adobe.com/ko/docs/media-analytics/using/reporting/metrics/content-time-spent) | 광고를 제외한 콘텐츠를 보는 데 소요된 시간입니다. [미디어 분당 평균 시청 시간](/help/analysis-workspace/c-panels/average-minute-audience-panel.md) 패널에서 **[!UICONTROL 콘텐츠 체류 시간]** 고급 설정을 실행합니다. |
-| [에피소드](https://experienceleague.adobe.com/ko/docs/media-analytics/using/reporting/dimensions/episode) | 시리즈 내 에피소드 번호. [미디어 분당 평균 시청 시간](/help/analysis-workspace/c-panels/average-minute-audience-panel.md) 패널에서 에피소드별 필터링을 활성화합니다. |
+| [콘텐츠 ID](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/content) | 재생 중인 콘텐츠에 대한 고유 식별자. [미디어 분당 평균 시청 시간](/help/analysis-workspace/c-panels/average-minute-audience-panel.md) 패널에서 **[!UICONTROL 콘텐츠 ID]** 라디오 단추를 사용하도록 설정합니다. |
+| [콘텐츠 체류 시간](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/content-time-spent) | 광고를 제외한 콘텐츠를 보는 데 소요된 시간입니다. [미디어 분당 평균 시청 시간](/help/analysis-workspace/c-panels/average-minute-audience-panel.md) 패널에서 **[!UICONTROL 콘텐츠 체류 시간]** 고급 설정을 실행합니다. |
+| [에피소드](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/episode) | 시리즈 내 에피소드 번호. [미디어 분당 평균 시청 시간](/help/analysis-workspace/c-panels/average-minute-audience-panel.md) 패널에서 에피소드별 필터링을 활성화합니다. |
 | 이벤트 유형 | 미디어 이벤트 유형(예: `media.play` 또는 `media.ping`). Customer Journey Analytics에서 [미디어 동시 뷰어](/help/analysis-workspace/c-panels/media-concurrent-viewers.md) 파생 지표를 계산하는 데 필요합니다. |
-| [미디어 사용 시간](https://experienceleague.adobe.com/ko/docs/media-analytics/using/reporting/metrics/media-time-spent) | 콘텐츠, 광고, 버퍼링 및 일시 중지를 포함한 총 시간입니다. [미디어 분당 평균 시청 시간](/help/analysis-workspace/c-panels/average-minute-audience-panel.md) 패널에서 [미디어 재생 소요 시간](/help/analysis-workspace/c-panels/media-playback-time-spent.md) 패널 및 **[!UICONTROL 미디어 소요 시간]** 고급 설정을 실행합니다. |
-| [시즌](https://experienceleague.adobe.com/ko/docs/media-analytics/using/reporting/dimensions/season) | 시리즈 내의 시즌 번호입니다. [미디어 분당 평균 시청 시간](/help/analysis-workspace/c-panels/average-minute-audience-panel.md) 패널에서 시즌별 필터링을 활성화합니다. |
+| [미디어 사용 시간](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/media-time-spent) | 콘텐츠, 광고, 버퍼링 및 일시 중지를 포함한 총 시간입니다. [미디어 분당 평균 시청 시간](/help/analysis-workspace/c-panels/average-minute-audience-panel.md) 패널에서 [미디어 재생 소요 시간](/help/analysis-workspace/c-panels/media-playback-time-spent.md) 패널 및 **[!UICONTROL 미디어 소요 시간]** 고급 설정을 실행합니다. |
+| [시즌](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/season) | 시리즈 내의 시즌 번호입니다. [미디어 분당 평균 시청 시간](/help/analysis-workspace/c-panels/average-minute-audience-panel.md) 패널에서 시즌별 필터링을 활성화합니다. |
 | 마지막 통화 이후 지난 시간 (초) | 이전 하트비트 Ping 이후 경과된 시간(초)입니다. Customer Journey Analytics에서 세션이 여전히 활성 상태인 시기를 식별하는 [미디어 동시 뷰어](/help/analysis-workspace/c-panels/media-concurrent-viewers.md) 파생 지표를 계산하는 데 필요합니다. |
-| [표시](https://experienceleague.adobe.com/ko/docs/media-analytics/using/reporting/dimensions/show) | 프로그램 또는 시리즈 이름. [미디어 분당 평균 시청 시간](/help/analysis-workspace/c-panels/average-minute-audience-panel.md) 패널에 표시별로 필터링을 사용하도록 설정합니다. |
-| [시작 시간](https://experienceleague.adobe.com/ko/docs/media-analytics/using/reporting/metrics/time-to-start) | 컨텐츠 선택 시점부터 재생이 시작되는 시점까지의 시간입니다. [미디어 재생 소요 시간](/help/analysis-workspace/c-panels/media-playback-time-spent.md) 계산에 포함됩니다. |
-| [총 버퍼 지속 시간](https://experienceleague.adobe.com/ko/docs/media-analytics/using/reporting/metrics/total-buffer-duration) | 세션 중 버퍼링에 소요된 총 시간입니다. [미디어 재생 소요 시간](/help/analysis-workspace/c-panels/media-playback-time-spent.md) 계산에 포함됩니다. |
-| [총 일시 중단 기간](https://experienceleague.adobe.com/ko/docs/media-analytics/using/reporting/metrics/total-pause-duration) | 세션 중 일시 중지된 총 체류 시간. [미디어 재생 소요 시간](/help/analysis-workspace/c-panels/media-playback-time-spent.md) 계산에 포함됩니다. |
-| [비디오 길이](https://experienceleague.adobe.com/ko/docs/media-analytics/using/reporting/dimensions/content-length) | 콘텐츠의 기간(초)입니다. [미디어 분당 평균 시청 시간](/help/analysis-workspace/c-panels/average-minute-audience-panel.md) 패널의 **[!UICONTROL 특정 콘텐츠]** 모드에 필요합니다. |
-| [비디오 이름](https://experienceleague.adobe.com/ko/docs/media-analytics/using/reporting/dimensions/content-name) | 콘텐츠의 표시 이름입니다. [미디어 분당 평균 시청 시간](/help/analysis-workspace/c-panels/average-minute-audience-panel.md) 패널에서 **[!UICONTROL 비디오 이름]** 라디오 단추를 사용하도록 설정합니다. |
+| [표시](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/show) | 프로그램 또는 시리즈 이름. [미디어 분당 평균 시청 시간](/help/analysis-workspace/c-panels/average-minute-audience-panel.md) 패널에 표시별로 필터링을 사용하도록 설정합니다. |
+| [시작 시간](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/time-to-start) | 컨텐츠 선택 시점부터 재생이 시작되는 시점까지의 시간입니다. [미디어 재생 소요 시간](/help/analysis-workspace/c-panels/media-playback-time-spent.md) 계산에 포함됩니다. |
+| [총 버퍼 지속 시간](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/total-buffer-duration) | 세션 중 버퍼링에 소요된 총 시간입니다. [미디어 재생 소요 시간](/help/analysis-workspace/c-panels/media-playback-time-spent.md) 계산에 포함됩니다. |
+| [총 일시 중단 기간](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/total-pause-duration) | 세션 중 일시 중지된 총 체류 시간. [미디어 재생 소요 시간](/help/analysis-workspace/c-panels/media-playback-time-spent.md) 계산에 포함됩니다. |
+| [비디오 길이](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/content-length) | 콘텐츠의 기간(초)입니다. [미디어 분당 평균 시청 시간](/help/analysis-workspace/c-panels/average-minute-audience-panel.md) 패널의 **[!UICONTROL 특정 콘텐츠]** 모드에 필요합니다. |
+| [비디오 이름](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/content-name) | 콘텐츠의 표시 이름입니다. [미디어 분당 평균 시청 시간](/help/analysis-workspace/c-panels/average-minute-audience-panel.md) 패널에서 **[!UICONTROL 비디오 이름]** 라디오 단추를 사용하도록 설정합니다. |
 
 +++
 

@@ -26,7 +26,7 @@ role_v2:
 topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
     internal-label: Governance
-source-git-commit: d16771a675504a6330a59478f15bf6112ae444d6
+source-git-commit: a80a12b061bee5165667b361a9e4bc1888d86c95
 workflow-type: tm+mt
 source-wordcount: '1337'
 ht-degree: 2%
@@ -39,7 +39,7 @@ ht-degree: 2%
 
 ## 권한
 
-* [제품 관리자](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/technotes/access-control#product-administrator-role)도 [Experience Platform 권한](https://experienceleague.adobe.com/ko/docs/experience-platform/access-control/home#permissions)의 모든 샌드박스에 대해 **데이터 사용 정책 관리** 및 **데이터 사용 정책 보기** 권한이 필요합니다.
+* [제품 관리자](https://experienceleague.adobe.com/en/docs/analytics-platform/using/technotes/access-control#product-administrator-role)도 [Experience Platform 권한](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/home#permissions)의 모든 샌드박스에 대해 **데이터 사용 정책 관리** 및 **데이터 사용 정책 보기** 권한이 필요합니다.
 
 ## 워크플로
 
@@ -49,7 +49,7 @@ ht-degree: 2%
 1. 동일한 구성 요소 ID를 사용하지만 구성 요소 설정이 다른 모든 구성 요소를 검토합니다. 각 중복 구성 요소 그룹에 대해 해당 구성 요소 ID를 공유하는 다른 모든 구성 요소에 적용할 원하는 구성 요소 설정을 선택합니다.
 1. 동일한 구성 요소 ID를 사용하고 동일한 구성 요소 설정을 갖는 모든 구성 요소를 검토하십시오. 이러한 차원 또는 지표를 쉽고 안전하게 병합할 수 있습니다.
 
-## [!UICONTROL 공유된 지표 및 차원] 관리자
+## [!UICONTROL 공유된 지표 및 차원] 관리자 {#smd-manager}
 
 **[!UICONTROL Customer Journey Analytics]** > **[!UICONTROL 데이터 보기]** > **[!UICONTROL 공유 지표 및 차원]**
 
