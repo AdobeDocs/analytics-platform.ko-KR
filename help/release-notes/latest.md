@@ -49,14 +49,14 @@ topic_v2:
     internal-label: Implementation
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 9a829e9842d73bbc94b00c7470e50eaddf22f50c
+source-git-commit: 0a94f32e9c8568f12ae7d788dff7b4106d6f1d67
 workflow-type: tm+mt
-source-wordcount: '1075'
-ht-degree: 21%
+source-wordcount: '1180'
+ht-degree: 19%
 ---
 # 최신 Customer Journey Analytics 릴리스 정보 (2026년 10월)
 
-**마지막 업데이트**: 2026년 10월 22일
+**마지막 업데이트**: 2026년 10월 29일
 
 이 릴리스 정보는 2026년 10월 릴리스 기간을 다룹니다. Adobe Customer Journey Analytics 릴리스는 기능 배포에 대한 보다 확장 가능한 단계별 접근 방식을 고려하는 [연속 게재 모델](releases.md)에서 작동합니다. 따라서 이들 릴리스 정보는 월별로 여러 차례 업데이트됩니다. 이들 릴리스 정보를 정기적으로 확인하십시오.
 
@@ -68,6 +68,7 @@ ht-degree: 21%
 | **대화 통찰력을 사용하여 Analysis Workspace에서 LLM 고객 경험 분석**<br/> Customer Journey Analytics은 이제 구조화되지 않은 채팅 데이터를 Analysis Workspace으로 가져와서 사용자의 자산 전체에서 발생하는 LLM 기반 탐색 및 구매 경험을 보고할 수 있습니다.<p>이 기능을 사용하여 다음과 같은 작업을 수행할 수 있습니다.</p><ul><li>Web SDK을 통해 대화형 에이전트(조직의 사용자 지정 에이전트 또는 Adobe Brand Concierge)의 프롬프트, 응답 및 에이전트 메타데이터를 수집합니다.</li><li>고객이 무엇을 묻고 있는지, 에이전트가 어떻게 반응하는지, 고객이 상호 작용에 대해 어떻게 느끼는지 이해할 수 있도록 의도, 톤 및 감정을 분석합니다.</li><li>기존 스키마, 데이터 세트 및 데이터 보기를 사용하여 규모에 맞게 분석한 다음 Analysis Workspace에서 통찰력을 표시합니다.</li><li>상담원 상호 작용을 더 광범위한 고객 여정과 연결하여 대화를 결과와 연결하여 전환, 참여 등에 대한 실질적인 영향을 측정할 수 있습니다.</li></ul><p>이전에는 LLM 기반 여정을 측정하기가 어렵고 기존 고객 경험에 연결하는 것이 거의 불가능했습니다.</p><p>자세한 내용은 [대화 인사이트](/help/conversation-insights/overview.md)를 참조하십시오.</p> | 2026년 10월 29일<p>(원래 2026년 9월 22일로 계획됨)</p> | TBD |
 | **Adobe Brand Visibility 통합**<br/> AI 기반 검색이 실제 웹 사이트 참여 및 비즈니스 성과로 이어지는 방식을 측정할 수 있도록 Adobe Brand Visibility을 조직의 Customer Journey Analytics 데이터와 연결합니다.<p>자세한 내용은 [Adobe Brand Visibility 통합](/help/integrations/bv/bv.md)을 참조하세요.</p> | | 2026년 10월 8일 |
 | **여정 캔버스: 백분율 비교**<br/>&#x200B;여정을 이전 기간과 비교할 때 이제 새로운 [!UICONTROL 백분율 비교] 옵션을 활성화하여 각 노드, 화살표 및 폴아웃의 백분율 점수 변경을 표시할 수 있습니다. 이 기능은 여정의 사람 수가 날짜 범위 간에 다른 경우에도 비교가 정확하게 유지되므로 노드 간 유지나 폴아웃과 같은 비율을 비교할 때 유용합니다.<p>자세한 내용은 [여정 캔버스 시각화 구성](/help/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md#configure-visualization-settings)에서 &quot;백분율 비교&quot;를 참조하십시오.</p> | | 2026년 10월 19일 |
+| **시각화에 있는 간결한 범례 레이블**<br/>&#x200B;이제 시각화 범례 레이블을 줄여서 한눈에 구분할 수 있습니다. [!UICONTROL 간결한 레이블] 설정은 모든 레이블이 공유하는 지표, 세그먼트, 차원 항목 또는 날짜 범위 이름을 제거하여 한 레이블을 다른 레이블과 구분하는 정보에 지능적으로 중점을 둡니다.<p>간결한 레이블 없이 모든 범례 레이블은 공유된 이름을 반복하므로 마우스를 가져갈 때만 차이가 표시되는 긴 레이블을 만들 수 있습니다.</p><p>간결한 레이블은 기본적으로 꺼져 있으며 스택 버전을 비롯한 영역, 막대, 콤보, 도넛, 막대 그래프, 가로 막대, 선 및 벤 시각화에 사용할 수 있습니다.</p><p>자세한 내용은 [간결한 레이블](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#concise-labels)을 참조하십시오.</p> | | 2026년 10월 29일 |
 | **구성 요소 및 프로젝트에 대한 설명을 자동으로 생성합니다.** <br/>이제 차원, 지표, 계산된 지표, 세그먼트 및 날짜 범위에 대한 설명을 자동으로 생성할 수 있습니다. 이를 통해 Workspace 사용자는 특히 큰 구성 요소 라이브러리가 있는 조직에서 사용할 구성 요소를 이해할 수 있습니다. <p>단일 구성 요소에 대한 설명을 생성하거나 동시에 여러 구성 요소에 대한 설명을 생성할 수 있습니다. 자세한 내용은 [자동으로 설명 생성](/help/components/add-component-descriptions.md#automatically-generate-descriptions)을 참조하세요.</p><p>[프로젝트를 저장](/help/analysis-workspace/build-workspace-project/save-projects.md)하거나 [프로젝트 정보 및 설정](/help/analysis-workspace/build-workspace-project/create-projects.md#project-info-settings)에서 Workspace 프로젝트에 대한 설명을 생성할 수도 있습니다.</p> | 2026년 10월 29일 | 2026년 11월 11일 |
 | **동료의 제품 내 경험**<br/>&#x200B;이제 Analysis Workspace의 채팅 패널에서 동료가 사용할 수 있습니다. 동료는 사용자가 연 프로젝트를 컨텍스트로 사용하므로 프로젝트에 포함된 내용을 설명하지 않고도 분석에 대한 질문을 할 수 있습니다.<p>Coworker의 제품 내 경험을 사용하여 다음을 수행할 수 있습니다.</p><ul><li>열려 있는 프로젝트를 요약하고 통찰력을 찾은 다음 근본 원인 분석을 실행합니다.</li><li>자연어 프롬프트로 프로젝트를 빌드하고 편집합니다. 예를 들어, 패널 및 테이블을 추가하고, 데이터를 분류하고, 시각화 유형 및 날짜 범위를 변경하고, 세그먼트를 만들 수 있습니다.</li></ul><p>(참조할 설명서 업데이트)<!-- For more information, see [Use the in-product experience for Coworker](/help/analysis-workspace/coworker.md). --></p> | TBD(원래 2026년 10월 15일로 계획됨) | TBD |
 
