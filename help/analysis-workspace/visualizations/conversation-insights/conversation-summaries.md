@@ -4,7 +4,7 @@ title: 대화 요약
 feature: Visualizations
 role: User
 hide: true
-source-git-commit: 2cca5dfaec6be8f22308e09a023e9e57bec387b7
+source-git-commit: 113a215e26092c65d6eaf2c321f60d3f3a5015b8
 workflow-type: tm+mt
 source-wordcount: '351'
 ht-degree: 20%
@@ -21,6 +21,7 @@ ht-degree: 20%
 >title="대화 요약"
 >abstract="필터링된 대화 그룹을 요약합니다. 요약 길이를 제어합니다. 추출된 신호의 정확성을 검증하려면 고객의 대표 구문을 확인합니다. 전체 대화 재생을 열려면 견적을 선택하십시오."
 
+{{release-limited-testing}}
 
 ![요약](/help/assets/icons/Summarize.svg) **[!UICONTROL 대화 요약]** 시각화를 사용하면 필터링된 대화 그룹을 요약할 수 있습니다.
 

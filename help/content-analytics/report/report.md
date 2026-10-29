@@ -33,9 +33,9 @@ topic_v2:
     internal-label: Reporting
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: cd12bd7f6943be6c58694af1374d32a1639d1578
+source-git-commit: 62a6bb436d59ab7a5a7be515afbe1f5f0f7817ee
 workflow-type: tm+mt
-source-wordcount: '1643'
+source-wordcount: '1650'
 ht-degree: 43%
 ---
 
@@ -228,4 +228,5 @@ Content Analytics은 AI 및 GenAI를 사용하여 모든 에셋에 제목, 장�
 >
 >[Content Analytics 구성 요소](components.md)
 >[템플릿 사용](/help/analysis-workspace/templates/use-templates.md#web-engagement)
+>[웹 데이터를 사용하여 유료 미디어 데이터에 가입](/help/use-cases/cross-channel/paid-media-web.md)
 >

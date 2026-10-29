@@ -3,11 +3,10 @@ title: Customer Journey Analytics에서 유료 미디어 데이터를 웹 데이
 description: 유료 미디어 요약 데이터를 Adobe Customer Journey Analytics의 웹 사이트 이벤트와 연결하여 광고 지출, 클릭 수, 주문, 매출 및 광고 지출 수익률을 비교할 수 있습니다.
 solution: Customer Journey Analytics
 feature: Use Cases
-hide: true
 role: Admin
-source-git-commit: 11bc93e0adabd8e8109bda1734e1a098ce8bef1e
+source-git-commit: 62a6bb436d59ab7a5a7be515afbe1f5f0f7817ee
 workflow-type: tm+mt
-source-wordcount: '3907'
+source-wordcount: '3912'
 ht-degree: 3%
 ---
 # 웹 데이터를 사용하여 유료 미디어 데이터 가입
@@ -45,7 +44,12 @@ ht-degree: 3%
 
 ## 보고 조인 이해
 
-랜딩 페이지 URL 또는 기존 이벤트 필드에 ID가 표시되는 수준에서만 가입할 수 있습니다. 예를 들어 캠페인 전용 태깅은 캠페인 보고를 지원하지만 광고 수준 보고는 지원하지 않습니다. 경험 수준 및 에셋 수준 조인은 추가 URL 매개 변수를 필요로 하며 이 안내서에서 다루지 않습니다.
+랜딩 페이지 URL 또는 기존 이벤트 필드에 ID가 표시되는 수준에서만 가입할 수 있습니다. 예를 들어 캠페인 전용 태깅은 캠페인 보고를 지원하지만 광고 수준 보고는 지원하지 않습니다.
+
+>[!NOTE]
+>
+>Content Analytics 경험 수준 및 에셋 수준 조인은 추가 URL 매개 변수를 필요로 하며 이 안내서에서 다루지 않습니다.
+
 
 참조하려면 [요약 데이터](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-dataviews/summary-data) 및 [요약 데이터 그룹 구성 요소 설정](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-dataviews/component-settings/summary-data-group)을 참조하십시오.
 
@@ -93,7 +97,7 @@ GUID 구조는 `{adNetwork}_{accountID}[_{campaignID}[_{adGroupID}[_{adID}]]]`�
 |---|---|---|---|
 | 웹 사이트 URL의 Meta ID | <code>campaign_id={{campaign.id}}</code> | <code>adset_id={{adset.id}}</code> | <code>ad_id={{ad.id}}</code> |
 | UTM 매개 변수의 Meta ID | <code>utm_campaign={{campaign.id}}</code> | <code>utm_term={{adset.id}}</code> | <code>utm_content={{ad.id}}</code> |
-| UTM 매개 변수의 Google 광고 ID | <code>utm_campaign={campaignid}</code> | <code>utm_term={adgroupid}</code> | <code>utm_content={creative}</code> |
+| UTM 매개 변수의 Google 광고 ID | <code>utm_campaign={{campaignid}}</code> | <code>utm_term={{adgroupid}}</code> | <code>utm_content={{creative}}</code> |
 
 Meta UTM 태깅의 경우 `utm_source=fb`과(와) 같은 소스 값이 네트워크를 식별할 수 있습니다. Google Ads UTM 태그 지정의 경우 `utm_source=google`과(와) 같은 소스 값을 사용하십시오.
 
@@ -122,10 +126,10 @@ AL!<id>!3!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{k
 
 | | 시작점 | 기존 구성 | 따라야 할 단계 |
 |---|---|---|---|
-| A | 웹 또는 모바일 및 유료 미디어가 있는 Content Analytics | 유료 미디어 데이터 세트 및 구성 요소와 Content Analytics 이벤트 및 조회 데이터 세트 | 필요한 경우 웹 사이트 이벤트 데이터 세트를 추가한 다음 웹에서 파생된 필드 및 보고 그룹을 구성합니다 |
-| B | 유료 미디어만 있는 Content Analytics | 유료 미디어 데이터 세트 및 구성 요소. 공유 컨텐츠 조회 데이터 세트가 있을 수도 있습니다. | 웹 사이트 이벤트 데이터 세트를 추가한 다음 웹에서 파생된 필드 및 보고 그룹을 구성합니다 |
-| C | Content Analytics 프로비저닝 없이 유료 미디어 | 유료 미디어 데이터 세트가 Experience Platform에 있지만 연결 및 데이터 보기에 유료 미디어 구성이 포함되어 있지 않습니다 | 웹 사이트 및 유료 미디어 데이터 세트를 추가한 다음 유료 미디어 및 웹 구성 요소를 만듭니다 |
-| D | 유료 미디어가 없는 Content Analytics | Content Analytics 구성 요소만 해당 | Content Analytics 구성에서 유료 미디어 채널을 활성화한 다음 기존 구성 경로를 따릅니다 |
+| A | 웹 또는 모바일 및 유료 미디어가 있는 Content Analytics | [유료 미디어 데이터 세트 및 구성 요소](/help/content-analytics/config/paid-media.md), Content Analytics 이벤트 및 조회 데이터 세트. | 필요한 경우 웹 사이트 이벤트 데이터 세트를 추가한 다음 웹에서 파생된 필드 및 보고 그룹을 구성합니다. |
+| B | 유료 미디어만 있는 Content Analytics | [유료 미디어 데이터 세트 및 구성 요소](/help/content-analytics/config/paid-media.md); 공유 콘텐츠 조회 데이터 세트도 있을 수 있습니다. | 웹 사이트 이벤트 데이터 세트를 추가한 다음 웹에서 파생된 필드 및 보고 그룹을 구성합니다. |
+| C | Content Analytics 프로비저닝 없이 유료 미디어 | 유료 미디어 데이터 세트가 Experience Platform에 있지만 연결 및 데이터 보기에 유료 미디어 구성이 포함되어 있지 않습니다. | 웹 사이트 및 유료 미디어 데이터 세트를 추가한 다음 유료 미디어 및 웹 구성 요소를 만듭니다. |
+| D | 유료 미디어가 없는 Content Analytics | Content Analytics 구성 요소만 해당. | Content Analytics 구성에서 유료 미디어 채널을 활성화한 다음 기존 구성 경로를 따릅니다. |
 
 Content Analytics에서 관리하는 연결을 확장할 때 시스템에서 프로비저닝한 데이터 세트 또는 읽기 전용 구성 요소를 제거하거나 수정하지 마십시오.
 
@@ -143,10 +147,10 @@ Content Analytics에서 관리하는 연결을 확장할 때 시스템에서 프
 
    | 필드 그룹 | 필수 데이터 |
    |---|---|
-   | AEP 웹 SDK ExperienceEvent | 페이지 URL, 페이지 보기, 레퍼러 및 기타 웹 컨텍스트 |
-   | Commerce 세부 정보 | 구매 수, 주문 가격, 통화, 구매 ID 및 제품 세부 정보 |
-   | 캠페인 마케팅 세부 정보, 선택 사항 | 구현에서 별도로 캡처하는 경우 추적 코드 |
-   | IdentityMap(아직 없는 경우) | 개인 식별자(예: ECID) |
+   | AEP 웹 SDK ExperienceEvent | 페이지 URL, 페이지 보기, 레퍼러 및 기타 웹 컨텍스트. |
+   | Commerce 세부 정보 | 구매 수, 주문 가격, 통화, 구매 ID 및 제품 세부 정보. |
+   | 캠페인 마케팅 세부 정보, 선택 사항 | 구현 시 별도로 캡처하는 경우 코드를 추적합니다. |
+   | IdentityMap(아직 없는 경우) | 개인 식별자(예: ECID). |
 
 1. 스키마를 저장합니다. 이 보고 사용 사례에는 프로필 활성화가 필요하지 않습니다.
 1. **[!UICONTROL 데이터 관리]** > **[!UICONTROL 데이터 세트]** > **[!UICONTROL 데이터 세트 만들기]** > **[!UICONTROL 스키마에서 데이터 세트 만들기]**(으)로 이동합니다.
@@ -195,11 +199,11 @@ LIMIT 20;
 
    | 설정 | 값 |
    |---|---|
-   | 개인 ID | ECID 네임스페이스 또는 구현의 개인 ID 필드가 있는 `identityMap` |
+   | 개인 ID | ECID 네임스페이스 또는 구현의 개인 ID 필드가 있는 `identityMap`. |
    | 타임스탬프 | `timestamp` |
    | 데이터 소스 유형 | 웹 데이터 |
    | 모든 새 데이터 가져오기 | 활성화됨 |
-   | 기존의 모든 데이터 다시 채우기 | 필요한 과거 기간에 대해 활성화됨 |
+   | 기존의 모든 데이터 다시 채우기 | 필요한 과거 기간에 대해 활성화됩니다. |
 
 1. 데이터 세트를 추가하고 연결을 저장합니다.
 
@@ -286,11 +290,11 @@ LIMIT 20;
 
 | 규칙 | 함수 | 구성 |
 |---|---|---|
-| 1 | [URL 구문 분석](/help/data-views/derived-fields/derived-fields.md#url-parse) | 페이지 URL에서 수준별 Meta 매개 변수 읽기 |
-| 2 | [URL 구문 분석](/help/data-views/derived-fields/derived-fields.md#url-parse) | 페이지 URL에서 수준별 UTM 매개 변수 읽기 |
-| 3 | [URL 구문 분석](/help/data-views/derived-fields/derived-fields.md#url-parse) | 페이지 URL에서 `s_kwcid` 읽기 |
-| 4 | [정규식 바꾸기](/help/data-views/derived-fields/derived-fields.md#regex-replace) | 규칙별 식을 규칙 3에 적용합니다. 출력 `$1` |
-| 5 | [다음의 경우](/help/data-views/derived-fields/derived-fields.md#case-when) | 규칙 3이 설정되면 반환 규칙 4를 반환하고, 규칙 1이 설정되면 반환 규칙 1을 반환하고, 그렇지 않으면 반환 규칙 2를 반환합니다 |
+| 1 | [URL 구문 분석](/help/data-views/derived-fields/derived-fields.md#url-parse) | 페이지 URL에서 수준별 Meta 매개 변수를 읽습니다. |
+| 2 | [URL 구문 분석](/help/data-views/derived-fields/derived-fields.md#url-parse) | 페이지 URL에서 수준별 UTM 매개 변수를 읽습니다. |
+| 3 | [URL 구문 분석](/help/data-views/derived-fields/derived-fields.md#url-parse) | 페이지 URL에서 `s_kwcid`을(를) 읽습니다. |
+| 4 | [정규식 바꾸기](/help/data-views/derived-fields/derived-fields.md#regex-replace) | 규칙 3; 출력 `$1`에 수준별 식을 적용합니다. |
+| 5 | [다음의 경우](/help/data-views/derived-fields/derived-fields.md#case-when) | 규칙 3이 설정되면 반환 규칙 4를 반환하고, 규칙 1이 설정되면 반환 규칙 1을 반환하고, 그렇지 않으면 반환 규칙 2를 반환합니다. |
 
 다음 값을 사용하십시오.
 
@@ -342,11 +346,11 @@ LIMIT 20;
 
 | 구성 요소 | 유형 | 스키마 필드 |
 |---|---|---|
-| 페이지 URL | 치수 | `web.webPageDetails.URL` |
+| 페이지 URL | 차원 | `web.webPageDetails.URL` |
 | 페이지 이름 | 차원 | `web.webPageDetails.name` |
 | 레퍼러 URL | 차원 | `web.webReferrer.URL` |
 | 이벤트 유형 | 차원 | `eventType` |
-| 제품 SKU | 치수 | `productListItems.SKU` |
+| 제품 SKU | 차원 | `productListItems.SKU` |
 | 제품 이름 | 차원 | `productListItems.name` |
 | 페이지 보기 횟수 | 지표 | `web.webPageDetails.pageViews.value` |
 | 장바구니에 추가 | 지표 | `commerce.productListAdds.value` |

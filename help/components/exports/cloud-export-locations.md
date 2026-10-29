@@ -25,7 +25,7 @@ role_v2:
 source-git-commit: bccb25182630e18943a52ceca621cdfd6696b819
 workflow-type: tm+mt
 source-wordcount: '3601'
-ht-degree: 15%
+ht-degree: 21%
 ---
 # 클라우드 내보내기 위치 구성 {#configure-cloud-export-locations}
 
@@ -43,7 +43,7 @@ ht-degree: 15%
 >[!CONTEXTUALHELP]
 >id="cja-export-file-name"
 >title="경로 또는 파일 이름"
->abstract="경로나 파일 이름(또는 둘 다)을 지정하여 선택한 위치 내에서 파일이 전송되는 위치를 파악합니다. 위치의 최상위 폴더에 파일을 저장하려면 `/`을(를) 지정하십시오.<br/>변수를 사용하여 경로나 파일 이름을 동적으로 만들 수 있습니다. <br/>예를 들어 `${yyyy}/${MM}/${dd}/my-report-${instance_id}-${idx}`을(를) 지정하는 경우 2027년 1월 15일에 이 위치로 전송되는 내보내기의 파일 경로와 이름은 다음과 같습니다. `[prefix_folder_name]/2027/01/15/my-report-[UUID]-1.csv` <br/>사용 가능한 변수 목록을 보려면 아래 링크를 선택하십시오."
+>abstract="경로 또는 파일(또는 둘 모두)의 이름을 지정하여 선택한 위치 내에서 파일이 전송되는 위치를 파악합니다. 위치의 최상위 폴더에 파일을 저장하려면 `/`를 지정하십시오.<br/>변수를 사용하여 경로나 파일 이름을 동적으로 만들 수 있습니다. <br/>예를 들어 `${yyyy}/${MM}/${dd}/my-report-${instance_id}-${idx}`를 지정하면 2026년 1월 15일에 이 위치로 전송되는 내보내기 파일 경로와 이름은 `[prefix_folder_name]/2027/01/15/my-report-[UUID]-1.csv`가 됩니다. <br/>사용 가능한 변수 목록을 보려면 아래 링크를 선택하십시오."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -52,7 +52,7 @@ ht-degree: 15%
 >[!CONTEXTUALHELP]
 >id="cja-export-file-name-override"
 >title="기본 경로 또는 파일 이름 재정의"
->abstract="이 위치에 설정된 기본 경로 또는 파일 이름을 무시하려면 이 옵션을 활성화합니다. 재정의는 이 데이터 피드에만 적용되며 데이터 피드 파일이 전송되는 위치를 결정합니다."
+>abstract="이 위치에 설정된 기본 경로 또는 파일 이름을 재정의하려면 이 옵션을 활성화하십시오. 재정의는 이 데이터 피드에만 적용되며 데이터 피드 파일이 전송되는 위치를 결정합니다."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -119,7 +119,7 @@ Customer Journey Analytics 보고서를 클라우드 대상([Analysis Workspace]
    | 필드 | 함수 |
    |---------|----------|
    | [!UICONTROL **접두사**] | 데이터를 넣을 컨테이너 내의 폴더입니다. 정적 폴더 이름을 지정한 다음 이름 뒤에 슬래시를 추가하여 폴더를 만듭니다. 예를 들어 `folder_name/` |
-   | [!UICONTROL **기본 경로 또는 파일 이름 재정의**] | 이 위치에 설정된 기본 경로 또는 파일 이름을 무시하려면 이 옵션을 활성화합니다. 이 옵션은 데이터 피드에 대한 위치를 사용하는 경우에만 사용할 수 있으며 데이터 피드 파일이 전송되는 위치를 결정합니다. 자세한 내용은 [데이터 피드 만들기](/help/components/exports/cja-data-feeds/create-feed.md#create-and-configure-data-feed)를 참조하세요. |
+   | [!UICONTROL **기본 경로 또는 파일 이름 재정의**] | 이 위치에 설정된 기본 경로 또는 파일 이름을 재정의하려면 이 옵션을 활성화하십시오. 이 옵션은 데이터 피드에 대한 위치를 사용하는 경우에만 사용할 수 있으며 데이터 피드 파일이 전송되는 위치를 결정합니다. 자세한 내용은 [데이터 피드 만들기](/help/components/exports/cja-data-feeds/create-feed.md#create-and-configure-data-feed)를 참조하세요. |
    | [!UICONTROL **경로 또는 파일 이름**] | 경로 또는 파일 이름(또는 둘 다)을 지정하여 이 위치 내에서 파일이 전송되는 위치를 파악합니다. 위치의 최상위 폴더에 파일을 저장하려면 `/`을(를) 지정하십시오. <p>변수를 사용하여 경로나 파일 이름을 동적으로 만들 수 있습니다. 이 옵션을 사용하면 파일 이름 생성 및 폴더 배치를 자동화할 수 있으므로 파일 이름을 예측하고 논리적으로 폴더에 구성할 수 있습니다. 예를 들어 파일 이름은 배달된 날짜에 따라 명명된 다음 각 달에 해당하는 폴더에 배치할 수 있습니다.</p><p>다음 변수 중 하나를 사용하십시오.</p><ul><li>**{yyyy}**: 4자리 달력 연도(대/소문자 구분)</li><li>**{yy}**: 2자리 달력 연도(대/소문자 구분)</li><li>**{MM}**: 2자리 월(대/소문자 구분)</li><li>**{dd}**: 2자리 일(대/소문자 구분)</li><li>**{HH}**: 2자리 시간(대/소문자 구분)</li><li>**{mm}**: 2자리 분(대/소문자 구분)</li><li>**{ss}**: 2자리 초(대/소문자 구분)</li><li>**{fff}**: 3자리 나노초(대/소문자 구분)</li><li>**{instance_id}**: 요청(인스턴스) UUID</li><li>**{export_id}**: 내보내기(예약) UUID</li><li>**{idx}**: 0부터 시작하는 인덱스(각 파일에 대해 증가함)</li><li>**{total}**: 전체 전송 작업의 총 파일 수</li><li>**{completion_millis}**: 전송 시간(밀리초)</li></ul><p>예를 들어 `${yyyy}/${MM}/${dd}/my-report-${instance_id}-${idx}`을(를) 지정하면 2027년 1월 15일에 이 위치로 전송되는 내보내기의 파일 경로 및 이름은 `[prefix_folder_name]/2027/01/15/my-report-[UUID]-1.csv`입니다.</p> |
 
    {style="table-layout:auto"}
@@ -157,7 +157,7 @@ Customer Journey Analytics 보고서를 클라우드 대상([Analysis Workspace]
    |---------|----------|
    | [!UICONTROL **버킷**] | Customer Journey Analytics 데이터를 전송할 Amazon S3 계정 내의 버킷입니다. <p>이 버킷에 파일을 업로드하려면 Adobe에서 제공한 사용자 ARN에 `S3:PutObject` 권한이 있는지 확인합니다. </p><p>버킷 이름은 특정 이름 지정 규칙을 충족해야 합니다. 예를 들면 3~63자 사이여야 하며 소문자, 숫자, 점(.), 하이픈(-)만 사용할 수 있고 문자나 숫자로 시작하고 끝나야 합니다. [전체 명명 규칙 목록은 AWS 설명서에서 사용할 수 있습니다](https://docs.aws.amazon.com/AmazonS3/latest/userguide/bucketnamingrules.html). </p> |
    | [!UICONTROL **접두사**] | 데이터를 입력할 버킷 내부 폴더입니다. 정적 폴더 이름을 지정한 다음 이름 뒤에 슬래시를 추가하여 폴더를 만듭니다. 예를 들어 폴더 이름/ |
-   | [!UICONTROL **기본 경로 또는 파일 이름 재정의**] | 이 위치에 설정된 기본 경로 또는 파일 이름을 무시하려면 이 옵션을 활성화합니다. 이 옵션은 데이터 피드에 대한 위치를 사용하는 경우에만 사용할 수 있으며 데이터 피드 파일이 전송되는 위치를 결정합니다. 자세한 내용은 [데이터 피드 만들기](/help/components/exports/cja-data-feeds/create-feed.md#create-and-configure-data-feed)를 참조하세요. |
+   | [!UICONTROL **기본 경로 또는 파일 이름 재정의**] | 이 위치에 설정된 기본 경로 또는 파일 이름을 재정의하려면 이 옵션을 활성화하십시오. 이 옵션은 데이터 피드에 대한 위치를 사용하는 경우에만 사용할 수 있으며 데이터 피드 파일이 전송되는 위치를 결정합니다. 자세한 내용은 [데이터 피드 만들기](/help/components/exports/cja-data-feeds/create-feed.md#create-and-configure-data-feed)를 참조하세요. |
    | [!UICONTROL **경로 또는 파일 이름**] | 경로 또는 파일 이름(또는 둘 다)을 지정하여 이 위치 내에서 파일이 전송되는 위치를 파악합니다. 위치의 최상위 폴더에 파일을 저장하려면 `/`을(를) 지정하십시오. <p>변수를 사용하여 경로나 파일 이름을 동적으로 만들 수 있습니다. 이 옵션을 사용하면 파일 이름 생성 및 폴더 배치를 자동화할 수 있으므로 파일 이름을 예측하고 논리적으로 폴더에 구성할 수 있습니다. 예를 들어 파일 이름은 배달된 날짜에 따라 명명된 다음 각 달에 해당하는 폴더에 배치할 수 있습니다.</p><p>다음 변수 중 하나를 사용하십시오.</p><ul><li>**{yyyy}**: 4자리 달력 연도(대/소문자 구분)</li><li>**{yy}**: 2자리 달력 연도(대/소문자 구분)</li><li>**{MM}**: 2자리 월(대/소문자 구분)</li><li>**{dd}**: 2자리 일(대/소문자 구분)</li><li>**{HH}**: 2자리 시간(대/소문자 구분)</li><li>**{mm}**: 2자리 분(대/소문자 구분)</li><li>**{ss}**: 2자리 초(대/소문자 구분)</li><li>**{fff}**: 3자리 나노초(대/소문자 구분)</li><li>**{instance_id}**: 요청(인스턴스) UUID</li><li>**{export_id}**: 내보내기(예약) UUID</li><li>**{idx}**: 0부터 시작하는 인덱스(각 파일에 대해 증가함)</li><li>**{total}**: 전체 전송 작업의 총 파일 수</li><li>**{completion_millis}**: 전송 시간(밀리초)</li></ul><p>예를 들어 `${yyyy}/${MM}/${dd}/my-report-${instance_id}-${idx}`을(를) 지정하면 2027년 1월 15일에 이 위치로 전송되는 내보내기의 파일 경로 및 이름은 `[prefix_folder_name]/2027/01/15/my-report-[UUID]-1.csv`입니다.</p> |
 
    {style="table-layout:auto"}
@@ -180,7 +180,7 @@ Customer Journey Analytics 보고서를 클라우드 대상([Analysis Workspace]
    |---------|----------|
    | [!UICONTROL **버킷**] | Customer Journey Analytics 데이터를 전송할 GCP 계정 내의 버킷입니다. <p>Adobe에서 제공한 사용자에 대해 `roles/storage.objectCreator` 권한을 부여했는지 확인하십시오. [Google Cloud Platform 계정을 구성](/help/components/exports/cloud-export-accounts.md)할 때 보안 주체가 제공됩니다. <p>권한 부여에 대한 자세한 내용은 Google Cloud 설명서에서 [버킷 수준 정책에 주체 추가](https://cloud.google.com/storage/docs/access-control/using-iam-permissions#bucket-add)를 참조하십시오.</p><p>귀사에서 [조직 정책 제한 사항](https://cloud.google.com/storage/docs/org-policy-constraints)을 사용하여 허용 목록에 Google Cloud Platform 계정만 허용하는 경우 다음과 같은 Adobe 소유의 Google Cloud Platform 조직 ID가 필요합니다. <ul><li>`DISPLAY_NAME`: `adobe.com`</li><li>`ID`: `178012854243`</li><li>`DIRECTORY_CUSTOMER_ID`: `C02jo8puj`</li></ul> </p> |
    | [!UICONTROL **접두사**] | 데이터를 입력할 버킷 내부 폴더입니다. 정적 폴더 이름을 지정한 다음 이름 뒤에 슬래시를 추가하여 폴더를 만듭니다. 예를 들어 폴더 이름/ |
-   | [!UICONTROL **기본 경로 또는 파일 이름 재정의**] | 이 위치에 설정된 기본 경로 또는 파일 이름을 무시하려면 이 옵션을 활성화합니다. 이 옵션은 데이터 피드에 대한 위치를 사용하는 경우에만 사용할 수 있으며 데이터 피드 파일이 전송되는 위치를 결정합니다. 자세한 내용은 [데이터 피드 만들기](/help/components/exports/cja-data-feeds/create-feed.md#create-and-configure-data-feed)를 참조하세요. |
+   | [!UICONTROL **기본 경로 또는 파일 이름 재정의**] | 이 위치에 설정된 기본 경로 또는 파일 이름을 재정의하려면 이 옵션을 활성화하십시오. 이 옵션은 데이터 피드에 대한 위치를 사용하는 경우에만 사용할 수 있으며 데이터 피드 파일이 전송되는 위치를 결정합니다. 자세한 내용은 [데이터 피드 만들기](/help/components/exports/cja-data-feeds/create-feed.md#create-and-configure-data-feed)를 참조하세요. |
    | [!UICONTROL **경로 또는 파일 이름**] | 경로 또는 파일 이름(또는 둘 다)을 지정하여 이 위치 내에서 파일이 전송되는 위치를 파악합니다. 위치의 최상위 폴더에 파일을 저장하려면 `/`을(를) 지정하십시오. <p>변수를 사용하여 경로나 파일 이름을 동적으로 만들 수 있습니다. 이 옵션을 사용하면 파일 이름 생성 및 폴더 배치를 자동화할 수 있으므로 파일 이름을 예측하고 논리적으로 폴더에 구성할 수 있습니다. 예를 들어 파일 이름은 배달된 날짜에 따라 명명된 다음 각 달에 해당하는 폴더에 배치할 수 있습니다.</p><p>다음 변수 중 하나를 사용하십시오.</p><ul><li>**{yyyy}**: 4자리 달력 연도(대/소문자 구분)</li><li>**{yy}**: 2자리 달력 연도(대/소문자 구분)</li><li>**{MM}**: 2자리 월(대/소문자 구분)</li><li>**{dd}**: 2자리 일(대/소문자 구분)</li><li>**{HH}**: 2자리 시간(대/소문자 구분)</li><li>**{mm}**: 2자리 분(대/소문자 구분)</li><li>**{ss}**: 2자리 초(대/소문자 구분)</li><li>**{fff}**: 3자리 나노초(대/소문자 구분)</li><li>**{instance_id}**: 요청(인스턴스) UUID</li><li>**{export_id}**: 내보내기(예약) UUID</li><li>**{idx}**: 0부터 시작하는 인덱스(각 파일에 대해 증가함)</li><li>**{total}**: 전체 전송 작업의 총 파일 수</li><li>**{completion_millis}**: 전송 시간(밀리초)</li></ul><p>예를 들어 `${yyyy}/${MM}/${dd}/my-report-${instance_id}-${idx}`을(를) 지정하면 2027년 1월 15일에 이 위치로 전송되는 내보내기의 파일 경로 및 이름은 `[prefix_folder_name]/2027/01/15/my-report-[UUID]-1.csv`입니다.</p> |
 
    {style="table-layout:auto"}
@@ -203,7 +203,7 @@ Customer Journey Analytics 보고서를 클라우드 대상([Analysis Workspace]
    |---------|----------|
    | [!UICONTROL **컨테이너 이름**] | Customer Journey Analytics 데이터를 전송할 지정한 계정 내의 컨테이너입니다. |
    | [!UICONTROL **접두사**] | 데이터를 넣을 컨테이너 내의 폴더입니다. 정적 폴더 이름을 지정한 다음 이름 뒤에 슬래시를 추가하여 폴더를 만듭니다. 예를 들어 `folder_name/`<p>Azure SAS 계정 구성 시 Key Vault 암호 이름 필드에 지정된 SAS 토큰 저장소에 `Write` 권한이 있는지 확인합니다. 이렇게 하면 SAS 토큰이 Azure 컨테이너에서 파일을 만들 수 있습니다. <p>SAS 토큰을 사용하여 파일을 덮어쓰려면 SAS 토큰 저장소에 `Delete` 권한이 있는지 확인합니다.</p><p>자세한 내용은 Azure Blob Storage 설명서에서 [Blob 스토리지 리소스](https://learn.microsoft.com/en-us/azure/storage/blobs/storage-blobs-introduction#blob-storage-resources) 를 참조하십시오.</p> |
-   | [!UICONTROL **기본 경로 또는 파일 이름 재정의**] | 이 위치에 설정된 기본 경로 또는 파일 이름을 무시하려면 이 옵션을 활성화합니다. 이 옵션은 데이터 피드에 대한 위치를 사용하는 경우에만 사용할 수 있으며 데이터 피드 파일이 전송되는 위치를 결정합니다. 자세한 내용은 [데이터 피드 만들기](/help/components/exports/cja-data-feeds/create-feed.md#create-and-configure-data-feed)를 참조하세요. |
+   | [!UICONTROL **기본 경로 또는 파일 이름 재정의**] | 이 위치에 설정된 기본 경로 또는 파일 이름을 재정의하려면 이 옵션을 활성화하십시오. 이 옵션은 데이터 피드에 대한 위치를 사용하는 경우에만 사용할 수 있으며 데이터 피드 파일이 전송되는 위치를 결정합니다. 자세한 내용은 [데이터 피드 만들기](/help/components/exports/cja-data-feeds/create-feed.md#create-and-configure-data-feed)를 참조하세요. |
    | [!UICONTROL **경로 또는 파일 이름**] | 경로 또는 파일 이름(또는 둘 다)을 지정하여 이 위치 내에서 파일이 전송되는 위치를 파악합니다. 위치의 최상위 폴더에 파일을 저장하려면 `/`을(를) 지정하십시오. <p>변수를 사용하여 경로나 파일 이름을 동적으로 만들 수 있습니다. 이 옵션을 사용하면 파일 이름 생성 및 폴더 배치를 자동화할 수 있으므로 파일 이름을 예측하고 논리적으로 폴더에 구성할 수 있습니다. 예를 들어 파일 이름은 배달된 날짜에 따라 명명된 다음 각 달에 해당하는 폴더에 배치할 수 있습니다.</p><p>다음 변수 중 하나를 사용하십시오.</p><ul><li>**{yyyy}**: 4자리 달력 연도(대/소문자 구분)</li><li>**{yy}**: 2자리 달력 연도(대/소문자 구분)</li><li>**{MM}**: 2자리 월(대/소문자 구분)</li><li>**{dd}**: 2자리 일(대/소문자 구분)</li><li>**{HH}**: 2자리 시간(대/소문자 구분)</li><li>**{mm}**: 2자리 분(대/소문자 구분)</li><li>**{ss}**: 2자리 초(대/소문자 구분)</li><li>**{fff}**: 3자리 나노초(대/소문자 구분)</li><li>**{instance_id}**: 요청(인스턴스) UUID</li><li>**{export_id}**: 내보내기(예약) UUID</li><li>**{idx}**: 0부터 시작하는 인덱스(각 파일에 대해 증가함)</li><li>**{total}**: 전체 전송 작업의 총 파일 수</li><li>**{completion_millis}**: 전송 시간(밀리초)</li></ul><p>예를 들어 `${yyyy}/${MM}/${dd}/my-report-${instance_id}-${idx}`을(를) 지정하면 2027년 1월 15일에 이 위치로 전송되는 내보내기의 파일 경로 및 이름은 `[prefix_folder_name]/2027/01/15/my-report-[UUID]-1.csv`입니다.</p> |
 
    {style="table-layout:auto"}
@@ -226,7 +226,7 @@ Customer Journey Analytics 보고서를 클라우드 대상([Analysis Workspace]
    |---------|----------|
    | [!UICONTROL **컨테이너**] | Customer Journey Analytics 데이터를 전송할 지정한 계정 내의 컨테이너입니다. 앞서 만든 Azure 애플리케이션에 파일을 업로드할 권한을 부여해야 합니다. |
    | [!UICONTROL **접두사**] | 데이터를 넣을 컨테이너 내의 폴더입니다. 정적 폴더 이름을 지정한 다음 이름 뒤에 슬래시를 추가하여 폴더를 만듭니다. 예를 들어 `folder_name/`<p>컨테이너(폴더)에 액세스하려면 Azure RBAC 계정 구성 시 지정한 애플리케이션 ID에 `Storage Blob Data Contributor` 역할이 부여되었는지 확인합니다.</p> <p>자세한 내용은 [Azure 기본 제공 역할](https://learn.microsoft.com/en-us/azure/role-based-access-control/built-in-roles)을 참조하십시오.</p> |
-   | [!UICONTROL **기본 경로 또는 파일 이름 재정의**] | 이 위치에 설정된 기본 경로 또는 파일 이름을 무시하려면 이 옵션을 활성화합니다. 이 옵션은 데이터 피드에 대한 위치를 사용하는 경우에만 사용할 수 있으며 데이터 피드 파일이 전송되는 위치를 결정합니다. 자세한 내용은 [데이터 피드 만들기](/help/components/exports/cja-data-feeds/create-feed.md#create-and-configure-data-feed)를 참조하세요. |
+   | [!UICONTROL **기본 경로 또는 파일 이름 재정의**] | 이 위치에 설정된 기본 경로 또는 파일 이름을 재정의하려면 이 옵션을 활성화하십시오. 이 옵션은 데이터 피드에 대한 위치를 사용하는 경우에만 사용할 수 있으며 데이터 피드 파일이 전송되는 위치를 결정합니다. 자세한 내용은 [데이터 피드 만들기](/help/components/exports/cja-data-feeds/create-feed.md#create-and-configure-data-feed)를 참조하세요. |
    | [!UICONTROL **경로 또는 파일 이름**] | 경로 또는 파일 이름(또는 둘 다)을 지정하여 이 위치 내에서 파일이 전송되는 위치를 파악합니다. 위치의 최상위 폴더에 파일을 저장하려면 `/`을(를) 지정하십시오. <p>변수를 사용하여 경로나 파일 이름을 동적으로 만들 수 있습니다. 이 옵션을 사용하면 파일 이름 생성 및 폴더 배치를 자동화할 수 있으므로 파일 이름을 예측하고 논리적으로 폴더에 구성할 수 있습니다. 예를 들어 파일 이름은 배달된 날짜에 따라 명명된 다음 각 달에 해당하는 폴더에 배치할 수 있습니다.</p><p>다음 변수 중 하나를 사용하십시오.</p><ul><li>**{yyyy}**: 4자리 달력 연도(대/소문자 구분)</li><li>**{yy}**: 2자리 달력 연도(대/소문자 구분)</li><li>**{MM}**: 2자리 월(대/소문자 구분)</li><li>**{dd}**: 2자리 일(대/소문자 구분)</li><li>**{HH}**: 2자리 시간(대/소문자 구분)</li><li>**{mm}**: 2자리 분(대/소문자 구분)</li><li>**{ss}**: 2자리 초(대/소문자 구분)</li><li>**{fff}**: 3자리 나노초(대/소문자 구분)</li><li>**{instance_id}**: 요청(인스턴스) UUID</li><li>**{export_id}**: 내보내기(예약) UUID</li><li>**{idx}**: 0부터 시작하는 인덱스(각 파일에 대해 증가함)</li><li>**{total}**: 전체 전송 작업의 총 파일 수</li><li>**{completion_millis}**: 전송 시간(밀리초)</li></ul><p>예를 들어 `${yyyy}/${MM}/${dd}/my-report-${instance_id}-${idx}`을(를) 지정하면 2027년 1월 15일에 이 위치로 전송되는 내보내기의 파일 경로 및 이름은 `[prefix_folder_name]/2027/01/15/my-report-[UUID]-1.csv`입니다.</p> |
    | [!UICONTROL **계정**] | Azure 스토리지 계정. |
 
@@ -252,7 +252,7 @@ Customer Journey Analytics 보고서를 클라우드 대상([Analysis Workspace]
    | [!UICONTROL **스키마**] | 지정된 스키마는 기존 스키마여야 합니다. 이 스키마에 액세스하려면 만든 역할에 권한이 있어야 합니다.<p>단계 이름과 연결된 스키마입니다.</p><p>다음 명령을 사용하여 Snowflake의 스키마에 권한을 만든 역할을 부여할 수 있습니다. `GRANT USAGE ON SCHEMA <your_database>.<your_schema> TO ROLE <your_role>;`</p><p>자세한 내용은 Snowflake 설명서의 [데이터베이스, 스키마 및 공유 명령 페이지](https://docs.snowflake.com/en/sql-reference/commands-database)를 참조하십시오.</p> |
    | [!UICONTROL **단계 이름**] | Snowflake에서 데이터 파일이 저장되는 내부 단계의 이름입니다.<p>계정에서 지정한 역할에 이 단계 이름에 대한 읽기 및 쓰기 권한이 있는지 확인하십시오. (읽기 및 쓰기 액세스 권한을 부여하므로 Adobe에서만 사용되는 단계를 사용하는 것이 좋습니다.)</p><p>다음 명령을 사용하여 Snowflake의 단계 이름에 읽기 및 쓰기 액세스 권한을 부여할 수 있습니다. `GRANT READ, WRITE ON STAGE <your_database>.<your_schema>.<your_stage_name> TO ROLE <your_role>;`</p> <p>역할에 권한을 부여하는 방법에 대한 자세한 내용은 [Snowflake 설명서에서 권한 부여](https://docs.snowflake.com/en/sql-reference/sql/grant-privilege)를 참조하십시오.</p> <p>단계 이름에 대한 자세한 내용은 [Snowflake 설명서의 로컬 파일에 대한 내부 단계 선택](https://docs.snowflake.com/en/user-guide/data-load-local-file-system-create-stage)을 참조하십시오.</p> |
    | [!UICONTROL **단계 경로**] | Snowflake에서 데이터 파일이 저장되는 위치에 대한 경로입니다. <p>자세한 내용은 Snowflake 설명서에서 [로컬 파일에 대한 내부 단계 선택](https://docs.snowflake.com/en/user-guide/data-load-local-file-system-create-stage)을 참조하십시오.</p> |
-   | [!UICONTROL **기본 경로 또는 파일 이름 재정의**] | 이 위치에 설정된 기본 경로 또는 파일 이름을 무시하려면 이 옵션을 활성화합니다. 이 옵션은 데이터 피드에 대한 위치를 사용하는 경우에만 사용할 수 있으며 데이터 피드 파일이 전송되는 위치를 결정합니다. 자세한 내용은 [데이터 피드 만들기](/help/components/exports/cja-data-feeds/create-feed.md#create-and-configure-data-feed)를 참조하세요. |
+   | [!UICONTROL **기본 경로 또는 파일 이름 재정의**] | 이 위치에 설정된 기본 경로 또는 파일 이름을 재정의하려면 이 옵션을 활성화하십시오. 이 옵션은 데이터 피드에 대한 위치를 사용하는 경우에만 사용할 수 있으며 데이터 피드 파일이 전송되는 위치를 결정합니다. 자세한 내용은 [데이터 피드 만들기](/help/components/exports/cja-data-feeds/create-feed.md#create-and-configure-data-feed)를 참조하세요. |
    | [!UICONTROL **경로 또는 파일 이름**] | 경로 또는 파일 이름(또는 둘 다)을 지정하여 이 위치 내에서 파일이 전송되는 위치를 파악합니다. 위치의 최상위 폴더에 파일을 저장하려면 `/`을(를) 지정하십시오. <p>변수를 사용하여 경로나 파일 이름을 동적으로 만들 수 있습니다. 이 옵션을 사용하면 파일 이름 생성 및 폴더 배치를 자동화할 수 있으므로 파일 이름을 예측하고 논리적으로 폴더에 구성할 수 있습니다. 예를 들어 파일 이름은 배달된 날짜에 따라 명명된 다음 각 달에 해당하는 폴더에 배치할 수 있습니다.</p><p>다음 변수 중 하나를 사용하십시오.</p><ul><li>**{yyyy}**: 4자리 달력 연도(대/소문자 구분)</li><li>**{yy}**: 2자리 달력 연도(대/소문자 구분)</li><li>**{MM}**: 2자리 월(대/소문자 구분)</li><li>**{dd}**: 2자리 일(대/소문자 구분)</li><li>**{HH}**: 2자리 시간(대/소문자 구분)</li><li>**{mm}**: 2자리 분(대/소문자 구분)</li><li>**{ss}**: 2자리 초(대/소문자 구분)</li><li>**{fff}**: 3자리 나노초(대/소문자 구분)</li><li>**{instance_id}**: 요청(인스턴스) UUID</li><li>**{export_id}**: 내보내기(예약) UUID</li><li>**{idx}**: 0부터 시작하는 인덱스(각 파일에 대해 증가함)</li><li>**{total}**: 전체 전송 작업의 총 파일 수</li><li>**{completion_millis}**: 전송 시간(밀리초)</li></ul><p>예를 들어 `${yyyy}/${MM}/${dd}/my-report-${instance_id}-${idx}`을(를) 지정하면 2027년 1월 15일에 이 위치로 전송되는 내보내기의 파일 경로 및 이름은 `[prefix_folder_name]/2027/01/15/my-report-[UUID]-1.csv`입니다.</p> |
 
    {style="table-layout:auto"}

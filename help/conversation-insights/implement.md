@@ -30,12 +30,14 @@ topic_v2:
     internal-label: Data collection
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: cd12bd7f6943be6c58694af1374d32a1639d1578
+source-git-commit: 113a215e26092c65d6eaf2c321f60d3f3a5015b8
 workflow-type: tm+mt
 source-wordcount: '2563'
 ht-degree: 5%
 ---
 # 대화 통찰력 구현
+
+{{release-limited-testing}}
 
 대화 데이터를 XDM 경험 이벤트로 생성하고 이러한 대화 경험 이벤트가 데이터 세트로 Adobe Experience Platform에 표시되도록 하려면 Conversation Insights를 사용하도록 에이전트 애플리케이션 또는 서비스를 계측하십시오.
 

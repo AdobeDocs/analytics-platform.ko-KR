@@ -4,7 +4,7 @@ title: 트렌딩 항목
 feature: Visualizations
 role: User
 hide: true
-source-git-commit: 85311bf19368560ef54a3361edf2e7c13590929c
+source-git-commit: 113a215e26092c65d6eaf2c321f60d3f3a5015b8
 workflow-type: tm+mt
 source-wordcount: '424'
 ht-degree: 16%
@@ -21,6 +21,8 @@ ht-degree: 16%
 >title="트렌딩 토픽"
 >abstract="선택된 등급 지표를 기반으로 트렌딩 토픽을 분석합니다. 최대 5개 수준 깊이로 드릴 다운할 토픽을 선택합니다. 특정 토픽을 검색하고 토픽을 다른 날짜 범위와 비교합니다."
 
+{{release-limited-testing}}
+
 ![피드](/help/assets/icons/Feed.svg) **[!UICONTROL 트렌드 주제]** 시각화를 사용하면 대화 통찰력의 일부로 트렌드 주제를 탐색하고 분석할 수 있습니다.
 
 특정 주제를 검색하고 각 수준에서 각 주제의 수 및 백분율을 다른 데이터 범위와 비교할 수 있습니다.
@@ -36,6 +38,7 @@ ht-degree: 16%
 >id="workspace_trendingtopics_usenondefaultattributionmodel_disabled"
 >title="비기본 기여도 모델 사용"
 >abstract="기본값이 아닌 속성 모델은 이 지표에 사용할 수 없습니다."
+
 
 **[!UICONTROL 트렌드 항목]** 시각화를 만들고 구성하려면:
 
@@ -57,7 +60,7 @@ ht-degree: 16%
 
 * 자세한 내용이 포함된 팝업을 보려면 주제 위로 마우스를 가져갑니다. ➊
 
-* 하위 수준의 주제에 대한 트렌드 하위 주제를 보려면 특정 수준의 주제를 선택합니다. 하위 수준에서 사용할 수 있는 항목이 없는 경우 ![DataRemove](/help/assets/icons/DataRemove.svg) **[!UICONTROL _topic > 하위 주제 > ...]**&#x200B;에 대한 하위 주제를 찾을 수 없습니다.
+* 하위 수준의 주제에 대한 트렌드 하위 주제를 보려면 특정 수준의 주제를 선택합니다. 하위 수준에서 사용할 수 있는 항목이 없는 경우 ![DataRemove](/help/assets/icons/DataRemove.svg) **[!UICONTROL _주제 > 하위 주제_ > ...]**&#x200B;에 대한 하위 주제를 찾을 수 없습니다.
 
 * 항목을 빠르게 검색하려면 ![검색](/help/assets/icons/Search.svg) **[!UICONTROL _항목 검색_]**&#x200B;을 사용하십시오. ➋
 

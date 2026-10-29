@@ -45,9 +45,9 @@ topic_v2:
     internal-label: Insights
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
+source-git-commit: d29e3bac31db1a0de40a5ade47ed5ee53fcb5480
 workflow-type: tm+mt
-source-wordcount: '21458'
+source-wordcount: '21470'
 ht-degree: 98%
 ---
 # 템플릿 사용
@@ -1168,20 +1168,20 @@ Analysis Workspace의 템플릿(또는 회사 템플릿)은 가장 일반적인 
 | [!UICONTROL **B2B 구매 그룹 활동**] | 각 계정 내 구매 그룹 활동을 시각화하여 계정 및 구매 그룹 마케팅 플레이에 정보를 제공합니다.<p>**이를 통해 어떤 구매 그룹과 그 구매 그룹 내에서 가장 적극적으로 참여하는 사람들을 시각화하여 그룹 참여의 격차를 강조하는데 도움이 됩니다.**</p><p>**학습한 내용을 바탕으로 구매 그룹에 속해 있지만 참여하지 않는 듯한 사람들과 더 많이 소통하려고 노력하는 등 여러 가지 일을 할 수 있습니다.**</p> |
 
 
-### Mix Modeler {#mix-modeler-templates}
+### Marketing Campaign Analytics {#marketing-campaign-analytics-templates}
 
 <!-- CJA only -->
 
 >[!CONTEXTUALHELP]
 >id="template--mixmodeler-incremental-models-insights"
->title="Mix Modeler에서 생성된 선택한 모델의 인사이트를 확인합니다."
->abstract="**이를 통해** Mix Modeler에서 생성된 모델의 점진적 인사이트를 더 잘 이해할 수 있습니다. <br/>**이러한 인사이트를 바탕으로** 다음을 수행할 수 있습니다.<ul><li>조직의 마케팅 활동이 미치는 영향을 시각화하고 수량화합니다.</li><li>성과가 좋은 채널을 파악합니다.</li><li>최적화가 필요할 수 있는 채널을 파악합니다.</li></ul>"
+>title="Marketing Campaign Analytics에서 생성한 선택한 모델에서 인사이트를 봅니다."
+>abstract="**이렇게 하면**&#x200B;이(가) Marketing Campaign Analytics(이전 Mix Modeler)에서 생성된 모델의 증분 인사이트를 더 잘 이해하는 데 도움이 됩니다. <br/>**이러한 인사이트를 바탕으로** 다음을 수행할 수 있습니다.<ul><li>조직의 마케팅 활동이 미치는 영향을 시각화하고 수량화합니다.</li><li>성과가 좋은 채널을 파악합니다.</li><li>최적화가 필요할 수 있는 채널을 파악합니다.</li></ul>"
 
 다음 템플릿을 사용할 수 있습니다.
 
 &#x200B;| 템플릿 이름 | 이 템플릿을 사용하는 이유 <!-- What do you do with it? What can it help you learn? and What are the potential actions? --> |
 | --- | --- |
-| [!UICONTROL **Mix Modeler 증분 모델 인사이트**] | Mix Modeler에서 생성된 선택한 모델의 인사이트를 확인합니다.<p>**이를 통해** Mix Modeler에서 생성된 모델의 점진적 인사이트를 더 잘 이해할 수 있습니다. <p>**이러한 인사이트를 바탕으로** 다음을 수행할 수 있습니다.<ul><li>조직의 마케팅 활동이 미치는 영향을 시각화하고 수량화합니다.</li><li>성과가 좋은 채널을 파악합니다.</li><li>최적화가 필요할 수 있는 채널을 파악합니다.</li></ul></p> |
+| [!UICONTROL **Marketing Campaign Analytics 증분 모델 인사이트**] | Marketing Campaign Analytics에서 생성한 선택한 모델에서 인사이트를 봅니다.<p>**이렇게 하면**&#x200B;이(가) Marketing Campaign Analytics(이전 Mix Modeler)에서 생성된 모델의 증분 인사이트를 더 잘 이해하는 데 도움이 됩니다.<p>**이러한 인사이트를 바탕으로** 다음을 수행할 수 있습니다.<ul><li>조직의 마케팅 활동이 미치는 영향을 시각화하고 수량화합니다.</li><li>성과가 좋은 채널을 파악합니다.</li><li>최적화가 필요할 수 있는 채널을 파악합니다.</li></ul></p> |
 
 
 

@@ -55,9 +55,9 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: f7d853a3b658328f952b675f838ce314b7c30fb1
+source-git-commit: 62a6bb436d59ab7a5a7be515afbe1f5f0f7817ee
 workflow-type: tm+mt
-source-wordcount: '7412'
+source-wordcount: '7431'
 ht-degree: 93%
 ---
 
@@ -70,6 +70,7 @@ Customer Journey Analytics 문서가 시작된 이후로 다음과 같이 업데
 | 기능 | 설명 |
 |---|---|
 | **2026년 10월** | |
+| 웹 데이터를 사용하여 유료 미디어 데이터 가입 | [사용 사례 안내서](/help/use-cases/cross-channel/paid-media-web.md) 유료 미디어 데이터를 웹 데이터와 결합하는 방법. |
 | 시각화에 대한 선택 잠금 | 구성된 데이터 원본 설정과 선택 항목을 잠그지 않도록 [데이터 원본 관리](/help/analysis-workspace/visualizations/t-sync-visualization.md)를 재구성했습니다. 또한 시각화가 자유 형식 테이블의 행에 잠겨 있을 때 [선택 잠금](/help/analysis-workspace/visualizations/t-sync-visualization.md#lock-selection)이 작동하는 방식을 명확히 설명했습니다. 잠긴 분류 행이 더 이상 테이블에 없을 때 수행되는 작업도 포함됩니다. |
 | 세그먼트 연산자에 대한 대소문자 구분 | [표준 연산자](/help/components/segments/seg-operators.md#standard-operators)를 사용하는 경우 결과는 대소문자를 구분하지 않습니다. 단, **[!UICONTROL 일치]**&#x200B;와(과) **[!UICONTROL 불일치]**&#x200B;는 예외입니다. |
 | 표 열의 키보드 탐색 | 화면 판독기 피드백을 포함하여 키보드를 사용하여 Analysis Workspace에서 테이블 열을 [크기 조정](/help/analysis-workspace/workspace-faq/aw-accessibility.md#resize-columns) 및 [다시 정렬](/help/analysis-workspace/workspace-faq/aw-accessibility.md#rearrange-columns)하는 방법을 문서화했습니다. 또한 [테이블 열 작업](/help/analysis-workspace/build-workspace-project/fa-shortcut-keys.md#table-column-actions) 섹션이 핫키에 추가되었습니다. |
