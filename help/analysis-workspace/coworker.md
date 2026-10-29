@@ -22,12 +22,16 @@ topic_v2:
     internal-label: Reporting
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 67e9700015c9c8de24871feb4eedc4392ce72a3a
+source-git-commit: 88e67c92fc170b340149c9ab73ad5eea2122da2b
 workflow-type: tm+mt
-source-wordcount: '1905'
-ht-degree: 0%
+source-wordcount: '1960'
+ht-degree: 1%
 ---
 # 동료에 대한 제품 내 경험 사용
+
+>[!AVAILABILITY]
+>
+>이 섹션에서 설명하는 기능은 릴리스의 제한된 테스트 단계에 있으며 사용자 환경에서 아직 사용하지 못할 수 있습니다. 또한, Coworker는 생성 AI를 사용하므로 부정확하거나 예기치 않은 결과가 발생할 수 있습니다. 작업을 수행하거나 프로젝트를 공유하기 전에 동료의 응답과 프로젝트에 대한 변경 사항을 검토하십시오.
 
 동료의 제품 내 경험은 Analysis Workspace 오른쪽의 채팅 패널에서 사용할 수 있습니다. Coworker는 열려 있는 프로젝트를 컨텍스트로 사용하므로 분석에 대해 묻거나 포함된 내용을 설명하지 않고도 Coworker에서 프로젝트를 빌드하도록 할 수 있습니다.
 
@@ -44,13 +48,13 @@ ht-degree: 0%
 <!--
 FOLLOW-UP: Coworker permissions are still being finalized. The Coworker permission name below is a placeholder. Confirm the name, category, and Admin Console steps with the SME.
 
-* **Permissions**: In the [!UICONTROL Adobe Admin Console], the [!UICONTROL Reporting Tools] **[!UICONTROL Coworker]** permission determines access to Coworker. A [product profile administrator](https://helpx.adobe.com/kr/enterprise/using/manage-product-profiles.html) must add this permission to your product profile. For more information, see [Access control](/help/technotes/access-control.md#access-control).
+* **Permissions**: In the [!UICONTROL Adobe Admin Console], the [!UICONTROL Reporting Tools] **[!UICONTROL Coworker]** permission determines access to Coworker. A [product profile administrator](https://helpx.adobe.com/enterprise/using/manage-product-profiles.html) must add this permission to your product profile. For more information, see [Access control](/help/technotes/access-control.md#access-control).
 
 -->
 
 ### Workspace의 Coworker와 Coworker 애플리케이션 중 선택
 
-Coworker의 제품 내 경험에는 액세스 권한이 있는 기술을 포함하여 [CX Enterprise Coworker 애플리케이션](https://experienceleague.adobe.com/ko/docs/coworker/content/chat/use-cases/data-insights/analytics-chat)과(와) 동일한 기능이 많이 있습니다. 그러나 둘 중 하나를 사용할 수 있는 시기를 결정하는 중요한 차이점이 있습니다.
+Coworker의 제품 내 경험에는 액세스 권한이 있는 기술을 포함하여 [CX Enterprise Coworker 애플리케이션](https://experienceleague.adobe.com/en/docs/coworker/content/chat/use-cases/data-insights/analytics-chat)과(와) 동일한 기능이 많이 있습니다. 그러나 둘 중 하나를 사용할 수 있는 시기를 결정하는 중요한 차이점이 있습니다.
 
 | | 동료에 대한 제품 내 경험 | 동료 응용 프로그램 |
 | --- | --- | --- |
