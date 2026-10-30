@@ -22,12 +22,16 @@ topic_v2:
     internal-label: Reporting
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 67e9700015c9c8de24871feb4eedc4392ce72a3a
+source-git-commit: 88e67c92fc170b340149c9ab73ad5eea2122da2b
 workflow-type: tm+mt
-source-wordcount: '1905'
-ht-degree: 0%
+source-wordcount: '1960'
+ht-degree: 1%
 ---
 # 동료에 대한 제품 내 경험 사용
+
+>[!AVAILABILITY]
+>
+>이 섹션에서 설명하는 기능은 릴리스의 제한된 테스트 단계에 있으며 사용자 환경에서 아직 사용하지 못할 수 있습니다. 또한, Coworker는 생성 AI를 사용하므로 부정확하거나 예기치 않은 결과가 발생할 수 있습니다. 작업을 수행하거나 프로젝트를 공유하기 전에 동료의 응답과 프로젝트에 대한 변경 사항을 검토하십시오.
 
 동료의 제품 내 경험은 Analysis Workspace 오른쪽의 채팅 패널에서 사용할 수 있습니다. Coworker는 열려 있는 프로젝트를 컨텍스트로 사용하므로 분석에 대해 묻거나 포함된 내용을 설명하지 않고도 Coworker에서 프로젝트를 빌드하도록 할 수 있습니다.
 

@@ -17,10 +17,10 @@ role_v2:
     internal-label: Admin
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 5006a5e7f48fb107cc32cf56051062cc88f35c8e
+source-git-commit: 56f881fc811f0eeffb9633872b3edbe0eb2d7070
 workflow-type: tm+mt
-source-wordcount: '1548'
-ht-degree: 40%
+source-wordcount: '1596'
+ht-degree: 39%
 ---
 # 데이터 피드의 구성 요소 가용성
 
@@ -100,7 +100,7 @@ Customer Journey Analytics 표준 차원은 데이터 피드에 포함할 수 �
 
 >[!CONTEXTUALHELP]
 >id="cja_datafeed_user_agent"
->title=""
+>title="함께 사용할 수 없는 차원"
 >abstract="사용자 에이전트 데이터와 디바이스 조회 데이터는 동일한 데이터 피드 구성에 존재할 수 없습니다."
 
 <!-- markdownlint-enable MD034 -->
@@ -111,17 +111,35 @@ Customer Journey Analytics 표준 차원은 데이터 피드에 포함할 수 �
 
 * 브라우저, 모바일 장치 및 운영 체제 차원과 같은 장치 조회 차원입니다. 전체 목록에 대해서는 [장치 조회 차원](#device-lookup-dimensions)을 참조하십시오.
 
+이 제한은 이러한 차원을 참조하는 파생 필드에도 적용됩니다.
+
 >[!NOTE]
 >
 >웹 SDK을 사용하는 경우 데이터가 Experience Platform 데이터 세트에 도달하기 전에 데이터 스트림에 이 제한이 적용됩니다. 자세한 내용은 데이터 수집 가이드의 [데이터 스트림 만들기 및 구성](https://experienceleague.adobe.com/ko/docs/experience-platform/datastreams/configure)에서 [장치 조회 구성](https://experienceleague.adobe.com/ko/docs/experience-platform/datastreams/configure#geolocation-device-lookup)을 참조하십시오.
 
+<!--
+SME CHECK (derived fields; from Slack thread with Ron Fulkerson, Matt Freestone, Courtney Ferguson). Assumptions to confirm:
+1. Derived fields are restricted only when combined with dimensions from the other group. They aren't blocked from data feeds entirely.
+2. The restriction applies in both directions. Derived fields that reference User agent or Mobile ID conflict with device lookup dimensions, not only the reverse.
+3. The restriction applies to nested derived fields (a derived field that references another derived field that references a restricted dimension).
+4. "Device Atlas sourced" dimensions are the same set as the device lookup dimensions listed on this page.
+5. The restriction itself is permanent.
+6. Derived fields get the same conflict dialog experience as dimensions (per Matt Freestone). This requires the UI to identify which derived fields reference these dimensions; Courtney Ferguson said the UI doesn't have that information today. Confirm this will be built before release.
+7. The priority rules in "Resolve dimension conflicts" apply to derived fields the same way they apply to the dimensions they reference. For example, a derived field that references User agent takes priority over device lookup dimensions in the same selection.
+8. Editing a derived field that is already in a data feed so that it references a conflicting dimension fails when the user adds the conflicting dimension to the derived field. Does this check every data feed that uses the derived field? What does the error say?
+Open question: Can a derived field that references dimensions from BOTH groups be added to any data feed?
+-->
+
 ### 차원 충돌 해결
 
-함께 사용할 수 없는 차원을 추가하면 추가될 차원 및 추가되지 않거나 제거될 차원을 나열하는 대화 상자가 나타납니다. 발생하는 내용은 충돌이 있는 위치에 따라 다릅니다.
+함께 사용할 수 없는 차원(이러한 차원을 참조하는 파생 필드 포함)을 추가하면 추가할 차원과 추가하지 않을 차원 또는 제거할 차원을 나열하는 대화 상자가 나타납니다. 다음 표는 충돌이 발생한 위치에 따라 발생하는 상황을 보여 줍니다.
 
-* **추가 중인 차원이 이미 데이터 피드에 있는 차원과 충돌합니다**: 추가 중인 차원이 우선합니다. 선택 항목을 추가하고 데이터 피드에서 충돌하는 차원을 제거하라는 대화 상자가 표시됩니다.
+| 충돌 | 우선 순위 사용 | 결과 |
+|---|---|---|
+| 추가하려는 차원이 데이터 피드에 이미 있는 차원과 충돌합니다. | 추가 중인 차원 | 새 차원은 데이터 피드에 이미 있는 충돌하는 차원을 대체합니다. |
+| 추가하는 차원이 서로 충돌합니다. | **사용자 에이전트** 및 **Mobile ID** 차원(및 이를 참조하는 파생 필드) | 선택 영역의 장치 조회 차원(및 이를 참조하는 파생 필드)은 추가되지 않습니다. 선택한 나머지 부분은 데이터 피드에 추가됩니다. |
 
-* **추가 중인 차원이 서로 충돌합니다**: **사용자 에이전트** 및 **Mobile ID** 차원이 우선합니다. 대화 상자에 차원을 추가하라는 메시지가 표시됩니다. 선택 항목의 디바이스 조회 차원은 추가되지 않습니다.
+{style="table-layout:auto"}
 
 데이터 피드를 변경하지 않고 유지하려면 **[!UICONTROL 취소]**&#x200B;를 선택하십시오.
 
@@ -129,7 +147,7 @@ Customer Journey Analytics 표준 차원은 데이터 피드에 포함할 수 �
 
 ### 장치 조회 차원 {#device-lookup-dimensions}
 
-다음 차원은 **사용자 에이전트** 또는 **Mobile ID** 차원과 동일한 데이터 피드에 포함할 수 없습니다.
+다음 차원(및 이들을 참조하는 파생 필드)은 **사용자 에이전트** 또는 **Mobile ID** 차원과 동일한 데이터 피드에 포함할 수 없습니다.
 
 >[!NOTE]
 >
