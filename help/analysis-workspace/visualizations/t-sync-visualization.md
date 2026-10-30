@@ -27,7 +27,7 @@ topic_v2:
 source-git-commit: f7d853a3b658328f952b675f838ce314b7c30fb1
 workflow-type: tm+mt
 source-wordcount: '520'
-ht-degree: 18%
+ht-degree: 22%
 ---
 # 데이터 소스 관리 {#manage-data-sources}
 
@@ -39,7 +39,7 @@ ht-degree: 18%
 >[!CONTEXTUALHELP]
 >id="workspace_freeformtable_lockselection_showtable"
 >title="테이블 표시"
->abstract="**[!UICONTROL 테이블 표시]**&#x200B;를 선택하면 원본 데이터 원본과 별도로 현재 시각화에 대한 새 데이터 원본이 생성됩니다."
+>abstract="**[!UICONTROL 테이블 표시]**&#x200B;를 선택하면 현재 시각화에 대해 원래 데이터 소스와 분리된 새 데이터 소스를 생성합니다."
 
 >[!CONTEXTUALHELP]
 >id="workspace_freeformtable_showtable"

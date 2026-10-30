@@ -7,14 +7,14 @@ hide: true
 source-git-commit: 113a215e26092c65d6eaf2c321f60d3f3a5015b8
 workflow-type: tm+mt
 source-wordcount: '424'
-ht-degree: 16%
+ht-degree: 25%
 ---
 # 트렌딩 토픽 {#trending-topics}
 
 >[!CONTEXTUALHELP]
 >id="workspace_trendingtopics_button"
 >title="트렌딩 토픽"
->abstract="발생 횟수 및 백분율과 함께 트렌드 주제에 대한 계층적 드릴다운 지원 분류를 보여 주는 시각화를 만들어 대화에서 중요한 테마를 식별하는 데 도움이 됩니다."
+>abstract="대화에서 주요 테마를 식별할 수 있도록 발생 횟수 및 백분율과 함께 트렌드 토픽에 대한 계층적 드릴다운 기반 분류를 보여 주는 시각화를 만듭니다."
 
 >[!CONTEXTUALHELP]
 >id="workspace_trendingtopics_panel"
@@ -32,7 +32,7 @@ ht-degree: 16%
 >[!CONTEXTUALHELP]
 >id="workspace_trendingtopics_usenondefaultattributionmodel"
 >title="비기본 기여도 모델 사용"
->abstract="이 지표에 대해 기본값이 아닌 속성 모델을 활성화합니다."
+>abstract="이 지표에 기본값이 아닌 속성 모델을 사용합니다."
 
 >[!CONTEXTUALHELP]
 >id="workspace_trendingtopics_usenondefaultattributionmodel_disabled"
@@ -50,7 +50,7 @@ ht-degree: 16%
    1. 선택적으로 지표에서 기본값이 아닌 [속성](/help/analysis-workspace/attribution/models.md) 모델을 사용하려면 **[!UICONTROL 기본값이 아닌 속성 모델 사용]**&#x200B;을 선택하고 **[!UICONTROL 모델]**, **[!UICONTROL 컨테이너]** 및 **[!UICONTROL 전환 확인 기간]**&#x200B;을 선택합니다.
 1. **[!UICONTROL 빌드]**&#x200B;를 선택하여 시각화를 빌드합니다. 구성 값을 기본값으로 재설정하려면 **[!UICONTROL 재설정]**&#x200B;을 선택하십시오.
 
-트렌드 항목 시각화를 다시 구성하려면 **순위 지표: _순위 지표_ 옆에 있는 ![편집](/help/assets/icons/Edit.svg)을 선택합니다. | 하위 항목 수준: _x_**.
+트렌드 항목 시각화를 다시 구성하려면 **[!UICONTROL 순위 지표: _순위 지표_ 옆에 있는 ![편집](/help/assets/icons/Edit.svg)을 선택합니다. | 하위 항목 수준: _x_]**.
 
 ## 사용
 
