@@ -7,14 +7,14 @@ hide: true
 source-git-commit: 113a215e26092c65d6eaf2c321f60d3f3a5015b8
 workflow-type: tm+mt
 source-wordcount: '424'
-ht-degree: 16%
+ht-degree: 25%
 ---
 # 트렌딩 토픽 {#trending-topics}
 
 >[!CONTEXTUALHELP]
 >id="workspace_trendingtopics_button"
 >title="트렌딩 토픽"
->abstract="발생 횟수 및 백분율과 함께 트렌드 주제에 대한 계층적 드릴다운 지원 분류를 보여 주는 시각화를 만들어 대화에서 중요한 테마를 식별하는 데 도움이 됩니다."
+>abstract="대화에서 주요 테마를 식별할 수 있도록 발생 횟수 및 백분율과 함께 트렌드 토픽에 대한 계층적 드릴다운 기반 분류를 보여 주는 시각화를 만듭니다."
 
 >[!CONTEXTUALHELP]
 >id="workspace_trendingtopics_panel"
@@ -32,7 +32,7 @@ ht-degree: 16%
 >[!CONTEXTUALHELP]
 >id="workspace_trendingtopics_usenondefaultattributionmodel"
 >title="비기본 기여도 모델 사용"
->abstract="이 지표에 대해 기본값이 아닌 속성 모델을 활성화합니다."
+>abstract="이 지표에 기본값이 아닌 속성 모델을 사용합니다."
 
 >[!CONTEXTUALHELP]
 >id="workspace_trendingtopics_usenondefaultattributionmodel_disabled"
