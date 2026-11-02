@@ -38,9 +38,9 @@ topic_v2:
     internal-label: Data management
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 7dc0d254bfdf55d9b0b9a13587292b4dab59af30
+source-git-commit: 80d2b7da2e2b6c12a44d7e9bffd821e58dbeeecc
 workflow-type: tm+mt
-source-wordcount: '4844'
+source-wordcount: '4894'
 ht-degree: 55%
 ---
 
@@ -298,6 +298,8 @@ Content Analytics 데이터 수집을 추가할 연결을 선택해야 합니다
 
 이 섹션에서는 Content Analytics으로 수집하는 모바일 데이터에 경험을 포함하도록 선택할 수 있습니다.  모바일 채널의 경우 경험은 Content Analytics용 Adobe Experience Platform SDK을 사용하여 경험으로 등록한 것입니다.
 
+경험 차원은 데이터 세트 및 데이터 보기에서 기본적으로 활성화됩니다. **[!UICONTROL 경험 포함]**&#x200B;을 선택하면 데이터 수집에서 Content Analytics 경험을 사용할 수 있습니다.
+
 기본적으로 **[!UICONTROL 경험 포함]**&#x200B;이 비활성화되어 있습니다.
 
 경험을 등록하고 경험 보기 및 경험 클릭을 추적하기 위해 모바일 앱을 계측한 경우에만 경험을 포함시키는 것을 고려하십시오.
@@ -470,6 +472,8 @@ Content Analytics 데이터 수집을 추가할 연결을 선택해야 합니다
 
 * 사이트의 페이지는 페이지 URL을 사용하여 재현될 수 있어야 합니다.
 * 특정 사용자가 보는 텍스트 콘텐츠는 페이지 URL을 사용하여 재생산될 수 있으며, 쿠키나 기타 개인화 메커니즘에 의존하지 않아야 합니다.
+
+경험 차원은 데이터 세트 및 데이터 보기에서 기본적으로 활성화됩니다. **[!UICONTROL 경험 포함]**&#x200B;을 선택하면 데이터 수집에서 Content Analytics 경험을 사용할 수 있습니다.
 
 >[!IMPORTANT]
 >
