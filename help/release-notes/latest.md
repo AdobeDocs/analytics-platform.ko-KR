@@ -49,7 +49,7 @@ topic_v2:
     internal-label: Implementation
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 665ce95d0b2979bb4f3b26f5d5e5c0df75894f19
+source-git-commit: a963f146b42f3e67e3b67ea63f84d45ce09a0fb5
 workflow-type: tm+mt
 source-wordcount: '1298'
 ht-degree: 17%
@@ -107,4 +107,3 @@ ht-degree: 17%
 >* [스트리밍 미디어 컬렉션 릴리스 정보](https://experienceleague.adobe.com/ko/docs/media-analytics/using/release-notes/release-notes)
 >* [CX Enterprise 릴리스 노트](https://experienceleague.adobe.com/ko/docs/release-notes/experience-cloud/current)
 >* [Customer Journey Analytics 설명서 업데이트](/help/release-notes/doc-changes.md)
-
