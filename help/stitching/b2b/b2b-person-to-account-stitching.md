@@ -29,9 +29,9 @@ topic_v2:
     internal-label: Customer journeys
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: 6cecd447699645d21f5b198cdde1796dd49e80f6
+source-git-commit: c244c7d5c08f2059046603d09b09fbe70f8bff07
 workflow-type: tm+mt
-source-wordcount: '2328'
+source-wordcount: '2330'
 ht-degree: 24%
 ---
 # 계정 간 B2B 사람 결합
@@ -150,7 +150,7 @@ B2B 사용자가 계정 결합을 활성화할 수 있도록 하기 전에 Adobe
 >[!IMPORTANT]
 >
 >* 계정 데이터 세트에 대한 개인의 개인 ID 필드는 스키마에서 ID로 표시해야 합니다.
->* 개인 대 계정 조회 데이터 세트는 XDM 비즈니스 계정 사용자 관계 클래스를 기반으로 하는 표준 B2B 스키마 또는 사용자 ID 및 계정 ID 필드가 간단한 문자열인 사용자 지정 관계형 스키마를 사용합니다. `personComponents` 배열 개체를 사용하여 계정 ID 정보를 검색하는 스키마는 개인 대 계정 데이터 세트에 대해 지원되지 않습니다.
+>* 계정 간 개인 조회 데이터 세트는 XDM 비즈니스 계정 사용자 관계 클래스 기반의 표준 B2B 스키마 또는 사용자 ID 및 계정 ID 필드가 간단한 문자열인 사용자 정의 관계형 스키마를 사용할 수 있습니다. **[!UICONTROL personComponents]** 배열 개체를 사용하여 계정 ID 정보를 검색하는 스키마는 개인 대 계정 데이터 세트에 대해 지원되지 않습니다.
 
 ## 개인 - 계정 결합 활성화 {#enable-account-stitching}
 
@@ -258,7 +258,7 @@ B2B 사용자가 계정 결합을 활성화할 수 있도록 하기 전에 Adobe
 * 영구 개인 ID 구성이 필요합니다. 해당 영구 사용자 ID는 이전에 구성된 사용자 식별자 네임스페이스에서 사용자 ID로 승격된 다음 [계정 데이터 집합에 대한 사용자](#prerequisites)을(를) 기반으로 계정 ID를 조회하는 데 사용됩니다.
 * 계정 ID 구성은 선택 사항입니다. 이 구성은 개인에서 계정 데이터 세트에 대한 관련 계정 ID 정보를 사용할 수 없을 때마다 폴백 방법으로 사용됩니다.
 
-![&#128279;](../assets/b2b-event-dataset-stitching-on.png)의 이벤트 데이터 세트에 대한 계정 결합에 대한 B2B 사람
+](../assets/b2b-event-dataset-stitching-on.png)의 이벤트 데이터 세트에 대한 계정 결합에 대한 ![B2B 사람
 
 >[!TAB 해제]
 
