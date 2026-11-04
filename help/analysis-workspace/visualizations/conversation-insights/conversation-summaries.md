@@ -3,11 +3,10 @@ description: 대화 요약 시각화를 사용하여 대화를 요약합니다.
 title: 대화 요약
 feature: Visualizations
 role: User
-hide: true
-source-git-commit: 113a215e26092c65d6eaf2c321f60d3f3a5015b8
+source-git-commit: 30311dc0e753778c6e5316d82ffba25748d8315e
 workflow-type: tm+mt
-source-wordcount: '351'
-ht-degree: 26%
+source-wordcount: '407'
+ht-degree: 22%
 ---
 # 대화 요약 {#conversation-summaries}
 
@@ -23,7 +22,7 @@ ht-degree: 26%
 
 {{release-limited-testing}}
 
-![요약](/help/assets/icons/Summarize.svg) **[!UICONTROL 대화 요약]** 시각화를 사용하면 필터링된 대화 그룹을 요약할 수 있습니다.
+![AI](/help/assets/icons/AI.svg) **[!UICONTROL 대화 요약]** 시각화를 사용하면 필터링된 대화 그룹을 [대화 인사이트](/help/conversation-insights/overview.md)의 일부로 요약할 수 있습니다.
 
 시각화는 선택한 지표(예: 대화)의 요약을 보여주며 하위 주제를 포함하도록 시각화를 구성한 경우 하위 주제 또는 축어 주석을 표시합니다.
 
@@ -42,7 +41,7 @@ ht-degree: 26%
 
 **[!UICONTROL 대화 요약]** 시각화를 만들고 구성하려면:
 
-1. ![요약](/help/assets/icons/Summarize.svg) **[!UICONTROL 대화 요약]** 시각화를 추가합니다. [패널 내에 시각화 추가](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)를 참조하십시오.
+1. ![AI](/help/assets/icons/AI.svg) **[!UICONTROL 대화 요약]** 시각화를 추가합니다. [패널 내에 시각화 추가](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)를 참조하십시오.
 
 1. **[!UICONTROL 대화 요약]** 시각화 구성:
 
@@ -52,7 +51,7 @@ ht-degree: 26%
 
 1. **[!UICONTROL 빌드]**&#x200B;를 선택하여 시각화를 빌드합니다. 구성 값을 기본값으로 재설정하려면 **[!UICONTROL 재설정]**&#x200B;을 선택하십시오. 구성을 취소하려면 **[!UICONTROL 취소]**&#x200B;를 선택하십시오.
 
-**[!UICONTROL 대화 요약]** 시각화를 다시 구성하려면 **[!UICONTROL 지표: _지표_]**&#x200B;또는&#x200B;**[!UICONTROL 지표:_지표_]** 옆에 있는 ![편집](/help/assets/icons/Edit.svg)을 선택합니다. | **[!UICONTROL 세그먼트: _세그먼트_]**.
+**[!UICONTROL 대화 요약]** 시각화를 다시 구성하려면 **[!UICONTROL 지표: _지표_]**또는&#x200B;**[!UICONTROL 지표:_지표_]** 옆에 있는 ![편집](/help/assets/icons/Edit.svg)을 선택합니다. | **[!UICONTROL 세그먼트: _세그먼트_]**.
 
 ## 사용
 
@@ -72,6 +71,13 @@ ht-degree: 26%
 
 * [포함된 하위 주제](#settings)가 있는 경우 **[!UICONTROL 하위 주제]**&#x200B;를 선택하여 하위 주제를 표시하거나 **[!UICONTROL 축어 설명]**&#x200B;을 선택하여 축어 설명을 표시합니다.
 * **[!UICONTROL 버바텀 댓글]**&#x200B;을(를) 선택한 경우 ![파일 검색](/help/assets/icons/FileSearch.svg)을(를) 선택하여 버바텀 댓글이 속한 특정 대화에 대한 새 [**[!UICONTROL 대화 검토]**](./conversation-review.md) 시각화를 엽니다.
+
+여러 대화 검토를 빠르게 탐색하려면 다음 작업을 수행하십시오.
+
+1. **[!UICONTROL 대화 ID]** 및 **[!UICONTROL 대화 이름]**&#x200B;을(를) 차원으로 사용하는 [자유 형식 테이블](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md)을(를) 만듭니다.
+1. **[!UICONTROL 대화 검토]** 시각화에 대한 데이터 원본으로 자유 형식 테이블을 선택하십시오.
+
+**[!UICONTROL 대화 검토]**&#x200B;를 선택한 대화에 대한 세부 정보로 자동 업데이트하려면 자유 형식 테이블에서 대화를 선택하십시오.
 
 ## 설정
 
