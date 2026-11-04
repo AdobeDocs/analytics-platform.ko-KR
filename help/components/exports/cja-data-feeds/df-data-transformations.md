@@ -14,9 +14,9 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
+source-git-commit: 2dfdb8ea1cc0648fa1cffae9ac7823786ff3f11b
 workflow-type: tm+mt
-source-wordcount: '1693'
+source-wordcount: '1691'
 ht-degree: 5%
 ---
 # 데이터 피드에 데이터 변환 적용
@@ -63,13 +63,13 @@ ht-degree: 5%
 | **리터럴 값 찾기 및 바꾸기** | 사용할 수 없음 | [찾기 및 바꾸기](/help/data-views/derived-fields/derived-fields.md#find-and-replace) | 파생 필드<p>사용하기 쉽고 동일한 논리가 Analysis Workspace과 데이터 피드 출력 모두에서 일관되게 적용되므로 권장됩니다.</p> | 쉬움/보통 | |
 | **표시할 값 서식 지정** | [포맷](/help/data-views/component-settings/format.md) | 사용할 수 없음 | 구성 요소 설정<p>사용하기 쉽고 동일한 논리가 Analysis Workspace과 데이터 피드 출력 모두에서 일관되게 적용되므로 권장됩니다.</p> | 어려움 | <!-- Date-time formatting isn't yet reflected in data feed output — feeds currently show the standard timestamp regardless of this setting, though Adobe plans to support this for general availability. Whether numeric formats (decimal, currency, percent) on metrics affect data feed output is still being confirmed with the team.--> |
 | **요약 데이터 세트에서 차원 그룹화** | 적용할 수 없음 | 적용할 수 없음 | 적용할 수 없음 | 적용할 수 없음 | 요약 데이터 그룹은 데이터 피드에서 사용되지 않는 요약 데이터 세트에만 적용됩니다. 이 변환은 데이터 피드 출력에 적용되지 않습니다. |
-| **빈(&quot;값 없음&quot;) 필드 처리** | [값 옵션 없음](/help/data-views/component-settings/no-value-options.md)<br/>&quot;값 없음&quot;을 값으로 취급&#x200B;**옵션은 데이터 피드에 적용되지만[!UICONTROL **&#x200B;기본적으로 &quot;값 없음&quot; 표시 안 함&#x200B;**]및[!UICONTROL **&#x200B;기본적으로 &quot;값 없음&quot; 표시&#x200B;**]옵션은 데이터 피드에 적용되지 않습니다.** | 사용할 수 없음 | 구성 요소 설정 | 불가능 | 모든 &quot;값 없음&quot;은 &quot;값 없음&quot; 문자열이 아닌 최종 데이터 피드 출력에서 null로 반환됩니다. |
+| **빈(&quot;값 없음&quot;) 필드 처리** | [값 옵션 없음](/help/data-views/component-settings/no-value-options.md)<br/>&quot;값 없음&quot;을 값으로 취급&#x200B;**]옵션은 데이터 피드에 적용되지만[!UICONTROL **&#x200B;기본적으로 &quot;값 없음&quot; 표시 안 함&#x200B;**]및[!UICONTROL **&#x200B;기본적으로 &quot;값 없음&quot; 표시&#x200B;**]옵션은 데이터 피드에 적용되지 않습니다.[!UICONTROL ** | 사용할 수 없음 | 구성 요소 설정 | 불가능 | 모든 &quot;값 없음&quot;은 &quot;값 없음&quot; 문자열이 아닌 최종 데이터 피드 출력에서 null로 반환됩니다. |
 | **조회 데이터 집합에서 값 조회** | 사용할 수 없음 | [조회](/help/data-views/derived-fields/derived-fields.md#lookup) | 파생 필드<p>사용하기 쉽고 동일한 논리가 Analysis Workspace과 데이터 피드 출력 모두에서 일관되게 적용되므로 권장됩니다.</p> | 쉬움/보통<p>조회 테이블이 이미 있어야 합니다.</p> | |
 | **문자열의 소문자** | [비헤이비어](/help/data-views/component-settings/behavior.md) | [소문자](/help/data-views/derived-fields/derived-fields.md#lowercase) | 구성 요소 설정<p>권장 이유:</p><ul><li>동일한 논리가 Analysis Workspace 및 데이터 피드 출력 모두에서 일관되게 적용됩니다(SQL에서는 가능하지 않음)</li><li>제한된 파생 필드 중 하나를 사용하지 않습니다.</li></ul> | 쉬움/보통 | |
 | **여러 필드를 하나로 병합** | 사용할 수 없음 | [필드 병합](/help/data-views/derived-fields/derived-fields.md#merge) | 파생 필드<p>사용하기 쉽고 동일한 논리가 Analysis Workspace과 데이터 피드 출력 모두에서 일관되게 적용되므로 권장됩니다.</p> | 쉬움/보통 | |
 | **URL을 해당 구성 요소로 구문 분석** | [하위 문자열](/help/data-views/component-settings/substring.md)(URL 구문 분석 메서드) | [URL 구문 분석](/help/data-views/derived-fields/derived-fields.md#urlparse) | 구성 요소 설정<p>제한된 파생 필드 중 하나를 사용하지 않으므로 권장됩니다.</p> | 어려움<p>동일한 구성 요소를 추출하려면 사용자 지정 문자열 구문 분석이 필요합니다.</p> | <!-- Possible discrepancy: in the component settings meeting, Matt and Derek described all Substring methods, including URL parse, as roughly interchangeable across component setting, derived field, and SQL ("either one would work... maybe a preference"), which is a looser SQL-difficulty read than "Difficult." Flagged for Luke to reconcile; not changed without confirmation. --> |
 | **숫자 필드에 대한 기본 계산을 수행합니다** | 사용할 수 없음 | [계산](/help/data-views/derived-fields/derived-fields.md#math) | 파생 필드<p>사용하기 쉽고 동일한 논리가 Analysis Workspace과 데이터 피드 출력 모두에서 일관되게 적용되므로 권장됩니다.</p> | 쉬움/보통 | |
-| **이벤트 간에 차원 값 유지** | [지속성](/help/data-views/component-settings/persistence.md) | 현재 사용할 수 없는 <!-- Derek: considering adding this to FDL and surfacing it in derived fields; not currently possible. --> | 구성 요소 설정<p>사용하기 쉽고 제한된 파생 필드 중 하나를 사용하지 않으므로 권장됩니다.</p> | 어려움 | 범위 종속 파생 필드 함수와 같은 방식으로 전환 확인 날짜 범위와 상호 작용합니다. [전환 확인 날짜 범위 이해](/help/components/exports/cja-data-feeds/create-feed.md#data-feed-lookback-date-range)를 참조하세요. |
+| **이벤트 간에 차원 값 유지** | [지속성](/help/data-views/component-settings/persistence.md) | 현재 사용할 수 없는 <!-- Derek: considering adding this to FDL and surfacing it in derived fields; not currently possible. --> | 구성 요소 설정<p>사용하기 쉽고 제한된 파생 필드 중 하나를 사용하지 않으므로 권장됩니다.</p> | 어려움 | 범위 종속 파생 필드 함수와 같은 방식으로 전환 확인 날짜 범위와 상호 작용합니다. [처리 창 이해](/help/components/exports/cja-data-feeds/create-feed.md#data-feed-processing-window)를 참조하세요. |
 | **정규 표현식을 사용하여 값 바꾸기** | [하위 문자열](/help/data-views/component-settings/substring.md)(Regex 메서드) | [정규식 바꾸기](/help/data-views/derived-fields/derived-fields.md#regex-replace) | 구성 요소 설정<p>세 가지 접근 방식 모두 동일한 결과를 생성하지만, 다음과 같은 이유로 구성 요소 설정을 선호합니다.</p><ul><li>동일한 논리가 Analysis Workspace 및 데이터 피드 출력 모두에서 일관되게 적용됩니다(SQL에서는 가능하지 않음)</li><li>제한된 파생 필드 중 하나를 사용하지 않습니다.</li></ul> | 쉬움/보통 | |
 | **세션에서 다음 또는 이전 값을 확인합니다** | 사용할 수 없음 | [다음 또는 이전](/help/data-views/derived-fields/derived-fields.md#next-previous) | 파생 필드<p>사용하기 쉽고 동일한 논리가 Analysis Workspace과 데이터 피드 출력 모두에서 일관되게 적용되므로 권장됩니다.</p> | 어려움 | 범위 설정에 따라 다릅니다. [범위 설정이 데이터 피드에 미치는 영향](#scope-settings)을 참조하세요. |
 | **두 날짜 사이의 차이점 반환** | 사용할 수 없음 | [날짜 계산](/help/data-views/derived-fields/derived-fields.md#datemath) | 파생 필드<p>사용하기 쉽고 동일한 논리가 Analysis Workspace과 데이터 피드 출력 모두에서 일관되게 적용되므로 권장됩니다.</p> | 어려움 | 범위 설정에 따라 다릅니다. [범위 설정이 데이터 피드에 미치는 영향](#scope-settings)을 참조하세요. |
@@ -85,7 +85,7 @@ ht-degree: 5%
 날짜 계산, 중복 제거, 다음 또는 이전 및 요약은 각각 이벤트, 세션 또는 개인의 [!UICONTROL **범위**] 설정에 따라 다릅니다(사용 가능한 옵션은 함수에 따라 다름). 깊이는 구성 가능한 범위 필드가 없지만 표준 이벤트 깊이 차원과 유사하게 기본적으로 세션에 연결되어 있습니다. 범위가 있는 모든 필드는 해당 범위 내의 모든 행에 동일한 값을 쓰고 해당 값은 전환 확인 날짜 범위 내의 데이터에 따라 다릅니다.
 <!-- Open question as of 2026-09-09: is the lookback date range boundary anchored to a fixed point (e.g., midnight), or does it float with the feed run time, and is this configurable? Pending confirmation from Ron Fulkerson. -->
 
-[전환 확인 날짜 범위](/help/components/exports/cja-data-feeds/create-feed.md#data-feed-lookback-date-range)가 각 데이터 피드 배달과 함께 앞으로 이동하기 때문에 이미 발생한 이벤트의 경우에도 동일한 필드가 나중에 배달할 때 다른 값을 반환할 수 있습니다.
+[처리 창](/help/components/exports/cja-data-feeds/create-feed.md#data-feed-processing-window)이(가) 각 데이터 피드 배달과 함께 앞으로 이동하므로 이미 발생한 이벤트에 대해서도 나중에 배달할 때 동일한 필드가 다른 값을 반환할 수 있습니다.
 
 범위 크기에 따라 위험 증가: 개인 내역은 피드 실행 내에 자연 시간 경계가 없으므로 개인 범위는 세션 범위보다 더 많은 위험을 내포합니다.
 
