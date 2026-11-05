@@ -3,11 +3,10 @@ description: 대화 검토 시각화를 사용하여 개별 대화를 자세히 
 title: 대화 검토
 feature: Visualizations
 role: User
-hide: true
-source-git-commit: 113a215e26092c65d6eaf2c321f60d3f3a5015b8
+source-git-commit: 6b84720eae3c0c6cd6cfd204591fb9d5f1f5cdb0
 workflow-type: tm+mt
-source-wordcount: '188'
-ht-degree: 27%
+source-wordcount: '193'
+ht-degree: 26%
 ---
 # 대화 검토
 
@@ -24,7 +23,7 @@ ht-degree: 27%
 >abstract="타임스탬프와 신호 등 개별 대화의 맥락과 플로우를 이해합니다. 어떤 신호를 표시할지를 구성합니다."
 
 
-![채팅](/help/assets/icons/Chat.svg) **[!UICONTROL 대화 검토]** 시각화는 고객과 상담원 간의 전체 차례차례 교환을 보여 줍니다.
+![채팅](/help/assets/icons/Chat.svg) **[!UICONTROL 대화 검토]** 시각화는 [대화 통찰력](/help/conversation-insights/overview.md)의 일부로 고객과 에이전트 간의 전체 차례차례 교환을 보여줍니다.
 
 시각화는 타임스탬프 및 신호를 포함하여 개별 대화의 컨텍스트와 흐름을 이해하는 데 도움이 됩니다. 표시할 신호를 구성할 수 있습니다.
 

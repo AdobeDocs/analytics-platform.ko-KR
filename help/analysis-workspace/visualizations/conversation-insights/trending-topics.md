@@ -3,8 +3,7 @@ description: 트렌드 주제 시각화를 사용하여 대화의 트렌드 주�
 title: 트렌딩 항목
 feature: Visualizations
 role: User
-hide: true
-source-git-commit: 113a215e26092c65d6eaf2c321f60d3f3a5015b8
+source-git-commit: e498c374e8bfe12d7adda6ff9e7870a86f91dd5c
 workflow-type: tm+mt
 source-wordcount: '424'
 ht-degree: 25%
@@ -23,7 +22,7 @@ ht-degree: 25%
 
 {{release-limited-testing}}
 
-![피드](/help/assets/icons/Feed.svg) **[!UICONTROL 트렌드 주제]** 시각화를 사용하면 대화 통찰력의 일부로 트렌드 주제를 탐색하고 분석할 수 있습니다.
+![분류](/help/assets/icons/Breakdown.svg) **[!UICONTROL 트렌드 주제]** 시각화를 사용하면 [대화 인사이트](/help/conversation-insights/overview.md)의 일부로 트렌드 주제를 탐색하고 분석할 수 있습니다.
 
 특정 주제를 검색하고 각 수준에서 각 주제의 수 및 백분율을 다른 데이터 범위와 비교할 수 있습니다.
 
@@ -42,7 +41,7 @@ ht-degree: 25%
 
 **[!UICONTROL 트렌드 항목]** 시각화를 만들고 구성하려면:
 
-1. ![피드](/help/assets/icons/Feed.svg) **[!UICONTROL 트렌드 주제]** 시각화를 추가합니다. [패널 내에 시각화 추가](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)를 참조하십시오.
+1. ![분류](/help/assets/icons/Breakdown.svg) **[!UICONTROL 트렌드 항목]** 시각화를 추가합니다. [패널 내에 시각화 추가](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)를 참조하십시오.
 
 1. **[!UICONTROL 트렌드 항목]** 시각화 구성:
 
