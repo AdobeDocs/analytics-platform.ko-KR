@@ -220,7 +220,7 @@ XDM 스키마 저장소 키-값 쌍의 필드를 매핑합니다. 데이터 피�
 
 ### ID 맵
 
-[`identityMap`](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/profile/identitymap) 필드의 각 ID를 하나의 개체로 내보냅니다. 개체에는 식별자, 인증된 상태 및 기본 플래그와 함께 ID 네임스페이스(키)가 포함되어 있습니다. 네임스페이스는 해당 네임스페이스의 각 ID에 대해 반복됩니다.
+[`identityMap`](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/field-groups/profile/identitymap) 필드의 각 ID를 하나의 개체로 내보냅니다. 개체에는 식별자, 인증된 상태 및 기본 플래그와 함께 ID 네임스페이스(키)가 포함되어 있습니다. 네임스페이스는 해당 네임스페이스의 각 ID에 대해 반복됩니다.
 
 데이터 보기에 차원으로 존재하며 데이터 피드에 추가한 ID 맵 속성만 내보내집니다.
 
