@@ -49,14 +49,14 @@ topic_v2:
     internal-label: Implementation
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 84fea2df7c99420099d8203de6fdfda5ddcb4667
+source-git-commit: 616f285c80b32279ea75f22dabe471831153cf2b
 workflow-type: tm+mt
-source-wordcount: '1300'
+source-wordcount: '1461'
 ht-degree: 17%
 ---
-# 최신 Customer Journey Analytics 릴리스 정보 (2026년 10월)
+# 최신 Customer Journey Analytics 릴리스 정보 (2026년 10월~12월)
 
-**마지막 업데이트**: 2026년 11월 4일
+**마지막 업데이트**: 2026년 11월 6일
 
 이 릴리스 정보는 2026년 10월 릴리스 기간을 다룹니다. Adobe Customer Journey Analytics 릴리스는 기능 배포에 대한 보다 확장 가능한 단계별 접근 방식을 고려하는 [연속 게재 모델](releases.md)에서 작동합니다. 따라서 이들 릴리스 정보는 월별로 여러 차례 업데이트됩니다. 이들 릴리스 정보를 정기적으로 확인하십시오.
 
@@ -70,8 +70,12 @@ ht-degree: 17%
 | **여정 캔버스: 백분율 비교**<br/>&#x200B;여정을 이전 기간과 비교할 때 이제 새로운 [!UICONTROL 백분율 비교] 옵션을 활성화하여 각 노드, 화살표 및 폴아웃의 백분율 점수 변경을 표시할 수 있습니다. 이 기능은 여정의 사람 수가 날짜 범위 간에 다른 경우에도 비교가 정확하게 유지되므로 노드 간 유지나 폴아웃과 같은 비율을 비교할 때 유용합니다.<p>자세한 내용은 [여정 캔버스 시각화 구성](/help/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md#configure-visualization-settings)에서 &quot;백분율 비교&quot;를 참조하십시오.</p> | | 2026년 10월 19일 |
 | **시각화에 있는 간결한 범례 레이블**<br/>&#x200B;이제 시각화 범례 레이블을 줄여서 한눈에 구분할 수 있습니다. [!UICONTROL 간결한 레이블] 설정은 모든 레이블이 공유하는 지표, 세그먼트, 차원 항목 또는 날짜 범위 이름을 제거하여 한 레이블을 다른 레이블과 구분하는 정보에 지능적으로 중점을 둡니다.<p>간결한 레이블 없이 모든 범례 레이블은 공유된 이름을 반복하므로 마우스를 가져갈 때만 차이가 표시되는 긴 레이블을 만들 수 있습니다.</p><p>간결한 레이블은 기본적으로 꺼져 있으며 스택 버전을 비롯한 영역, 막대, 콤보, 도넛, 막대 그래프, 가로 막대, 선 및 벤 시각화에 사용할 수 있습니다.</p><p>자세한 내용은 [간결한 레이블](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#concise-labels)을 참조하십시오.</p> | | 2026년 10월 29일 |
 | **구성 요소 및 프로젝트에 대한 설명을 자동으로 생성합니다.** <br/>이제 차원, 지표, 계산된 지표, 세그먼트 및 날짜 범위에 대한 설명을 자동으로 생성할 수 있습니다. 이를 통해 Workspace 사용자는 특히 큰 구성 요소 라이브러리가 있는 조직에서 사용할 구성 요소를 이해할 수 있습니다. <p>단일 구성 요소에 대한 설명을 생성하거나 동시에 여러 구성 요소에 대한 설명을 생성할 수 있습니다. 자세한 내용은 [자동으로 설명 생성](/help/components/add-component-descriptions.md#automatically-generate-descriptions)을 참조하세요.</p><p>[프로젝트를 저장](/help/analysis-workspace/build-workspace-project/save-projects.md)하거나 [프로젝트 정보 및 설정](/help/analysis-workspace/build-workspace-project/create-projects.md#project-info-settings)에서 Workspace 프로젝트에 대한 설명을 생성할 수도 있습니다.</p> | 2026년 10월 29일 | 2026년 11월 18일 |
-| **CX Enterprise Coworker: 콘텐츠에 대해 질문하기** <br/>이제 동료 채팅을 사용하여 Content Analytics에서 콘텐츠에 대한 정확한 답변을 얻을 수 있습니다. &quot;지난 분기에 가장 많은 매출을 올린 이미지는 무엇입니까?&quot;와 같은 특정 질문이나 &quot;우선 순위를 두어야 하는 콘텐츠는 무엇입니까?&quot;와 같은 일반적인 질문을 합니다. 동료는 Content Analytics 데이터가 구성되는 방식을 이해하고 숙련된 분석가가 적용할 수 있는 보고 규칙을 적용하므로 마케터와 다른 비즈니스 사용자는 깊이 있는 Content Analytics 전문 지식 없이도 신뢰할 수 있는 결과를 얻을 수 있습니다.<p></p>자세한 내용은 [동료 채팅으로 콘텐츠에 대해 질문하기](https://experienceleague.adobe.com/ko/docs/coworker/content/chat/use-cases/data-insights/content-performance/ask-content-questions)를 참조하세요. | 2026년 10월 14일 | 2026년 11월 3일 |
+| **CX Enterprise Coworker: 콘텐츠에 대해 질문하기** <br/>이제 동료 채팅을 사용하여 Content Analytics에서 콘텐츠에 대한 정확한 답변을 얻을 수 있습니다. &quot;지난 분기에 가장 많은 매출을 올린 이미지는 무엇입니까?&quot;와 같은 특정 질문이나 &quot;우선 순위를 두어야 하는 콘텐츠는 무엇입니까?&quot;와 같은 일반적인 질문을 합니다. 동료는 Content Analytics 데이터가 구성되는 방식을 이해하고 숙련된 분석가가 적용할 수 있는 보고 규칙을 적용하므로 마케터와 다른 비즈니스 사용자는 깊이 있는 Content Analytics 전문 지식 없이도 신뢰할 수 있는 결과를 얻을 수 있습니다.<p></p>자세한 내용은 [동료 채팅으로 콘텐츠에 대해 질문하기](https://experienceleague.adobe.com/en/docs/coworker/content/chat/use-cases/data-insights/content-performance/ask-content-questions)를 참조하세요. | 2026년 10월 14일 | 2026년 11월 3일 |
 | **동료의 제품 내 경험**<br/>&#x200B;이제 Analysis Workspace의 채팅 패널에서 동료가 사용할 수 있습니다. 동료는 사용자가 연 프로젝트를 컨텍스트로 사용하므로 프로젝트에 포함된 내용을 설명하지 않고도 분석에 대한 질문을 할 수 있습니다.<p>Coworker의 제품 내 경험을 사용하여 다음을 수행할 수 있습니다.</p><ul><li>열려 있는 프로젝트를 요약하고 통찰력을 찾은 다음 근본 원인 분석을 실행합니다.</li><li>자연어 프롬프트로 프로젝트를 빌드하고 편집합니다. 예를 들어, 패널 및 테이블을 추가하고, 데이터를 분류하고, 시각화 유형 및 날짜 범위를 변경하고, 세그먼트를 만들 수 있습니다.</li></ul><p>자세한 내용은 [Coworker의 제품 내 경험 사용](/help/analysis-workspace/coworker.md)을 참조하십시오.</p> | 2026년 10월 29일 | TBD |
+| **Customer Journey Analytics API: 고급 날짜 트렌드 보고서**<br/>&#x200B;새 안내서에서는 날짜 범위 비교 및 세그먼트 추가 등 날짜 트렌드 보고서의 고급 기능에 대해 설명합니다.<p>자세한 내용은 Customer Journey Analytics API 설명서의 [고급 날짜 트렌드 보고서](https://developer.adobe.com/cja-apis/docs/endpoints/reporting/advanced)를 참조하십시오.</p> | | 2026년 11월 1일 |
+| **Customer Journey Analytics API: 반복 보고서 자동화**<br/>&#x200B;새 안내서에서 일정에 따라 새로운 지표를 사용하여 자동화된 워크플로에 대해 반복 Customer Journey Analytics 보고서를 설정하는 방법을 설명합니다.<p>(설명서 링크는 추후 제공됩니다.)</p> | | 2026년 11월 30일 |
+| **Customer Journey Analytics API: 분류 보고서**<br/>&#x200B;간단한 분류 보고서 요청에 대해 설명하고 예를 제공하는 새 안내서입니다. 이 안내서에서는 간단한 분류와 [여러 차원 보고](https://developer.adobe.com/cja-apis/docs/endpoints/reporting/multidim)의 차이점도 설명합니다.<p>(설명서 링크는 추후 제공됩니다.)</p> | | 2026년 11월 30일 |
+| **Customer Journey Analytics API: 데이터 보기 모범 사례**<br/>&#x200B;새 안내서에서는 여러 API 서비스에서 데이터 보기 식별자를 사용하여 작업하는 모범 사례를 설명합니다.<p>(설명서 링크는 추후 제공됩니다.)</p> | | 2026년 11월 30일 |
 
 
 ### Customer Journey Analytics의 수정 사항
