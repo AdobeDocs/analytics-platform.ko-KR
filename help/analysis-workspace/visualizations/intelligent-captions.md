@@ -58,7 +58,7 @@ ht-degree: 98%
 
 시각화를 위한 자동 생성 인텔리전트 캡션을 시작하려면 시각화 오른쪽 상단에 있는 ![인텔리전트 캡션](/help/assets/icons/AI.svg)을 선택합니다. 이러한 선택을 통해 자연어 인사이트가 생성됩니다.
 
-![제품 조회수 추세에 대한 인텔리전트 캡션을 보여 주는 분석 창을 실행합니다. ](assets/intelligent-captions.gif)
+![제품 조회수 추세에 대한 인텔리전트 캡션을 보여 주는 분석 창을 실행합니다. &#x200B;](assets/intelligent-captions.gif)
 
 
 주의 사항:

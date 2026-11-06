@@ -84,7 +84,7 @@ Adobe Experience Platform으로 수집된 모든 데이터는 데이터 세트�
 
 1. 왼쪽 레일의 Adobe Experience Platform UI에서 [!UICONTROL 데이터 관리]에 있는 **[!UICONTROL 스키마]**&#x200B;를 선택합니다.
 
-1. **[!UICONTROL 스키마 만들기]**를 선택합니다.
+1. **[!UICONTROL 스키마 만들기]**&#x200B;를 선택합니다.
 .
 1. 스키마 만들기 마법사의 클래스 선택 단계에서 다음을 수행합니다.
 
@@ -103,7 +103,7 @@ Adobe Experience Platform으로 수집된 모든 데이터는 데이터 세트�
 
    1. **[!UICONTROL 스키마 디스플레이 이름]**&#x200B;과 **[!UICONTROL 설명]**(선택 사항)을 입력합니다.
 
-      ![스키마 이름을 지정할 필드를 표시하는 스키마 만들기 창 ](./assets/create-pr-schema-wizard-step-2.png)
+      ![스키마 이름을 지정할 필드를 표시하는 스키마 만들기 창 &#x200B;](./assets/create-pr-schema-wizard-step-2.png)
 
    1. **[!UICONTROL 마침]**&#x200B;을 선택합니다.
 
