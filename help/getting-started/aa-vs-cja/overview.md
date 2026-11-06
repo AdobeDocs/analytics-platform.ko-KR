@@ -58,7 +58,7 @@ Customer Journey Analytics에서 [Analytics 소스 커넥터](https://experience
 
 데이터에 대해 보고하기 전에 데이터가 보고를 위해 사용될 수 있도록 해당 데이터를 처리해야 하는 경우가 많습니다. 데이터 처리는 수집 시간과 보고 시간에 발생할 수 있습니다.
 
-일반적으로 Customer Journey Analytics는 보고 시간에 Experience Platform 데이터 세트에서 수집 및 저장된 데이터를 사용하도록 설계되었습니다. Customer Journey Analytics는 강력한 보고 시 처리 기능을 제공하여 보고 및 분석할 수 있도록 데이터를 준비합니다. Experience Platform에 데이터를 수집하기 전에 해당 데이터를 매핑, 변환 및 검증해야 하는 경우, Experience Platform의 [ 데이터 준비](https://experienceleague.adobe.com/docs/experience-platform/data-prep/home.html) 기능을 사용할 수 있습니다.
+일반적으로 Customer Journey Analytics는 보고 시간에 Experience Platform 데이터 세트에서 수집 및 저장된 데이터를 사용하도록 설계되었습니다. Customer Journey Analytics는 강력한 보고 시 처리 기능을 제공하여 보고 및 분석할 수 있도록 데이터를 준비합니다. Experience Platform에 데이터를 수집하기 전에 해당 데이터를 매핑, 변환 및 검증해야 하는 경우, Experience Platform의 [&#x200B; 데이터 준비](https://experienceleague.adobe.com/docs/experience-platform/data-prep/home.html) 기능을 사용할 수 있습니다.
 
 Adobe Analytics에서 데이터 처리는 대부분 데이터가 수집되면 발생합니다.
 
