@@ -26,9 +26,9 @@ topic_v2:
     internal-label: Implementation
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
     internal-label: Customer journeys
-source-git-commit: 34959e37a7040bcd861a506968895ad6f051b686
+source-git-commit: bd396cb4909d131ed60c97e7101cf85946555e38
 workflow-type: tm+mt
-source-wordcount: '537'
+source-wordcount: '562'
 ht-degree: 1%
 ---
 # 데이터 피드 개요
@@ -37,7 +37,7 @@ ht-degree: 1%
 
 데이터 피드는 원시 이벤트 수준 데이터를 Customer Journey Analytics에서 클라우드 대상으로 내보냅니다. 이 데이터는 Data Warehouse와 같은 Adobe 외부의 다른 플랫폼에서 사용할 수 있습니다.
 
-데이터 피드는 데이터 보기의 구성 요소에서 빌드됩니다. 포함하는 각 차원 및 지표는 데이터 피드의 열이 되며 지속성, 파생된 필드 및 세그먼트와 같은 데이터 보기 설정이 데이터에 적용됩니다. 파일은 Parquet 형식으로 전달됩니다.
+데이터 피드는 데이터 보기의 구성 요소에서 빌드됩니다. 포함하는 각 차원 및 지표는 데이터 피드의 열이 되며 지속성, 파생된 필드 및 세그먼트와 같은 데이터 보기 설정이 데이터에 적용됩니다. 파일은 [Parquet 형식](/help/components/exports/cja-data-feeds/df-parquet.md)으로 배달됩니다.
 
 다음 유형의 데이터 피드를 만들 수 있습니다.
 
@@ -71,13 +71,15 @@ ht-degree: 1%
 
 ### 데이터 피드 계획
 
-* [Customer Journey Analytics 및 Adobe Analytics의 데이터 피드 비교](/help/components/exports/cja-data-feeds/df-comparison.md): 이전에 Adobe Analytics 데이터 피드를 사용한 경우 기능과 개념의 차이점을 이해합니다.
-
 * [데이터 피드와 Analysis Workspace 간의 데이터 불일치 이해](/help/components/exports/cja-data-feeds/df-comparison-workspace.md): 데이터 피드 출력이 Analysis Workspace의 보고서와 일치하지 않는 이유를 알아봅니다.
 
 * [데이터 피드의 구성 요소 가용성](/help/components/exports/cja-data-feeds/df-components.md): 데이터 피드에서 필수, 지원되지 않거나 제한된 차원 및 지표를 알아봅니다.
 
+* [데이터 피드에서 Parquet 파일을 사용하여 작업](/help/components/exports/cja-data-feeds/df-parquet.md): 데이터 피드에서 Parquet을 사용하는 이유와 데이터 웨어하우스에서 파일을 쿼리하거나 로드하는 방법에 대해 알아봅니다.
+
 ### Adobe Analytics 데이터 피드에서 마이그레이션
+
+1. [Customer Journey Analytics 및 Adobe Analytics의 데이터 피드 비교](/help/components/exports/cja-data-feeds/df-comparison.md): 이전에 Adobe Analytics 데이터 피드를 사용한 경우 기능과 개념의 차이점을 이해합니다.
 
 1. [데이터 피드 열 매핑 준비](/help/components/exports/cja-data-feeds/df-column-mapping-prep.md): Adobe Analytics 열이 Customer Journey Analytics에 매핑되는 방식에 영향을 주는 요소를 이해합니다.
 

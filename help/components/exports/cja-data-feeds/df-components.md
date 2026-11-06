@@ -17,10 +17,10 @@ role_v2:
     internal-label: Admin
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 56f881fc811f0eeffb9633872b3edbe0eb2d7070
+source-git-commit: e4a2c292024e2d88c3dec02b86711d4f58d1c82c
 workflow-type: tm+mt
-source-wordcount: '1596'
-ht-degree: 39%
+source-wordcount: '1669'
+ht-degree: 37%
 ---
 # 데이터 피드의 구성 요소 가용성
 
@@ -93,6 +93,12 @@ Customer Journey Analytics 표준 차원은 데이터 피드에 포함할 수 �
 | Adobe 글로벌 계정 프로필 | | 사용할 수 없음 |
 | Adobe 사람 조합 | | 사용할 수 없음 |
 | Adobe 사용자 프로필 | | 사용할 수 없음 |
+
+## 계산된 지표 {#calculated-metrics}
+
+계산된 지표는 데이터 피드에 포함할 수 없습니다. 계산된 지표는 많은 이벤트를 집계하여 보고서 시간에 계산되므로 개별 이벤트 행에 값이 없습니다.
+
+Customer Journey Analytics 외부에서 계산된 지표 결과가 필요한 경우 [Customer Journey Analytics BI 확장](/help/data-views/bi-extension.md)을 사용할 수 있습니다. BI 확장은 이벤트 행이 아닌 보고서 수준 결과를 반환하므로 대체보다는 데이터 피드와 함께 사용합니다.
 
 ## 함께 사용할 수 없는 차원 {#incompatible-dimensions}
 
@@ -212,7 +218,7 @@ Open question: Can a derived field that references dimensions from BOTH groups b
 | 날짜 (월 기준) | 차원 시간 분할 | 1-31 | 사용할 수 없음 |
 | 요일 | 차원 시간 분할 | 월요일부터 일요일까지 | 사용할 수 없음 |
 | 일(한 해 기준) | 차원 시간 분할 | 1-366 | 사용할 수 없음 |
-| 이벤트 심도 | 차원 | 순차적 숫자 값(1, 2, 3 등) 세션 내의 각 이벤트 상호 작용에 할당됨<p>각 새 세션이 시작될 때 재설정</p> | 사용 가능 |
+| 이벤트 심도 | 치수 | 순차적 숫자 값(1, 2, 3 등) 세션 내의 각 이벤트 상호 작용에 할당됨<p>각 새 세션이 시작될 때 재설정</p> | 사용 가능 |
 | 시간 | 차원 시간 분할 | 0-23 | 사용할 수 없음 |
 | 월(연 기준) | 차원 시간 분할 | 1월-12월 | 사용할 수 없음 |
 | 최초 세션 | 지표 | 보고 기간 내에 개인의 첫 번째 정의된 세션 | 사용할 수 없음 |
