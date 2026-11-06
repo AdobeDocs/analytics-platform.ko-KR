@@ -23,16 +23,16 @@ role_v2:
 topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
     internal-label: Customer journeys
-source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
+source-git-commit: 06501e010875aa3838948e7b977f85b508f66299
 workflow-type: tm+mt
 source-wordcount: '243'
-ht-degree: 69%
+ht-degree: 64%
 ---
 # 막대(스택)
 
 >[!BEGINSHADEBOX]
 
-_이 문서는 이 문서의_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**&#x200B;에 막대 및 막대 누적 시각화를 문서화합니다._<br/>__&#x200B;에 대한 [막대 및 막대 누적](https://experienceleague.adobe.com/ko/docs/analytics/analyze/analysis-workspace/visualizations/bar)을 참조하십시오![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** 버전._
+_이 문서는 이 문서의_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**&#x200B;에 막대 및 막대 누적 시각화를 문서화합니다._<br/>__&#x200B;에 대한 [막대 및 막대 누적](https://experienceleague.adobe.com/ko/docs/analytics/analyze/analysis-workspace/visualizations/bar)을 참조하십시오![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** 버전._
 
 
 >[!ENDSHADEBOX]
@@ -54,7 +54,7 @@ _이 문서는 이 문서의_ ![CustomerJourneyAnalytics](/help/assets/icons/Cus
 
 ![GraphBarVertical](/help/assets/icons/GraphBarVertical.svg) **[!UICONTROL 막대]** 시각화는 하나 이상 지표에서 다양한 값을 나타내는 세로 막대를 표시합니다.
 
-![페이지 조회수, 방문 수, 진입 수, 종료 수 등 여러 지표를 보여 주는 가상 막대 시각화.](assets/bar.png)
+![페이지 보기 수, 방문 횟수, 시작 횟수 및 종료 횟수 등 여러 지표를 보여주는 세로 막대 시각화.](assets/bar.png)
 
 시각화 설정의 세부 기간 드롭다운을 사용하면 트렌드 시각화(예: 선, 막대)를 일별에서 주별, 월별 등으로 변경할 수 있습니다.
 
@@ -80,7 +80,7 @@ _이 문서는 이 문서의_ ![CustomerJourneyAnalytics](/help/assets/icons/Cus
 
 >[!BEGINSHADEBOX]
 
-데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [영역 시각화](https://experienceleague.adobe.com/ko/docs/customer-journey-analytics-learn/tutorials/analysis-workspace/visualizations/add-bar-visualizations){target="_blank"}를 참조하십시오.
+데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [영역 시각화](https://experienceleague.adobe.com/en/docs/customer-journey-analytics-learn/tutorials/analysis-workspace/visualizations/add-bar-visualizations){target="_blank"}를 참조하십시오.
 
 >[!ENDSHADEBOX]
 

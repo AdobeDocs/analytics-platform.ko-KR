@@ -30,10 +30,10 @@ topic_v2:
     internal-label: Implementation
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
     internal-label: Customer journeys
-source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
+source-git-commit: 06501e010875aa3838948e7b977f85b508f66299
 workflow-type: tm+mt
 source-wordcount: '1129'
-ht-degree: 100%
+ht-degree: 99%
 ---
 # 데이터 수집 개요
 
@@ -48,7 +48,7 @@ ht-degree: 100%
 
 ![고객 여정 분석 아키텍처](/help/getting-started/assets/cja-overview.png)
 
-이 아키텍처는 고객 여정 분석을 통해 다음 작업을 수행하는 방법을 보여줍니다.
+이 아키텍처는 Customer Journey Analytics을 통해 다음과 같은 작업을 수행하는 방법을 보여 줍니다.
 
 * [연결](/help/connections/overview.md)에서 여러 ![Data](/help/assets/icons/Data.svg) 데이터 세트를 결합합니다.
 * 연결에서 정의한 데이터 세트에서 사용할 수 있는 필드를 기반으로 하여 [데이터 보기](/help/data-views/data-views.md)에서 ![Dimensions](/help/assets/icons/Dimensions.svg) 차원 및 ![Event](/help/assets/icons/Event.svg) 지표를 정의하고 구성합니다.
@@ -125,7 +125,7 @@ Adobe 기술을 사용하는 데스크탑 애플리케이션, 게임 콘솔에�
 
 ## 소스 커넥터를 사용하여 데이터 수집 및 사용
 
-소스 커넥터에서 지원하는 소스의 데이터를 사용할 수 있습니다. 소스 커넥터는 Adobe, 퍼스트 파티 및 서드파티 애플리케이션의 데이터를 Adobe Experience Platform으로 수집할 수 있는 구성 가능한 구성입니다. 사용 가능한 소스 커넥터의 개요는 [소스 커넥터 개요](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=ko)를 참조하십시오. 소스 커넥터를 사용하여 소스의 데이터를 Adobe Experience Platform으로 쉽게 수집한 다음 Customer Journey Analytics에서 이를 다른 채널 및 데이터 소스의 데이터와 함께 사용하고, 결합하고, 분석할 수 있습니다.
+소스 커넥터에서 지원하는 소스의 데이터를 사용할 수 있습니다. 소스 커넥터는 Adobe, 퍼스트 파티 및 서드파티 애플리케이션의 데이터를 Adobe Experience Platform으로 수집할 수 있는 구성 가능한 구성입니다. 사용 가능한 소스 커넥터의 개요는 [소스 커넥터 개요](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html)를 참조하십시오. 소스 커넥터를 사용하여 소스의 데이터를 Adobe Experience Platform으로 쉽게 수집한 다음 Customer Journey Analytics에서 이를 다른 채널 및 데이터 소스의 데이터와 함께 사용하고, 결합하고, 분석할 수 있습니다.
 
 자세한 내용은 [소스 커넥터를 사용하여 데이터 수집 및 사용](./sources.md)을 참조하십시오.
 
@@ -137,5 +137,5 @@ Experience Platform에서 단일 데이터 세트만 필요하며 XDM(경험 데
 
 >[!MORELIKETHIS]
 >
->블로그: [Adobe Customer Journey Analytics의 데이터 처리 및 수집에 대한 자세한 내용](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/a-closer-look-at-data-processing-amp-ingestion-in-adobe-customer/ba-p/665091?profile.language=ko)
+>블로그: [Adobe Customer Journey Analytics의 데이터 처리 및 수집에 대한 자세한 내용](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/a-closer-look-at-data-processing-amp-ingestion-in-adobe-customer/ba-p/665091)
 

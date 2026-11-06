@@ -34,16 +34,16 @@ topic_v2:
     internal-label: Reporting
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
     internal-label: Troubleshooting
-source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
+source-git-commit: 06501e010875aa3838948e7b977f85b508f66299
 workflow-type: tm+mt
 source-wordcount: '770'
-ht-degree: 100%
+ht-degree: 96%
 ---
 # Analytics 소스 커넥터 데이터를 Adobe Analytics와 비교
 
 조직에서 Customer Journey Analytics를 채택함에 따라 Adobe Analytics와 Customer Journey Analytics 간의 데이터 차이가 있을 수 있습니다. 이러한 차이는 정상이며 여러 가지 이유로 발생할 수 있습니다. Customer Journey Analytics는 Adobe Analytics에서의 데이터에 대한 몇 가지 제한 사항을 개선할 수 있도록 설계되었습니다. 이러한 유연성으로 인해 Customer Journey Analytics이 데이터를 해석하는 방식에 약간의 차이가 발생할 수 있습니다. 이 문서를 사용하여 Customer Journey Analytics 및 Adobe Analytics가 데이터를 처리하는 방식의 잠재적 차이점을 이해하십시오.
 
-이 페이지에서는 [Analytics 소스 커넥터](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=ko)를 사용하여 Adobe Analytics 데이터를 Adobe Experience Platform에 수집한 다음 Customer Journey Analytics에서 [연결](/help/connections/overview.md) 및 [데이터 보기](/help/data-views/data-views.md)를 생성한다고 가정합니다.
+이 페이지에서는 [Analytics 소스 커넥터](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html)를 사용하여 Adobe Analytics 데이터를 Adobe Experience Platform에 수집한 다음 Customer Journey Analytics에서 [연결](/help/connections/overview.md) 및 [데이터 보기](/help/data-views/data-views.md)를 생성한다고 가정합니다.
 
 ![해당 데이터는 Adobe Analytics에서 데이터 커넥터를 통해 Adobe Experience Platform으로, 그리고 CJA 연결을 사용하여 Custoer Journey Analytics로 이동합니다.](assets/compare.png)
 
@@ -60,7 +60,7 @@ ht-degree: 100%
   >
   >Adobe는 Adobe Analytics의 차원에서 “[!UICONTROL 가장 최근(마지막)]”의 할당을 사용할 것을 강력히 권장합니다. 이 할당 설정을 사용하면 Customer Journey Analytics에서 보다 많은 속성 유연성을 사용할 수 있습니다.
 
-* **방문 정의**: 개별 차원 및 지표 설정 외에도 데이터 보기 자체에는 방문자 데이터 해석 방식을 근본적으로 변경하는 설정이 포함되어 있습니다. 예를 들어, 세그먼트를 전체 데이터 보기에 적용할 수 있습니다(Adobe Analytics의 [가상 보고서 세트](https://experienceleague.adobe.com/ko/docs/analytics/components/virtual-report-suites/vrs-about)와 유사). 방문 기간의 정의를 변경하거나 원하는 이벤트에 자동으로 새 방문을 시작할 수도 있습니다. 이러한 설정은 Customer Journey Analytics와 Adobe Analytics 간의 보고 차이에 상당한 영향을 미칠 수 있습니다.
+* **방문 정의**: 데이터 보기 자체에는 개별 차원 및 지표 설정 외에도 방문자 데이터의 해석 방식을 근본적으로 변경하는 설정이 포함됩니다. 예를 들어, 세그먼트를 전체 데이터 보기에 적용할 수 있습니다(Adobe Analytics의 [가상 보고서 세트](https://experienceleague.adobe.com/ko/docs/analytics/components/virtual-report-suites/vrs-about)와 유사). 방문 기간의 정의를 변경하거나 원하는 이벤트에 자동으로 새 방문을 시작할 수도 있습니다. 이러한 설정은 Customer Journey Analytics와 Adobe Analytics 간의 보고 차이에 상당한 영향을 미칠 수 있습니다.
 
 ## 제품 간 레코드 수 확인
 

@@ -33,7 +33,7 @@ topic_v2:
     internal-label: Insights
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
+source-git-commit: 06501e010875aa3838948e7b977f85b508f66299
 workflow-type: tm+mt
 source-wordcount: '2375'
 ht-degree: 15%
@@ -248,7 +248,7 @@ Experience Platform 인터페이스에서 다음을 수행합니다.
 
   1. **[!UICONTROL 다음]**&#x200B;을 선택합니다.
 
-  [Experience Platform 데이터베이스](https://experienceleague.adobe.com/ko/docs/experience-platform/sources/connectors/databases/databricks) 또는 [Snowflake](https://experienceleague.adobe.com/ko/docs/experience-platform/sources/connectors/databases/snowflake) 커넥터를 사용하는 경우 연결 및 인증 방법에 대한 자세한 내용은 Azure 설명서를 참조하십시오.
+  [Experience Platform 데이터베이스](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/databases/databricks) 또는 [Snowflake](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/databases/snowflake) 커넥터를 사용하는 경우 연결 및 인증 방법에 대한 자세한 내용은 Azure 설명서를 참조하십시오.
 
 
 ### 데이터 선택

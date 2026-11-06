@@ -37,10 +37,10 @@ topic_v2:
     internal-label: Data management
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
+source-git-commit: 06501e010875aa3838948e7b977f85b508f66299
 workflow-type: tm+mt
 source-wordcount: '3765'
-ht-degree: 86%
+ht-degree: 82%
 ---
 # Customer Journey Analytics BI 확장 기능
 
@@ -48,7 +48,7 @@ ht-degree: 86%
 
 [!DNL Customer Journey Analytics BI extension]를 통해 SQL은 Customer Journey Analytics에서 정의한 [데이터 보기](./data-views.md)에 액세스할 수 있습니다. 데이터 엔지니어와 분석가는 Power BI, Tableau Desktop 또는 기타 비즈니스 인텔리전스 및 시각화 도구(BI 도구라고도 함)에 더 익숙할 수 있습니다. 이제 Customer Journey Analytics 사용자가 Analysis Workspace 프로젝트를 생성할 때 사용하는 것과 동일한 데이터 보기를 기반으로 보고 및 대시보드를 만들 수 있습니다.
 
-Adobe Experience Platform [Query Service](https://experienceleague.adobe.com/ko/docs/experience-platform/query/home)는 Experience Platform의 데이터 레이크에서 사용 가능한 데이터에 대한 SQL 인터페이스입니다. [!DNL Customer Journey Analytics BI extension]를 활성화하면 Customer Journey Analytics 데이터 보기를 [!DNL Query Service] 세션의 테이블 또는 보기로 볼 수 있도록 [!DNL Query Service] 기능이 확장됩니다. 따라서 [!DNL Query Service]를 PostgresSQL 인터페이스로 사용하는 비즈니스 인텔리전스 도구는 이러한 확장 기능을 통해 원활하게 이점을 누릴 수 있습니다.
+Adobe Experience Platform [Query Service](https://experienceleague.adobe.com/ko/docs/experience-platform/query/home)는 Experience Platform의 데이터 레이크에서 사용 가능한 데이터에 대한 SQL 인터페이스입니다. [!DNL Customer Journey Analytics BI extension]를 활성화하면 Customer Journey Analytics 데이터 보기를 [!DNL Query Service] 세션의 테이블 또는 보기로 볼 수 있도록 [!DNL Query Service] 기능이 확장됩니다. 따라서 [!DNL Query Service]을(를) PostgreSQL 인터페이스로 사용하는 비즈니스 인텔리전스 도구는 이 확장된 기능을 원활하게 사용할 수 있습니다.
 
 주요 이점은 다음과 같습니다.
 
@@ -78,7 +78,7 @@ Adobe Experience Platform [Query Service](https://experienceleague.adobe.com/ko/
 
 만료되지 않는 자격 증명을 사용하는 방법:
 
-1. Experience Platform에서 [만료되지 않는 자격 증명을 만듭니다](https://experienceleague.adobe.com/ko/docs/experience-platform/query/ui/credentials#non-expiring-credentials). 만료되지 않는 기존 자격 증명을 사용하려면 해당 자격 증명이 [OAuth로 마이그레이션되었는지](https://experienceleague.adobe.com/ko/docs/experience-platform/query/ui/credentials#migrate-credentials)확인하십시오.
+1. Experience Platform에서 [만료되지 않는 자격 증명을 만듭니다](https://experienceleague.adobe.com/en/docs/experience-platform/query/ui/credentials#non-expiring-credentials). 만료되지 않는 기존 자격 증명을 사용하려면 해당 자격 증명이 [OAuth로 마이그레이션되었는지](https://experienceleague.adobe.com/en/docs/experience-platform/query/ui/credentials#migrate-credentials)확인하십시오.
 
 1. Customer Journey Analytics 제품 및 제품 프로필에 대해 만료되지 않는 자격 증명을 사용할 수 있는지 확인합니다. 다음 단계를 실행하려면 조직의 시스템 관리자여야 합니다.
    1. ![앱](/help/assets/icons/Apps.svg)에서 **[!UICONTROL Admin Console]**&#x200B;을(를) 선택합니다.
@@ -113,7 +113,7 @@ Adobe Experience Platform [Query Service](https://experienceleague.adobe.com/ko/
 
 ### SQL
 
-쿼리 편집기나 표준 PostgresSQL 명령줄 인터페이스(CLI) 클라이언트를 사용하여 SQL 문에서 직접 기능을 사용할 수 있습니다.
+쿼리 편집기 또는 표준 PostgreSQL 명령줄 인터페이스(CLI) 클라이언트를 사용하여 SQL 문에서 직접 기능을 사용할 수 있습니다.
 
 +++ 쿼리 편집기
 
@@ -130,9 +130,9 @@ Adobe Experience Platform:
 +++
 
 
-+++ PostgresSQL CLI
++++ PostgreSQL CLI
 
-1. Adobe Experience Platform에서 PostgresSQL 자격 증명을 찾아 복사합니다.
+1. Adobe Experience Platform에서 PostgreSQL 자격 증명을 조회하고 복사합니다.
 
    1. 왼쪽 레일에서 **[!UICONTROL **&#x200B;쿼리&#x200B;**]**&#x200B;를 선택합니다(**[!UICONTROL **&#x200B;데이터 관리&#x200B;**]** 아래).
 
@@ -140,7 +140,7 @@ Adobe Experience Platform:
 
    1. **[!UICONTROL 데이터베이스]** 드롭다운 메뉴의 데이터베이스 목록에서 샌드박스의 `cja` 데이터베이스를 선택하십시오. 예 `prod:cja`.
 
-   1. 명령 문자열을 복사하려면 **[!UICONTROL **&#x200B; PSQL 명령&#x200B;**]** 섹션의 ![복사](assets/Smock_Copy_18_N.svg)를 사용합니다.
+   1. 명령 문자열을 복사하려면 **[!UICONTROL ** PSQL 명령&#x200B;**]** 섹션의 ![복사](assets/Smock_Copy_18_N.svg)를 사용합니다.
 
 1. 명령 또는 터미널 창을 엽니다.
 
@@ -157,7 +157,7 @@ Adobe Experience Platform:
 
 +++ Power BI
 
-1. Adobe Experience Platform에서 PostgresSQL 자격 증명의 세부 정보를 찾습니다.
+1. Adobe Experience Platform에서 PostgreSQL 자격 증명의 세부 정보를 조회합니다.
 
    1. 왼쪽 레일에서 **[!UICONTROL **&#x200B;쿼리&#x200B;**]**&#x200B;를 선택합니다(**[!UICONTROL **&#x200B;데이터 관리&#x200B;**]** 아래).
 
@@ -173,9 +173,9 @@ Adobe Experience Platform:
 
    1. 왼쪽 레일에서 **[!UICONTROL 자세히...]**&#x200B;를 선택합니다.
 
-   1. **데이터 가져오기** 화면에서 `PostgresSQL`을 검색하고 해당 목록에서 **[!UICONTROL **&#x200B; PostgresSQL 데이터베이스&#x200B;**]**&#x200B;를 선택합니다.
+   1. **데이터 가져오기** 화면에서 `PostgreSQL`을(를) 검색하고 목록에서 **[!UICONTROL ** PostgreSQL 데이터베이스&#x200B;**]**&#x200B;를 선택합니다.
 
-   1. **[!UICONTROL **&#x200B; PostgressSQL 데이터베이스&#x200B;**]** 대화 상자에서 다음 작업을 수행하십시오.
+   1. **[!UICONTROL ** PostgreSQL 데이터베이스&#x200B;**]** 대화 상자에서:
 
       1. Experience Platform 쿼리 [!UICONTROL 자격 증명]의 **[!UICONTROL **&#x200B;호스트&#x200B;**]** 매개변수를 **[!UICONTROL **&#x200B;서버&#x200B;**]** 텍스트 필드에 붙여넣습니다.
 
@@ -200,7 +200,7 @@ Adobe Experience Platform:
 
 +++타블로 데스크톱
 
-1. Adobe Experience Platform에서 PostgresSQL 자격 증명의 세부 정보를 찾습니다.
+1. Adobe Experience Platform에서 PostgreSQL 자격 증명의 세부 정보를 조회합니다.
 
    1. 왼쪽 레일에서 **[!UICONTROL **&#x200B;쿼리&#x200B;**]**&#x200B;를 선택합니다(**[!UICONTROL **&#x200B;데이터 관리&#x200B;**]** 아래).
 
@@ -214,9 +214,9 @@ Adobe Experience Platform:
 
    1. 왼쪽 레일의 **[!UICONTROL **&#x200B;서버로&#x200B;**]**&#x200B;에서 **[!UICONTROL **&#x200B;자세히&#x200B;**]**&#x200B;를 선택합니다.
 
-   1. 목록에서 **[!UICONTROL **&#x200B; PostgresSQL &#x200B;**]**&#x200B;을 선택합니다.
+   1. 목록에서 **[!UICONTROL ** PostgreSQL **]**&#x200B;을(를) 선택하십시오.
 
-   1. [!UICONTROL PostgresSQL] 대화 상자에서 다음 작업을 수행하십시오.
+   1. [!UICONTROL PostgreSQL] 대화 상자에서:
 
       1. Experience Platform 쿼리 [!UICONTROL 자격 증명]의 **[!UICONTROL **&#x200B;호스트&#x200B;**]** 매개변수를 **[!UICONTROL **&#x200B;서버&#x200B;**]** 텍스트 필드에 붙여넣습니다.
 
@@ -246,7 +246,7 @@ Adobe Experience Platform:
 
 +++ Looker
 
-1. Adobe Experience Platform에서 PostgresSQL 자격 증명의 세부 정보를 찾습니다.
+1. Adobe Experience Platform에서 PostgreSQL 자격 증명의 세부 정보를 조회합니다.
 
    1. 왼쪽 레일에서 **[!UICONTROL **&#x200B;쿼리&#x200B;**]**&#x200B;를 선택합니다(**[!UICONTROL **&#x200B;데이터 관리&#x200B;**]** 아래).
 
@@ -271,9 +271,9 @@ Adobe Experience Platform:
 
 +++
 
-+++ Jupyter Noteboook
++++ Jupyter Notebook
 
-1. Adobe Experience Platform에서 PostgresSQL 자격 증명의 세부 정보를 찾습니다.
+1. Adobe Experience Platform에서 PostgreSQL 자격 증명의 세부 정보를 조회합니다.
 
    1. 왼쪽 레일에서 **[!UICONTROL **&#x200B;쿼리&#x200B;**]**&#x200B;를 선택합니다(**[!UICONTROL **&#x200B;데이터 관리&#x200B;**]** 아래).
 
@@ -297,7 +297,7 @@ Adobe Experience Platform:
 
 +++ RStudio
 
-1. Adobe Experience Platform에서 PostgresSQL 자격 증명의 세부 정보를 찾습니다.
+1. Adobe Experience Platform에서 PostgreSQL 자격 증명의 세부 정보를 조회합니다.
 
    1. 왼쪽 레일에서 **[!UICONTROL **&#x200B;쿼리&#x200B;**]**&#x200B;를 선택합니다(**[!UICONTROL **&#x200B;데이터 관리&#x200B;**]** 아래).
 
@@ -355,7 +355,7 @@ prod:cja=> \dv
 
 ### 기본값 및 제한 사항
 
-BI 확장 기능을 사용하는 경우 다음과 같은 추가 기본값 및 제한 사항이 적용됩니다.
+BI 확장을 사용할 때 다음과 같은 추가 기본값과 제한이 적용됩니다.
 
 * BI 확장 기능에는 쿼리 결과에 대한 행 제한이 필요합니다. 기본값은 50이지만 SQL에서 `LIMIT n`를 사용하여 `n` 1 - 50000으로 이를 재정의할 수 있습니다.
 * BI 확장 기능에는 계산에 사용되는 행을 제한하기 위한 날짜 범위가 필요합니다. 기본값은 최근 30일이지만 특수 [`timestamp`](#timestamp) 또는 [`daterange`](#date-range) 열을 사용하여 SQL `WHERE` 절에서 이를 재정의할 수 있습니다.

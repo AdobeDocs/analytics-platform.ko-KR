@@ -41,9 +41,9 @@ topic_v2:
     internal-label: Reporting
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
     internal-label: Governance
-source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
+source-git-commit: 06501e010875aa3838948e7b977f85b508f66299
 workflow-type: tm+mt
-source-wordcount: '3275'
+source-wordcount: '3276'
 ht-degree: 58%
 ---
 # 클라우드로 전체 테이블 내보내기 {#full-table-export}
@@ -81,7 +81,7 @@ Analysis Workspace에서 전체 테이블을 클라우드 공급자(예: Google,
 
 1. [Workspace에서 전체 테이블 내보내기](#export-full-tables)
 
-1. 클라우드 계정에서 클라우드에 있는 데이터에 액세스하고 [Adobe에서 내보내기를 관리합니다](/help/components/exports/manage-exports.md)
+1. 클라우드 계정에서 클라우드의 데이터에 액세스하고 [Adobe에서 내보내기를 관리합니다](/help/components/exports/manage-exports.md)
 
 ![1~4단계에서 설명한 전체 테이블 내보내기 프로세스.](assets/export-full-table-process.png)
 

@@ -25,7 +25,7 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: cd12bd7f6943be6c58694af1374d32a1639d1578
+source-git-commit: 06501e010875aa3838948e7b977f85b508f66299
 workflow-type: tm+mt
 source-wordcount: '110'
 ht-degree: 20%
@@ -47,6 +47,6 @@ ht-degree: 20%
 
 ## 경고 스택
 
-여러 경고를 만드는 대신 경고를 통합(스택)할 수 있습니다. 경고를 스택하면 경고들이 결합되고 별도의 경고 수를 얻지 못합니다. 아래 예에서는 지표 임계값 중 하나가 트리거되면 경고가 전송됩니다.
+여러 경고를 만드는 대신 경고를 통합(스택)할 수 있습니다. 경고를 스택하면 경고들이 결합되고 별도의 경고 수를 얻지 못합니다. 아래 예에서 지표 임계값 중 하나가 트리거되면 경고가 전송됩니다.
 
 ![](assets/alerts-example2.png)

@@ -27,10 +27,10 @@ topic_v2:
     internal-label: Customer journeys
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
+source-git-commit: 06501e010875aa3838948e7b977f85b508f66299
 workflow-type: tm+mt
 source-wordcount: '802'
-ht-degree: 100%
+ht-degree: 98%
 ---
 # 인텔리전트 캡션 {#intelligent-captions}
 
@@ -105,7 +105,7 @@ Here is an example of what intelligent captions could look like:
 확장된 보기에서 모든 인텔리전트 캡션을 한 번에 표시하거나, 하나씩 보기에서 개별 인텔리전트 캡션을 표시할 수도 있습니다.
 
 * 모든 인텔리전트 캡션을 표시하려면 ![모든 인텔리전트 캡션 표시](/help/assets/icons/Maximize.svg)를 선택합니다.
-* 개별 인텔리전트 캡션을 하나씩 표시하려면 ![개별 인텔리전트 캡션 표시](/help/assets/icons/Minimize.svg)를 선택합니다.
+* 개별 지능형 캡션을 하나씩 표시하려면 ![개별 지능형 캡션 표시](/help/assets/icons/Minimize.svg)를 선택하십시오.
 
 ### 디스플레이 편집 {#edit}
 

@@ -32,10 +32,10 @@ topic_v2:
     internal-label: Reporting
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
     internal-label: Customer journeys
-source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
+source-git-commit: 06501e010875aa3838948e7b977f85b508f66299
 workflow-type: tm+mt
 source-wordcount: '518'
-ht-degree: 59%
+ht-degree: 58%
 ---
 # 오브젝트 배열 사용
 
@@ -97,7 +97,7 @@ ht-degree: 59%
   * product : name
   * product : order_id
   * product : warranty : coverage
-  * prodcut : warranty : length
+  * product : warranty : length
   * product : warranty : name
   * product : warranty : type
 * **지표:**
@@ -295,5 +295,5 @@ Customer Journey Analytics은 이름이 비슷한 지표가 다른 객체 수준
 
 ## 제한 사항
 
-제한 사항은 Customer Journey Analytics에서 사용하고 Experience Platform의 스키마의 일부로 모델링되는 데이터의 배열에 적용됩니다. [실시간 고객 프로필 데이터 및 세분화를 위한 기본 보호](https://experienceleague.adobe.com/ko/docs/experience-platform/profile/guardrails)에서 [데이터 모델 제한](https://experienceleague.adobe.com/ko/docs/experience-platform/profile/guardrails#data-model-limits) 및 [데이터 크기 제한](https://experienceleague.adobe.com/ko/docs/experience-platform/profile/guardrails#data-size-limits)을 참조하십시오.
+제한 사항은 Customer Journey Analytics에서 사용하고 Experience Platform의 스키마의 일부로 모델링되는 데이터의 배열에 적용됩니다. [실시간 고객 프로필 데이터 및 세분화를 위한 기본 보호](https://experienceleague.adobe.com/ko/docs/experience-platform/profile/guardrails)에서 [데이터 모델 제한](https://experienceleague.adobe.com/en/docs/experience-platform/profile/guardrails#data-model-limits) 및 [데이터 크기 제한](https://experienceleague.adobe.com/en/docs/experience-platform/profile/guardrails#data-size-limits)을 참조하십시오.
 

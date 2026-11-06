@@ -47,7 +47,7 @@ topic_v2:
     internal-label: Personalization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 86424aaa6a40c7d3fb4f8ae6559f9ec2dfa4c6dd
+source-git-commit: 06501e010875aa3838948e7b977f85b508f66299
 workflow-type: tm+mt
 source-wordcount: '1476'
 ht-degree: 9%
@@ -75,7 +75,7 @@ Customer Journey Analytics에서 Marketo Engage 데이터에 대해 보고하려
 
 Marketo 활동 데이터를 Customer Journey Analytics으로 수집하려면 적절한 ID 전략을 선택하여 Marketo 데이터가 Customer Journey Analytics 데이터에 연결될 수 있도록 해야 합니다.
 
-Marketo 데이터에는 기본적으로 ECID가 포함되어 있지 않지만 ECID 필드는 `munchkin.js` 라이브러리와 함께 수집되는 사용자 지정 필드로 추가할 수 있습니다. 이렇게 하면 Marketo과 기존 고객 여정 분석 웹 데이터 간에 공유 식별자가 만들어집니다.
+Marketo 데이터에는 기본적으로 ECID가 포함되어 있지 않지만 ECID 필드는 `munchkin.js` 라이브러리와 함께 수집되는 사용자 지정 필드로 추가할 수 있습니다. 이렇게 하면 Marketo과 기존 Customer Journey Analytics 웹 데이터 간에 공유 식별자가 만들어집니다.
 
 Marketo 및 Customer Journey Analytics 데이터를 연결하려면 관련 데이터 세트에서 [그래프 기반 결합](/help/stitching/gbs.md)을 사용하십시오. 구현에 따라 사용 가능한 여러 ID를 사용할 수 있습니다.
 
@@ -111,13 +111,13 @@ Marketo 및 Customer Journey Analytics 데이터를 연결하려면 관련 데�
 
 +++Marketo 소스 데이터 필드를 XDM 대상에 매핑
 
-[사용자](https://experienceleague.adobe.com/ko/docs/experience-platform/sources/connectors/adobe-applications/mapping/marketo) 및 [활동](https://experienceleague.adobe.com/ko/docs/experience-platform/sources/connectors/adobe-applications/mapping/marketo) 오브젝트를 해당 XDM 스키마 대상 필드에 매핑합니다.
+[사용자](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/mapping/marketo) 및 [활동](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/mapping/marketo) 오브젝트를 해당 XDM 스키마 대상 필드에 매핑합니다.
 
 +++
 
 +++Marketo 데이터를 Adobe Experience Platform에 수집
 
-[Marketo Engage 커넥터](https://experienceleague.adobe.com/ko/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo)를 사용하여 Marketo에서 Experience Platform으로 데이터를 가져오고 Experience Platform 응용 프로그램을 사용하여 이 데이터를 최신 상태로 유지하십시오.
+[Marketo Engage 커넥터](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo)를 사용하여 Marketo에서 Experience Platform으로 데이터를 가져오고 Experience Platform 응용 프로그램을 사용하여 이 데이터를 최신 상태로 유지하십시오.
 
 +++
 
