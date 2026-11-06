@@ -47,7 +47,7 @@ topic_v2:
     internal-label: Personalization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
+source-git-commit: 86424aaa6a40c7d3fb4f8ae6559f9ec2dfa4c6dd
 workflow-type: tm+mt
 source-wordcount: '1476'
 ht-degree: 9%
@@ -79,7 +79,7 @@ Marketo 데이터에는 기본적으로 ECID가 포함되어 있지 않지만 EC
 
 Marketo 및 Customer Journey Analytics 데이터를 연결하려면 관련 데이터 세트에서 [그래프 기반 결합](/help/stitching/gbs.md)을 사용하십시오. 구현에 따라 사용 가능한 여러 ID를 사용할 수 있습니다.
 
-* Experience Platform ID 서비스에서 제공하는 ECID
+* Experience Platform Identity 서비스에서 제공하는 ECID
 * 이메일
 * Munchkin ID, Marketo Engage 제공
 * 리셀러 ID

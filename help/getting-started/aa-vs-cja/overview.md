@@ -32,10 +32,10 @@ topic_v2:
     internal-label: Customer journeys
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
+source-git-commit: 86424aaa6a40c7d3fb4f8ae6559f9ec2dfa4c6dd
 workflow-type: tm+mt
-source-wordcount: '895'
-ht-degree: 100%
+source-wordcount: '892'
+ht-degree: 98%
 ---
 # Adobe Analytics와의 비교
 
@@ -58,7 +58,7 @@ Customer Journey Analytics에서 [Analytics 소스 커넥터](https://experience
 
 데이터에 대해 보고하기 전에 데이터가 보고를 위해 사용될 수 있도록 해당 데이터를 처리해야 하는 경우가 많습니다. 데이터 처리는 수집 시간과 보고 시간에 발생할 수 있습니다.
 
-일반적으로 Customer Journey Analytics는 보고 시간에 Experience Platform 데이터 세트에서 수집 및 저장된 데이터를 사용하도록 설계되었습니다. Customer Journey Analytics는 강력한 보고 시 처리 기능을 제공하여 보고 및 분석할 수 있도록 데이터를 준비합니다. Experience Platform에 데이터를 수집하기 전에 해당 데이터를 매핑, 변환 및 검증해야 하는 경우, Experience Platform의 [ 데이터 준비](https://experienceleague.adobe.com/docs/experience-platform/data-prep/home.html?lang=ko) 기능을 사용할 수 있습니다.
+일반적으로 Customer Journey Analytics는 보고 시간에 Experience Platform 데이터 세트에서 수집 및 저장된 데이터를 사용하도록 설계되었습니다. Customer Journey Analytics는 강력한 보고 시 처리 기능을 제공하여 보고 및 분석할 수 있도록 데이터를 준비합니다. Experience Platform에 데이터를 수집하기 전에 해당 데이터를 매핑, 변환 및 검증해야 하는 경우, Experience Platform의 [&#x200B; 데이터 준비](https://experienceleague.adobe.com/docs/experience-platform/data-prep/home.html?lang=ko) 기능을 사용할 수 있습니다.
 
 Adobe Analytics에서 데이터 처리는 대부분 데이터가 수집되면 발생합니다.
 
@@ -85,7 +85,7 @@ Experience Platform은 주어진 환경에 대한 데이터와 애플리케이�
 
 ## ID
 
-Customer Journey Analytics는 데이터가 포함된 데이터 세트가 준수하는 스키마의 일부로 정의되는 ID를 지원합니다. 따라서, ID는 Experience Platform의 기본 개념으로, 이는 [연결](../../connections/overview.md)을 설정(각 데이터 세트에 대한 개인 ID 정의)하고 크로스 채널 분석 시 [결합](../../stitching/overview.md)을 적용할 때 Customer Journey Analytics에서 사용합니다. Experience Platform SDK 및 API에서 사용되는 중요한 ID는 ECID(Experience Cloud ID)입니다.
+Customer Journey Analytics는 데이터가 포함된 데이터 세트가 준수하는 스키마의 일부로 정의되는 ID를 지원합니다. 따라서, ID는 Experience Platform의 기본 개념으로, 이는 [연결](../../connections/overview.md)을 설정(각 데이터 세트에 대한 개인 ID 정의)하고 크로스 채널 분석 시 [결합](../../stitching/overview.md)을 적용할 때 Customer Journey Analytics에서 사용합니다. Experience Platform SDK 및 API에서 사용하는 중요한 ID는 ECID입니다.
 
 Adobe Analytics는 Adobe Analytics ID(AAID)와 같은 보다 명확한 ID 필드 세트를 사용합니다. Analytics 소스 커넥터를 사용할 때 이러한 Adobe Analytics ID 필드는 특별하게 처리됩니다. 자세한 내용은 [AAID, ECID, AACUSTOMID 및 Analytics 소스 커넥터](https://experienceleague.adobe.com/docs/analytics-platform/using/compare-aa-cja/cja-aa-comparison/aaid-ecid-adc.html?lang=ko)를 참조하십시오.
 

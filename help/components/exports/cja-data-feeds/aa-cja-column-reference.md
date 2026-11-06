@@ -47,9 +47,9 @@ topic_v2:
     internal-label: Data management
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
+source-git-commit: 86424aaa6a40c7d3fb4f8ae6559f9ec2dfa4c6dd
 workflow-type: tm+mt
-source-wordcount: '3921'
+source-wordcount: '3918'
 ht-degree: 48%
 ---
 # Adobe Analytics 데이터 피드 열을 Customer Journey Analytics에 매핑
@@ -667,7 +667,7 @@ Java 활성화 차원. <br>Y: 활성화됨<br>N: 비활성화됨<br>U: 알 수 �
 
 +++**`mcvisid`**
 
-Experience Cloud 방문자 ID. 19자리에 채워진 두 개의 연결된 64비트 숫자로 구성된 128비트 숫자.
+ECID. 19자리에 채워진 두 개의 연결된 64비트 숫자로 구성된 128비트 숫자.
 
 +++
 

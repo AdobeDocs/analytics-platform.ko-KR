@@ -22,9 +22,9 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
-source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
+source-git-commit: 86424aaa6a40c7d3fb4f8ae6559f9ec2dfa4c6dd
 workflow-type: tm+mt
-source-wordcount: '1300'
+source-wordcount: '1297'
 ht-degree: 0%
 ---
 
@@ -95,7 +95,7 @@ GA4는 계단식 ID 모델을 사용하여 사용자를 식별합니다.
 2. Google 신호(사용자가 개인화가 활성화된 Google 계정에 로그인한 경우)
 3. 장치 ID(쿠키 기반 클라이언트 ID)
 
-대부분의 구현에서 해당 개인 ID는 ECID(Experience Cloud ID)입니다. 그런 다음 선택적 **[!UICONTROL 결합]** 기능을 사용하면 필드 기반 또는 그래프 기반 방법을 사용하여 크로스 디바이스 및 크로스 채널 ID를 확인하여 모바일 앱 세션과 데스크톱 브라우저 세션을 동일한 사용자와 연결할 수 있습니다.
+대부분의 구현에서 해당 개인 ID는 ECID입니다. 그런 다음 선택적 **[!UICONTROL 결합]** 기능을 사용하면 필드 기반 또는 그래프 기반 방법을 사용하여 크로스 디바이스 및 크로스 채널 ID를 확인하여 모바일 앱 세션과 데스크톱 브라우저 세션을 동일한 사용자와 연결할 수 있습니다.
 
 ID 확인은 플랫폼마다 다르므로 사용자 수준 수가 정확히 일치하는 경우는 거의 없습니다. 이러한 불일치는 예상되며 데이터 품질 문제를 나타내지는 않습니다.
 

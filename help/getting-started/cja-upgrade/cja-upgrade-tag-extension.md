@@ -30,9 +30,9 @@ topic_v2:
     internal-label: Customer journeys
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 614a234f8db9783dacaf9d2f3c21a5afd5ea02ef
+source-git-commit: 86424aaa6a40c7d3fb4f8ae6559f9ec2dfa4c6dd
 workflow-type: tm+mt
-source-wordcount: '322'
+source-wordcount: '323'
 ht-degree: 85%
 ---
 # 태그에 Web SDK 확장 기능 추가 {#upgrade-tag-extension}
@@ -50,7 +50,7 @@ ht-degree: 85%
 
 사이트에서 코드를 구현하는 Adobe Experience Platform의 태그 기능을 사용하여 실제로 데이터를 수집할 있습니다. 이는 다른 태그 지정 요구 사항과 함께 코드를 배포할 수 있도록 해 주는 태그 관리 솔루션입니다. 태그는 Adobe Experience Platform Web SDK 확장을 사용하여 Adobe Experience Platform과 원활하게 통합할 수 있도록 해 줍니다.
 
-다음 정보는 태그에 Web SDK 확장 기능을 추가하는 방법을 설명합니다. 추가 정보 Experience Platform 설명서의 [Web SDK 태그 확장 기능 구성](https://experienceleague.adobe.com/ko/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration)을 참조하십시오. 웹 SDK에는 Experience Platform Identity 서비스가 포함되어 있으므로 태그에 [!UICONTROL Experience Cloud ID 서비스] 확장을 추가할 필요가 없습니다.
+다음 정보는 태그에 Web SDK 확장 기능을 추가하는 방법을 설명합니다. 추가 정보 Experience Platform 설명서의 [Web SDK 태그 확장 기능 구성](https://experienceleague.adobe.com/ko/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration)을 참조하십시오. 웹 SDK은 Edge Network에서 ECID를 가져오므로 태그에 [!UICONTROL Experience Cloud ID 서비스] 확장을 추가할 필요가 없습니다.
 
 [태그 만들기](/help/getting-started/cja-upgrade/cja-upgrade-tag-property.md) 후 Adobe Experience Platform Web SDK 확장 기능을 사용하여 구성해야 합니다. 이렇게 하면 (데이터스트림을 통해_ Adobe Experience Platform으로 데이터를 전송할 수 있습니다.
 

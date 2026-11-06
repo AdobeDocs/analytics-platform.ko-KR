@@ -30,10 +30,10 @@ topic_v2:
     internal-label: Customer journeys
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 58ed911b3d2c719dd05082c463fe66403e207ef9
+source-git-commit: 86424aaa6a40c7d3fb4f8ae6559f9ec2dfa4c6dd
 workflow-type: tm+mt
-source-wordcount: '1999'
-ht-degree: 64%
+source-wordcount: '1997'
+ht-degree: 63%
 ---
 # 그래프 기반 결합
 
@@ -232,7 +232,7 @@ ht-degree: 64%
 
 다음 사전 요구 사항은 특히 그래프 기반 결합에 적용됩니다.
 
-- 결합을 적용하려는 Adobe Experience Platform의 이벤트 데이터 세트에는 모든 행에서 프로필을 식별하는 하나의 열인 **영구 ID**&#x200B;가 있어야 합니다. 예를 들면 Adobe Analytics AppMeasurement 라이브러리에서 생성된 방문자 ID 또는 Experience Platform ID 서비스에서 생성된 ECID입니다.
+- 결합을 적용하려는 Adobe Experience Platform의 이벤트 데이터 세트에는 모든 행에서 프로필을 식별하는 하나의 열인 **영구 ID**&#x200B;가 있어야 합니다. 예를 들어 Adobe Analytics AppMeasurement 라이브러리에서 생성된 방문자 ID 또는 Edge Network에서 생성된 ECID입니다.
 - 그래프 기반 결합을 활성화하기 전에 Experience Platform Identity 서비스의 ID 그래프를 샌드박스 수준에서 설정해야 합니다.
   - ID 그래프에는 결합 중에 개인 ID를 확인하는 데 사용할 네임스페이스(예: `Email` 또는 `Phone`)가 있어야 합니다.
   - ID 그래프는 관련 데이터 세트(*event* 또는 *profile* 유형이고 ID 값이 있는 유용한 네임스페이스가 두 개 이상 포함된)의 ID 정보로 채워야 합니다.

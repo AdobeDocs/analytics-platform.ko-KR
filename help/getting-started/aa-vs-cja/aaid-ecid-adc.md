@@ -31,9 +31,9 @@ topic_v2:
     internal-label: Customer experience
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
     internal-label: Customer journeys
-source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
+source-git-commit: 86424aaa6a40c7d3fb4f8ae6559f9ec2dfa4c6dd
 workflow-type: tm+mt
-source-wordcount: '632'
+source-wordcount: '623'
 ht-degree: 90%
 ---
 # AAID, ECID, AACUSTOMID 및 Analytics 소스 커넥터
@@ -48,9 +48,9 @@ Analytics 소스 커넥터에서 AAID는 `HEX(post_visid_high) + "-" + HEX(post_
 
 ## ECID
 
-ECID(Experience Cloud ID) 또는 MCID(Marketing Cloud ID)는 Analytics가 [방문자 ID 서비스](https://experienceleague.adobe.com/docs/id-service/using/implementation/setup-analytics.html?lang=ko-KR)&#x200B;(AppMeasurement) 또는 Experience Platform ID 서비스(Web SDK)를 사용하여 구현될 때 Adobe Analytics에 채워지는 별도의 장치 식별자 필드입니다. ECID는 Adobe Analytics 데이터 피드의 `mcvisid` 열에 표시됩니다.
+ECID는 MCID(Marketing Cloud ID)라고도 하며, Analytics가 [방문자 ID 서비스](https://experienceleague.adobe.com/docs/id-service/using/implementation/setup-analytics.html?lang=ko-KR)&#x200B;(AppMeasurement) 또는 Web SDK을 사용하여 구현될 때 Adobe Analytics에 채워지는 별도의 장치 식별자 필드입니다. ECID는 Adobe Analytics 데이터 피드의 `mcvisid` 열에 표시됩니다.
 
-이벤트에 ECID가 존재하는 경우, AAID는 Analytics [유예 기간](https://experienceleague.adobe.com/docs/id-service/using/reference/analytics-reference/grace-period.html?lang=ko)이 구성되어 있는지 여부에 따라 ECID에 기반할 수 있습니다. [Analytics 및 Experience Cloud ID 요청](https://experienceleague.adobe.com/docs/id-service/using/reference/analytics-reference/legacy-analytics.html?lang=ko)도 참조하십시오.
+이벤트에 ECID가 존재하는 경우, AAID는 Analytics [유예 기간](https://experienceleague.adobe.com/docs/id-service/using/reference/analytics-reference/grace-period.html?lang=ko)이 구성되어 있는지 여부에 따라 ECID에 기반할 수 있습니다. 참고 항목: [Analytics 및 ECID 요청](https://experienceleague.adobe.com/docs/id-service/using/reference/analytics-reference/legacy-analytics.html?lang=ko).
 
 ## AACUSTOMID
 

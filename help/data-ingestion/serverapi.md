@@ -41,10 +41,10 @@ topic_v2:
     internal-label: Data management
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
     internal-label: Customer profiles
-source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
+source-git-commit: 86424aaa6a40c7d3fb4f8ae6559f9ec2dfa4c6dd
 workflow-type: tm+mt
-source-wordcount: '2447'
-ht-degree: 62%
+source-wordcount: '2439'
+ht-degree: 60%
 ---
 # Edge Network Server API를 통해 데이터 수집
 
@@ -143,7 +143,7 @@ Adobe Experience Platform으로 수집된 모든 데이터는 데이터 세트�
 
    ![식별 오브젝트](./assets/identification-field-gaming.png)
 
-   식별 오브젝트는 스키마에 식별 기능을 추가합니다. 사용자의 경우 Experience Cloud ID와 게임 콘솔에 로그인하는 데 사용하는 이메일 주소를 사용하여 게임을 플레이하는 프로필을 식별하려고 합니다. 개인의 식별을 추적하는 데 사용할 수 있는 다른 많은 속성들이 있습니다.
+   식별 오브젝트는 스키마에 식별 기능을 추가합니다. 사용자의 경우 게임 콘솔에 로그인하는 데 사용하는 ECID 및 이메일 주소를 사용하여 게임을 플레이하는 프로필을 식별하려고 합니다. 개인의 식별을 추적하는 데 사용할 수 있는 다른 많은 속성들이 있습니다.
 
    **[!UICONTROL 적용]**&#x200B;을 선택하여 이 오브젝트를 스키마에 추가합니다.
 
@@ -151,7 +151,7 @@ Adobe Experience Platform으로 수집된 모든 데이터는 데이터 세트�
 
    ![ECID를 ID로 지정](./assets/specify-identity-gaming.png)
 
-   Experience Cloud ID를 Adobe Experience Platform ID 서비스가 프로필의 비헤이비어를 동일한 ECID와 결합하는 데 사용할 수 있는 기본 ID로 지정합니다.
+   Adobe Experience Platform Identity 서비스에서 동일한 ECID로 프로필의 동작을 결합(결합)하는 데 사용할 수 있는 기본 ID로 ECID를 지정하고 있습니다.
 
    **[!UICONTROL 적용]**&#x200B;을 선택합니다. ecid 속성에 지문 아이콘이 표시되는 것을 볼 수 있습니다.
 
@@ -179,7 +179,7 @@ Adobe Experience Platform으로 수집된 모든 데이터는 데이터 세트�
 
 1. 스키마를 저장하려면 **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 
-게임에서 캡처할 수 있는 데이터를 모델링하는 최소 스키마를 만들었습니다. 스키마를 통해 Experience Cloud ID 및 이메일 주소를 사용하여 프로필을 식별할 수 있습니다. 프로필에 대한 스키마를 활성화하면 콘솔 게임에서 캡처한 데이터가 실시간 고객 프로필에 추가됩니다.
+게임에서 캡처할 수 있는 데이터를 모델링하는 최소 스키마를 만들었습니다. 스키마를 사용하면 ECID 및 이메일 주소를 사용하여 프로필을 식별할 수 있습니다. 프로필에 대한 스키마를 활성화하면 콘솔 게임에서 캡처한 데이터가 실시간 고객 프로필에 추가됩니다.
 
 동작 데이터 옆에 있는 콘솔에서 프로필 속성 데이터를 캡처할 수도 있습니다(예: 콘솔에 로그인한 프로필에 대한 세부 정보).
 
@@ -191,7 +191,7 @@ Adobe Experience Platform으로 수집된 모든 데이터는 데이터 세트�
 
 - 프로필 코어 v2 필드 그룹을 기반으로 식별 오브젝트를 추가합니다.
 
-- Experience Cloud ID를 기본 식별자로, 이메일을 식별자로 정의합니다.
+- ECID를 기본 식별자로 정의하고 이메일을 식별자로 정의합니다.
 
 - 프로필용으로 스키마 활성화
 

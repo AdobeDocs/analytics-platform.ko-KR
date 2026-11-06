@@ -29,13 +29,11 @@ topic_v2:
     internal-label: Implementation
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 14557a59902110b1768d61e621adfb3f76ee9930
+source-git-commit: 86424aaa6a40c7d3fb4f8ae6559f9ec2dfa4c6dd
 workflow-type: tm+mt
-source-wordcount: 452
+source-wordcount: '451'
 ht-degree: 43%
-
 ---
-
 # 데이터 세트에 표준 조회 추가
 
 >[!IMPORTANT]
@@ -43,13 +41,13 @@ ht-degree: 43%
 >표준 조회는 Customer Journey Analytics의 Analytics 소스 커넥터 데이터 소스에만 사용할 수 있습니다. 표준 Adobe Analytics 구현, [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=ko) 또는 Experience Platform 데이터 수집 API에서 사용할 수 있습니다.
 >
 
-표준 조회(Adobe 제공 조회)를 사용하면 Customer Journey Analytics의 기능이 확장되어 단독으로는 유용하지 않지만 다른 데이터와 결합될 때 유용하게 사용할 수 있는 일부 차원/속성에 대해 보고할 수 있습니다. 이러한 예로는 모바일 디바이스의 속성과 브라우저 버전 번호와 같은 OS 및 브라우저 차원의 속성이 있습니다. &#39;표준 조회&#39;는 조회 데이터 세트와 유사합니다. 표준 조회는 CX 엔터프라이즈 조직 전체에 대해 적용할 수 있습니다. 특정 XDM 스키마 필드를 포함하는 모든 이벤트 데이터 세트에 자동으로 적용됩니다(특정 필드는 아래 참조). 표준 조회 데이터 세트는 Adobe에서 분류하는 각 스키마 위치에 대해 존재합니다.
+표준 조회(Adobe 제공 조회)를 사용하면 Customer Journey Analytics의 기능이 확장되어 단독으로는 유용하지 않지만 다른 데이터와 결합될 때 유용하게 사용할 수 있는 일부 차원/속성에 대해 보고할 수 있습니다. 이러한 예로는 모바일 디바이스의 속성과 브라우저 버전 번호와 같은 OS 및 브라우저 차원의 속성이 있습니다. &#39;표준 조회&#39;는 조회 데이터 세트와 유사합니다. 표준 조회는 Adobe 조직 전체에 대해 적용할 수 있습니다. 특정 XDM 스키마 필드를 포함하는 모든 이벤트 데이터 세트에 자동으로 적용됩니다(특정 필드는 아래 참조). 표준 조회 데이터 세트는 Adobe에서 분류하는 각 스키마 위치에 대해 존재합니다.
 
-기존 Adobe Analytics에서는 이러한 차원이 개별적으로 표시되지만 Customer Journey Analytics에서는 데이터 보기를 만들 때 이러한 차원을 반드시 포함해야 합니다. 연결 워크플로에서 표준 조회에 대한 키가 있는 데이터 세트로 플래그가 지정된 데이터 세트를 선택하십시오. 데이터 보기 UI는 보고에 사용할 수 있는 모든 표준 조회 차원을 포함해야 한다는 것을 자동으로 인지합니다. 조회 파일은 모든 지역 및 모든 계정에 대해 자동으로 최신 상태로 유지되어 제공됩니다. 이러한 파일은 고객과 연관된 지역별 조직에 저장됩니다.
+기존 Adobe Analytics에서는 이러한 차원이 개별적으로 표시되지만 Customer Journey Analytics에서는 데이터 보기를 만들 때 이러한 차원을 반드시 포함해야 합니다. 연결 워크플로에서 표준 조회에 대한 키가 있는 데이터 세트로 플래그가 지정된 데이터 세트를 선택하십시오. 데이터 보기 UI는 모든 표준 조회 차원을 보고에 사용할 수 있도록 자동으로 포함합니다. 조회 파일은 모든 지역 및 모든 계정에 대해 자동으로 최신 상태로 유지되어 제공됩니다. 이러한 파일은 고객과 연관된 지역별 조직에 저장됩니다.
 
 ## Analytics 소스 커넥터 데이터 세트에서 표준 조회 사용
 
-표준 조회 데이터 세트는 보고서 시간에 자동으로 적용됩니다. Analytics 소스 커넥터를 사용하고 Adobe에서 표준 조회를 제공하는 차원을 가져오는 경우, 이 표준 조회를 자동으로 적용합니다. 이벤트 데이터 세트에 XDM 필드가 포함된 경우 표준 조회를 해당 이벤트에 적용할 수 있습니다.
+표준 조회 데이터 세트는 보고 시 자동으로 적용됩니다. Analytics 소스 커넥터를 사용하고 Adobe에서 표준 조회를 제공하는 차원을 가져오는 경우, 이 표준 조회를 자동으로 적용합니다. 이벤트 데이터 세트에 XDM 필드가 포함된 경우 해당 데이터 세트에 표준 조회를 적용할 수 있습니다.
 
 <!--
 ### Specific IDs that need to be populated

@@ -17,9 +17,9 @@ subfeature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
+source-git-commit: 86424aaa6a40c7d3fb4f8ae6559f9ec2dfa4c6dd
 workflow-type: tm+mt
-source-wordcount: '2338'
+source-wordcount: '2335'
 ht-degree: 16%
 ---
 # 태그에서 XDM으로 마이그레이션 {#upgrade-migration-planner}
@@ -80,7 +80,7 @@ Migration Planner는 다음과 같은 복잡하고 시간이 많이 소요되는
 
 * 지원되는 Adobe Analytics 구현(태그용 Analytics 확장). [지원되는 Adobe Analytics 구현](#supported-adobe-analytics-implementations)을 참조하세요.
 
-* 로그인한 Experience Cloud 조직에서 마이그레이션할 Adobe 태그 속성에 액세스합니다.
+* 로그인한 Adobe 조직에서 마이그레이션할 Adobe 태그 속성에 액세스합니다.
 
 * XDM에 매핑할 변수가 있는 Adobe Analytics 보고서 세트에 액세스합니다.
 
@@ -114,7 +114,7 @@ Migration Planner는 다음과 같은 복잡하고 시간이 많이 소요되는
 
 1. 마이그레이션할 태그 속성을 선택한 다음 [!UICONTROL **다음**]&#x200B;을 선택합니다.
 
-   로그인한 Experience Cloud 조직에서 사용할 수 있는 태그 속성만 표시됩니다.
+   로그인한 조직에서 사용할 수 있는 태그 속성만 표시됩니다.
 
 1. 마이그레이션할 태그 라이브러리 스냅숏을 선택한 후 [!UICONTROL **다음**]&#x200B;을 선택하십시오.
 
