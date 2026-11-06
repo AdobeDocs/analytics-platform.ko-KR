@@ -17,9 +17,9 @@ subfeature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
+source-git-commit: 86424aaa6a40c7d3fb4f8ae6559f9ec2dfa4c6dd
 workflow-type: tm+mt
-source-wordcount: '2338'
+source-wordcount: '2335'
 ht-degree: 16%
 ---
 # 태그에서 XDM으로 마이그레이션 {#upgrade-migration-planner}
@@ -80,7 +80,7 @@ Migration Planner는 다음과 같은 복잡하고 시간이 많이 소요되는
 
 * 지원되는 Adobe Analytics 구현(태그용 Analytics 확장). [지원되는 Adobe Analytics 구현](#supported-adobe-analytics-implementations)을 참조하세요.
 
-* 로그인한 Experience Cloud 조직에서 마이그레이션할 Adobe 태그 속성에 액세스합니다.
+* 로그인한 Adobe 조직에서 마이그레이션할 Adobe 태그 속성에 액세스합니다.
 
 * XDM에 매핑할 변수가 있는 Adobe Analytics 보고서 세트에 액세스합니다.
 
@@ -114,7 +114,7 @@ Migration Planner는 다음과 같은 복잡하고 시간이 많이 소요되는
 
 1. 마이그레이션할 태그 속성을 선택한 다음 [!UICONTROL **다음**]&#x200B;을 선택합니다.
 
-   로그인한 Experience Cloud 조직에서 사용할 수 있는 태그 속성만 표시됩니다.
+   로그인한 조직에서 사용할 수 있는 태그 속성만 표시됩니다.
 
 1. 마이그레이션할 태그 라이브러리 스냅숏을 선택한 후 [!UICONTROL **다음**]&#x200B;을 선택하십시오.
 
@@ -156,7 +156,7 @@ Migration Planner는 다음과 같은 복잡하고 시간이 많이 소요되는
 
    1. [!UICONTROL **규칙**] 및 [!UICONTROL **데이터 요소**] 탭에서 마이그레이션에 포함할 항목을 선택합니다.
 
-      [!UICONTROL **In library**] (으)로 표시된 규칙이 게시되었습니다. [!UICONTROL **속성만**] (으)로 표시된 규칙이 속성에 있지만 선택한 라이브러리에 속하지 않습니다.
+      [!UICONTROL **In library**](으)로 표시된 규칙이 게시되었습니다. [!UICONTROL **속성만**](으)로 표시된 규칙이 속성에 있지만 선택한 라이브러리에 속하지 않습니다.
 
    1. 선택한 규칙에 대한 결과를 검토합니다. 각 검색 결과에 대해 [!UICONTROL **검토**]&#x200B;를 선택하여 해결하거나 [!UICONTROL **무시**]&#x200B;를 선택하여 해결되지 않은 상태로 두십시오.
 
@@ -264,7 +264,7 @@ Migration Planner는 다음과 같은 복잡하고 시간이 많이 소요되는
 
 매핑 세트는 Analytics 변수가 XDM 스키마 필드에 매핑되는 방법을 결정합니다.
 
-마이그레이션 프로세스[&#128279;](#migrate-an-analytics-implementation-to-the-web-sdk)에서 새 매핑 집합 을(를) 만들 수 있습니다. 또는 향후 마이그레이션 또는 다른 마이그레이션 작업에 사용할 독립형 매핑 세트를 만들 수 있습니다.
+마이그레이션 프로세스](#migrate-an-analytics-implementation-to-the-web-sdk)에서 새 매핑 집합 [을(를) 만들 수 있습니다. 또는 향후 마이그레이션 또는 다른 마이그레이션 작업에 사용할 독립형 매핑 세트를 만들 수 있습니다.
 
 ### 독립형 매핑 세트 만들기 {#xdm-mapping}
 

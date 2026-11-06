@@ -31,9 +31,9 @@ role_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
     internal-label: Troubleshooting
-source-git-commit: cd12bd7f6943be6c58694af1374d32a1639d1578
+source-git-commit: 86424aaa6a40c7d3fb4f8ae6559f9ec2dfa4c6dd
 workflow-type: tm+mt
-source-wordcount: '720'
+source-wordcount: '719'
 ht-degree: 65%
 ---
 # 경영진 사용자가 대시보드를 사용할 수 있도록 설정
@@ -42,7 +42,7 @@ ht-degree: 65%
 
 ## 앱 사용자에게 Adobe Analytics 액세스 권한 부여
 
-1. [CX Enterprise Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/product-profile.html?lang=ko)에서 새 사용자를 설정합니다.
+1. [CX Enterprise Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/product-profile.html)에서 새 사용자를 설정합니다.
 
 1. 스코어카드를 공유할 수 있으려면 앱 사용자에게 Analysis Workspace, 스코어카드가 기반으로 하는 데이터 보기, 세그먼트, 지표 및 차원과 같은 스코어카드 구성 요소에 액세스할 수 있는 권한을 부여해야 합니다.
 
@@ -83,9 +83,9 @@ ht-degree: 65%
 
    **[!UICONTROL 회사 선택]** 화면이 표시됩니다. 이 화면에 경영진 사용자가 속한 로그인 회사가 나열됩니다.
 
-1. 공유한 스코어카드에 적용되는 로그인 회사 또는 CX Enterprise 조직의 이름을 경영진이 탭하도록 합니다.
+1. 공유한 스코어카드에 적용되는 로그인 회사 또는 Adobe 조직의 이름을 경영진이 탭하도록 합니다.
 
-   스코어카드 목록에는 해당 로그인 회사 아래에 경영진과 공유된 모든 스코어카드가 표시됩니다.
+   스코어카드 목록에는 해당 로그인 회사에서 경영진과 공유된 모든 스코어카드가 표시됩니다.
 
 1. 해당되는 경우 경영진이 **[!UICONTROL 가장 최근에 수정됨]** 항목별로 이 목록을 정렬하도록 합니다.
 

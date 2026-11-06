@@ -23,10 +23,10 @@ topic_v2:
     internal-label: Reporting
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
     internal-label: Customer journeys
-source-git-commit: 34959e37a7040bcd861a506968895ad6f051b686
+source-git-commit: 86424aaa6a40c7d3fb4f8ae6559f9ec2dfa4c6dd
 workflow-type: tm+mt
-source-wordcount: '464'
-ht-degree: 44%
+source-wordcount: '461'
+ht-degree: 43%
 ---
 
 # Analytics 제품 비교
@@ -37,7 +37,7 @@ ht-degree: 44%
 |---|---|---|---|---|---|---|---|---|
 | **액세스 방법** | 브라우저 | Microsoft Excel | 브라우저 | 브라우저를 통한 설정 | RESTful API 도구 | MCP 호환 도구 | BI 도구 | MCP 호환 도구 |
 | **데이터 세부 기간** | 집계됨 | 집계됨 | 집계됨 | 이벤트 | 집계됨 | 집계됨 | 집계됨 | 집계됨 |
-| **Experience Cloud ID (ECID) 사용 가능** | 아니요 | 아니요 | 아니요 | 예 | 아니요 | 아니요 | 아니요 | 아니요 |
+| **ECID 사용 가능** | 아니요 | 아니요 | 아니요 | 예 | 아니요 | 아니요 | 아니요 | 아니요 |
 | **타임스탬프 사용 가능** | 아니요 | 아니요 | 아니요 | 예 | 아니요 | 아니요 | 아니요 | 아니요 |
 | **처리 수준** | 완전히 처리됨 | 완전히 처리됨, 별도의 실시간 보고서 사용 | 완전히 처리됨 | 완전히 처리됨 | 완전히 처리됨 | 완전히 처리됨 | 완전히 처리됨 | 완전히 처리됨 |
 | **보트 필터링이 적용되는 위치** | [데이터 스트림](https://experienceleague.adobe.com/ko/docs/experience-platform/datastreams/bot-detection) 및/또는 [CJA](/help/data-views/derived-fields/derived-fields.md#simple-bot-detection) 내 | [데이터 스트림](https://experienceleague.adobe.com/ko/docs/experience-platform/datastreams/bot-detection) 및/또는 [CJA](/help/data-views/derived-fields/derived-fields.md#simple-bot-detection) 내 | [데이터 스트림](https://experienceleague.adobe.com/ko/docs/experience-platform/datastreams/bot-detection) 및/또는 [CJA](/help/data-views/derived-fields/derived-fields.md#simple-bot-detection) 내 | [데이터 스트림](https://experienceleague.adobe.com/ko/docs/experience-platform/datastreams/bot-detection) 및/또는 [CJA](/help/data-views/derived-fields/derived-fields.md#simple-bot-detection) 내 |  |  | [데이터 스트림](https://experienceleague.adobe.com/ko/docs/experience-platform/datastreams/bot-detection) 및/또는 [CJA](/help/data-views/derived-fields/derived-fields.md#simple-bot-detection) 내 | |

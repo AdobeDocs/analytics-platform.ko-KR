@@ -43,10 +43,10 @@ topic_v2:
     internal-label: Data collection
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
+source-git-commit: 86424aaa6a40c7d3fb4f8ae6559f9ec2dfa4c6dd
 workflow-type: tm+mt
-source-wordcount: '2323'
-ht-degree: 95%
+source-wordcount: '2322'
+ht-degree: 94%
 ---
 # 자주 묻는 질문
 
@@ -61,9 +61,9 @@ Adobe Customer Journey Analytics는 차세대 분석 제품입니다. 이 문서
 +++
 
 
-+++**[!UICONTROL Customer Journey Analytics]에 [!UICONTROL Experience Cloud ID] (ECID)가 필요합니까?**
++++**[!UICONTROL Customer Journey Analytics]에 대한 ECID가 필요합니까?**
 
-아니요. [!UICONTROL Customer Journey Analytics]는 데이터 세트에서 선택한 ID가 ECID든 다른 ID이든 모두 지원합니다.
+아니요. [!UICONTROL Customer Journey Analytics]은(는) 데이터 세트에 있는 ID가 ECID이든 다른 ID이든 모두 지원합니다.
 
 +++
 
@@ -181,7 +181,7 @@ Adobe는 최근 Customer Journey Analytics에서 데이터를 처리하는 방�
 
 ## &#x200B;5. [!UICONTROL 연결] 데이터 보존에 대한 롤링 기간 설정 {#data-retention}
 
-[**[!UICONTROL 롤링 데이터 기간 활성화&#x200B;]**&#x200B;설정](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html?lang=ko#create-connection)을 사용하면 Customer Journey Analytics 데이터 보존을 개월(3개월, 6개월 등) 단위의 롤링 기간으로 정의할 수 있습니다. [!UICONTROL 데이터 세트] 수준이 아닌 [!UICONTROL 연결] 수준에서 설정됩니다. 데이터 보존은 이벤트 데이터 세트 타임스탬프를 기반으로 하며 이벤트 데이터 세트에만 적용됩니다. 적용 가능한 타임스탬프가 없기 때문에 프로필 또는 조회 데이터 세트에 대한 데이터 보존 설정은 없습니다.
+[**[!UICONTROL 롤링 데이터 기간 활성화&#x200B;]**설정](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html#create-connection)을 사용하면 Customer Journey Analytics 데이터 보존을 개월(3개월, 6개월 등) 단위의 롤링 기간으로 정의할 수 있습니다. [!UICONTROL 데이터 세트] 수준이 아닌 [!UICONTROL 연결] 수준에서 설정됩니다. 데이터 보존은 이벤트 데이터 세트 타임스탬프를 기반으로 하며 이벤트 데이터 세트에만 적용됩니다. 적용 가능한 타임스탬프가 없기 때문에 프로필 또는 조회 데이터 세트에 대한 데이터 보존 설정은 없습니다.
 
 주요 이점은 적용 가능하고 유용한 데이터에 대해서만 저장하거나 보고하고 더 이상 유용하지 않은 오래된 데이터를 삭제한다는 것입니다. 계약 한도를 유지하고 초과 비용의 위험을 줄이는 데 도움이 됩니다.
 
@@ -315,4 +315,4 @@ Adobe CX Enterprise은 RDC(지역 데이터 수집)를 사용하므로 방문자
 Customer Journey Analytics에는 Adobe Experience Platform의 데이터 세트가 필요하므로 데이터스트림/이벤트 전달 구성에는 지역 데이터 센터에서 Adobe Experience Platform 인스턴스가 위치한 데이터 센터로 데이터를 라우팅하는 Adobe Experience Platform 서비스가 필요합니다. Customer Journey Analytics와 지원 서비스 및 인프라는 동일한 Adobe Experience Platform 인스턴스에 배포됩니다.
 
 
-Adobe Experience Platform Edge Network 및 지역 데이터 센터 외부의 데이터 수집 프로세스에 대한 자세한 내용은 [데이터 수집 개요](https://experienceleague.adobe.com/docs/experience-platform/collection/home.html?lang=ko)를 참조하십시오.
+Adobe Experience Platform Edge Network 및 지역 데이터 센터 외부의 데이터 수집 프로세스에 대한 자세한 내용은 [데이터 수집 개요](https://experienceleague.adobe.com/docs/experience-platform/collection/home.html)를 참조하십시오.

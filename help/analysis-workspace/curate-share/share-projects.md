@@ -41,9 +41,9 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: cd12bd7f6943be6c58694af1374d32a1639d1578
+source-git-commit: 86424aaa6a40c7d3fb4f8ae6559f9ec2dfa4c6dd
 workflow-type: tm+mt
-source-wordcount: '2177'
+source-wordcount: '2174'
 ht-degree: 90%
 ---
 # 프로젝트 공유 {#share-projects}
@@ -74,7 +74,7 @@ Analysis Workspace 프로젝트를 다음 유형의 사람과 공유할 수 있�
 
 >[!BEGINSHADEBOX]
 
-데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analysis Workspace의 프로젝트 공유](https://experienceleague.adobe.com/ko/docs/customer-journey-analytics-learn/tutorials/analysis-workspace/curate-and-share/share-with-anyone-in-analysis-workspace){target="_blank"}를 확인하십시오.
+데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analysis Workspace의 프로젝트 공유](https://experienceleague.adobe.com/en/docs/customer-journey-analytics-learn/tutorials/analysis-workspace/curate-and-share/share-with-anyone-in-analysis-workspace){target="_blank"}를 확인하십시오.
 
 >[!ENDSHADEBOX]
 
@@ -115,7 +115,7 @@ Analysis Workspace 프로젝트를 다음 유형의 사람과 공유할 수 있�
 
    또는
 
-   개별 프로젝트만 공유하려면 공유하려는 프로젝트를 연 다음 **[!UICONTROL 공유]** > **[!UICONTROL Workspace 사용자와 공유]**&#x200B;를 선택합니다.
+   개별 프로젝트만 공유하려면 공유하려는 프로젝트를 연 다음 **[!UICONTROL 공유]** > **[!UICONTROL Workspace 사용자와 공유]**를 선택합니다.
    저장되지 않은 변경 사항이 있는 경우 먼저 프로젝트를 저장하라는 메시지가 표시됩니다.
 
    프로젝트 공유 대화 상자가 표시됩니다. 대화 상자의 [!UICONTROL **링크로 공유**] 및 [!UICONTROL **설정**] 섹션은 단일 프로젝트를 공유하는 경우에만 표시됩니다.
@@ -193,7 +193,7 @@ Customer Journey Analytics에 액세스할 수 없는 사용자에게 Analysis W
 
 >[!BEGINSHADEBOX]
 
-데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [모두와 공유](https://experienceleague.adobe.com/ko/docs/customer-journey-analytics-learn/tutorials/analysis-workspace/curate-and-share/share-with-anyone-in-analysis-workspace){target="_blank"}를 확인하십시오.
+데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [모두와 공유](https://experienceleague.adobe.com/en/docs/customer-journey-analytics-learn/tutorials/analysis-workspace/curate-and-share/share-with-anyone-in-analysis-workspace){target="_blank"}를 확인하십시오.
 
 >[!ENDSHADEBOX]
 
@@ -218,7 +218,7 @@ Analysis Workspace 프로젝트를 다른 사람과 공유하는 방법:
 
    * **[!UICONTROL Experience Cloud 인증 필요]:**
 
-     이 옵션이 활성화되면 프로젝트에 액세스할 수 있는 사용자는 공유 중인 프로젝트가 생성된 CX Enterprise(Experience Cloud) 조직에 로그인할 수 있는 사용자만 됩니다. 그러나 공유받는 사용자가 Customer Journey Analytics에 액세스할 필요는 없습니다.
+     이 옵션이 활성화된 경우 프로젝트에 액세스할 수 있는 사용자는 공유 중인 프로젝트가 생성된 Adobe 조직에 로그인할 수 있는 사용자만 됩니다. 그러나 공유받는 사용자가 Customer Journey Analytics에 액세스할 필요는 없습니다.
 
      Customer Journey Analytics 관리자는 [환경 설정](/help/analysis-workspace/user-preferences.md)에 설명된 대로 회사에 대해 이 환경 설정을 구성할 수 있습니다. 관리자가 이 옵션을 구성한 방식에 따라 다음 시나리오가 발생할 수 있습니다.
 
@@ -248,7 +248,7 @@ Analysis Workspace 프로젝트를 다른 사람과 공유하는 방법:
 
 >[!BEGINSHADEBOX]
 
-데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analysis Workspace에서 임베드된 구성 요소 공유](https://experienceleague.adobe.com/ko/docs/customer-journey-analytics-learn/tutorials/analysis-workspace/curate-and-share/share-with-anyone-in-analysis-workspace){target="_blank"}를 확인하십시오.
+데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analysis Workspace에서 임베드된 구성 요소 공유](https://experienceleague.adobe.com/en/docs/customer-journey-analytics-learn/tutorials/analysis-workspace/curate-and-share/share-with-anyone-in-analysis-workspace){target="_blank"}를 확인하십시오.
 
 >[!ENDSHADEBOX]
 

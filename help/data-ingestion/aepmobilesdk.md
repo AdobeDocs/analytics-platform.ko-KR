@@ -45,10 +45,10 @@ topic_v2:
     internal-label: Data management
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
     internal-label: Customer profiles
-source-git-commit: 58ed911b3d2c719dd05082c463fe66403e207ef9
+source-git-commit: 86424aaa6a40c7d3fb4f8ae6559f9ec2dfa4c6dd
 workflow-type: tm+mt
-source-wordcount: '3512'
-ht-degree: 63%
+source-wordcount: '3504'
+ht-degree: 61%
 ---
 # 모바일 SDK을 통해 데이터 수집
 
@@ -92,7 +92,7 @@ Adobe Experience Platform으로 수집된 모든 데이터는 데이터 세트�
 
 1. 왼쪽 레일의 Adobe Experience Platform UI에서 [!UICONTROL 데이터 관리]에 있는 **[!UICONTROL 스키마]**&#x200B;를 선택합니다.
 
-1. **[!UICONTROL 스키마 만들기]**&#x200B;를 선택합니다.
+1. **[!UICONTROL 스키마 만들기]**를 선택합니다.
 .
 1. 스키마 만들기 마법사의 클래스 선택 단계에서 다음을 수행합니다.
 
@@ -143,11 +143,11 @@ Adobe Experience Platform으로 수집된 모든 데이터는 데이터 세트�
 
    >[!NOTE]
    >
-   >해당 필드 그룹을 사용할 수 없는 경우 ID 필드가 포함된 다른 필드 그룹을 찾습니다. 또는 [새로운 필드 그룹을 만들고](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/field-groups.html?lang=ko) 필드 그룹에 [새로운 ID 필드(`ecid`, `crmId` 등 필요한 필드)를 추가](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/fields/identity.html?lang=ko#define-a-identity-field)한 다음 해당 새로운 필드 그룹을 선택합니다.
+   >해당 필드 그룹을 사용할 수 없는 경우 ID 필드가 포함된 다른 필드 그룹을 찾습니다. 또는 [새로운 필드 그룹을 만들고](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/field-groups.html) 필드 그룹에 [새로운 ID 필드(`ecid`, `crmId` 등 필요한 필드)를 추가](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/fields/identity.html#define-a-identity-field)한 다음 해당 새로운 필드 그룹을 선택합니다.
 
    ![식별 오브젝트](./assets/identification-field-mobile.png)
 
-   식별 오브젝트는 스키마에 식별 기능을 추가합니다. 이 경우 Experience Cloud ID 및 이메일 주소를 사용하여 모바일 앱을 사용하여 프로필을 식별하려고 합니다. 방문자 식별을 추적하는 데 사용할 수 있는 다른 많은 속성들이 있습니다(예: 고객 ID, 로열티 ID).
+   식별 오브젝트는 스키마에 식별 기능을 추가합니다. 이 경우 ECID 및 이메일 주소를 사용하여 모바일 앱을 사용하여 프로필을 식별하려고 합니다. 방문자 식별을 추적하는 데 사용할 수 있는 다른 많은 속성들이 있습니다(예: 고객 ID, 로열티 ID).
 
    **[!UICONTROL 적용]**&#x200B;을 선택하여 이 오브젝트를 스키마에 추가합니다.
 
@@ -155,7 +155,7 @@ Adobe Experience Platform으로 수집된 모든 데이터는 데이터 세트�
 
    ![ECID를 ID로 지정](./assets/specify-identity-mobile.png)
 
-   Experience Cloud ID를 Adobe Experience Platform ID 서비스가 프로필의 비헤이비어를 동일한 ECID와 결합하는 데 사용할 수 있는 기본 ID로 지정합니다.
+   Adobe Experience Platform Identity 서비스에서 동일한 ECID로 프로필의 동작을 결합(결합)하는 데 사용할 수 있는 기본 ID로 ECID를 지정하고 있습니다.
 
    **[!UICONTROL 적용]**&#x200B;을 선택합니다. ecid 속성에 지문 아이콘이 표시되는 것을 볼 수 있습니다.
 
@@ -173,7 +173,7 @@ Adobe Experience Platform으로 수집된 모든 데이터는 데이터 세트�
 
    스키마를 프로필용으로 활성화하라는 메시지가 표시됩니다. 활성화한 후 데이터가 이 스키마를 기반으로 데이터 세트로 수집되면 해당 데이터는 실시간 고객 프로필에 병합됩니다.
 
-   자세한 내용은 [실시간 고객 프로필에 사용할 스키마 활성화](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=ko#profile)를 참조하십시오.
+   자세한 내용은 [실시간 고객 프로필에 사용할 스키마 활성화](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html#profile)를 참조하십시오.
 
    >[!IMPORTANT]
    >
@@ -183,7 +183,7 @@ Adobe Experience Platform으로 수집된 모든 데이터는 데이터 세트�
 
 1. 스키마를 저장하려면 **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 
-모바일 애플리케이션에서 캡처할 수 있는 데이터를 모델링하는 최소 스키마를 만들었습니다. 스키마를 통해 Experience Cloud ID 및 이메일 주소를 사용하여 프로필을 식별할 수 있습니다. 프로필에 대한 스키마를 활성화하면 모바일 애플리케이션에서 캡처한 데이터가 실시간 고객 프로필에 추가됩니다.
+모바일 애플리케이션에서 캡처할 수 있는 데이터를 모델링하는 최소 스키마를 만들었습니다. 스키마를 사용하면 ECID 및 이메일 주소를 사용하여 프로필을 식별할 수 있습니다. 프로필에 대한 스키마를 활성화하면 모바일 애플리케이션에서 캡처한 데이터가 실시간 고객 프로필에 추가됩니다.
 
 동작 데이터 옆에 있는 모바일 애플리케이션에서 프로필 속성 데이터(예: 뉴스레터를 구독하는 프로필에 대한 세부 정보)를 캡처할 수도 있습니다.
 
@@ -195,11 +195,11 @@ Adobe Experience Platform으로 수집된 모든 데이터는 데이터 세트�
 
 - 프로필 코어 v2 필드 그룹을 기반으로 식별 오브젝트를 추가합니다.
 
-- Experience Cloud ID를 기본 식별자로, 이메일을 식별자로 정의합니다.
+- ECID를 기본 식별자로 정의하고 이메일을 식별자로 정의합니다.
 
 - 프로필용으로 스키마 활성화
 
-스키마에 필드 그룹 및 개별 필드 추가 및 제거에 대한 자세한 내용은 [UI에서 스키마 생성 및 편집](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/schemas.html?lang=ko)을 참조하십시오.
+스키마에 필드 그룹 및 개별 필드 추가 및 제거에 대한 자세한 내용은 [UI에서 스키마 생성 및 편집](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/schemas.html)을 참조하십시오.
 
 ### 데이터 세트 설정
 
@@ -235,7 +235,7 @@ Adobe Experience Platform으로 수집된 모든 데이터는 데이터 세트�
 
    ![프로필용으로 스키마 활성화](./assets/aepwebsdk-dataset-profile.png)
 
-데이터 세트를 보고, 미리 보고, 만들고, 삭제하는 방법에 대한 자세한 내용은 [데이터 세트 UI 안내서](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=ko)를 참조하십시오. 데이터 세트를 실시간 고객 프로필용으로 활성화하는 방법.
+데이터 세트를 보고, 미리 보고, 만들고, 삭제하는 방법에 대한 자세한 내용은 [데이터 세트 UI 안내서](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html)를 참조하십시오. 데이터 세트를 실시간 고객 프로필용으로 활성화하는 방법.
 
 ## 데이터스트림 설정
 
@@ -271,7 +271,7 @@ Adobe Experience Platform으로 수집된 모든 데이터는 데이터 세트�
 
 이제 모바일 앱에서 수집된 데이터를 Adobe Experience Platform의 데이터 세트로 전달하도록 데이터 스트림이 구성되었습니다.
 
-데이터스트림을 구성하는 방법과 민감한 데이터를 처리하는 방법에 대한 자세한 내용은 [데이터스트림 개요](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/overview.html?lang=ko)를 참조하십시오.
+데이터스트림을 구성하는 방법과 민감한 데이터를 처리하는 방법에 대한 자세한 내용은 [데이터스트림 개요](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/overview.html)를 참조하십시오.
 
 
 
@@ -324,7 +324,7 @@ Adobe Experience Platform Mobile SDK 확장을 만들고 구성하려면:
 - AEP Assurance.
 - 동의합니다.
 
-확장 및 해당 구성에 대한 자세한 내용은 Experience Platform용 모바일 앱 자습서에서 [태그 속성 구성](https://experienceleague.adobe.com/docs/platform-learn/implement-mobile-sdk/initial-configuration/configure-tags.html?lang=ko)을 참조하십시오.
+확장 및 해당 구성에 대한 자세한 내용은 Experience Platform용 모바일 앱 자습서에서 [태그 속성 구성](https://experienceleague.adobe.com/docs/platform-learn/implement-mobile-sdk/initial-configuration/configure-tags.html)을 참조하십시오.
 
 #### **데이터 요소**
 
@@ -457,7 +457,7 @@ Adobe Experience Platform 태그는 Adobe Experience Platform Edge Network 배�
 
 개발 환경에 대한 코드 대신 Adobe Experience Platform Mobile SDK을 배포하는 과정에 있는 위치에 따라 다른 환경(스테이징, 프로덕션)을 선택할 수 있습니다.
 
-자세한 내용은 [환경](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/environments/environments.html?lang=ko&)을 참조하십시오.
+자세한 내용은 [환경](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/environments/environments.html?)을 참조하십시오.
 
 ## 배포 및 검증
 

@@ -33,10 +33,10 @@ topic_v2:
     internal-label: Implementation
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
+source-git-commit: 86424aaa6a40c7d3fb4f8ae6559f9ec2dfa4c6dd
 workflow-type: tm+mt
-source-wordcount: '591'
-ht-degree: 100%
+source-wordcount: '589'
+ht-degree: 94%
 ---
 # Customer Journey Analytics의 고유한 기능 이해 {#feature-support-upgrade}
 
@@ -54,7 +54,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-stitch-datasets"
 >title="여러 데이터 세트에서 히트 결합"
->abstract="데이터 세트 중 하나라도 기본 식별자(예: Experience Cloud ID)를 공유하지 않는 경우에도 로그인 사용자 이름이나 이메일 주소와 같은 다른 차원을 사용하여 해당 데이터를 연결할 수 있습니다."
+>abstract="데이터 세트에서 기본 식별자(예: ECID)를 공유하지 않는 경우에도 로그인 사용자 이름 또는 이메일 주소와 같은 다른 차원을 사용하여 해당 데이터를 결합할 수 있습니다."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -111,7 +111,7 @@ Customer Journey Analytics로 업그레이드할 때 다음 중 어떤 Customer 
 
 | Customer Journey Analytics 기능 | 함수 |
 |---------|----------|
-| [콜센터 데이터 등 다른 채널의 데이터와 웹 데이터 연결](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-usecases/cross-channel/cross-channel) | Customer Journey Analytics는 모든 종류의 데이터 스키마와 유형을 보유할 수 있는 Experience Platform의 기능과 결합되어 있습니다. [경험 데이터 모델(XDM)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=ko)을 사용하여 데이터를 조합하고 탐색할 수 있도록 균일하게 나타내고 구성할 수 있습니다. Adobe Analytics는 일부 [데이터 가져오기](https://experienceleague.adobe.com/docs/analytics/import/home.html?lang=ko) 기능을 사용하여 주로 웹 및 모바일 분석 데이터에 중점을 둡니다. |
+| [콜센터 데이터 등 다른 채널의 데이터와 웹 데이터 연결](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-usecases/cross-channel/cross-channel) | Customer Journey Analytics는 모든 종류의 데이터 스키마와 유형을 보유할 수 있는 Experience Platform의 기능과 결합되어 있습니다. [경험 데이터 모델(XDM)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html)을 사용하여 데이터를 조합하고 탐색할 수 있도록 균일하게 나타내고 구성할 수 있습니다. Adobe Analytics는 일부 [데이터 가져오기](https://experienceleague.adobe.com/docs/analytics/import/home.html) 기능을 사용하여 주로 웹 및 모바일 분석 데이터에 중점을 둡니다. |
 | [사용자 정의 차원을 사용하여 다른 데이터 세트에서 히트 결합](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/stitching/overview) | Customer Journey Analytics를 사용하면 여러 보고서 세트의 데이터를 마치 Adobe Analytics의 단일 보고서 세트인 것처럼 [결합](/help/connections/combined-dataset.md)할 수 있습니다. |
 | [Adobe 실시간 CDP와 통합](/help/components/audiences/audiences-overview.md) | 고객 타기팅 및 맞춤화를 위해 Customer Journey Analytics에서 발견된 [대상자를 Adobe Experience Platform의 실시간 고객 프로필을 만들어 게시](/help/components/audiences/audiences-overview.md)할 수 있습니다. |
 | [Adobe Target(A4T)과 통합](/help/integrations/at.md) | Customer Journey Analytics의 타깃 보고를 사용하면 Customer Journey Analytics에서 직접 [Adobe Target 활동을 측정하고 보고](/help/integrations/at.md)할 수 있습니다. 그러나 개인화 사용 사례에 대해서는 Adobe Journey Optimizer와 통합하는 것이 좋습니다. |

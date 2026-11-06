@@ -81,10 +81,10 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 5aba7dcf73ddd7aee48a945911a8ff4b0f18e2e3
+source-git-commit: 86424aaa6a40c7d3fb4f8ae6559f9ec2dfa4c6dd
 workflow-type: tm+mt
 source-wordcount: '3089'
-ht-degree: 98%
+ht-degree: 97%
 ---
 # Customer Journey Analytics 기능 지원
 
@@ -172,7 +172,7 @@ ht-degree: 98%
 | **분류 규칙 빌더** | Customer Journey Analytics에서 [하위 문자열](/help/data-views/component-settings/substring.md)을 사용하여 지원됩니다. 조회 데이터 세트가 아니라 보고서 시간에 문자열 조작을 사용합니다. |
 | **사용자 정의 세션 길이** | 세션 길이는 데이터 보기의 [세션 설정](../../data-views/create-dataview.md#session-settings)을 통해 구성할 수 있습니다. 자세한 내용은 [세션 설정](../../data-views/session-settings.md)을 참조하시기 바랍니다. <br/>모바일 배경 이벤트 처리는 Adobe Experience Platform Mobile SDK를 통해 지원됩니다. 자세한 내용은 [Edge Network의 라이프사이클](https://developer.adobe.com/client-sdks/documentation/lifecycle-for-edge-network/)을 참조하십시오. |
 | **통화 전환** | 데이터 보기에서 [지표 구성 요소 서식 지정](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-dataviews/component-settings/format)의 일부로 지원됩니다. |
-| **고객 속성** | 프로필 데이터 세트는 고객 기여도에 해당합니다. Experience Cloud에서 프로필 데이터 세트를 자동으로 가져오지 않습니다. Customer Journey Analytics에서 사용하려면 Experience Platform으로 업로드해야 합니다. |
+| **고객 속성** | 프로필 데이터 세트는 고객 속성과 동일합니다. 프로필 데이터 세트는 CX Enterprise에서 자동으로 가져오지 않습니다. Customer Journey Analytics에서 사용하려면 먼저 Experience Platform에 업로드해야 합니다. |
 | **데이터 피드** | 데이터 세트의 1세대 데이터 내보내기는 [Experience Platform 데이터 액세스 API](https://experienceleague.adobe.com/ko/docs/experience-platform/data-access/api)와 [Experience Platform 대상](https://experienceleague.adobe.com/ko/docs/experience-platform/destinations/ui/activate/export-datasets)을 통해 사용할 수 있습니다. 이러한 옵션은 수집되거나 Experience Platform Data Lake에 수집된 모든 데이터의 이벤트/행 수준 내보내기를 제공합니다. 포스트 프로세스 데이터 열은 포스트 열이 쿼리 시점에 계산되므로 사용할 수 없습니다. 포스트 열 내보내기는 보고를 통해 사용할 수 있습니다. |
 | **Data Warehouse 보고** | [Customer Journey Analytics 전체 테이블 내보내기](/help/analysis-workspace/export/export-cloud.md)는 현재 Data Warehouse에서 사용할 수 없지만 자주 요청되는 새로운 기능을 다수 포함하는 Adobe Analytics의 Data Warehouse 보고서에 대한 개선 사항입니다. |
 | **시작, 종료, 사용 시간 차원 및 지표** | 지원되며(시작 및 종료는 이제 세션 시작 및 세션 종료라고 함), 약간 다른 방식으로 계산됩니다. |
