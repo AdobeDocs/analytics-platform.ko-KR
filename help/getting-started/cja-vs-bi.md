@@ -43,10 +43,10 @@ topic_v2:
     internal-label: Insights
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
     internal-label: Machine learning
-source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
+source-git-commit: 06501e010875aa3838948e7b977f85b508f66299
 workflow-type: tm+mt
 source-wordcount: '1680'
-ht-degree: 100%
+ht-degree: 99%
 ---
 # Customer Journey Analytics와 BI 솔루션 비교
 
@@ -60,7 +60,7 @@ ht-degree: 100%
 
 고객 여정 분석에 대한 기존 접근 방식에서 자주 발생하는 문제점은 접근 방식이 고객 중심적이지 않다는 것입니다. 각 팀은 사일로에서 데이터를 수집하고, 액세스할 수 있는 데이터를 기반으로 경험을 분석하고 최적화합니다.
 
-![이 섹션에 설명된 기존 BI 워크플로](./assets/biworkflow.png)
+![이 섹션에 설명된 대로 기존 BI 워크플로](./assets/biworkflow.png)
 
 특정 디지털 캠페인이 다른 데이터 사일로에 저장된 오프라인 액션에 어떻게 영향을 미치는지 알아보려면 BI 팀의 대기열에 요청을 발행합니다. BI 팀은 데이터를 확보하고 변환하는 데 필요한 쿼리를 작성합니다. 원시 데이터가 검색되면 BI 팀은 시각화를 생성합니다. 데이터를 공유한 다음 인사이트를 면밀히 살펴보고 다른 시스템에서 활성화할 데이터를 추출합니다.
 

@@ -35,7 +35,7 @@ topic_v2:
     internal-label: Insights
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: 58ed911b3d2c719dd05082c463fe66403e207ef9
+source-git-commit: 06501e010875aa3838948e7b977f85b508f66299
 workflow-type: tm+mt
 source-wordcount: '7127'
 ht-degree: 87%
@@ -304,7 +304,7 @@ Customer Journey Analytics에서 연결을 제거하려면 다음과 같은 작�
 | **[!UICONTROL 추가된 배치]** | 선택한 날짜 범위 동안 연결에 추가된 배치 수입니다. |
 | **[!UICONTROL 마지막으로 추가됨]** | 연결에 추가된 최신 배치의 타임스탬프입니다. |
 | **[!UICONTROL 데이터 소스 유형]** | 소스 유형입니다. 연결에 데이터 세트를 추가할 때 소스 유형을 정의합니다. |
-| **[!UICONTROL 데이터 세트 유형]** | [데이터 세트 유형](create-connection.md#dataset-types)입니다. 유형은 **[!UICONTROL 이벤트]**, **[!UICONTROL 프로필]**, **[!UICONTROL 조회]**, **[!UICONTROL 요약]**&#x200B;일 수 있습니다. 애드 혹 또는 관계형 데이터 세트는 **[!UICONTROL (애드 혹)]** 또는 **[!UICONTROL (관계형)]**&#x200B;으로 식별됩니다. 예를 들어 **[!UICONTROL 이벤트(애드 혹)]** 또는 **[!UICONTROL 조회(관계형)]**&#x200B;입니다. |
+| **[!UICONTROL 데이터 세트 유형]** | [데이터 세트 유형](create-connection.md#dataset-types)입니다. 유형은 **[!UICONTROL 이벤트]**, **[!UICONTROL 프로필]**, **[!UICONTROL 조회]**, **[!UICONTROL 요약]**&#x200B;일 수 있습니다. 임시 또는 관계형 데이터 세트는 **[!UICONTROL (임시)]** 또는 **[!UICONTROL (관계형)]**&#x200B;로 식별됩니다. 예를 들어 **[!UICONTROL 이벤트(애드 혹)]** 또는 **[!UICONTROL 조회(관계형)]**&#x200B;입니다. |
 | **[!UICONTROL 결합됨]** | 데이터 세트가 [연결 UI에서 결합에 대해 활성화되면](/help/stitching/use-stitching-ui.md) 값은 **[!UICONTROL true]**&#x200B;입니다. 그렇지 않은 경우 값은 **[!UICONTROL false]**&#x200B;입니다. [결합 절차 요청](/help/stitching//use-stitching.md)의 결과로 생성된 결합된 데이터 세트는 이 테이블에서 결합된 것으로 식별되지 않으며 기본적으로 **[!UICONTROL false]** 값을 갖습니다. |
 | **[!UICONTROL 스키마]** | 해당 데이터 세트가 기반으로 삼는 Experience Platform 스키마입니다. |
 | **[!UICONTROL 새 데이터 가져오기]** | 데이터 세트에 대한 새 데이터 가져오기 상태: <p>![상태 녹색](assets/status-green.svg)   **[!UICONTROL _x _켜짐]**&#x200B;새 데이터를 가져오도록 구성된 데이터 세트의 경우<p>![상태 회색](assets/status-gray.svg)   **[!UICONTROL _x 꺼짐_]** 새 데이터를 가져오지 않도록 구성된 데이터 세트의 경우. |
@@ -361,7 +361,7 @@ Customer Journey Analytics에서 연결을 제거하려면 다음과 같은 작�
 | **[!UICONTROL 새 데이터 가져오기]** | 데이터 세트에 대한 새 데이터 가져오기 상태: <p>![상태 녹색](assets/status-green.svg)   **[!UICONTROL _x _켜짐]**&#x200B;새 데이터를 가져오도록 구성된 데이터 세트의 경우<p>![상태 회색](assets/status-gray.svg)   **[!UICONTROL _x 꺼짐_]** 새 데이터를 가져오지 않도록 구성된 데이터 세트의 경우. |
 | **[!UICONTROL 채우기 데이터]** | 데이터 세트의 채우기 데이터 상태.<p>![상태 빨간색](assets/status-red.svg)   **[!UICONTROL _x _채우기 실패]**&#x200B;실패한 채우기의 수에 대해,<p>![상태 빨간색](assets/status-orange.svg)   **[!UICONTROL _x _채우기 처리]**&#x200B;처리 채우기 수에 대해,<p>![상태 녹색](assets/status-green.svg)   **[!UICONTROL _x _채우기 완료]**&#x200B;완료된 채우기 수에 대해<p>![상태 회색](assets/status-gray.svg)   **[!UICONTROL _꺼짐_]** 채우기가 구성되지 않은 경우.<p>데이터 세트의 과거 백필 개요가 있는 대화 상자를 표시하려면 선택합니다. <img src="./assets/pastbackfill.svg" alt="이전 채우기" width="15"/> **[!UICONTROL 이전 채우기]**. |
 | **[!UICONTROL 데이터 소스 유형]** | 연결에 데이터 세트를 추가할 때 정의된 데이터 소스 유형입니다. |
-| **[!UICONTROL 데이터 세트 유형]** | [데이터 세트 유형](create-connection.md#dataset-types)입니다. 유형은 **[!UICONTROL 이벤트]**, **[!UICONTROL 프로필]**, **[!UICONTROL 조회]**, **[!UICONTROL 요약]**&#x200B;일 수 있습니다. 애드 혹 또는 관계형 데이터 세트는 **[!UICONTROL (애드 혹)]** 또는 **[!UICONTROL (관계형)]**&#x200B;으로 식별됩니다. 예를 들어 **[!UICONTROL 이벤트(애드 혹)]** 또는 **[!UICONTROL 조회(관계형)]**&#x200B;입니다. |
+| **[!UICONTROL 데이터 세트 유형]** | [데이터 세트 유형](create-connection.md#dataset-types)입니다. 유형은 **[!UICONTROL 이벤트]**, **[!UICONTROL 프로필]**, **[!UICONTROL 조회]**, **[!UICONTROL 요약]**&#x200B;일 수 있습니다. 임시 또는 관계형 데이터 세트는 **[!UICONTROL (임시)]** 또는 **[!UICONTROL (관계형)]**&#x200B;로 식별됩니다. 예를 들어 **[!UICONTROL 이벤트(애드 혹)]** 또는 **[!UICONTROL 조회(관계형)]**&#x200B;입니다. |
 | **[!UICONTROL 스키마]** | 이 데이터 세트가 기반으로 삼는 Experience Platform 스키마. |
 | **[!UICONTROL 데이터 세트 ID]** | Experience Platform에서 생성된 데이터 세트 ID입니다. |
 

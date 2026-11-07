@@ -35,9 +35,9 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
-source-git-commit: cd12bd7f6943be6c58694af1374d32a1639d1578
+source-git-commit: 06501e010875aa3838948e7b977f85b508f66299
 workflow-type: tm+mt
-source-wordcount: '2770'
+source-wordcount: '2771'
 ht-degree: 95%
 ---
 # 모바일 스코어카드 만들기 {#create-a-mobile-scorecard}
@@ -57,7 +57,7 @@ ht-degree: 95%
 
 >[!BEGINSHADEBOX]
 
-데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [모바일 스코어카드 만들기](https://experienceleague.adobe.com/ko/docs/customer-journey-analytics-learn/tutorials/dashboards/create-a-mobile-scorecard){target="_blank"}를 확인하십시오.
+데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [모바일 스코어카드 만들기](https://experienceleague.adobe.com/ko/docs/customer-journey-analytics-learn/tutorials/dashboards/create-a-mobile-scorecard){target="_blank"}를 참조하십시오.
 
 >[!ENDSHADEBOX]
 
@@ -209,7 +209,7 @@ Analytics 대시보드는 차원 항목 및 지표에 대한 뛰어난 인사이
 1. 올바른 타일을 선택합니다.
 1. 오른쪽 레일의 **[!UICONTROL 드릴인]** 아래에서 제거하려는 **[!UICONTROL 지정되지 않음]** 항목이 있는 차원 항목 옆의 오른쪽 화살표를 선택합니다.
 
-   ![화살표가 차원 이름 옆의 오른쪽 화살표를 가리키는 속성.](assets/unspecified.png)
+   ![차원 이름 옆의 오른쪽 화살표를 가리키는 화살표가 있는 속성입니다.](assets/unspecified.png)
 
 1. 보고에서 지정되지 않은 데이터를 제거하려면 **[!UICONTROL 지정되지 않음]** 옆에 있는 아이콘을 클릭합니다. (다른 차원 항목을 제거할 수도 있습니다.)
 

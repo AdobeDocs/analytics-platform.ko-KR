@@ -1,5 +1,5 @@
 ---
-description: Analysis Workspace에서 집단 타겟을 만들고 구성하고 집단 분석 보고서를 실행하는 방법에 대해 알아봅니다.
+description: Analysis Workspace에서 집단 테이블을 만들고 구성하고 집단 분석 보고서를 실행하는 방법에 대해 알아봅니다.
 keywords: Analysis Workspace
 title: 집단 테이블 구성
 feature: Visualizations
@@ -24,7 +24,7 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
+source-git-commit: 06501e010875aa3838948e7b977f85b508f66299
 workflow-type: tm+mt
 source-wordcount: '973'
 ht-degree: 79%

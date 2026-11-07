@@ -34,10 +34,10 @@ topic_v2:
     internal-label: Reporting
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
     internal-label: Troubleshooting
-source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
+source-git-commit: 06501e010875aa3838948e7b977f85b508f66299
 workflow-type: tm+mt
 source-wordcount: '770'
-ht-degree: 100%
+ht-degree: 96%
 ---
 # Analytics 소스 커넥터 데이터를 Adobe Analytics와 비교
 
@@ -60,7 +60,7 @@ ht-degree: 100%
   >
   >Adobe는 Adobe Analytics의 차원에서 “[!UICONTROL 가장 최근(마지막)]”의 할당을 사용할 것을 강력히 권장합니다. 이 할당 설정을 사용하면 Customer Journey Analytics에서 보다 많은 속성 유연성을 사용할 수 있습니다.
 
-* **방문 정의**: 개별 차원 및 지표 설정 외에도 데이터 보기 자체에는 방문자 데이터 해석 방식을 근본적으로 변경하는 설정이 포함되어 있습니다. 예를 들어, 세그먼트를 전체 데이터 보기에 적용할 수 있습니다(Adobe Analytics의 [가상 보고서 세트](https://experienceleague.adobe.com/ko/docs/analytics/components/virtual-report-suites/vrs-about)와 유사). 방문 기간의 정의를 변경하거나 원하는 이벤트에 자동으로 새 방문을 시작할 수도 있습니다. 이러한 설정은 Customer Journey Analytics와 Adobe Analytics 간의 보고 차이에 상당한 영향을 미칠 수 있습니다.
+* **방문 정의**: 데이터 보기 자체에는 개별 차원 및 지표 설정 외에도 방문자 데이터의 해석 방식을 근본적으로 변경하는 설정이 포함됩니다. 예를 들어, 세그먼트를 전체 데이터 보기에 적용할 수 있습니다(Adobe Analytics의 [가상 보고서 세트](https://experienceleague.adobe.com/ko/docs/analytics/components/virtual-report-suites/vrs-about)와 유사). 방문 기간의 정의를 변경하거나 원하는 이벤트에 자동으로 새 방문을 시작할 수도 있습니다. 이러한 설정은 Customer Journey Analytics와 Adobe Analytics 간의 보고 차이에 상당한 영향을 미칠 수 있습니다.
 
 ## 제품 간 레코드 수 확인
 

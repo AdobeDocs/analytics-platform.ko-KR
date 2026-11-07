@@ -26,7 +26,7 @@ role_v2:
 topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
     internal-label: Customer journeys
-source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
+source-git-commit: 06501e010875aa3838948e7b977f85b508f66299
 workflow-type: tm+mt
 source-wordcount: '798'
 ht-degree: 1%
@@ -121,7 +121,7 @@ Customer Journey Analytics에서 **[!UICONTROL 제목]** `Hunting Products`을(�
    1. 필드 목록에서 **[!UICONTROL ‣ 제품 범주]**&#x200B;을(를) 선택합니다.
 1. **[!UICONTROL is]**&#x200B;을(를) 필터에 대한 선택으로 확인합니다.
 
-![AlertRed](/help/assets/icons/AlertRed.svg) 조회 수에 **[!UICONTROL 제품 범주]**&#x200B;에 대해 가능한 값 목록이 표시되지 않습니다.
+![AlertRed](/help/assets/icons/AlertRed.svg) Looker에 **[!UICONTROL 제품 범주]**&#x200B;에 대해 가능한 값 목록이 표시되지 않습니다.
 
 ![고유 조회 수](../assets/uc10-looker-result.png)
 
@@ -174,7 +174,7 @@ Customer Journey Analytics에서 **[!UICONTROL 제목]** `Hunting Products`을(�
 
 >[!TAB 자습서]
 
-1. 새 청크에 다음 코드 블록을 입력합니다. 적절한 카테고리를 사용해야 합니다. 예: `Hunting`.
+1. 새 청크에 다음 코드 블록을 입력합니다. 적절한 카테고리를 사용해야 합니다. (예: `Hunting`)
 
    ```R
    ## Dimension 1 Filtered by Dimension 2 value

@@ -55,10 +55,10 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 5b0c9d764d17daa63316f8ab294aa9c8f7f94427
+source-git-commit: 06501e010875aa3838948e7b977f85b508f66299
 workflow-type: tm+mt
 source-wordcount: '7452'
-ht-degree: 93%
+ht-degree: 92%
 ---
 
 # Customer Journey Analytics - 설명서 업데이트
@@ -99,7 +99,7 @@ Customer Journey Analytics 문서가 시작된 이후로 다음과 같이 업데
 | **2026년 4월** | |
 | 파생 필드 지침 | 파생 필드 작업에 대한 [지침](/help/use-cases/data-views/derived-fields/guidelines.md)(모범 사례, 가드레일 및 일반적인 위험)이 포함된 문서를 추가했습니다. |
 | Journey Optimizer 통합 시 포함할 수 있는 두 데이터 세트에 대한 누락된 설명서가 추가되었습니다. | IMS 조직에 대해 높은 처리량 트랜잭션 메시지 추가 기능을 사용하도록 설정하면 [프로필이 아닌 시스템 생성 데이터 세트 두 개가 추가로](/help/integrations/ajo.md#high-throughput-add-on-datasets) 연결에 포함됩니다. |
-| 코호트 분석 사용 사례 업데이트 | 피드백을 기반으로 Analytics Workspace 예제를 코호트 분석 사용 사례에 추가했습니다. |
+| 코호트 분석 사용 사례 업데이트 | 피드백을 기반으로 집단 분석 사용 사례에 Analysis Workspace 사례를 추가했습니다. |
 | **2026년 3월** | |
 | 패널 분류 | 새로운 [분류](/help/analysis-workspace/c-panels/panels.md#break-down-a-panel) 기능을 지원하도록 [패널의 드롭 영역](/help/analysis-workspace/c-panels/panels.md#drop-zone)에 대한 설명서를 재구성했습니다. |
 | 잘못된 ID에 대한 기술 정보(BAVID) | [잘못된 ID에 대한 새 기술 정보](/help/technotes/badids.md)입니다. 이 기술 정보는 잘못된 ID의 정의, Customer Journey Analytics 인터페이스에서 잘못된 ID가 사용되는 위치 그리고 연결에서 데이터를 조사하여 잘못된 ID를 찾아내는 방법에 대해 설명합니다. |
@@ -131,7 +131,7 @@ Customer Journey Analytics 문서가 시작된 이후로 다음과 같이 업데
 | 1900년 이전 날짜 | Customer Journey Analytics에서 1900년 이전 날짜를 처리하는 방법에 대한 [참고 사항](/help/connections/create-connection.md#datasets)을 추가했습니다. |
 | 실시간 보고 | Customer Journey Analytics에 [실시간 보고](/help/components/real-time/real-time.md)에 대한 설명서를 추가했습니다. |
 | 사용 인터페이스 | 업데이트된 Connections의 [사용 인터페이스](/help/connections/manage-connections.md#usage)에 대한 설명서를 추가했습니다. |
-| Journey Optimizer 데이터 세트 연결 | 연결에 사용할 수 있는 [자동으로 생성된 Journey Optimizer 데이터 세트 목록](/help/stitching/overview.md#journey-optimizer-datasets)을 문서화했습니다. |
+| Journey Optimizer 데이터 세트 연결 | 결합에 사용할 수 있는 [자동 생성된 Journey Optimizer 데이터 세트 목록](/help/stitching/overview.md#journey-optimizer-datasets)이 문서화되었습니다. |
 | 컨텍스트 레이블 | 데이터 보기 구성 요소에서 [컨텍스트 레이블](/help/data-views/component-settings/overview.md#context-labels)의 사용 및 목적에 대한 배경 정보를 더 추가했습니다. |
 | **2025년 8월** | |
 | Adobe Advertising과의 새로운 통합 | [Adobe Advertising과의 통합](/help/integrations/advertising.md)에 대한 정보가 추가되었습니다. |

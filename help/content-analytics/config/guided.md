@@ -38,7 +38,7 @@ topic_v2:
     internal-label: Data management
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 80d2b7da2e2b6c12a44d7e9bffd821e58dbeeecc
+source-git-commit: 06501e010875aa3838948e7b977f85b508f66299
 workflow-type: tm+mt
 source-wordcount: '4894'
 ht-degree: 55%
@@ -72,7 +72,7 @@ Content Analytics 구성에 액세스하려면
 | **[!UICONTROL 생성 일자]** | 구성을 처음 만든 타임스탬프 |
 | **[!UICONTROL 수정 일자]** | 구성이 마지막으로 수정된 타임스탬프 |
 | **[!UICONTROL 샌드박스]** | Content Analytics가 구성되고 구현될 (예정인) 조직 내의 샌드박스 |
-| **[!UICONTROL 상태]** | 구성의 상태. 상태는 활성화된 채널 중 구성이 완료된 채널 수를 나타냅니다. 자세한 정보가 있는 팝업을 열려면 ![InfoOutline](/help/assets/icons/InfoOutline.svg)을(를) 사용하세요. |
+| **[!UICONTROL 상태]** | 구성의 상태. 상태는 활성화된 채널 중 구성이 완료된 채널 수를 나타냅니다. 자세한 내용이 포함된 팝업을 열려면 ![InfoOutline](/help/assets/icons/InfoOutline.svg)을(를) 사용하세요. |
 
 ![ColumnSetting](/help/assets/icons/ColumnSetting.svg)을 사용해 테이블을 사용자 정의할 수 있습니다. **[!UICONTROL 테이블 사용자 정의]** 대화 상자에서 표시할 열을 선택하고 **[!UICONTROL 적용]**&#x200B;을 선택해 변경 사항을 적용합니다.
 

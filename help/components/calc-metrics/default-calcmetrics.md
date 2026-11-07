@@ -23,10 +23,10 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: cd12bd7f6943be6c58694af1374d32a1639d1578
+source-git-commit: 06501e010875aa3838948e7b977f85b508f66299
 workflow-type: tm+mt
 source-wordcount: '549'
-ht-degree: 85%
+ht-degree: 83%
 ---
 # 계산된 지표 템플릿
 
@@ -44,7 +44,7 @@ Customer Journey Analytics은 가장 일반적인 사용 사례를 다루기 위
 | **[!UICONTROL 멀티 채널 세션 비율]** | 여러 채널(예: 웹 트래픽, 모바일 트래픽)이 포함된 세션과 단일 채널만 포함된 세션의 비율. |
 | **[!UICONTROL 멀티 채널 사용자율]** | 여러 채널에 참여한 사람들과 단일 채널에만 참여한 사람들의 비율. |
 | **[!UICONTROL 모바일 앱 세션]** | 모바일 앱에서 발생한 세션의 수. |
-| **[!UICONTROL 웹+앱 교차 채널 세션]** | 웹 트래픽과 모바일 트래픽을 모두 포함하여 발생한 세션의 수. |
+| **[!UICONTROL 웹+앱 교차 채널 세션]** | 웹 트래픽과 모바일 트래픽을 모두 포함한 발생한 세션 수입니다. |
 | **[!UICONTROL 통화 비용]** | 콜센터 통화에 드는 총 비용. <!-- <p>Summary: Call length</p> --> |
 | **[!UICONTROL 평균 통화 시간]** | 콜센터로 건 전화 통화의 평균 시간. |
 | **[!UICONTROL 통화당 평균 비용]** | 콜센터로 건 전화 통화의 평균 비용. |

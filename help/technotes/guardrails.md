@@ -41,7 +41,7 @@ topic_v2:
     internal-label: Insights
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 5b0c9d764d17daa63316f8ab294aa9c8f7f94427
+source-git-commit: 06501e010875aa3838948e7b977f85b508f66299
 workflow-type: tm+mt
 source-wordcount: '2440'
 ht-degree: 9%
@@ -91,7 +91,7 @@ ht-degree: 9%
 | 프로젝트당 댓글 | 1,000 | 시스템 강제 보호 | 프로젝트당 최대 댓글 수. |
 | 댓글당 답글 수 | 100 | 시스템 강제 보호 | 댓글당 최대 회신 수. |
 | 댓글당 이미지 수 | 5 | 시스템 강제 보호 | 댓글당 최대 이미지 수. |
-| 이미지 크기 | 2 | 시스템 강제 보호 | 이미지당 최대 업로드 크기(MB)입니다. |
+| 이미지 크기 | 2 | 시스템 강제 보호 | 이미지당 최대 업로드 크기(MB). |
 | 댓글당 답글 수 | 100 | 시스템 강제 보호 | 댓글당 최대 회신 수. |
 | 댓글당 이미지 수 | 5 | 시스템 강제 보호 | 댓글당 최대 이미지 수. |
 | 이미지 크기 | 2 | 시스템 강제 보호 | 이미지당 최대 업로드 크기(MB) |

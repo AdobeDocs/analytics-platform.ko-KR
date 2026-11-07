@@ -26,7 +26,7 @@ role_v2:
 topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
     internal-label: Customer journeys
-source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
+source-git-commit: 06501e010875aa3838948e7b977f85b508f66299
 workflow-type: tm+mt
 source-wordcount: '2013'
 ht-degree: 10%
@@ -84,7 +84,7 @@ ht-degree: 10%
       1. **[!UICONTROL 이러한 설정을 적용할 수준 선택]**&#x200B;의 드롭다운 메뉴가 이전에 정의한 **[!UICONTROL 서버]**(으)로 설정되어 있는지 확인하십시오.
       1. **[!UICONTROL 연결]**&#x200B;을 선택합니다.
    1. **[!UICONTROL 탐색기]** 대화 상자에서 데이터 보기를 검색합니다. 이 검색은 시간이 걸릴 수 있습니다. 검색하면 Power BI Desktop에 다음 내용이 표시됩니다.
-      ![Power BI Destkop 데이터 로드](../assets/powerbi-navigator-load.png)
+      ![Power BI 데스크톱 로드 데이터](../assets/powerbi-navigator-load.png)
       1. 왼쪽 패널의 목록에서 **[!UICONTROL public.cc_data_view]**&#x200B;을(를) 선택합니다.
       1. 다음 두 가지 옵션이 있습니다.
          1. **[!UICONTROL 로드]**&#x200B;를 선택하여 설치를 계속하고 완료합니다.
@@ -92,7 +92,7 @@ ht-degree: 10%
             ![Power BI 데스크톱 변환 데이터](../assets/powerbi-transform-data.png)
             * **[!UICONTROL 닫기 및 적용]**&#x200B;을 선택합니다.
    1. 잠시 후 **[!UICONTROL public.cc_data_view]**&#x200B;이(가) **[!UICONTROL 데이터]** 창에 표시됩니다. 차원 및 지표를 표시하려면 ![V자형 화살표](/help/assets/icons/ChevronRight.svg)를 선택하십시오.
-      ![Power BI Destkop 서버 데이터를 로드함](../assets/powerbi-navigator-loaded.png)
+      ![Power BI 데스크톱 서버 데이터 로드됨](../assets/powerbi-navigator-loaded.png)
 
 
 ## 평면화할지 말지
@@ -327,7 +327,7 @@ Looker는 `FLATTEN` 매개 변수에 대해 다음 시나리오를 지원합니�
    ORDER BY 1,2;
    ```
 
-   셸을 실행합니다. 아래 스크린샷과 유사한 출력이 표시됩니다.
+   셸을 실행합니다. 아래 스크린샷과 비슷한 출력이 표시됩니다.
 
    ![Jupyter Notebook 구성 단계 5](../assets/jupyter-config-step3.png)
 
@@ -415,7 +415,7 @@ Jupyter Notebook은 `FLATTEN` 매개 변수에 대해 다음 시나리오를 지
    glimpse(dv)
    ```
 
-1. 청크를 실행합니다. 아래 스크린샷과 유사한 출력이 표시됩니다.
+1. 청크를 실행합니다. 아래 스크린샷과 비슷한 출력이 표시됩니다.
 
    ![RStudio 구성 단계 2](../assets/rstudio-config-step2.png)
 

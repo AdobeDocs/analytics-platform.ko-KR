@@ -38,7 +38,7 @@ topic_v2:
     internal-label: Reporting
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
+source-git-commit: 06501e010875aa3838948e7b977f85b508f66299
 workflow-type: tm+mt
 source-wordcount: '1592'
 ht-degree: 3%
@@ -110,7 +110,7 @@ B2B 컨테이너와 함께 세그먼트, 속성 및 시각화는 딥 B2B 분석 
 
 ## 스키마
 
-Customer Journey Analytics B2B 편집기는 [XDM(Adobe Experience Data Model)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=ko)을(를) 사용하여 B2B 데이터를 표준화하고 B2B 데이터에 대한 스키마를 정의합니다. Real-Time CDP B2B edition[&#128279;](https://experienceleague.adobe.com/ko/docs/experience-platform/rtcdp/schemas/b2b)에서 제공하는 표준 클래스를 기반으로 스키마를 지정하거나 사용자 정의 클래스 및 스키마를 사용할 수 있습니다. [사용 사례](/help/use-cases/b2b/b2b-edition/use-cases-overview.md) 문서에서는 Real-Time CDP B2B edition 클래스 및 스키마를 사용하지만 표준 클래스 및 스키마를 활용하는 데에는 Real-Time CDP B2B edition 라이선스가 필요하지 않습니다.
+Customer Journey Analytics B2B edition은 [XDM(Adobe Experience Data Model)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=ko)을 사용하여 B2B 데이터를 표준화하고 B2B 데이터에 대한 스키마를 정의합니다. Real-Time CDP B2B edition[&#128279;](https://experienceleague.adobe.com/ko/docs/experience-platform/rtcdp/schemas/b2b)에서 제공하는 표준 클래스를 기반으로 스키마를 지정하거나 사용자 정의 클래스 및 스키마를 사용할 수 있습니다. [사용 사례](/help/use-cases/b2b/b2b-edition/use-cases-overview.md) 문서에서는 Real-Time CDP B2B edition 클래스 및 스키마를 사용하지만 표준 클래스 및 스키마를 활용하는 데에는 Real-Time CDP B2B edition 라이선스가 필요하지 않습니다.
 
 ## 데이터 세트
 
@@ -118,7 +118,7 @@ Customer Journey Analytics B2B는 다음 데이터 유형과 데이터 세트를
 
 | 데이터 유형 | 시계열 | 컨테이너 레코드 | 필드 레코드 |
 |---|---|---|---|
-| **데이터 세트** | **이벤트 데이터 세트**<br/>&#x200B;예:<ul><li>디지털 분석</li><li>CRM 이벤트</li><li>대면 이벤트</li><li>콜 센터 데이터</li></ul> | **프로필 데이터 세트**<br/>&#x200B;예:<ul><li>CRM 레코드</li><li>AJO B2B 레코드</li><li>CDP 레코드</li><ul> | **클래스**<br/>&#x200B;예:<ul><li>캠페인 레코드</li><li>마케팅 목록 레코드</li><li>컨텐츠 메타데이터</li><li>제품 레코드</li></ul> |
+| **데이터 세트** | **이벤트 데이터 세트**<br/>&#x200B;예:<ul><li>디지털 분석</li><li>CRM 이벤트</li><li>대면 이벤트</li><li>콜 센터 데이터</li></ul> | **프로필 데이터 세트**<br/>&#x200B;예:<ul><li>CRM 레코드</li><li>AJO B2B 레코드</li><li>CDP 레코드</li><ul> | **분류**<br/>&#x200B;예:<ul><li>캠페인 레코드</li><li>마케팅 목록 레코드</li><li>컨텐츠 메타데이터</li><li>제품 레코드</li></ul> |
 | 요구 사항 | **타임스탬프**<br>&#x200B;모든 레코드에 필요한 시간:<ul><li>계정 ID</li><li>글로벌 계정 ID(선택 사항)</li></ul> | **계정 ID**<br>&#x200B;레코드에 다음과 같은 컨테이너 ID가 필요합니다.<ul><li>계정</li><li>개인</li><li>기회</li><li>구매 그룹</li></ul> | **일치하는 키**<br>&#x200B;레코드에는 다음과 같은 컨테이너 또는 이벤트 데이터 집합에 포함된 ID가 필요합니다.<ul><li>캠페인 ID</li><li>콘텐츠 ID</li><li>제품 ID</li></ul> |
 
 {style="table-layout:fixed"}

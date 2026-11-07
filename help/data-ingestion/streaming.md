@@ -39,7 +39,7 @@ topic_v2:
     internal-label: Data management
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
     internal-label: Customer profiles
-source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
+source-git-commit: 06501e010875aa3838948e7b977f85b508f66299
 workflow-type: tm+mt
 source-wordcount: '2044'
 ht-degree: 83%
@@ -139,7 +139,7 @@ Adobe Experience Platform으로 수집된 모든 데이터는 데이터 세트�
 
 1. 방금 추가한 식별 오브젝트에서 **[!UICONTROL 이메일]** 필드를 선택한 다음 [!UICONTROL 필드 속성] 패널에서 [!UICONTROL ID] 네임스페이스의 **[!UICONTROL ID]** 및 **[!UICONTROL 이메일]**&#x200B;을 선택합니다.
 
-   ![이메일을 ID로 지정](./assets/specify-email-loyalty-id.png)
+   ![전자 메일을 ID로 지정](./assets/specify-email-loyalty-id.png)
 
    이메일 주소를 Adobe Experience Platform ID 서비스가 프로필의 동작을 결합(스티치)하는 데 사용할 수 있는 ID로 지정합니다.
 

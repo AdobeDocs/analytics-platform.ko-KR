@@ -32,16 +32,16 @@ topic_v2:
     internal-label: Reporting
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
+source-git-commit: 06501e010875aa3838948e7b977f85b508f66299
 workflow-type: tm+mt
 source-wordcount: '1338'
-ht-degree: 65%
+ht-degree: 64%
 ---
 # Adobe Analytics 및 Customer Journey Analytics 간의 데이터 처리를 비교합니다
 
 보고에 도움이 되기 전에 데이터를 처리해야 하는 경우가 있습니다. 데이터 수집과 보고서 또는 시각화 생성에 걸쳐 여정의 여러 단계에서 해당 데이터를 처리할 수 있습니다.
 
-Adobe Analytics에서 해당 데이터 처리는 대부분 데이터가 수집되면 발생합니다. VISTA 규칙, 처리 규칙, 마케팅 채널 처리 규칙과 같은 기능을 사용하여 이 **수집 시간 처리**&#x200B;를 지원할 수 있습니다.
+Adobe Analytics에서 해당 데이터 처리는 대부분 데이터가 수집되면 발생합니다. VISTA 규칙, 처리 규칙, 마케팅 채널 처리 규칙과 같은 기능은 이 **수집 시간 처리**&#x200B;를 지원하는 데 사용할 수 있습니다.
 그런 다음 데이터가 저장되고 보고 시간에 추가 처리를 적용할 수 있습니다. 예를 들어 차원을 분류하고 세분화를 적용하거나 다른 기여도 모델을 선택합니다. 이 **보고 시 처리**&#x200B;는 작동 중에 발생합니다.
 
 Adobe Analytics에서 보고 시 처리는 일반적으로 수집 시 발생하는 양보다 적은 처리량을 나타냅니다.

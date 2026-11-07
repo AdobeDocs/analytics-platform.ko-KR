@@ -30,10 +30,10 @@ topic_v2:
     internal-label: Implementation
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
+source-git-commit: 06501e010875aa3838948e7b977f85b508f66299
 workflow-type: tm+mt
 source-wordcount: '499'
-ht-degree: 77%
+ht-degree: 75%
 ---
 # B2B 에디션 빠른 시작 안내서
 
@@ -46,7 +46,7 @@ Customer Journey Analytics B2B 에디션을 구현하려면 먼저 B2B 특정 �
 Customer Journey Analytics B2B 에디션을 구현하려면 다음 전제 조건을 충족해야 합니다.
 
 * Customer Journey Analytics에서 관리 작업을 제공하기 위해 필요한 [액세스 제어 및 권한](/help/technotes/access-control.md)을 보유하고 있습니다.
-* Customer Journey Analytics B2B 에디션 추가 기능 패키지를 구매하셨습니다.
+* Customer Journey Analytics B2B edition 추가 기능 패키지를 구매했습니다.
 
 
 ## 워크플로

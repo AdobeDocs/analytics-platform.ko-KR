@@ -31,9 +31,9 @@ role_v2:
 topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
+source-git-commit: 06501e010875aa3838948e7b977f85b508f66299
 workflow-type: tm+mt
-source-wordcount: '1680'
+source-wordcount: '1679'
 ht-degree: 14%
 ---
 # Experience Platform 대상자 수집 및 활용
@@ -363,7 +363,7 @@ Experience Platform UI에서 다음 작업을 수행합니다.
    1. (선택 사항) **[!UICONTROL 설명]**&#x200B;을 입력합니다.
    1. **[!UICONTROL 마침]**&#x200B;을 선택합니다.
 1. **[!UICONTROL audienceMembershipId]** 및 **[!UICONTROL audienceMembershipName]**(이)라는 두 개의 필드를 포함하는 사용자 지정 필드 그룹(예: **[!UICONTROL Audience Membership]**)을 포함하도록 스키마를 설정하십시오.
-1. **[!UICONTROL personID]** 필드가 **[!UICONTROL ID]**, **[!UICONTROL 기본 ID]**&#x200B;이고 I&#x200B;**[!UICONTROL ID 네임스페이스]로서 &#x200B;** [!UICONTROL 이메일]&#x200B;**&#x200B;이 있는지 &#x200B;**.
+1. **[!UICONTROL personID]** 필드가 **[!UICONTROL ID]**, **[!UICONTROL 기본 ID]**&#x200B;이고 **[!UICONTROL ID 네임스페이스]**(으)로 **[!UICONTROL 전자 메일]**&#x200B;이 있는지 확인하십시오.
 
    ![내보낼 세그먼트](assets/segment-for-export.png)
 

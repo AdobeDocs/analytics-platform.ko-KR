@@ -39,10 +39,10 @@ topic_v2:
     internal-label: Insights
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
     internal-label: Machine learning
-source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
+source-git-commit: 06501e010875aa3838948e7b977f85b508f66299
 workflow-type: tm+mt
 source-wordcount: '1186'
-ht-degree: 96%
+ht-degree: 93%
 ---
 # Customer Journey Analytics 개요
 
@@ -52,7 +52,7 @@ Customer Journey Analytics는 Analysis Workspace의 강력한 기능을 Adobe Ex
 
 ![고객 여정 분석 아키텍처](assets/cja-overview.png)
 
-이 아키텍처는 고객 여정 분석을 통해 다음 작업을 수행하는 방법을 보여줍니다.
+이 아키텍처는 Customer Journey Analytics을 통해 다음과 같은 작업을 수행하는 방법을 보여 줍니다.
 
 * [연결](/help/connections/overview.md)에서 여러 ![Data](/help/assets/icons/Data.svg) 데이터 세트를 결합합니다.
 * 연결에서 정의한 데이터 세트에서 사용할 수 있는 필드를 기반으로 하여 [데이터 보기](/help/data-views/data-views.md)에서 ![Dimensions](/help/assets/icons/Dimensions.svg) 차원 및 ![Event](/help/assets/icons/Event.svg) 지표를 정의하고 구성합니다.
@@ -131,7 +131,7 @@ Adobe Experience Platform을 사용하면 모든 시스템의 고객 데이터�
 
 >[!BEGINSHADEBOX]
 
-Customer Journey Analytics에서 데이터를 활용하는 방법에 대한 소개 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Customer Journey Analytics에서 데이터를 활용](https://experienceleague.adobe.com/ko/docs/customer-journey-analytics-learn/tutorials/data-prep/working-with-data-in-cja){target="_blank"}을 확인하십시오.
+Customer Journey Analytics에서 데이터를 사용하여 작업하는 방법에 대한 소개 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Customer Journey Analytics에서 데이터 작업](https://experienceleague.adobe.com/ko/docs/customer-journey-analytics-learn/tutorials/data-prep/working-with-data-in-cja){target="_blank"}을 참조하십시오.
 
 >[!ENDSHADEBOX]
 

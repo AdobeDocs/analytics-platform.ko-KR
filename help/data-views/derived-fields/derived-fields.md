@@ -37,7 +37,7 @@ topic_v2:
     internal-label: Implementation
   - id: beb7a3c1-66ab-4786-b879-7621375b3c40
     internal-label: Email marketing
-source-git-commit: 58ed911b3d2c719dd05082c463fe66403e207ef9
+source-git-commit: 06501e010875aa3838948e7b977f85b508f66299
 workflow-type: tm+mt
 source-wordcount: '10578'
 ht-degree: 98%
@@ -1685,7 +1685,7 @@ Customer Journey Analytics은 Perl 정규 표현식 구문의 하위 집합을 �
 | `(?:...)` | 구획 없는 캡처 일치 항목이 출력 문자열에서 참조되는 것을 방지합니다. |
 | `a?` | 0 또는 `a` 중 1개 |
 | `a*` | 0개 이상의 `a` |
-| `a+` | 1개 이상의 `a` |
+| `a+` | 하나 이상의 `a`. |
 | `a{3}` | `a` 중 정확히 3개 |
 | `a{3,}` | 3개 이상의 `a` |
 | `a{3,6}` | 3과 6 사이의 `a` |

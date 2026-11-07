@@ -35,7 +35,7 @@ topic_v2:
     internal-label: Insights
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
     internal-label: Machine learning
-source-git-commit: cd12bd7f6943be6c58694af1374d32a1639d1578
+source-git-commit: 06501e010875aa3838948e7b977f85b508f66299
 workflow-type: tm+mt
 source-wordcount: '1849'
 ht-degree: 81%
@@ -237,7 +237,7 @@ Adobe Analytics 대시보드 앱에 게시되면 스코어카드가 어떻게 �
 1. 올바른 타일을 선택합니다.
 1. 오른쪽 레일의 **[!UICONTROL 드릴인]** 아래에서 제거하려는 **[!UICONTROL 지정되지 않음]** 항목이 있는 차원 항목 옆의 오른쪽 화살표를 선택합니다.
 
-   ![화살표가 차원 이름 옆의 오른쪽 화살표를 가리키는 속성.](assets/unspecified.png)
+   ![차원 이름 옆의 오른쪽 화살표를 가리키는 화살표가 있는 속성입니다.](assets/unspecified.png)
 
 1. 보고에서 지정되지 않은 데이터를 제거하려면 **[!UICONTROL 지정되지 않음]** 옆에 있는 아이콘을 클릭합니다. (다른 차원 항목을 제거할 수도 있습니다.)
 

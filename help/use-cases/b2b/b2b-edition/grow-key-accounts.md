@@ -28,7 +28,7 @@ role_v2:
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
+source-git-commit: 06501e010875aa3838948e7b977f85b508f66299
 workflow-type: tm+mt
 source-wordcount: '281'
 ht-degree: 3%
@@ -65,7 +65,7 @@ B2B 업체들은 주요 계정을 늘리고 보유하는 것이 우선 과제입
 
 다음과 같은 Customer Journey Analytics B2B edition 기능을 사용할 수 있습니다.
 
-![B2B 사용 사례 - 주요 계정 늘리기 - 공동 작업 - 공유](assets/b2b-uc-grow-key-accounts-share.png)
+![B2B 사용 사례 - 주요 계정 증가 - 공동 작업 - 공유](assets/b2b-uc-grow-key-accounts-share.png)
 
 1. [주석](/help/components/annotations/overview.md)
 1. [지능형 경고](/help/components/c-intelligent-alerts/intelligent-alerts.md)

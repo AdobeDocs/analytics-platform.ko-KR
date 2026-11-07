@@ -25,10 +25,10 @@ topic_v2:
     internal-label: Reporting
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
     internal-label: Customer journeys
-source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
+source-git-commit: 06501e010875aa3838948e7b977f85b508f66299
 workflow-type: tm+mt
 source-wordcount: '1852'
-ht-degree: 82%
+ht-degree: 81%
 ---
 # 플로우 시각화 구성 {#configure-a-flow-visualization}
 
@@ -152,7 +152,7 @@ ht-degree: 82%
 
 플로우 구성의 요약이 시각화의 맨 위에 나타납니다. 다이어그램의 경로는 비례합니다. 활동이 많은 경로일수록 더 두껍게 표시됩니다.
 
-![방문 횟수로 끝남, 경로 지정 차원: 페이지 및 플로우 컨테이너: 방문자를 보여 주는 플로우 출력 예.](assets/flow-output.png)
+![방문, 경로 지정 차원: 페이지, 흐름 컨테이너: 방문자로 끝을 보여 주는 흐름 출력 예](assets/flow-output.png)
 
 데이터를 더 자세히 드릴다운하려면 다음과 같은 몇 가지 옵션이 있습니다.
 

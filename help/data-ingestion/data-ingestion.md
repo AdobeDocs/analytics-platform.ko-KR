@@ -30,10 +30,10 @@ topic_v2:
     internal-label: Implementation
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
     internal-label: Customer journeys
-source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
+source-git-commit: 06501e010875aa3838948e7b977f85b508f66299
 workflow-type: tm+mt
 source-wordcount: '1129'
-ht-degree: 100%
+ht-degree: 99%
 ---
 # 데이터 수집 개요
 
@@ -48,7 +48,7 @@ ht-degree: 100%
 
 ![고객 여정 분석 아키텍처](/help/getting-started/assets/cja-overview.png)
 
-이 아키텍처는 고객 여정 분석을 통해 다음 작업을 수행하는 방법을 보여줍니다.
+이 아키텍처는 Customer Journey Analytics을 통해 다음과 같은 작업을 수행하는 방법을 보여 줍니다.
 
 * [연결](/help/connections/overview.md)에서 여러 ![Data](/help/assets/icons/Data.svg) 데이터 세트를 결합합니다.
 * 연결에서 정의한 데이터 세트에서 사용할 수 있는 필드를 기반으로 하여 [데이터 보기](/help/data-views/data-views.md)에서 ![Dimensions](/help/assets/icons/Dimensions.svg) 차원 및 ![Event](/help/assets/icons/Event.svg) 지표를 정의하고 구성합니다.

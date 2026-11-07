@@ -14,9 +14,9 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: a4ea9270d5bf27234fa229e8ba3df5998ecea0e1
+source-git-commit: bd396cb4909d131ed60c97e7101cf85946555e38
 workflow-type: tm+mt
-source-wordcount: '1303'
+source-wordcount: '1320'
 ht-degree: 0%
 ---
 # 데이터 피드의 하위 이벤트 구성 요소
@@ -102,7 +102,7 @@ Adobe Experience Platform의 XDM 스키마 내에서 하위 이벤트를 보려�
 
 이 그룹은 기본 데이터 구조를 반영합니다.
 
-데이터 피드 출력에서 이러한 모든 구성 요소는 단일 열에 중첩된 배열로 표시됩니다.
+데이터 피드 출력에서 이러한 모든 구성 요소는 단일 열에 중첩된 배열로 표시됩니다. Parquet 파일은 기본적으로 중첩 배열을 지원합니다. 자세한 내용은 [데이터 피드에서 Parquet 파일 작업](/help/components/exports/cja-data-feeds/df-parquet.md)을 참조하십시오.
 
 하위 이벤트 구성 요소를 포함한 구성 요소를 데이터 피드에 추가하는 방법에 대한 자세한 내용은 [데이터 피드 만들기](/help/components/exports/cja-data-feeds/create-feed.md)를 참조하십시오.
 

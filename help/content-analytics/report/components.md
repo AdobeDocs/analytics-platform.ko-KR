@@ -29,7 +29,7 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
     internal-label: Metadata
-source-git-commit: fec14c8ed1f94e16423682a165198dbda760f78d
+source-git-commit: 06501e010875aa3838948e7b977f85b508f66299
 workflow-type: tm+mt
 source-wordcount: '1943'
 ht-degree: 58%
@@ -56,7 +56,7 @@ Content Analytics는 Customer Journey Analytics에서 이미 사용 가능한 �
 |---|---|---|
 | ID SOURCE | Content Analytics의 경우 값은 `ContentAnalytics`입니다. | 차원 |
 | 채널 | 경험에 대한 채널. 값은 `Web`, `Mobile` 또는 `Paid Media`입니다. | 차원 |
-| 컨텐츠 경험 ID | 경험에 대한 고유 ID. **web**&#x200B;의 <br>: 웹 페이지의 URL입니다. <br/>**세분화된 웹**&#x200B;의 경우: 접두사가 `web-`인 콘텐츠 페이로드(텍스트, 이미지, cta)를 기반으로 해시가 클라이언트 측을 계산했습니다. **mobile**&#x200B;의 경우: 접두사가 `mobile-`인 콘텐츠 페이로드(텍스트, 이미지, cta)를 기반으로 해시가 클라이언트 측을 계산했습니다.<br/> | 차원 |
+| 컨텐츠 경험 ID | 경험에 대한 고유 ID. **web**&#x200B;의 <br>: 웹 페이지의 URL입니다. <br/>**세분화된 웹**&#x200B;의 경우: 접두사가 `web-`인 콘텐츠 페이로드(텍스트, 이미지, cta)를 기반으로 한 해시 계산 클라이언트측. **mobile**&#x200B;의 경우: 접두사가 `mobile-`인 콘텐츠 페이로드(텍스트, 이미지, cta)를 기반으로 해시 계산 클라이언트측.<br/> | 차원 |
 | Content Experience Source | **web**&#x200B;의 경우: 웹 페이지의 URL.**mobile**&#x200B;의 <br/>: Experience Platform Mobile SDK을 통해 전달된 화면 이름입니다. | 차원 |
 | 경험 채널(더 이상 사용되지 않음) | 경험에 대한 채널. 값은 `Web` 또는 `Mobile`입니다. | 차원 |
 | 경험 추가 사항 | 추적할 기타 모든 추가 데이터입니다. 외부 ID 또는 배치와 유사합니다. | 차원 |
@@ -73,7 +73,7 @@ Content Analytics는 Customer Journey Analytics에서 이미 사용 가능한 �
 | 제목 | 설명 | 유형 |
 |---|---|---|
 | 경험 속성 | 모든 경험 속성 이름 및 값의 ![AI 생성](/help/assets/icons/AI.svg) 전체 목록 | 차원<br>파생 필드 |
-| 경험 가독성 점수 | 경험에 대한 ![AI 생성](/help/assets/icons/AI.svg) 가독성 점수 | 차원 |
+| 경험 가독성 점수 | 경험의 ![AI 생성](/help/assets/icons/AI.svg) 가독성 점수 | 차원 |
 | 경험 키워드 | 경험에 대한 ![AI 생성](/help/assets/icons/AI.svg) 키워드. | 차원<br>파생 필드 |
 | 경험 설득 전략 | 주어진 경험에 존재하는 ![AI 생성](/help/assets/icons/AI.svg) 설득 전략. 가능한 값은 다음과 같습니다. 사회적 정체성, 사회적 증명, 권위, 구체성, 진입장벽, 반발 극복, 호혜성, 고정 및 비교, 사회적 영향, 희소성, 인류애. | 차원<br/>파생 필드 |
 | 경험 내러티브 | 마케터의 관점에서 관련성을 기반으로 경험이 구축하고 있는 ![AI 생성](/help/assets/icons/AI.svg) 내러티브. | 차원<br/>파생 필드 |

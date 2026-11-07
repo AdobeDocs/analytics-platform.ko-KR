@@ -45,7 +45,7 @@ topic_v2:
     internal-label: Data management
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
     internal-label: Customer profiles
-source-git-commit: 86424aaa6a40c7d3fb4f8ae6559f9ec2dfa4c6dd
+source-git-commit: 06501e010875aa3838948e7b977f85b508f66299
 workflow-type: tm+mt
 source-wordcount: '3516'
 ht-degree: 82%
@@ -152,7 +152,7 @@ Adobe Experience Platform으로 수집된 모든 데이터는 데이터 세트�
 
 1. 방금 추가한 식별 오브젝트에서 **[!UICONTROL ECID]** 필드를 선택한 다음 오른쪽 패널의 [!UICONTROL ID 네임스페이스] 목록에서 **[!UICONTROL ID]**, **[!UICONTROL 기본 ID]** 및 **[!UICONTROL ECID]**&#x200B;를 선택합니다.
 
-   ![ECID를 ID로 지정](./assets/specify-identity.png)
+   ![ID로 ECID 지정](./assets/specify-identity.png)
 
    Adobe Experience Platform Identity 서비스에서 동일한 ECID로 프로필의 동작을 결합(결합)하는 데 사용할 수 있는 기본 ID로 ECID를 지정하고 있습니다.
 
@@ -160,7 +160,7 @@ Adobe Experience Platform으로 수집된 모든 데이터는 데이터 세트�
 
 1. 방금 추가한 식별 오브젝트에서 **[!UICONTROL 이메일]** 필드를 선택한 다음 [!UICONTROL 필드 속성] 패널의 [!UICONTROL ID 네임스페이스] 목록에서 **[!UICONTROL ID]** 및 **[!UICONTROL 이메일]**&#x200B;을 선택합니다.
 
-   ![이메일을 ID로 지정](./assets/specify-email-identity.png)
+   ![전자 메일을 ID로 지정](./assets/specify-email-identity.png)
 
    이메일 주소를 Adobe Experience Platform ID 서비스가 프로필의 비헤이비어를 결합하는 데 사용할 수 있는 다른 ID로 지정합니다.
 
