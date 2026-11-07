@@ -25,10 +25,10 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: f886069ac388da7985beac80cdaaa7bd0a506439
+source-git-commit: 24613d361b6b3058b1c4911a9df3654da91b2c88
 workflow-type: tm+mt
-source-wordcount: '1978'
-ht-degree: 75%
+source-wordcount: '1962'
+ht-degree: 71%
 ---
 # 세그먼트 빌드 {#build-segments}
 
@@ -80,7 +80,7 @@ ht-degree: 75%
 
 ## 정의 빌더
 
-정의 빌더를 사용하여 세그먼트 정의를 구성합니다. 해당 구성에서는 구성 요소, 컨테이너, 연산자, 논리를 사용합니다.
+정의 빌더를 사용하여 세그먼트 정의를 구성합니다. 해당 구성에서는 구성 요소, 컨테이너, 연산자 및 논리를 사용합니다.
 
 정의의 유형과 범위를 구성할 수 있습니다.
 
@@ -88,6 +88,10 @@ ht-degree: 75%
 1. **[!UICONTROL 포함]** 또는 **[!UICONTROL 제외]** 드롭다운 메뉴에서 정의 범위를 선택합니다. **[!UICONTROL 이벤트]**, **[!UICONTROL 세션]**, **[!UICONTROL 개인]**, **[!UICONTROL 글로벌 계정]** [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}, **[!UICONTROL 계정]** [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}, **[!UICONTROL 영업 기회]** [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"} 또는 **[!UICONTROL 구매 그룹]** [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}.
 
 나중에 언제든지 이러한 설정을 변경할 수 있습니다.
+
+>[!NOTE]
+>
+>세그먼트 빌더 인터페이스가 [API](https://developer.adobe.com/cja-apis/docs/endpoints/segments/#create-a-segment)을(를) 통해 만든 모든 세그먼트 정의를 지원하지 않습니다. 이 페이지가 로드되지 않았거나 해당 세그먼트에 대해 오류가 발생할 수 있습니다.
 
 ### 구성 요소
 
@@ -111,7 +115,7 @@ ht-degree: 75%
 
    이 옵션은 **[!UICONTROL 포함]** 또는 **[!UICONTROL 제외]** 드롭다운 메뉴에서 [!UICONTROL **개인**]&#x200B;을(를) 정의의 범위(컨테이너)로 선택한 경우에만 표시됩니다.
 
-   **참고**: 이 기능은 릴리스의 제한된 테스트 단계에 있으며 사용자 환경에서 아직 사용하지 못할 수 있습니다. 기능이 일반적으로 제공되면 이 메모는 제거됩니다. Customer Journey Analytics 릴리스 프로세스에 대한 자세한 내용은 [Customer Journey Analytics 기능 릴리스](/help/release-notes/releases.md)를 참조하십시오.
+
 
 1. (선택 사항) 기본 연산자를 수정합니다.
 
@@ -137,7 +141,7 @@ ht-degree: 75%
 * 컨테이너에 기존 구성 요소를 추가하려면 구성 요소를 컨테이너로 끌어다 놓습니다.
 * 컨테이너에 다른 구성 요소를 추가하려면 구성 요소 패널에서 컨테이너로 구성 요소를 끌어다 놓습니다. 파란색 삽입선을 가이드로 활용합니다.
 * 컨테이너 외부에 다른 구성 요소를 추가하려면 구성 요소 패널에서 구성 요소를 컨테이너 외부이지만 기본 정의 컨테이너 내부로 끌어다 놓습니다. 파란색 삽입선을 가이드로 활용합니다.
-* 컨테이너 내 구성 요소 간, 컨테이너 간 또는 컨테이너와 구성 요소 간의 논리를 수정하려면 적절한 **[!UICONTROL And]**, **[!UICONTROL Or]**, **[!UICONTROL Then]**&#x200B;을 선택합니다. Then을 선택하면 세그먼트가 순차적 세그먼트로 전환됩니다. 자세한 내용은 [순차적 세그먼트 만들기](seg-sequential-build.md)를 참조하십시오.
+* 구성 요소, 컨테이너 또는 컨테이너와 구성 요소 사이의 논리를 수정하려면 해당 **[!UICONTROL And]**, **[!UICONTROL Or]**, **[!UICONTROL Then]**&#x200B;을(를) 선택하십시오. Then을 선택하면 세그먼트가 순차적 세그먼트로 전환됩니다. 자세한 내용은 [순차적 세그먼트 만들기](seg-sequential-build.md)를 참조하십시오.
 * 컨테이너 수준을 전환하려면 ![Globe](/help/assets/icons/Globe.svg) **[!UICONTROL 전역 계정]** [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}, ![계정](/help/assets/icons/Account.svg) **[!UICONTROL 계정]** [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}, ![기회](/help/assets/icons/Opportunity.svg) **[!UICONTROL 기회]** [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}, ![구매 그룹](/help/assets/icons/BuyingGroup.svg) **[!UICONTROL 구매 그룹]** [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}, ![웹 페이지](/help/assets/icons/WebPage.svg) **[!UICONTROL 이벤트]**, ![방문](/help/assets/icons/Visit.svg) **[!UICONTROL 세션]**, ![을(를) 선택하십시오. 사용자](/help/assets/icons/User.svg) **[!UICONTROL 사람]** 또는 ![계층](/help/assets/icons/Layer.svg) **[!UICONTROL 개체]**. ![레이어](/help/assets/icons/Layer.svg) **[!UICONTROL 개체]**&#x200B;를 선택하는 경우 사용할 [사용자 지정 컨테이너](/help/data-views/create-dataview.md#containers-1)를 선택하십시오. (예: 제품 또는 컨텐츠 Assets)
 
 다음 액션을 위해 컨테이너에서 ![설정](/help/assets/icons/Setting.svg)을 사용할 수 있습니다.
@@ -203,7 +207,7 @@ ht-degree: 75%
 
 
 
-세그먼트 빌더에서 차원을 사용하면 해당 차원에 대한 기여도 모델을 지정하는 옵션이 제공됩니다. 선택한 기여도 모델은 차원 구성 요소에 대해 지정한 조건에 데이터가 적합한지 여부를 결정합니다.
+세그먼트 빌더에서 차원을 사용하는 경우 해당 차원에 대한 속성 모델을 지정하는 옵션이 있습니다. 선택한 기여도 모델은 차원 구성 요소에 대해 지정한 조건에 데이터가 적합한지 여부를 결정합니다.
 
 차원 구성 요소 내에서 ![설정](/help/assets/icons/Setting.svg)을 선택하고 팝업에서 속성 모델 중 하나를 선택합니다.
 
