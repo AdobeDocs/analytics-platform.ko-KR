@@ -26,9 +26,9 @@ topic_v2:
     internal-label: Reporting
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
     internal-label: Customer journeys
-source-git-commit: 6db3ace5744a4277477c2a712c12fdd9a5f57c82
+source-git-commit: 7f081993082ce478cc0032ece7f100eb0fb40438
 workflow-type: tm+mt
-source-wordcount: '2051'
+source-wordcount: '2111'
 ht-degree: 0%
 ---
 # Customer Journey Analytics 및 Adobe Analytics에서 데이터 피드 비교
@@ -100,6 +100,7 @@ Customer Journey Analytics 및 Adobe Analytics의 데이터 피드를 사용하�
 | **지속성 모델**<br/>&#x200B;차원 값이 한 이벤트에서 다음 이벤트로 지속되는지 여부입니다. | 유연합니다. 데이터 보기의 지속성 설정(할당 및 만료)은 피드가 생성될 때 보고서 시간에 적용됩니다. 데이터 보기에서 사용할 수 있는 모든 할당 설정을 지원합니다. **원래**, **가장 최근**, **모두**, **처음 알려짐** 및 **마지막 알려짐**. | **가장 최근(마지막 터치)** 및 **원래 값(첫 번째 터치)** 속성 모델만 표시됩니다. 선형 할당은 마지막 터치와 동일하게 처리됩니다. |
 | **하위 이벤트 처리**<br/>&#x200B;하위 이벤트가 데이터 피드 출력에 표시되는 방식입니다. | 단일 행에 표시되지만 관계형 계층은 유지됩니다. 자세한 내용은 [데이터 피드의 하위 이벤트 구성 요소](/help/components/exports/cja-data-feeds/df-sub-event.md)를 참조하세요. | 단일 행에 병합되고 구분된 문자열로 표시됩니다. 문자열을 구문 분석하려면 사용자 지정 논리가 필요합니다. |
 | **출력 파일 형식**<br/>&#x200B;클라우드 대상에 전달된 데이터 피드 출력 파일에 사용되는 형식입니다. | 쪽모이 세공<p>는 기본적으로 복잡한 중첩 및 구조화된 데이터를 지원합니다. `post_product_list`과(와) 같은 필드는 구조화된 배열/중첩된 개체로 표시됩니다. </p><p>BigQuery, Snowflake 또는 Apache Spark와 같이 읽을 수 있는 Parquet 인식 도구가 필요합니다.</p><p>스키마 구조는 출력 파일 내에 포함되어 있습니다.</p><p>자세한 내용은 [데이터 피드에서 Parquet 파일 작업](/help/components/exports/cja-data-feeds/df-parquet.md)을 참조하십시오.</p> | TSV<p>사람이 읽을 수 있는 평면형 행. 는 구조화된 데이터를 기본적으로 지원하지 않습니다. 제품 목록과 같은 복잡한 필드는 사용자 지정 구문 분석 논리를 필요로 하는 배타적으로 구분된 문자열로 인코딩해야 합니다.</p> |
+| **압축 형식**<br/>&#x200B;출력 파일을 압축하는 방법입니다. | Snappy, GZip 또는 Z Standard(Zstd). 각 Parquet 파일 내부에 압축이 적용되므로 Parquet을 읽는 도구는 먼저 압축을 풀지 않고 파일을 직접 로드할 수 있습니다.<p>형식을 비교하고 선택하려면 [데이터 피드 만들기](/help/components/exports/cja-data-feeds/create-feed.md#create-and-configure-data-feed)의 **압축 형식** 설정을 참조하십시오.</p> | Gzip(`.tar.gz`) 또는 Zip(`.zip`). 압축은 전체 파일에 적용됩니다. |
 | **출력 파일 경로**<br/>&#x200B;전달된 출력 파일에 사용되는 디렉터리 구조입니다. | **하이브 스타일 파티션 경로**(예: `year=2024/month=01/day=15/`)을(를) 사용하여 Databricks 또는 Apache Spark와 같은 데이터 레이크 환경에서 데이터를 쿼리할 때 효율적인 파티션 정리를 활성화합니다. | 플랫 디렉토리 구조를 사용합니다. 하이브 스타일 경로는 지원되지 않습니다. |
 | **배달 대상**<br/>&#x200B;데이터 피드 출력 파일을 보낼 수 있는 클라우드 저장소 위치입니다. | Amazon S3, Azure RBAC, Azure SAS, Google Cloud Platform | Amazon S3, Azure RBAC, Azure SAS, Google Cloud Platform <p>**SFTP**&#x200B;도 지원합니다.</p> |
 | **Analysis Workspace과의 유사성**<br/>&#x200B;데이터 피드 빌더가 Analysis Workspace과 동일한 구성 요소와 용어를 사용하는지 여부. | 데이터 피드의 왼쪽 레일은 Workspace 왼쪽 레일과 유사하며 데이터 피드에서 사용할 수 있는 구성 요소는 Workspace에서도 사용할 수 있습니다. | Analysis Workspace에 표시되는 항목과 일치하지 않는 변수 이름의 정적 목록입니다. |
