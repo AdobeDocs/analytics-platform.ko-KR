@@ -48,7 +48,7 @@ topic_v2:
     internal-label: Data collection
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: cd12bd7f6943be6c58694af1374d32a1639d1578
+source-git-commit: 1523b216a48e0bedb57d2afcb5f95e8e2efdadda
 workflow-type: tm+mt
 source-wordcount: '1453'
 ht-degree: 3%
@@ -150,7 +150,7 @@ LLM 및 AI 에이전트는 디지털 속성과 상호 작용할 때 복잡하고
 </tr>
 <tr>
 <td><strong>곤란-사용자</strong></td>
-<td><code>Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; Perplexity-User/1.0; +<a href="https://www.perplexity.ai/useragent" target="_blank" rel="noopener nofollow noreferrer">https://www.perplexity.ai/useragent</a>)</code></td>
+<td><code>Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; Perplexity-User/1.0; +<a href="https://docs.perplexity.ai/guides/bots" target="_blank" rel="noopener nofollow noreferrer">https://www.perplexity.ai/useragent</a>)</code></td>
 <td><a href="https://docs.perplexity.ai/guides/bots" target="_blank" rel="noopener nofollow noreferrer">사용자가 복잡성 인용 을 클릭하면 페이지가 로드됩니다(robots.txt 무시)</a></td>
 </tr>
 <tr>
@@ -190,17 +190,17 @@ LLM 및 AI 에이전트는 디지털 속성과 상호 작용할 때 복잡하고
 </tr>
 <tr>
 <td><strong>Applebot-Extended</strong></td>
-<td><code>Mozilla/5.0 (compatible; Applebot-Extended/1.0; +<a href="https://www.apple.com/bot.html" target="_blank" rel="noopener nofollow noreferrer">http://www.apple.com/bot.html</a>)</code></td>
+<td><code>Mozilla/5.0 (compatible; Applebot-Extended/1.0; +<a href="https://support.apple.com/en-us/119829" target="_blank" rel="noopener nofollow noreferrer">http://www.apple.com/bot.html</a>)</code></td>
 <td><a href="https://support.apple.com/en-us/119829" target="_blank" rel="noopener nofollow noreferrer">Apple의 향후 AI 모델을 위한 AI 중심 웹 크롤러(옵트인)</a></td>
 </tr>
 <tr>
 <td><strong>바이트스파이더</strong></td>
-<td><code>Mozilla/5.0 (compatible; Bytespider/1.0; +<a href="https://www.bytedance.com/bot.html" target="_blank" rel="noopener nofollow noreferrer">http://www.bytedance.com/bot.html</a>)</code></td>
+<td><code>Mozilla/5.0 (compatible; Bytespider/1.0; +http://www.bytedance.com/bot.html)</code></td>
 <td>TikTok 및 기타 서비스를 위한 ByteDance의 AI 데이터 수집기</td>
 </tr>
 <tr>
 <td><strong>MistralAI-User</strong></td>
-<td><code>Mozilla/5.0 (compatible; MistralAI-User/1.0; +<a href="https://mistral.ai/bot" target="_blank" rel="noopener nofollow noreferrer">https://mistral.ai/bot</a>)</code></td>
+<td><code>Mozilla/5.0 (compatible; MistralAI-User/1.0; +<a href="https://docs.mistral.ai/robots" target="_blank" rel="noopener nofollow noreferrer">https://mistral.ai/bot</a>)</code></td>
 <td><a href="https://docs.mistral.ai/robots/" target="_blank" rel="noopener nofollow noreferrer">미스트랄의 '르 챗' 비서 리얼-타임 인용 페처</a></td>
 </tr>
 <tr>
@@ -336,6 +336,6 @@ LLM 및 AI 생성 트래픽과 관련된 이벤트, 세션 또는 사람을 식�
 
 >[!MORELIKETHIS]
 >
->이 사용 사례 문서는 블로그 문서 [Adobe Customer Journey Analytics에서 LLM 및 AI 생성 트래픽 추적 및 분석](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/tracking-and-analyzing-llm-and-ai-generated-traffic-in-adobe/ba-p/771967?profile.language=ko)을 기반으로 합니다.
+>이 사용 사례 문서는 블로그 문서 [Adobe Customer Journey Analytics에서 LLM 및 AI 생성 트래픽 추적 및 분석](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/tracking-and-analyzing-llm-and-ai-generated-traffic-in-adobe/ba-p/771967)을 기반으로 합니다.
 >
 >

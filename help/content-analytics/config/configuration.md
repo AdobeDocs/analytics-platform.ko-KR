@@ -36,13 +36,11 @@ topic_v2:
     internal-label: Personalization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: a05097c6a462301be1f1e45e0c1aa3cfa0676ff6
+source-git-commit: 1523b216a48e0bedb57d2afcb5f95e8e2efdadda
 workflow-type: tm+mt
-source-wordcount: 780
-ht-degree: 76%
-
+source-wordcount: '780'
+ht-degree: 67%
 ---
-
 
 # Content Analytics 구성
 
@@ -70,12 +68,12 @@ Content Analytics를 구성하기 전에 다음 사전 요구 사항이 충족�
 ### 웹
 
 * Content Analytics에서 사용되는 기능화 서비스에 대해 사용자 에이전트와 IP 주소를 허용 목록에 추가했습니다. 구성할 사용자 에이전트 문자열은 다음과 같습니다. <code>AdobeFeaturization/1.0</code>.
-* 일반적 동작 데이터 수집에 대해 [JavaScript를 사용한 Web SDK](https://experienceleague.adobe.com/ko/docs/experience-platform/collection/js/install/library){target="_blank"}를 구현한 경우, JavaScript 라이브러리에 기본 이름인 <code>alloy</code> 를 사용하고 있는지 확인했습니다.
+* 일반적 동작 데이터 수집에 대해 [JavaScript를 사용한 Web SDK](https://experienceleague.adobe.com/en/docs/experience-platform/collection/js/install/library){target="_blank"}를 구현한 경우, JavaScript 라이브러리에 기본 이름인 <code>alloy</code> 를 사용하고 있는지 확인했습니다.
 * Customer Journey Analytics 제품 관리자 역할이 있으며, 연결과 데이터 보기를 관리할 수 있는 추가 권한이 있습니다.
 * Content Analytics 경험을 수집하려면 웹 페이지에 대한 변경 사항을 기반으로 Content Analytics 버전 관리를 설정하고 업데이트해야 합니다.
-* 다음 [데이터 수집 권한](https://experienceleague.adobe.com/ko/docs/experience-platform/collection/permissions){target="_blank"}을 보유하고 있습니다.
-  * [Experience Platform](https://experienceleague.adobe.com/ko/docs/experience-platform/collection/permissions#adobe-experience-platform-permissions){target="_blank"} 사용 권한.
-  * [Experience Platform 데이터 수집](https://experienceleague.adobe.com/ko/docs/experience-platform/collection/permissions#adobe-experience-platform-data-collection-permissions){target="_blank"} 권한.
+* 다음 [데이터 수집 권한](https://experienceleague.adobe.com/en/docs/experience-platform/tags/admin/user-permissions){target="_blank"}을 보유하고 있습니다.
+  * [Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/tags/admin/user-permissions#platform-permissions){target="_blank"} 사용 권한.
+  * [Experience Platform 데이터 수집](https://experienceleague.adobe.com/en/docs/experience-platform/tags/admin/user-permissions#admin-console){target="_blank"} 권한.
 * 다음 중요한 구성 옵션을 신중하게 고려했습니다.
 
   * 사이트가 경험 보고에 적합합니다. 적절한 경험 보고는 다음 조건이 충족될 때에만 가능합니다.
@@ -88,9 +86,9 @@ Content Analytics를 구성하기 전에 다음 사전 요구 사항이 충족�
 
 * 모바일 앱에 대해 [Experience Platform Edge Network](https://developer.adobe.com/client-sdks/edge/edge-network/) 및 [Edge Network용 Experience Platform ID](https://developer.adobe.com/client-sdks/edge/identity-for-edge-network/) 확장이 활성화되어 있는지 확인하십시오.
 * Customer Journey Analytics 제품 관리자 역할이 있으며, 연결과 데이터 보기를 관리할 수 있는 추가 권한이 있습니다.
-* 다음 [데이터 수집 권한](https://experienceleague.adobe.com/ko/docs/experience-platform/collection/permissions){target="_blank"}을 보유하고 있습니다.
-  * [Experience Platform](https://experienceleague.adobe.com/ko/docs/experience-platform/collection/permissions#adobe-experience-platform-permissions){target="_blank"} 사용 권한.
-  * [Experience Platform 데이터 수집](https://experienceleague.adobe.com/ko/docs/experience-platform/collection/permissions#adobe-experience-platform-data-collection-permissions){target="_blank"} 권한.
+* 다음 [데이터 수집 권한](https://experienceleague.adobe.com/en/docs/experience-platform/tags/admin/user-permissions){target="_blank"}을 보유하고 있습니다.
+  * [Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/tags/admin/user-permissions#platform-permissions){target="_blank"} 사용 권한.
+  * [Experience Platform 데이터 수집](https://experienceleague.adobe.com/en/docs/experience-platform/tags/admin/user-permissions#admin-console){target="_blank"} 권한.
 
 
 
