@@ -55,9 +55,9 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 06501e010875aa3838948e7b977f85b508f66299
+source-git-commit: 1523b216a48e0bedb57d2afcb5f95e8e2efdadda
 workflow-type: tm+mt
-source-wordcount: '7452'
+source-wordcount: '7436'
 ht-degree: 92%
 ---
 
@@ -165,7 +165,7 @@ Customer Journey Analytics 문서가 시작된 이후로 다음과 같이 업데
 | 미디어 컬렉션: 새로운 Media Reporting XDM을 위한 Adobe Source Connector 업데이트 | Analytics 소스 커넥터는 Adobe Analytics의 스트리밍 미디어 데이터를 Web SDK에서 사용하는 동일한 필드에 자동으로 매핑합니다. 이전에는 데이터가 이전 위치와 새 위치 모두에 매핑되어 있었지만 앞으로는 새 위치만 사용됩니다. [자세히 알아보기](https://experienceleague.adobe.com/ko/docs/analytics/implementation/aep-edge/xdm-var-mapping) |
 | **2025년 2월** |  |
 | 미디어 컬렉션: 새로운 Media Reporting XDM을 위한 Adobe Source Connector 업데이트 | Analytics 소스 커넥터는 [Adobe Analytics의 스트리밍 미디어 데이터](https://experienceleague.adobe.com/ko/docs/analytics/implementation/aep-edge/xdm-var-mapping?lang=en)를 Web SDK에서 사용하는 동일한 필드에 자동으로 매핑합니다. 이전에는 데이터가 이전 위치와 새 위치 모두에 매핑되어 있었지만 앞으로는 새 위치만 사용됩니다. |
-| BI 확장 - 확장된 지원 | Customer Journey Analytics BI 확장 기능은 이제 [Looker, Jupyter Notebook 및 R Studio](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-usecases/data-views/bi-extension-usecases?lang=en)를 지원합니다. |
+| BI 확장 - 확장된 지원 | Customer Journey Analytics BI 확장 기능은 이제 [Looker, Jupyter Notebook 및 R Studio](/help/use-cases/data-views/bi-extension-usecases.md)를 지원합니다. |
 | **2025년 1월** |  |
 | 업데이트된 연결 사용 경험 | 이제 연결의 [사용](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-connections/manage-connections?lang=en#connections-usage) 탭에서 핵심 데이터, 수집 데이터 및 내역 데이터와 같은 보고 가능 행에 대한 개선된 시각화가 제공됩니다. 연결, 데이터 세트, 샌드박스 또는 태그별로 사용 데이터를 확인하고 분류할 수도 있습니다. |
 | 사용량 지표 | 개선된 [사용 지표](/help/connections/manage-connections.md#usage) 인터페이스에 대한 설명서가 업데이트되었습니다. |

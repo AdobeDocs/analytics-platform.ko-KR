@@ -36,10 +36,10 @@ topic_v2:
     internal-label: Customer journeys
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 614a234f8db9783dacaf9d2f3c21a5afd5ea02ef
+source-git-commit: 1523b216a48e0bedb57d2afcb5f95e8e2efdadda
 workflow-type: tm+mt
-source-wordcount: '997'
-ht-degree: 96%
+source-wordcount: '995'
+ht-degree: 95%
 ---
 # Adobe Analytics 구현 방식과 Customer Journey Analytics 업그레이드에 미치는 영향을 이해하기 {#implementation-affects-upgrade}
 
@@ -139,7 +139,7 @@ Adobe Analytics는 다양한 방법으로 구현될 수 있습니다 Customer Jo
 | Experience Platform Web SDK (alloy.js) | Experience Platform Web SDK는 Adobe Analytics를 구현하기 위한 Adobe의 현재 권장 방법입니다. Adobe Experience Platform Edge Network를 사용하면 여러 제품을 대상으로 한 데이터를 중앙 위치에 전송할 수 있습니다. <p>이 구현 유형에 대한 자세한 내용은 [Adobe Experience Platform Edge Network를 사용하여 Adobe Analytics 구현](https://experienceleague.adobe.com/ko/docs/analytics/implementation/aep-edge/overview)을 참조하십시오.</p> | <ul><li>[(추천) 지속적인 데이터 수집을 위한 Experience Platform Web SDK의 새로운 구현, 내역 데이터에 대한 Analytics 소스 커넥터](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md)</li><li>[Experience Platform Web SDK의 새로운 구현](/help/data-ingestion/aepwebsdk.md) </li><li>[Adobe Analytics Web SDK 구현을 구성하여 Platform으로 데이터 전송](/help/getting-started/cja-upgrade/cja-upgrade-existing-adobe-analytics-websdk.md)</li></ul> |
 | Experience Platform Web SDK 확장 기능(태그) | Experience Platform Web SDK는 웹 데이터에 Adobe Analytics를 구현하기 위한 Adobe의 현재 권장 방법입니다. Adobe Experience Platform Edge Network를 사용하면 여러 제품을 대상으로 한 데이터를 중앙 위치에 전송할 수 있습니다. <p>이 구현 유형에 대한 자세한 내용은 [Adobe Experience Platform Web SDK를 사용하여 Adobe Analytics 구현](https://experienceleague.adobe.com/ko/docs/analytics/implementation/aep-edge/web-sdk/overview)을 참조하십시오.</p> | <ul><li>[(추천) 지속적인 데이터 수집을 위한 Experience Platform Web SDK의 새로운 구현, 내역 데이터에 대한 Analytics 소스 커넥터](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md)</li><li>[Experience Platform Web SDK의 새로운 구현](/help/data-ingestion/aepwebsdk.md)</li><li>[Adobe Analytics Web SDK 구현을 구성하여 Platform으로 데이터 전송](/help/getting-started/cja-upgrade/cja-upgrade-existing-adobe-analytics-websdk.md)</li></ul> |
 | Experience Platform Mobile SDK | Experience Platform Mobile SDK는 모바일 데이터에 Adobe Analytics를 구현하기 위한 Adobe의 현재 권장 방법입니다. Adobe Experience Platform Edge Network를 사용하면 여러 제품을 대상으로 한 데이터를 중앙 위치에 전송할 수 있습니다.<p>Adobe Experience Platform 모바일 SDK은 모바일 앱에서 Adobe의 CX Enterprise 솔루션 및 서비스를 강화하는 데 도움이 됩니다. </p><p>이 구현 유형에 대한 자세한 내용은 [Adobe Experience Platform Mobile SDK를 사용하여 Adobe Analytics 구현](https://experienceleague.adobe.com/ko/docs/analytics/implementation/aep-edge/mobile-sdk/overview)을 참조하십시오.</p> | <ul><li>[(추천) 지속적인 데이터 수집을 위한 Experience Platform Web SDK의 새로운 구현, 내역 데이터에 대한 Analytics 소스 커넥터](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md)</li><li>[Experience Platform Web SDK의 새로운 구현](/help/data-ingestion/aepwebsdk.md) </li><li>[Adobe Analytics Web SDK 구현을 구성하여 Platform으로 데이터 전송](/help/getting-started/cja-upgrade/cja-upgrade-existing-adobe-analytics-websdk.md)</li></ul> |
-| 대량 데이터 삽입 API | 대량 데이터 삽입 API(BDIA)는 AppMeasurement와 같은 클라이언트측 라이브러리를 사용하지 않고 서버 호출 데이터를 파일 배치에 업로드할 수 있는 Adobe Analytics 기능입니다. </p><p>이 구현 유형에 대한 자세한 내용은 [대량 데이터 삽입 API](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/bulk-data-insertion/)를 참조하십시오.</p> | <ul><li>[(추천) 지속적인 데이터 수집을 위한 Experience Platform Web SDK의 새로운 구현, 내역 데이터에 대한 Analytics 소스 커넥터](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md)</li><li>[Experience Platform Web SDK의 새로운 구현](/help/data-ingestion/aepwebsdk.md)</li><li>[Adobe Experience Platform Edge Network Server API 및 Edge Network](/help/data-ingestion/serverapi.md)</li></ul> |
+| 대량 데이터 삽입 API | 대량 데이터 삽입 API(BDIA)는 AppMeasurement와 같은 클라이언트측 라이브러리를 사용하지 않고 서버 호출 데이터를 파일 배치에 업로드할 수 있는 Adobe Analytics 기능입니다. </p><p>이 구현 유형에 대한 자세한 내용은 [대량 데이터 삽입 API](https://developer.adobe.com/analytics-collection-apis/methods/bulk-data-insertion/)를 참조하십시오.</p> | <ul><li>[(추천) 지속적인 데이터 수집을 위한 Experience Platform Web SDK의 새로운 구현, 내역 데이터에 대한 Analytics 소스 커넥터](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md)</li><li>[Experience Platform Web SDK의 새로운 구현](/help/data-ingestion/aepwebsdk.md)</li><li>[Adobe Experience Platform Edge Network Server API 및 Edge Network](/help/data-ingestion/serverapi.md)</li></ul> |
 
 {style="table-layout:auto"}
 

@@ -43,10 +43,10 @@ topic_v2:
     internal-label: Data collection
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 86424aaa6a40c7d3fb4f8ae6559f9ec2dfa4c6dd
+source-git-commit: 1523b216a48e0bedb57d2afcb5f95e8e2efdadda
 workflow-type: tm+mt
-source-wordcount: '2322'
-ht-degree: 94%
+source-wordcount: '2334'
+ht-degree: 93%
 ---
 # 자주 묻는 질문
 
@@ -285,7 +285,7 @@ Adobe Analytics 센스의 [!UICONTROL eVar], [!UICONTROL 속성], [!UICONTROL �
 
 Adobe CX Enterprise은 RDC(지역 데이터 수집)를 사용하므로 방문자와 Adobe 및 비 Adobe 솔루션 간의 상호 작용이 가능한 한 방문자에게 가까운 위치에서 발생합니다. 데이터가 데이터 수집 센터(DCC, Platform Edge Network의 일부인 에지 사이트라고도 함)에 지역적으로 수집되면 데이터스트림 및/또는 이벤트 전달 구성을 기반으로 보안 연결을 통해 관련 솔루션으로 전달됩니다.
 
-![Data flow using Edge Networks](https://experienceleague.adobe.com/docs/experience-platform/assets/collection.png)
+데이터가 Edge Network을 통해 흐르는 방식에 대한 다이어그램은 [데이터 수집 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/collection/home)를 참조하십시오.
 
 지역 데이터 수집 프로세스는 다음과 같은 단계를 사용합니다.
 
@@ -315,4 +315,4 @@ Adobe CX Enterprise은 RDC(지역 데이터 수집)를 사용하므로 방문자
 Customer Journey Analytics에는 Adobe Experience Platform의 데이터 세트가 필요하므로 데이터스트림/이벤트 전달 구성에는 지역 데이터 센터에서 Adobe Experience Platform 인스턴스가 위치한 데이터 센터로 데이터를 라우팅하는 Adobe Experience Platform 서비스가 필요합니다. Customer Journey Analytics와 지원 서비스 및 인프라는 동일한 Adobe Experience Platform 인스턴스에 배포됩니다.
 
 
-Adobe Experience Platform Edge Network 및 지역 데이터 센터 외부의 데이터 수집 프로세스에 대한 자세한 내용은 [데이터 수집 개요](https://experienceleague.adobe.com/docs/experience-platform/collection/home.html?lang=ko)를 참조하십시오.
+Adobe Experience Platform Edge Network 및 지역 데이터 센터 외부의 데이터 수집 프로세스에 대한 자세한 내용은 [데이터 수집 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/collection/home)를 참조하십시오.
