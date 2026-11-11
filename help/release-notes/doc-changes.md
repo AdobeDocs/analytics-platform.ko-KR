@@ -55,9 +55,9 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 1523b216a48e0bedb57d2afcb5f95e8e2efdadda
+source-git-commit: 930ce593b744f0afc0e97dda1acf48e009e9e30a
 workflow-type: tm+mt
-source-wordcount: '7436'
+source-wordcount: '7485'
 ht-degree: 92%
 ---
 
@@ -69,6 +69,8 @@ Customer Journey Analytics 문서가 시작된 이후로 다음과 같이 업데
 
 | 기능 | 설명 |
 |---|---|
+| **2026년 11월** | |
+| 지표 중복 제거 범위 | [지표의 중복 제거 범위가 Person](/help/data-views/component-settings/metric-deduplication.md)(으)로 설정되어 전체 달력으로 지표가 평가되는 경우 적용되는 주의 사항이 제거되었습니다. 중복 제거 범위가 개인으로 설정된 지표의 경우 이제 중복 제거가 선택한 보고 기간 내에만 적용됩니다. |
 | **2026년 10월** | |
 | 데이터 보기 보호 기능 | 조직의 최대 데이터 보기 수(2,000 ~ 5,000)에 대해 [guadrail](/help/technotes/guardrails.md)을(를) 업데이트했습니다. |
 | 웹 데이터를 사용하여 유료 미디어 데이터 가입 | [사용 사례 안내서](/help/use-cases/cross-channel/paid-media-web.md) 유료 미디어 데이터를 웹 데이터와 결합하는 방법. |

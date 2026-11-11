@@ -24,10 +24,10 @@ topic_v2:
     internal-label: Reporting
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
     internal-label: Customer journeys
-source-git-commit: 06501e010875aa3838948e7b977f85b508f66299
+source-git-commit: 930ce593b744f0afc0e97dda1acf48e009e9e30a
 workflow-type: tm+mt
-source-wordcount: '342'
-ht-degree: 76%
+source-wordcount: '303'
+ht-degree: 73%
 ---
 # 지표 중복 제거 구성 요소 설정 {#metric-deduplication-component-settings}
 
@@ -54,6 +54,3 @@ ht-degree: 76%
 
 {style="table-layout:auto"}
 
->[!CAUTION]
->
->_개인_ 범위의 중복 제거는 UTC 시간으로 전체 월 단위로 평가됩니다. 첫 번째 또는 마지막 인스턴스가 전체 월 이내이지만 보고 일자 외에 발생한 경우 모든 첫 번째 또는 마지막 인스턴스가 부분 월 보고 기간에 표시되지 않을 수 있습니다.
