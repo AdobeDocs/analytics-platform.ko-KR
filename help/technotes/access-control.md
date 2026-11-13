@@ -70,10 +70,10 @@ topic_v2:
     internal-label: Data management
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 2c55e526968ca2f064f32c457ee112c07a0b10ff
+source-git-commit: a48eccd77887e94bce5c0ef18bd070877601ddbd
 workflow-type: tm+mt
-source-wordcount: '1764'
-ht-degree: 73%
+source-wordcount: '1773'
+ht-degree: 72%
 ---
 # 액세스 제어
 
@@ -137,9 +137,9 @@ Customer Journey Analytics는 제품 관리자 역할, 제품 프로필 관리�
   | [!UICONTROL 데이터 거버넌스] | [!UICONTROL 데이터 사용 정책 보기] | 조직에 속한 데이터 사용 정책에 대한 읽기 전용 액세스 권한. |
   | [!UICONTROL 데이터 거버넌스] | [!UICONTROL 데이터 사용 정책 관리] | 데이터 사용 정책을 읽고, 만들고, 편집하고, 삭제할 수 있는 액세스 권한. |
 
-  Experience Platform 권한에 대한 자세한 내용은 [샌드박스 및 권한](https://experienceleague.adobe.com/ko/docs/experience-platform/access-control/home#sandboxes-and-permissions)을 참조하세요.
+  Experience Platform 권한에 대한 자세한 내용은 [샌드박스 및 권한](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/home#sandboxes-and-permissions)을 참조하세요.
 
-* Journey Optimizer이 Journey Optimizer 연결이 있는 Customer Journey Analytics과 통합되는 경우 [여정 권한](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/access-control/high-low-permissions#journey-capability)도 연결에 추가해야 합니다.
+* Journey Optimizer이 Journey Optimizer 연결이 있는 Customer Journey Analytics과 통합되는 경우 [여정 권한](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/access-control/high-low-permissions#journey-capability)도 연결에 추가해야 합니다.
 
   | 카테고리 | 사용 권한 | 설명 |
   |---|---|---|
@@ -150,14 +150,14 @@ Customer Journey Analytics는 제품 관리자 역할, 제품 프로필 관리�
 
 * [대상](https://experienceleague.adobe.com/ko/docs/experience-platform/destinations/ui/activate/export-datasets)으로 데이터 세트 내보내기
 
-  이 작업을 수행하려면 사용자는 다음 [대상 권한](https://experienceleague.adobe.com/ko/docs/experience-platform/destinations/home#access-controls)을 제공하는 **Experience Platform 역할**&#x200B;에 속해야 합니다.
+  이 작업을 수행하려면 사용자는 다음 [대상 권한](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/home#access-controls)을 제공하는 **Experience Platform 역할**&#x200B;에 속해야 합니다.
 
   | 카테고리 | 사용 권한 | 설명 |
   |---|---|---|
   | [!UICONTROL 대상] | [!UICONTROL 대상 관리] | 대상 연결 및 대상 계정을 읽고 만들고 삭제할 수 있는 액세스 권한. |
   | [!UICONTROL 대상] | [!UICONTROL 대상 활성화] | 사용자가 세그먼트를 기존 대상으로 활성화할 수 있도록 허용합니다. 활성화 워크플로에서 매핑 단계를 활성화합니다. 이 권한을 사용하려면 대상에 데이터를 활성화하려는 사용자에게 대상 보기 권한도 부여되어야 합니다. |
 
-  Experience Platform 권한에 대한 자세한 내용은 [샌드박스 및 권한](https://experienceleague.adobe.com/ko/docs/experience-platform/access-control/home#sandboxes-and-permissions)을 참조하세요.
+  Experience Platform 권한에 대한 자세한 내용은 [샌드박스 및 권한](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/home#sandboxes-and-permissions)을 참조하세요.
 
 
 * [BI 확장 기능](../data-views/bi-extension.md) 사용
@@ -195,7 +195,7 @@ Customer Journey Analytics는 제품 관리자 역할, 제품 프로필 관리�
 
 | 카테고리 | 사용 권한 | 설명 |
 | --- | --- | ---|
-| [!UICONTROL 데이터 보기] | *데이터 보기 이름* | **[!UICONTROL 자동 포함]**&#x200B;을 **[!UICONTROL 켜기]**&#x200B;로 전환하면 이 제품 프로필의 일부인 사용자가 기존 데이터 보기와 새로 생성된 데이터 보기를 모두 볼 수 있습니다. 이 설정을 **[!UICONTROL 끄기]**&#x200B;로 설정하면 사용자가 액세스할 수 있는 특정 데이터 보기를 선택할 수 있습니다. |
+| [!UICONTROL 데이터 보기] | *데이터 보기 이름* | **[!UICONTROL 자동 포함]**&#x200B;을(를) **[!UICONTROL 켜기]**(으)로 전환하면 이 제품 프로필의 일부인 사용자가 기존 데이터 보기와 새로 만든 데이터 보기를 모두 볼 수 있습니다. 여기에는 Adobe이 자동으로 생성하는 데이터 보기가 포함됩니다.<p>이 설정을 **[!UICONTROL 끄기]**&#x200B;로 설정하면 사용자가 액세스할 수 있는 특정 데이터 보기를 선택할 수 있습니다.  </p> |
 | [!UICONTROL 보고 도구] | [!UICONTROL 가이드 분석 액세스] | 사용자가 [가이드 분석](/help/guided-analysis/overview.md)에 액세스할 수 있도록 합니다. |
 | [!UICONTROL 보고 도구] | [!UICONTROL 계산된 지표 만들기] | 사용자가 [계산된 지표](/help/components/calc-metrics/calc-metr-overview.md)를 만들 수 있도록 합니다. 사용자는 자신이 만든 계산된 지표 또는 자신과 공유된 계산된 지표만 태그 지정, 공유, 삭제 및 이름 변경을 수행할 수 있습니다. |
 | [!UICONTROL 보고 도구] | [!UICONTROL 세그먼트 만들기] | 사용자가 [세그먼트](/help/components/segments/seg-overview.md)를 만들 수 있도록 합니다. 사용자는 자신이 만든 세그먼트 또는 자신과 공유된 세그먼트만 태그 지정, 공유, 삭제 및 이름 변경을 수행할 수 있습니다. |
@@ -245,3 +245,6 @@ Customer Journey Analytics에서는 기존의 Adobe Analytics에서와 같이 �
 데이터 보기에 대한 액세스 권한이 있는 사용자는 관리자가 이 데이터 보기에 포함시킨 지표와 차원으로만 작업할 수 있습니다. 관리자는 데이터 보기에서 [포함/제외 기능](/help/data-views/component-settings/include-exclude-values.md) 또는 [값 버킷팅](../data-views/component-settings/value-bucketing.md) 구성 요소 설정을 사용하여 데이터 보기에서 특정 차원 값을 제외하거나 집계할 수 있습니다.
 
 예: 데이터 세트의 개별 환자 데이터가 포함된 구성 요소의 데이터 보기에서 *고혈압*&#x200B;이라는 지표를 만듭니다. 값 버킷팅을 사용하여 버킷된 값에만 액세스할 수 있으므로 데이터 사용자가 개별 환자의 데이터를 보지 않습니다.
+
+
+
