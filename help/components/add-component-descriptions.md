@@ -25,7 +25,7 @@ subfeature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: b46a27ff9faca74c3c2baa7938a588b643633705
+source-git-commit: 3199a70eee577f4e283208e2c5089c05fe20ed0d
 workflow-type: tm+mt
 source-wordcount: '593'
 ht-degree: 10%
@@ -55,8 +55,6 @@ Analysis Workspace의 데이터 사전은 사용자와 관리자 모두가 Custo
 >
 
 ## 자동으로 설명 생성
-
-{{release-limited-testing-section}}
 
 Customer Journey Analytics은 각 설명을 수동으로 작성하는 대신 생성 AI를 사용하여 설명을 작성할 수 있습니다. 단일 구성 요소에 대한 설명을 생성하거나 동시에 여러 구성 요소에 대한 설명을 생성할 수 있습니다.
 
