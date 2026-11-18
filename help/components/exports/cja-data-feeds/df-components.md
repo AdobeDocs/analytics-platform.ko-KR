@@ -30,13 +30,13 @@ ht-degree: 37%
 
 [데이터 피드를 만들](/help/components/exports/cja-data-feeds/create-feed.md)때 포함할 수 있는 구성 요소를 이해하려면 다음 정보를 사용하십시오.
 
-## 필요한 차원 {#required-dimensions}
+## 필수 차원 {#required-dimensions}
 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="cja_datafeed_required_dimensions"
->title="필요한 차원"
+>title="필수 차원"
 >abstract="모든 데이터 피드는 차원 이름 옆에 **필수** 레이블로 식별되는 특정 차원을 포함해야 합니다. 이러한 차원은 이벤트 수준 분석에 필요한 최소한의 구조를 제공합니다."
 
 <!-- markdownlint-enable MD034 -->
