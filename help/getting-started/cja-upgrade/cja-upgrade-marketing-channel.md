@@ -72,7 +72,7 @@ Customer Journey Analytics의 마케팅 채널을 Experience Platform Web SDK과
 
 {{upgrade-final-step}}
 
-# Adobe Analytics 및 Customer Journey Analytics의 마케팅 채널 간 차이점
+&#x200B;# Adobe Analytics 및 Customer Journey Analytics의 마케팅 채널 간 차이점
 
 파생 필드는 Adobe Analytics의 마케팅 채널에 대해 유사한 규칙 기반 처리 논리를 제공하지만, 두 플랫폼 간의 아키텍처 차이점으로 인해 두 플랫폼 간에 결과가 다를 수 있습니다.
 
