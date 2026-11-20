@@ -27,10 +27,10 @@ role_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
     internal-label: Implementation
-source-git-commit: 06501e010875aa3838948e7b977f85b508f66299
+source-git-commit: 1f480cda20e0b2d54dd42b909bfa8bf8a2bc0c95
 workflow-type: tm+mt
-source-wordcount: '291'
-ht-degree: 100%
+source-wordcount: '397'
+ht-degree: 57%
 ---
 # Customer Journey Analytics용 마케팅 채널 파생 필드 만들기 {#create-marketing-channel-derived-field}
 
@@ -47,8 +47,7 @@ ht-degree: 100%
 
 Analytics 소스 커넥터를 사용하는 경우 마케팅 채널 데이터는 해당 커넥터를 통해 Customer Journey Analytics로 흐릅니다. 마케팅 채널 규칙은 기존 Adobe Analytics에서 구성되며 일부 규칙은 지원되지 않습니다. 자세한 내용은 [마케팅 채널 차원 사용](/help/use-cases/aa-data/marketing-channels.md)을 참조하십시오.
 
-Experience Platform Web SDK를 사용할 때 Customer Journey Analytics에서 마케팅 채널을 사용하려면 데이터 보기에서 파생 필드를 사용하여 Customer Journey Analytics에 대한 동일한 마케팅 채널과 처리 규칙을 다시 만들 수 있습니다.
-
+Customer Journey Analytics의 마케팅 채널을 Experience Platform Web SDK과 함께 사용하려면 데이터 보기에서 파생 필드를 사용하여 동일한 마케팅 채널과 처리 규칙을 다시 만듭니다.
 1. Customer Journey Analytics에서 마케팅 채널을 추가할 데이터 보기를 선택합니다.
 
 1. 데이터 보기에서 **[!UICONTROL 구성 요소]** 탭을 선택합니다.
@@ -61,7 +60,7 @@ Experience Platform Web SDK를 사용할 때 Customer Journey Analytics에서 �
 
 1. **[!UICONTROL 마케팅 채널]** 템플릿을 빈 캔버스에 드래그합니다.
 
-1. Adobe Analytics 환경에서 각 채널을 식별하는 데 사용하는 논리와 일치하도록 각 마케팅 채널에 대한 논리를 사용자 정의합니다.
+1. 각 마케팅 채널에 대한 논리를 사용자 지정합니다. Adobe Analytics 환경에서 각 채널을 식별하는 데 사용하는 로직과 일치하는지 확인합니다.
 
    출력 채널 이름을 수정하거나 논리를 추가하여 조직에 맞는 추가 채널을 식별할 수 있습니다.
 
@@ -72,3 +71,12 @@ Experience Platform Web SDK를 사용할 때 Customer Journey Analytics에서 �
    새 파생 필드는 데이터 보기의 왼쪽 레일에 있는 스키마 필드의 일부로 파생 필드 > 컨테이너에 추가됩니다.
 
 {{upgrade-final-step}}
+
+&#x200B;# Adobe Analytics 및 Customer Journey Analytics의 마케팅 채널 간 차이점
+
+파생 필드는 Adobe Analytics의 마케팅 채널에 대해 유사한 규칙 기반 처리 논리를 제공하지만, 두 플랫폼 간의 아키텍처 차이점으로 인해 두 플랫폼 간에 결과가 다를 수 있습니다.
+
+* [마지막 터치 채널 무시](https://experienceleague.adobe.com/ko/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/marketing-channels/c-channels#override-best-practices) 설정은 Adobe Analytics에서만 지원됩니다.
+
+* [마케팅 채널 만료](https://experienceleague.adobe.com/ko/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/marketing-channels/visitor-engagement)은(는) 비활성 기간 후에 시작되지만 Customer Journey Analytics 지속성 만료는 값의 인스턴스화를 기반으로 합니다.
+

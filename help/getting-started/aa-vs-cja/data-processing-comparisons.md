@@ -32,17 +32,17 @@ topic_v2:
     internal-label: Reporting
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 06501e010875aa3838948e7b977f85b508f66299
+source-git-commit: 388edf58e0950e0d018ce08b2aa2d0a562252c5a
 workflow-type: tm+mt
-source-wordcount: '1338'
-ht-degree: 64%
+source-wordcount: '1364'
+ht-degree: 58%
 ---
 # Adobe Analytics 및 Customer Journey Analytics 간의 데이터 처리를 비교합니다
 
 보고에 도움이 되기 전에 데이터를 처리해야 하는 경우가 있습니다. 데이터 수집과 보고서 또는 시각화 생성에 걸쳐 여정의 여러 단계에서 해당 데이터를 처리할 수 있습니다.
 
-Adobe Analytics에서 해당 데이터 처리는 대부분 데이터가 수집되면 발생합니다. VISTA 규칙, 처리 규칙, 마케팅 채널 처리 규칙과 같은 기능은 이 **수집 시간 처리**&#x200B;를 지원하는 데 사용할 수 있습니다.
-그런 다음 데이터가 저장되고 보고 시간에 추가 처리를 적용할 수 있습니다. 예를 들어 차원을 분류하고 세분화를 적용하거나 다른 기여도 모델을 선택합니다. 이 **보고 시 처리**&#x200B;는 작동 중에 발생합니다.
+Adobe Analytics에서 이러한 데이터 처리는 대부분 데이터를 수집한 직후에 발생하며 보고서 세트로 전송된 후 영구적입니다. VISTA 규칙, 처리 규칙 및 마케팅 채널 처리 규칙과 같은 기능은 이 **수집-시간 처리**&#x200B;를 지원하는 데 사용할 수 있습니다.
+보고서 시간에 차원 분류, 세그먼테이션 적용 또는 다른 속성 모델 선택과 같은 추가 처리를 적용할 수 있습니다. 이 **보고 시 처리**&#x200B;는 작동 중에 발생합니다.
 
 Adobe Analytics에서 보고 시 처리는 일반적으로 수집 시 발생하는 양보다 적은 처리량을 나타냅니다.
 
@@ -56,7 +56,9 @@ Adobe Analytics에서 보고 시 처리는 일반적으로 수집 시 발생하�
 
 예를 들어 *방문 횟수*&#x200B;는 데이터 처리 시간에 Adobe Analytics에서 지표로 정의됩니다. 그리고 *세션*&#x200B;은(는) 보고서 시간에 Customer Journey Analytics에서 지표로 계산됩니다. 따라서 Customer Journey Analytics 데이터 보기의 세션 정의에 대한 규칙에 따라 두 지표가 다를 수 있습니다.
 
-또한 Analytics 소스 커넥터에서 만든 데이터 세트에서는 방문 및 세션을 지표로 사용할 수 없습니다. 비교를 수행하려면 쿼리 논리에서 세션을 정의해야 합니다.
+또한 Analytics는 데이터 수집 시 사용할 수 있는 [식별 방법](https://experienceleague.adobe.com/ko/docs/analytics/implementation/id/overview)으로 *고유 방문자 수*&#x200B;를 식별합니다. Customer Journey Analytics은 연결의 이벤트 [데이터 세트 설정](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-connections/create-connection#dataset-settings)에서 개인 ID로 구성된 필드로 *사람*&#x200B;을(를) 식별합니다.
+
+
 
 ## 용어 {#terms}
 
