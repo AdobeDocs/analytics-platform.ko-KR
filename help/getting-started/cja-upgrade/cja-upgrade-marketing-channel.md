@@ -27,7 +27,7 @@ role_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
     internal-label: Implementation
-source-git-commit: 1f480cda20e0b2d54dd42b909bfa8bf8a2bc0c95
+source-git-commit: da6fd038a1ec8a662550b5c31382e18dca18a9c3
 workflow-type: tm+mt
 source-wordcount: '397'
 ht-degree: 57%
@@ -72,11 +72,11 @@ Customer Journey Analytics의 마케팅 채널을 Experience Platform Web SDK과
 
 {{upgrade-final-step}}
 
-&#x200B;# Adobe Analytics 및 Customer Journey Analytics의 마케팅 채널 간 차이점
+## Adobe Analytics 및 Customer Journey Analytics의 마케팅 채널 간 차이점
 
 파생 필드는 Adobe Analytics의 마케팅 채널에 대해 유사한 규칙 기반 처리 논리를 제공하지만, 두 플랫폼 간의 아키텍처 차이점으로 인해 두 플랫폼 간에 결과가 다를 수 있습니다.
 
-* [마지막 터치 채널 무시](https://experienceleague.adobe.com/ko/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/marketing-channels/c-channels#override-best-practices) 설정은 Adobe Analytics에서만 지원됩니다.
+* [마지막 터치 채널 무시](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/marketing-channels/c-channels#override-best-practices) 설정은 Adobe Analytics에서만 지원됩니다.
 
-* [마케팅 채널 만료](https://experienceleague.adobe.com/ko/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/marketing-channels/visitor-engagement)은(는) 비활성 기간 후에 시작되지만 Customer Journey Analytics 지속성 만료는 값의 인스턴스화를 기반으로 합니다.
+* [마케팅 채널 만료](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/marketing-channels/visitor-engagement)은(는) 비활성 기간 후에 시작되지만 Customer Journey Analytics 지속성 만료는 값의 인스턴스화를 기반으로 합니다.
 
