@@ -165,9 +165,9 @@ Experience Platform Web SDK를 사용하여 충분한 내역 데이터를 수집
 
    1. [Experience Platform UI에서 데이터 세트 수집을 모니터링](/help/getting-started/cja-upgrade/cja-upgrade-dataset-ingestion.md){target="_blank"}하여 데이터 세트에 배치가 성공적으로 수집되었는지 확인합니다.
 
-   1. 데이터 세트의 값이 예상한 값인지 확인합니다. [Experience Platform UI에서 데이터 세트를 미리 보거나](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/user-guide#preview){target="_blank"}하거나 Adobe CX Enterprise Coworker에 대한 액세스 권한이 있는 경우 [Coworker를 사용하여 Experience Platform 데이터의 유효성을 검사](https://experienceleague.adobe.com/en/docs/coworker/content/chat/use-cases/data-insights/intelligent-implementation-and-administration/data-validation-aep){target="_blank"}하여 최근 데이터 샘플에서 Null 값 및 예상 형식과 일치하지 않는 값을 확인할 수 있습니다.
+   1. 데이터 세트의 값이 예상한 값인지 확인합니다. [Experience Platform UI에서 데이터 세트를 미리 보거나](https://experienceleague.adobe.com/ko/docs/experience-platform/catalog/datasets/user-guide#preview){target="_blank"}하거나 Adobe CX Enterprise Coworker에 대한 액세스 권한이 있는 경우 [Coworker를 사용하여 Experience Platform 데이터의 유효성을 검사](https://experienceleague.adobe.com/ko/docs/coworker/content/chat/use-cases/data-insights/intelligent-implementation-and-administration/data-validation-aep){target="_blank"}하여 최근 데이터 샘플에서 Null 값 및 예상 형식과 일치하지 않는 값을 확인할 수 있습니다.
 
-   1. (조건부) 스트리밍 미디어 데이터를 포함하는 경우 미디어 세션이 데이터 세트에 도달하는지 확인합니다. [스트리밍 미디어 이벤트에 대한 데이터 세트를 확인](https://experienceleague.adobe.com/en/docs/media-analytics/using/implementation/edge/reporting-schema#validate-your-implementation){target="_blank"}하거나, Coworker에 대한 액세스 권한이 있는 경우 [Coworker로 스트리밍 미디어 구현을 확인](https://experienceleague.adobe.com/en/docs/coworker/content/chat/use-cases/data-insights/intelligent-implementation-and-administration/streaming-media-validation){target="_blank"}하여 데이터 스트림, 스키마, 데이터 세트 구성 및 최근 미디어 세션을 확인할 수 있습니다.
+   1. (조건부) 스트리밍 미디어 데이터를 포함하는 경우 미디어 세션이 데이터 세트에 도달하는지 확인합니다. [스트리밍 미디어 이벤트에 대한 데이터 세트를 확인](https://experienceleague.adobe.com/ko/docs/media-analytics/using/implementation/edge/reporting-schema#validate-your-implementation){target="_blank"}하거나, Coworker에 대한 액세스 권한이 있는 경우 [Coworker로 스트리밍 미디어 구현을 확인](https://experienceleague.adobe.com/ko/docs/coworker/content/chat/use-cases/data-insights/intelligent-implementation-and-administration/streaming-media-validation){target="_blank"}하여 데이터 스트림, 스키마, 데이터 세트 구성 및 최근 미디어 세션을 확인할 수 있습니다.
 
 1. [Customer Journey Analytics에 연결 만들기](/help/getting-started/cja-upgrade/cja-upgrade-connection.md){target="_blank"}.
 
@@ -179,7 +179,7 @@ Experience Platform Web SDK를 사용하여 충분한 내역 데이터를 수집
 
 1. 데이터가 Customer Journey Analytics의 데이터 보기로 이동하는지 확인합니다.
 
-   [Customer Journey Analytics에서 연결 세부 정보를 확인](/help/getting-started/cja-upgrade/cja-upgrade-validate.md){target="_blank"}하거나, Coworker에 대한 액세스 권한이 있는 경우 [Coworker를 통해 Customer Journey Analytics 데이터의 유효성을 확인](https://experienceleague.adobe.com/en/docs/coworker/content/chat/use-cases/data-insights/intelligent-implementation-and-administration/validate-dataset-quality-for-cja){target="_blank"}하여 연결 및 데이터 보기에 공급되는 데이터 세트를 확인하고 데이터 품질을 확인할 수 있습니다.
+   [Customer Journey Analytics에서 연결 세부 정보를 확인](/help/getting-started/cja-upgrade/cja-upgrade-validate.md){target="_blank"}하거나, Coworker에 대한 액세스 권한이 있는 경우 [Coworker를 통해 Customer Journey Analytics 데이터의 유효성을 확인](https://experienceleague.adobe.com/ko/docs/coworker/content/chat/use-cases/data-insights/intelligent-implementation-and-administration/validate-dataset-quality-for-cja){target="_blank"}하여 연결 및 데이터 보기에 공급되는 데이터 세트를 확인하고 데이터 품질을 확인할 수 있습니다.
 
 1. Adobe Analytics 환경에서는 [Analytics 인벤토리를 사용](https://experienceleague.adobe.com/ko/docs/analytics/admin/admin-tools/analytics-inventory){target="_blank"}하여 프로젝트 및 구성 요소 수, 보고서 세트, 사용자 등을 포함하여 Adobe Analytics 환경에 대한 포괄적인 개요를 확인할 수 있습니다.
 
@@ -197,7 +197,7 @@ Experience Platform Web SDK를 사용하여 충분한 내역 데이터를 수집
 
 1. 이전 구현의 Adobe Analytics 데이터와 새 구현의 Customer Journey Analytics 데이터를 비교하고, 차이점과 차이점이 존재하는 이유를 이해해야 합니다.
 
-   두 제품 모두에서 Analysis Workspace에서 동일한 보고서를 작성하고 주요 지표와 차원을 비교하거나, Coworker에 대한 액세스 권한이 있는 경우 [Coworker로 데이터 유효성 검사](https://experienceleague.adobe.com/en/docs/coworker/content/chat/use-cases/data-insights/intelligent-implementation-and-administration/data-validation-aa-cja){target="_blank"}를 수행하여 보고서 세트를 데이터 보기와 비교하고 차이점에 대한 가능한 원인을 파악할 수 있습니다.
+   두 제품 모두에서 Analysis Workspace에서 동일한 보고서를 작성하고 주요 지표와 차원을 비교하거나, Coworker에 대한 액세스 권한이 있는 경우 [Coworker로 데이터 유효성 검사](https://experienceleague.adobe.com/ko/docs/coworker/content/chat/use-cases/data-insights/intelligent-implementation-and-administration/data-validation-aa-cja){target="_blank"}를 수행하여 보고서 세트를 데이터 보기와 비교하고 차이점에 대한 가능한 원인을 파악할 수 있습니다.
 
    데이터가 다를 수 있는 이유에 대한 자세한 내용은 [Adobe Analytics 및 Customer Journey Analytics 간의 데이터 처리 비교](/help/getting-started/aa-vs-cja/data-processing-comparisons.md){target="_blank"}를 참조하십시오.
 
@@ -251,13 +251,13 @@ Experience Platform Web SDK를 사용하여 충분한 내역 데이터를 수집
 
 Coworker에 대한 액세스 권한이 있는 경우 이를 사용하여 업그레이드 단계를 동적으로 생성할 수 있습니다.
 
-1. 동료에서 새 채팅을 시작하고 동료에게 Adobe Analytics에서 Customer Journey Analytics으로 업그레이드하는 계획을 세우도록 요청하십시오. 자세한 내용은 [Coworker로 구현 계획](https://experienceleague.adobe.com/en/docs/coworker/content/chat/use-cases/data-insights/intelligent-implementation-and-administration/implementation-guide#adobe-analytics-to-customer-journey-analytics-upgrade){target="_blank"}을 참조하세요.
+1. 동료에서 새 채팅을 시작하고 동료에게 Adobe Analytics에서 Customer Journey Analytics으로 업그레이드하는 계획을 세우도록 요청하십시오. 자세한 내용은 [Coworker로 구현 계획](https://experienceleague.adobe.com/ko/docs/coworker/content/chat/use-cases/data-insights/intelligent-implementation-and-administration/implementation-guide#adobe-analytics-to-customer-journey-analytics-upgrade){target="_blank"}을 참조하세요.
 
    동료는 사용자의 환경과 목표에 대해 질문한 다음, 조직에 고유한 업그레이드 계획을 생성합니다. 이 계획은 각 단계에 대한 소유자, 작업량 예상 및 종속성을 포함하는 대화형 체크리스트로 사용할 수 있습니다. 플랜을 CSV, Jira, Workfront 또는 Markdown 파일로 다운로드할 수도 있습니다.
 
 1. Customer Journey Analytics으로 업그레이드하려면 플랜의 단계를 따르십시오.
 
-   각 단계에서 진행 상황을 추적하려면 플랜을 동료 프로젝트로 전환합니다. 자세한 내용은 [Coworker 프로젝트를 사용하여 구현 검사 목록 생성](https://experienceleague.adobe.com/en/docs/coworker/content/chat/use-cases/data-insights/intelligent-implementation-and-administration/intelligent-checklist){target="_blank"}을 참조하십시오.
+   각 단계에서 진행 상황을 추적하려면 플랜을 동료 프로젝트로 전환합니다. 자세한 내용은 [Coworker 프로젝트를 사용하여 구현 검사 목록 생성](https://experienceleague.adobe.com/ko/docs/coworker/content/chat/use-cases/data-insights/intelligent-implementation-and-administration/intelligent-checklist){target="_blank"}을 참조하십시오.
 
 ### Customer Journey Analytics의 업그레이드 안내서를 사용하여 업그레이드 단계를 생성합니다
 
