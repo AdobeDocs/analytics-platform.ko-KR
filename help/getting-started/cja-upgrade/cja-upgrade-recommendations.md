@@ -45,24 +45,24 @@ topic_v2:
     internal-label: Data collection
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 06501e010875aa3838948e7b977f85b508f66299
+source-git-commit: a46dfefa38e5c4d7f4daa51871b4de75bf5304e1
 workflow-type: tm+mt
-source-wordcount: '3365'
-ht-degree: 90%
+source-wordcount: '3941'
+ht-degree: 73%
 ---
 # Adobe Analytics에서 Customer Journey Analytics로 업그레이드
 
-Adobe Analytics에서 Customer Journey Analytics로 업그레이드하는 경우 [추천 업그레이드 단계](#recommended-upgrade-steps-for-most-organizations)를 수행할 수 있습니다. 또는 조직의 상황에 맞춰 [업그레이드 단계를 동적으로 생성](#dynamically-generate-upgrade-steps-for-your-organization)할 수 있습니다.
+Adobe Analytics에서 Customer Journey Analytics로 업그레이드하는 경우 [추천 업그레이드 단계](#upgrade-process)를 수행할 수 있습니다. 또는 조직의 상황에 맞춰 [업그레이드 단계를 동적으로 생성](#dynamically-generate-upgrade-steps-for-your-organization)할 수 있습니다.
 
 ## 대부분의 조직에 권장되는 업그레이드 단계 {#upgrade-process}
 
 Adobe Analytics에서 Customer Journey Analytics로 업그레이드하는 데 권장되는 프로세스는 Customer Journey Analytics용 기본 데이터 수집 방법인 Experience Platform Web SDK의 새로운 구현입니다. Adobe는 Web SDK와 함께 Customer Journey Analytics로의 전환을 돕기 위해 Analytics 소스 커넥터를 사용할 것을 권장합니다. Analytics 소스 커넥터를 사용하여 과거 Adobe Analytics 데이터를 보관하고 나란히 데이터를 비교합니다.
 
-Experience Platform Web SDK를 사용하여 충분한 내역 데이터를 수집하고 Customer Journey Analytics로 완전히 전환한 후에는 Analytics 소스 커넥터를 끄고 Web SDK만 독점적으로 사용할 수 있습니다.
+Experience Platform Web SDK를 사용하여 충분한 내역 데이터를 수집하고 Customer Journey Analytics로 완전히 전환한 후에는 Analytics 소스 커넥터를 끄고 Web SDK만 사용할 수 있습니다.
 
 >[!NOTE]
 >
->이 섹션에서 설명하는 업그레이드 단계가 조직에 적합하지 않은 경우, Customer Journey Analytics 업그레이드 안내서를 사용하여 조직의 상황에 맞게 동적으로 업그레이드 단계를 생성하십시오. (Customer Journey Analytics에서 안내서에 액세스하려면 **[!UICONTROL Workspace]** 탭을 선택한 다음 왼쪽 패널에서 **[!UICONTROL Customer Journey Analytics로 업그레이드]**&#x200B;를 선택하십시오. 화면에 표시되는 안내를 따르십시오.)
+>이 섹션에 설명된 업그레이드 단계가 조직에서 실용적이지 않은 경우 조직의 고유한 환경에 맞는 업그레이드 단계를 [동적으로 생성](#dynamically-generate-upgrade-steps-for-your-organization)할 수 있습니다.
 
 ### 높은 수준 권장 업그레이드 프로세스 {#high-level-upgade-process}
 
@@ -161,7 +161,13 @@ Experience Platform Web SDK를 사용하여 충분한 내역 데이터를 수집
 
    +++
 
-1. [Web SDK 구현이 데이터 세트로 데이터를 전송하는지 확인](/help/getting-started/cja-upgrade/cja-upgrade-dataset-ingestion.md){target="_blank"}.
+1. 웹 SDK 구현이 데이터를 데이터 세트에 보내고 있는지 확인하고 데이터가 올바른지 확인합니다.
+
+   1. [Experience Platform UI에서 데이터 세트 수집을 모니터링](/help/getting-started/cja-upgrade/cja-upgrade-dataset-ingestion.md){target="_blank"}하여 데이터 세트에 배치가 성공적으로 수집되었는지 확인합니다.
+
+   1. 데이터 세트의 값이 예상한 값인지 확인합니다. [Experience Platform UI에서 데이터 세트를 미리 보거나](https://experienceleague.adobe.com/ko/docs/experience-platform/catalog/datasets/user-guide#preview){target="_blank"}하거나 Adobe CX Enterprise Coworker에 대한 액세스 권한이 있는 경우 [Coworker를 사용하여 Experience Platform 데이터의 유효성을 검사](https://experienceleague.adobe.com/ko/docs/coworker/content/chat/use-cases/data-insights/intelligent-implementation-and-administration/data-validation-aep){target="_blank"}하여 최근 데이터 샘플에서 Null 값 및 예상 형식과 일치하지 않는 값을 확인할 수 있습니다.
+
+   1. (조건부) 스트리밍 미디어 데이터를 포함하는 경우 미디어 세션이 데이터 세트에 도달하는지 확인합니다. [스트리밍 미디어 이벤트에 대한 데이터 세트를 확인](https://experienceleague.adobe.com/ko/docs/media-analytics/using/implementation/edge/reporting-schema#validate-your-implementation){target="_blank"}하거나, Coworker에 대한 액세스 권한이 있는 경우 [Coworker로 스트리밍 미디어 구현을 확인](https://experienceleague.adobe.com/ko/docs/coworker/content/chat/use-cases/data-insights/intelligent-implementation-and-administration/streaming-media-validation){target="_blank"}하여 데이터 스트림, 스키마, 데이터 세트 구성 및 최근 미디어 세션을 확인할 수 있습니다.
 
 1. [Customer Journey Analytics에 연결 만들기](/help/getting-started/cja-upgrade/cja-upgrade-connection.md){target="_blank"}.
 
@@ -171,7 +177,9 @@ Experience Platform Web SDK를 사용하여 충분한 내역 데이터를 수집
 
 1. [Customer Journey Analytics에 데이터 보기 만들기](/help/getting-started/cja-upgrade/cja-upgrade-dataview.md){target="_blank"}.
 
-1. [Customer Journey Analytics의 데이터 보기로 데이터가 흐르는지 확인](/help/getting-started/cja-upgrade/cja-upgrade-validate.md){target="_blank"}.
+1. 데이터가 Customer Journey Analytics의 데이터 보기로 이동하는지 확인합니다.
+
+   [Customer Journey Analytics에서 연결 세부 정보를 확인](/help/getting-started/cja-upgrade/cja-upgrade-validate.md){target="_blank"}하거나, Coworker에 대한 액세스 권한이 있는 경우 [Coworker를 통해 Customer Journey Analytics 데이터의 유효성을 확인](https://experienceleague.adobe.com/ko/docs/coworker/content/chat/use-cases/data-insights/intelligent-implementation-and-administration/validate-dataset-quality-for-cja){target="_blank"}하여 연결 및 데이터 보기에 공급되는 데이터 세트를 확인하고 데이터 품질을 확인할 수 있습니다.
 
 1. Adobe Analytics 환경에서는 [Analytics 인벤토리를 사용](https://experienceleague.adobe.com/ko/docs/analytics/admin/admin-tools/analytics-inventory){target="_blank"}하여 프로젝트 및 구성 요소 수, 보고서 세트, 사용자 등을 포함하여 Adobe Analytics 환경에 대한 포괄적인 개요를 확인할 수 있습니다.
 
@@ -187,7 +195,11 @@ Experience Platform Web SDK를 사용하여 충분한 내역 데이터를 수집
 
    파생 필드에서 [마케팅 채널 기능 템플릿](/help/data-views/derived-fields/derived-fields.md#marketing-channels){target="_blank"}을 사용하여 마케팅 채널에 대한 파생 필드를 빠르게 만듭니다.
 
-1. [이전 구현의 Adobe Analytics 데이터와 새 구현의 Customer Journey Analytics 데이터를 비교](https://experienceleague.adobe.com/ko/docs/coworker/content/chat/use-cases/data-insights/data-validation-aa-cja)하여 차이점과 차이점이 존재하는 이유를 파악하십시오.
+1. 이전 구현의 Adobe Analytics 데이터와 새 구현의 Customer Journey Analytics 데이터를 비교하고, 차이점과 차이점이 존재하는 이유를 이해해야 합니다.
+
+   두 제품 모두에서 Analysis Workspace에서 동일한 보고서를 작성하고 주요 지표와 차원을 비교하거나, Coworker에 대한 액세스 권한이 있는 경우 [Coworker로 데이터 유효성 검사](https://experienceleague.adobe.com/ko/docs/coworker/content/chat/use-cases/data-insights/intelligent-implementation-and-administration/data-validation-aa-cja){target="_blank"}를 수행하여 보고서 세트를 데이터 보기와 비교하고 차이점에 대한 가능한 원인을 파악할 수 있습니다.
+
+   데이터가 다를 수 있는 이유에 대한 자세한 내용은 [Adobe Analytics 및 Customer Journey Analytics 간의 데이터 처리 비교](/help/getting-started/aa-vs-cja/data-processing-comparisons.md){target="_blank"}를 참조하십시오.
 
 1. Analytics 소스 커넥터를 사용하여 Adobe Analytics에서 내역 데이터 가져오기:
 
@@ -225,9 +237,29 @@ Experience Platform Web SDK를 사용하여 충분한 내역 데이터를 수집
 
 ## 조직의 업그레이드 단계를 동적으로 생성
 
-타임라인과 리소스 제약 등 여러 요인에 따라 [권장 업그레이드 단계 이해](#recommended-upgrade-steps-for-most-organizations)에 설명된 권장 업그레이드 단계가 조직에 적합하지 않을 수 있습니다. 이 경우에는 조직의 상황에 맞춰 업그레이드 단계를 동적으로 생성할 수 있습니다. 이러한 단계를 생성하는 프로세스는 이미 Customer Journey Analytics에 대한 액세스 권한을 보유하고 있는지 여부에 따라 다릅니다.
+타임라인 및 리소스 제한과 같은 여러 요인에 따라 [대부분의 조직에 대한 권장 업그레이드 단계](#upgrade-process)에 설명된 권장 업그레이드 단계가 조직에 실용적이지 않을 수 있습니다. 이 경우에는 조직의 상황에 맞춰 업그레이드 단계를 동적으로 생성할 수 있습니다.
 
-### Customer Journey Analytics에 대한 액세스 권한이 있는 고객의 경우
+다음 각 메서드는 동일한 사용자 지정 업그레이드 단계를 생성합니다. 다음 단계를 완료하는 데 도움이 되는 정도는 서로 다릅니다.
+
+* **Coworker(가장 간단한):** 구현에 대한 질문에 답변하면 Coworker에서 업그레이드 단계를 생성합니다. 그런 다음 동료가 각 단계를 안내하고 진행 상황을 추적할 수 있습니다.
+
+* **Customer Journey Analytics의 업그레이드 안내서:** 구현에 대한 질문에 답변하면 Customer Journey Analytics에서 업그레이드 단계를 생성합니다. 각 단계를 직접 추적하십시오.
+
+* **Adobe 계정 팀:** Coworker 또는 Customer Journey Analytics에 액세스할 수 없는 경우 Adobe 계정 팀이 업그레이드 가이드를 안내하고 업그레이드 단계를 보낼 수 있습니다.
+
+### Coworker를 사용하여 업그레이드 단계 생성
+
+Coworker에 대한 액세스 권한이 있는 경우 이를 사용하여 업그레이드 단계를 동적으로 생성할 수 있습니다.
+
+1. 동료에서 새 채팅을 시작하고 동료에게 Adobe Analytics에서 Customer Journey Analytics으로 업그레이드하는 계획을 세우도록 요청하십시오. 자세한 내용은 [Coworker로 구현 계획](https://experienceleague.adobe.com/ko/docs/coworker/content/chat/use-cases/data-insights/intelligent-implementation-and-administration/implementation-guide#adobe-analytics-to-customer-journey-analytics-upgrade){target="_blank"}을 참조하세요.
+
+   동료는 사용자의 환경과 목표에 대해 질문한 다음, 조직에 고유한 업그레이드 계획을 생성합니다. 이 계획은 각 단계에 대한 소유자, 작업량 예상 및 종속성을 포함하는 대화형 체크리스트로 사용할 수 있습니다. 플랜을 CSV, Jira, Workfront 또는 Markdown 파일로 다운로드할 수도 있습니다.
+
+1. Customer Journey Analytics으로 업그레이드하려면 플랜의 단계를 따르십시오.
+
+   각 단계에서 진행 상황을 추적하려면 플랜을 동료 프로젝트로 전환합니다. 자세한 내용은 [Coworker 프로젝트를 사용하여 구현 검사 목록 생성](https://experienceleague.adobe.com/ko/docs/coworker/content/chat/use-cases/data-insights/intelligent-implementation-and-administration/intelligent-checklist){target="_blank"}을 참조하십시오.
+
+### Customer Journey Analytics의 업그레이드 안내서를 사용하여 업그레이드 단계를 생성합니다
 
 조직의 상황에 맞춰 업그레이드 단계를 동적으로 생성하는 방법은 다음과 같습니다.
 
@@ -239,7 +271,7 @@ Experience Platform Web SDK를 사용하여 충분한 내역 데이터를 수집
 
 1. 생성된 단계별 지침에 따라 Customer Journey Analytics로 업그레이드합니다.
 
-### Customer Journey Analytics에 대한 액세스 권한이 없는 고객의 경우
+### Adobe 계정 팀과 협력하여 업그레이드 단계 생성
 
 조직의 상황에 맞춰 업그레이드 단계를 동적으로 생성하는 방법은 다음과 같습니다.
 

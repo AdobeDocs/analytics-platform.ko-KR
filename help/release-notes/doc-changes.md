@@ -55,10 +55,10 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 930ce593b744f0afc0e97dda1acf48e009e9e30a
+source-git-commit: a46dfefa38e5c4d7f4daa51871b4de75bf5304e1
 workflow-type: tm+mt
-source-wordcount: '7485'
-ht-degree: 92%
+source-wordcount: '7516'
+ht-degree: 91%
 ---
 
 # Customer Journey Analytics - 설명서 업데이트
@@ -70,6 +70,7 @@ Customer Journey Analytics 문서가 시작된 이후로 다음과 같이 업데
 | 기능 | 설명 |
 |---|---|
 | **2026년 11월** | |
+| Customer Journey Analytics으로 업그레이드할 때 Coworker 사용 | 업그레이드 단계 생성 및 데이터 유효성 검사와 같은 새로운 Adobe CX Enterprise Coworker 기능에 대한 링크가 포함된 [Adobe Analytics에서 Customer Journey Analytics으로 업그레이드](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md)가 업데이트되었습니다. |
 | 지표 중복 제거 범위 | [지표의 중복 제거 범위가 Person](/help/data-views/component-settings/metric-deduplication.md)(으)로 설정되어 전체 달력으로 지표가 평가되는 경우 적용되는 주의 사항이 제거되었습니다. 중복 제거 범위가 개인으로 설정된 지표의 경우 이제 중복 제거가 선택한 보고 기간 내에만 적용됩니다. |
 | **2026년 10월** | |
 | 데이터 보기 보호 기능 | 조직의 최대 데이터 보기 수(2,000 ~ 5,000)에 대해 [guadrail](/help/technotes/guardrails.md)을(를) 업데이트했습니다. |
@@ -162,7 +163,7 @@ Customer Journey Analytics 문서가 시작된 이후로 다음과 같이 업데
 | **2025년 3월** | |
 | Quantum Metric 사용 사례 | [Quantum Metric](/help/use-cases/third-party/quantum-metric/qm-overview.md)에서 데이터를 수집하기 위한 사용 사례가 추가되었습니다. |
 | 제품 사용 템플릿 | 새로운 Workspace 템플릿을 사용하면 조직 내에서 Customer Journey Analytics 제품이 어떻게 사용되는지 확인할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-workspace/templates/use-templates) |
-| Customer Journey Analytics 업그레이드 안내서 | Adobe Analytics에서 Customer Journey Analytics로 업그레이드하기 위한 단계별 안내서를 생성할 수 있습니다. 사용자 정의 안내서 생성을 시작하려면 [!DNL Customer Journey Analytics]에 로그인한 다음 **[!UICONTROL Workspace]** 탭에서 **[!UICONTROL Customer Journey Analytics로 업그레이드]**&#x200B;를 선택합니다. [자세히 알아보기](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/compare-aa-cja/upgrade-to-cja/cja-upgrade-recommendations#recommended-upgrade-steps-for-most-organizations) |
+| Customer Journey Analytics 업그레이드 안내서 | Adobe Analytics에서 Customer Journey Analytics로 업그레이드하기 위한 단계별 안내서를 생성할 수 있습니다. 사용자 정의 안내서 생성을 시작하려면 [!DNL Customer Journey Analytics]에 로그인한 다음 **[!UICONTROL Workspace]** 탭에서 **[!UICONTROL Customer Journey Analytics로 업그레이드]**&#x200B;를 선택합니다. [자세히 알아보기](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/compare-aa-cja/upgrade-to-cja/cja-upgrade-recommendations#upgrade-process) |
 | 숫자 차원의 “값 없음” 라인 항목 업데이트 | 숫자 차원의 경우 이 업데이트를 사용하면 세그먼트에서 “값 없음” 차원 항목을 사용하고 보고서에서 “값 없음” 라인 항목에 대한 분류를 수행할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-dataviews/component-settings/no-value-options#numeric) |
 | 미디어 컬렉션: 새로운 Media Reporting XDM을 위한 Adobe Source Connector 업데이트 | Analytics 소스 커넥터는 Adobe Analytics의 스트리밍 미디어 데이터를 Web SDK에서 사용하는 동일한 필드에 자동으로 매핑합니다. 이전에는 데이터가 이전 위치와 새 위치 모두에 매핑되어 있었지만 앞으로는 새 위치만 사용됩니다. [자세히 알아보기](https://experienceleague.adobe.com/ko/docs/analytics/implementation/aep-edge/xdm-var-mapping) |
 | **2025년 2월** |  |

@@ -39,7 +39,7 @@ topic_v2:
     internal-label: Behavioral data
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 614a234f8db9783dacaf9d2f3c21a5afd5ea02ef
+source-git-commit: a46dfefa38e5c4d7f4daa51871b4de75bf5304e1
 workflow-type: tm+mt
 source-wordcount: '1189'
 ht-degree: 14%
@@ -181,4 +181,4 @@ Customer Journey Analytics이 조직에 제공하는 가치와 이를 통해 비
 
 ## 권장되는 업그레이드 단계 수행
 
-업그레이드 프로세스를 시작할 준비가 되면 Customer Journey Analytics 업그레이드 가이드의 [권장 업그레이드 단계](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md#recommended-upgrade-steps-for-most-organizations) 또는 동적으로 생성된 업그레이드 단계를 따릅니다. Customer Journey Analytics에서 안내서에 액세스하려면 **[!UICONTROL Workspace]** 탭을 선택한 다음 왼쪽 패널에서 **[!UICONTROL Customer Journey Analytics로 업그레이드]**&#x200B;를 선택하십시오. 화면에 표시되는 안내를 따르십시오.
+업그레이드 프로세스를 시작할 준비가 되면 Customer Journey Analytics 업그레이드 가이드의 [권장 업그레이드 단계](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md#upgrade-process) 또는 동적으로 생성된 업그레이드 단계를 따릅니다. Customer Journey Analytics에서 안내서에 액세스하려면 **[!UICONTROL Workspace]** 탭을 선택한 다음 왼쪽 패널에서 **[!UICONTROL Customer Journey Analytics로 업그레이드]**&#x200B;를 선택하십시오. 화면에 표시되는 안내를 따르십시오.

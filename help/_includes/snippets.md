@@ -1,5 +1,5 @@
 ---
-source-git-commit: 06501e010875aa3838948e7b977f85b508f66299
+source-git-commit: a46dfefa38e5c4d7f4daa51871b4de75bf5304e1
 workflow-type: tm+mt
 source-wordcount: '5607'
 ht-degree: 95%
@@ -206,7 +206,7 @@ Customer Journey Analytics의 다양한 시각화는 고객에게 제공하는 �
 
 ## 업그레이드 체크리스트 최종 단계 {#upgrade-final-step}
 
-1. [추천 업그레이드 단계](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md#recommended-upgrade-steps-for-most-organizations) 또는 Customer Journey Analytics 업그레이드 안내서에서 동적으로 생성된 업그레이드 단계를 계속 따릅니다. Customer Journey Analytics에서 안내서에 액세스하려면 **[!UICONTROL Workspace]** 탭을 선택한 다음 왼쪽 패널에서 **[!UICONTROL Customer Journey Analytics로 업그레이드]**&#x200B;를 선택하십시오. 화면에 표시되는 안내를 따르십시오.
+1. [추천 업그레이드 단계](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md#upgrade-process) 또는 Customer Journey Analytics 업그레이드 안내서에서 동적으로 생성된 업그레이드 단계를 계속 따릅니다. Customer Journey Analytics에서 안내서에 액세스하려면 **[!UICONTROL Workspace]** 탭을 선택한 다음 왼쪽 패널에서 **[!UICONTROL Customer Journey Analytics로 업그레이드]**&#x200B;를 선택하십시오. 화면에 표시되는 안내를 따르십시오.
 
 
 ## Content Analytics 초안 설명서 {#draft-aca}
